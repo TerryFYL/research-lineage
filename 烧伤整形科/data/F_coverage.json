@@ -1,0 +1,763 @@
+{
+ "D01": {
+  "research_nodes": 20,
+  "entry_sources": 12,
+  "search_log_entries": 32,
+  "search_sources": {
+   "PubMed": 22,
+   "EuropePMC": 3,
+   "Crossref": 1,
+   "OpenAlex": 1,
+   "PubMed-count": 1,
+   "EuropePMC citations": 1,
+   "WebFetch": 1,
+   "WebSearch": 1
+  },
+  "exclusions": 14,
+  "unverified_leads": 8,
+  "verify_node_verdicts": {
+   "修正": 4,
+   "通过": 16
+  },
+  "verify_recent_verdicts": {
+   "通过": 19,
+   "修正": 2
+  },
+  "verify_origin_verdicts": {
+   "通过": 6,
+   "修正": 2
+  },
+  "missing_candidates": 7,
+  "critic_issues": {
+   "严重": 3,
+   "一般": 8
+  },
+  "critic_supplements": 15,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "部分回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "部分完成：Underhill（1923 起）、Blalock 1931、Cope & Moore 1947、Evans 1952、Reiss 1953、Baxter 1968 的题录均已核实，Baxter 摘要与 Reiss/Blalock 开篇段已读；但 1950 年前原文均未读，内容依赖 Lee 2014、Romanowski 2017、Kramer 2010 三篇历史综述转述，且三者对 Underhill 年代说法矛盾。18–19 世纪源头（van Swieten、von Buhl）仅 L0。",
+   "key_turns": "较完整：公式化（1947–1968）→ fluid creep（Engrav/Pruitt 2000、Saffle 2007）→ ACS（Ivy 2000）→ 各种减液尝试（高渗、维生素C、有创目标导向、决策支持、胶体回归）均有至少一个摘要层级的原始研究节点，并记录了负性结果。",
+   "recent": "较完整：近五年 6 个主题均有 2–5 项已核实代表研究，含两项多中心RCT（ABRUPT2、VICTORY）与 ABA 2024 CPG；已按 CPG 检索截止 2022-05-17 之后补查。老年复苏与白蛋白 vs 血浆比较证据稀少。",
+   "china_line": "部分完成：TMMU 公式的临床评价（2008、2021、2022）、延迟复苏公式（2005）、休克心机制（1999）、2020 共识均为摘要层级；1958 邱财康抢救与 TMMU 公式起源仅二手网页，未检索万方/知网。",
+   "overall_note": "本方向为“主要链条已建立、早期原文与中国起源为二手层级”的部分结果，不应视为完整版。所有节点阅读层级为 L1–L2（入口综述中 5 篇读全文），没有任何一个关键原始研究读到全文。数量统计仅 PubMed 单库口径。中间材料在 <会话临时目录>/scratchpad/burns/D01/（searchlog.tsv、records.json、PMC 全文文本）。"
+  },
+  "final_coverage": {
+   "origins": "部分：Underhill 1923 题录与开篇段（经 OpenAlex）已读，Blalock 1931、Black 1940、Cope & Moore 1947、Evans 1952、Reiss 1953 只到 L1 或开篇段，Baxter & Shires 1968 到 L2（经 OpenAlex Summary 段）；1950 年前原文全部未读，贡献依靠 Lee 2014、Romanowski 2017、Kramer 2010 转述，三者对 Underhill 年代的写法互相矛盾（1921/1923/1927/1930），已保留几说；18–19 世纪源头（van Swieten、von Buhl）只有 L0；另补入 Robertson 1921“毒素休克”题录，说明两种框架并存。",
+   "key_turns": "较完整：公式化（1940–1968）、盐水/口服支线、胶体两轮试验、fluid creep 与 ACS（1976–2016）、六条减液路线（高渗钠、胶体、维生素C、有创监测、决策支持、低起始量）、心功能并行子线，都至少有一个摘要层级的原始节点，负性结果与相互矛盾的证据都已保留；早期谱系的边标为“综述归纳，互引未核”。",
+   "recent": "较完整：7 个主题，每个有 2–7 项代表研究，包括两项提前终止的多中心 RCT（ABRUPT2、VICTORY）和 ABA 2024 指南（按其检索截止日 2022-05-17 之后补查）；窗口外的研究（Osuka 2018、Adibfar 2021、Gómez 2018）和在线日期早于窗口起点的研究（ABRUPT、Leclerc）都已标注。白蛋白 vs 血浆、老年复苏的证据仍很少。",
+   "china_line": "部分：TMMU 公式评价（2008、2021、2022，均来自原创单位西南医院）、延迟复苏公式（2005）、十倍法（2022/2023）、2020 年共识均到摘要层级；1958 年邱财康起点只有一篇同行评议综述（Guo & Jiang 2021，L3）和网页（L0）；TMMU、瑞金、南京公式的提出年代与原始文献未找到；2026 年中医辅助共识未经核查员复核；万方和知网未检索。",
+   "overall": "部分",
+   "note": "本章明确标为部分结果，不是完整版。34 个节点中 8 个为 L1、26 个为 L2，没有关键原始研究读到全文；早期原文与中国起源停在二手层级。核查员判为“修正”的 4 个节点（N01、N05、N12、N17）和 2 条近期研究（R07、R19）已使用修正值。批评者提出的 3 个严重问题都已在正文处理，其中 Muir-Barclay 原文和苏联线未能解决，已写入缺口。批评者补充、核查员未复核的 7 条文献标为“存疑〔未复核〕”。计数只用 PubMed 单库；报告级 E 部分用了另一条更宽的检索式，两组数字不可互换。"
+  },
+  "final_nodes": 34,
+  "final_evidence_rows": 76
+ },
+ "D02": {
+  "research_nodes": 19,
+  "entry_sources": 8,
+  "search_log_entries": 48,
+  "search_sources": {
+   "PubMed": 39,
+   "OpenAlex": 3,
+   "Europe PMC": 2,
+   "Europe PMC fullTextXML": 1,
+   "Europe PMC search": 1,
+   "PubMed efetch": 1,
+   "PMC 扫描页": 1
+  },
+  "exclusions": 15,
+  "unverified_leads": 12,
+  "verify_node_verdicts": {
+   "通过": 16,
+   "修正": 3
+  },
+  "verify_recent_verdicts": {
+   "通过": 22,
+   "修正": 2
+  },
+  "verify_origin_verdicts": {
+   "修正": 5,
+   "通过": 6
+  },
+  "missing_candidates": 6,
+  "critic_issues": {
+   "严重": 5,
+   "一般": 7
+  },
+  "critic_supplements": 18,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "源头追到 Wolfe 1875（L4）、Wells 1929（L3）、Padgett 1941（L3）、Young 1942（L3）、Cope 1947（L3）、Jackson 1960（L3）；19世纪 Reverdin/Pollock/Ollier/Thiersch/Krause 只到 L0（E1 转述），已列入 unverified_leads",
+   "key_turns": "主要转折节点均已定位：切线切除（Janzekovic 1970，L1）、MGH 体系（Tompkins 1986，L3）、大面积RCT（Herndon 1989，L4）、Meta（Ong 2006，L2）、网状皮/Meek/夹心法/微粒皮/中国间植（L1–L2）、休克期切痂（L2）、酶学清创RCT（L2）；付费墙使 Janzekovic、Burke、Tanner、Meek 原文停在 L1",
+   "recent": "2021-09-29 至 2026-09-29 覆盖6个主题（时机、酶学清创、TXA、扩展技术比较、水刀、供区），代表研究均在 PubMed 核实题录与摘要（L2），全文未精读",
+   "china_line": "英文/法文可检索的中国原始报告已核实（1962、1980、1982、1984、1986、1988、1993、1995 及近五年）；中文原始文献未经 CNKI/万方检索，邱财康与瑞金1971年数据停在 L0",
+   "overall_note": "Europe PMC 与 OpenAlex 检索当日间歇性不可用，主要依赖 PubMed E-utilities 与 PMC 扫描页；约 55 次检索加 8 篇扫描全文阅读。节点19个，较常规多，因本方向同时包含时机、技术、供区不足对策、酶学清创与中国线五条支线；每个节点都承担提出问题、建立方法、验证/反证或划定边界之一的作用。"
+  },
+  "final_coverage": {
+   "origins": "源头追到 Wells 1929（电烧伤，L3，作者自称首次）、Young 1942（热力烧伤，L3）、Cope 1947（38例/52创面，L3）、Jackson 1960（最早随机分配记录，L3）；背景节点 Wolfe 1875（L4）、Padgett 1941（L3）。起点检索范围已写明（PubMed/Europe PMC 标题检索 1850–1945、PMC 扫描页）；Sneve 1905 JAMA、19世纪 Reverdin/Pollock/Ollier/Thiersch/Krause 原文只到 L0/L1，列为待核。",
+   "key_turns": "按三个问题组织：要不要早切（Jackson 1960 阴性、Sørensen 1979/1984 交替分配、Tompkins 1986 历史对照、Thompson 1987 与 Herndon 1989 同团队随机报告、Ong 2006 Meta）；多早（Desai 1990 儿童失血、Guo 1995 休克期、Huang 1999 一次性对分期、Herndon p.551 分期对照）；怎么切（Janzekovic 1970、Chang 1962、Sun 1984、Zhou 2003 磨痂、Rosenberg 2014 酶学）；怎么盖（Tanner 1964、Alexander 1981、瑞金、积水潭微粒皮、Kreis 1993）。Janzekovic、Tanner、MacMillan、Chang 1962 只到 L1。",
+   "recent": "2021-09-29 至 2026-09-29 覆盖七个主题（手术时机与死亡、菠萝蛋白酶清创、TXA 与输血、扩展方式比较、水刀、中国磨痂、供区愈合），24 条代表研究（L2 23、L1 1）；未做检索计数，不称主线。",
+   "china_line": "已核英文/中文 PubMed 收录的 1962、1979、1980、1982、1984、1986（中文首报）、1988、1993、1995、1999、2003、2011、2019、2021、2024、2025 各报告；中国切痂线与 Janzekovic 标为并行；E2 评价性说法因作者可能属原团队而单独标注；CNKI/万方未检索，1958 邱姓工人与瑞金 1971 年数据停在 L0。",
+   "overall": "基本完整但有标注缺口",
+   "note": "主链节点齐全，关键老文献 7 篇读到原文扫描页（L3/L4）；复审提出的 5 个严重问题均已处理（新增 Thompson 1987、Sørensen 1979/1984、Chang 1962、Sun 1984、磨痂分支，删除 Janzekovic→休克期切痂的无据关系，Herndon 1989 补 p.551–552 限定并降为 L3）。主要缺口：付费墙原文（Janzekovic、Tanner、Meek、Burke、Engrav、Rosenberg 样本量、Sørensen 终报死亡率）、中文数据库、Thompson/Herndon 是否同一试验。正文（不含第9节）约 2.7 万字符。"
+  },
+  "final_nodes": 27,
+  "final_evidence_rows": 62
+ },
+ "D03": {
+  "research_nodes": 19,
+  "entry_sources": 10,
+  "search_log_entries": 41,
+  "search_sources": {
+   "PubMed": 30,
+   "Europe PMC": 7,
+   "OpenAlex": 2,
+   "PMC 扫描页+tesseract OCR": 1,
+   "Europe PMC 全文": 1
+  },
+  "exclusions": 13,
+  "unverified_leads": 9,
+  "verify_node_verdicts": {
+   "修正": 4,
+   "通过": 15
+  },
+  "verify_recent_verdicts": {
+   "通过": 18,
+   "修正": 1
+  },
+  "verify_origin_verdicts": {
+   "修正": 4,
+   "通过": 8
+  },
+  "missing_candidates": 8,
+  "critic_issues": {
+   "严重": 3,
+   "一般": 11
+  },
+  "critic_supplements": 12,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "部分回答",
+   "what_data": "部分回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "较充分。异体皮（Brown 1942，L3；Gibson & Medawar 1943，L3）、猪皮（Song 1963 与 Bromberg 1965，均 L1）、培养表皮（Rheinwald 1975 L2；Green 1979 L3；O'Connor 1981 L2）、人工真皮（Yannas 1980 L2；Burke 1981 L3）的起点都已核实到原始记录。19 世纪的起源没有核实；Gallico 1984 只到 L1，数字为转述",
+   "key_turns": "较充分。以下转折都有原始摘要或原文支持：CEA 的 RCT 空白与正反病例系列（Rue/Munster/Carsin）；复合移植（Cuono）；干细胞保存（Pellegrini）；人工真皮随机试验（Heimbach，L3）；ADM；复合工程皮（Boyce）；ASCS（Holmes，L3）",
+   "recent": "中等。五个主题各有 2–5 个已查到的代表研究，但多数只读到摘要；BTM、StrataGraft、denovoSkin 与异种移植没有读全文；生物打印的临床转化没有在试验注册库检索",
+   "china_line": "中等偏弱。英文数据库中能核实混合移植、ADM、ActivSkin、汗腺再生、基因编辑猪皮五条线；没有检索 CNKI/万方，ActivSkin 获批信息只有二手来源",
+   "overall_note": "PMC 页面中途开始返回 reCAPTCHA 验证页，按规则停止扫描页抓取，所以部分老文献停留在摘要层级。本报告不是系统综述；节点的选择依据是它在历史上的作用，而不是被引次数。被引次数只作参考（OpenAlex：Rheinwald 1975 为 4559，Burke 1981 为 1255，Gallico 1984 为 1161，Heimbach 1988 为 684）"
+  },
+  "final_coverage": {
+   "origins": "较充分。异体皮临时覆盖的目前最早记录改为 Bettman 1938（仅题录），Brown 1942 与 Gibson & Medawar 1943 读到 L3；猪皮起点前移到 Falkowski 1955，细胞悬液起点前移到 Billingham 1952 与 Sebök 1988（均 L1）；培养表皮、胶原-GAG 模板、Bell 活细胞等效物三条 1975 年前后路线都有原始记录。19 世纪 Girdner 1881 未检到；Gallico 1984、Rheinwald 1975 原文未读",
+   "key_turns": "较充分。异体皮到免疫学解释、CEA 起点与极端病例、CEA 弱点的并行回应（按时间重排，不再写成 1990 年代争论推动）、真皮模板 RCT（Heimbach 1988 L3）、ADM、自体与异体两条活细胞复合皮线（新增 Hefton 1983 与 TransCyte 1997 阳性 RCT 后退市）、细胞悬液关键 RCT（Holmes 2018 L3）、猪皮到基因编辑猪皮，都有摘要以上层级的原始记录",
+   "recent": "中等。六个近期主题（细胞悬液、BTM 与 Integra、工程皮后期临床、登记库与匹配观察、基因编辑猪皮、生物制造与附属器再生）各有 2–5 篇代表研究；多数只到摘要；猪皮人体数据只有会议摘要和预印本；试验注册库未系统检索",
+   "china_line": "中等偏弱。英文库可见的混合移植（Ding 1982/1983 同队列）、ADM（Chai 2000；窗口期 Lou 2025 12 项 RCT、Chen 2026）、ActivSkin（Liu 2006、Nie 2007；2018 再注册证号经新浪财经转载核实）、汗腺再生、基因编辑猪皮均已写入；CNKI/万方未检索，获批日期与中文首报未核",
+   "overall": "基本完整但有标注缺口",
+   "note": "正文（不含第 9 节）约 3.1 万字符。L3 节点 5 个、L2 17 个、L1 1 个；证据表 105 行（关键节点 71、近期代表研究 24、入口综述 10），全部有 PMID、DOI 或 URL。PMC 扫描页中途返回 reCAPTCHA，Munster 1996 停在摘要。审阅意见中的 3 条严重问题均已在正文修改，处理记录见第 8.3 节"
+  },
+  "final_nodes": 23,
+  "final_evidence_rows": 105
+ },
+ "D04": {
+  "research_nodes": 18,
+  "entry_sources": 12,
+  "search_log_entries": 59,
+  "search_sources": {
+   "PubMed": 34,
+   "Europe PMC": 15,
+   "OpenAlex": 2,
+   "WebSearch": 2,
+   "PMC": 1,
+   "Cambridge Core": 1,
+   "Crossref": 1,
+   "ClinicalTrials.gov API": 1
+  },
+  "exclusions": 13,
+  "unverified_leads": 9,
+  "verify_node_verdicts": {
+   "修正": 5,
+   "通过": 13
+  },
+  "verify_recent_verdicts": {
+   "通过": 19,
+   "修正": 1
+  },
+  "verify_origin_verdicts": {
+   "修正": 4,
+   "通过": 6
+  },
+  "missing_candidates": 9,
+  "critic_issues": {
+   "严重": 3,
+   "一般": 10
+  },
+  "critic_supplements": 19,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "已追溯到 1935 年 Cruickshank（题录已核实，内容为二手转述）和 1947–1948 年 Colebrook 的病房感染控制（L1+L0）。1954 年 Lowbury & Fox 读到全文主要部分（L3）。更早的银剂和鞣酸史只通过 Klasen 2000 和 Pinnegar 1986 的题录看到，未展开。Colebrook 的 MRC 专题报告没有定位。",
+   "key_turns": "已覆盖以下转折：1964 年动物模型定义创面脓毒症；1965–1968 年三种局部药物（原文只到 L1，结果靠 Brown 2004、Klasen 2000 转述和开篇段）；1974 年定量活检，1987 年组织学修正；1976–1979 年局部药物的耐药；1984–1986 年细菌移位（中美并行）；1986 年菌血症归因死亡；2005 年 SDD RCT；2007 年真菌侵袭与 ABA 定义；2010–2017 年预防性抗生素的 Meta 与大数据争议；2019 年 PhagoBurn。薄弱之处是 1960 年代美国奠基论文缺少原文层面的数值。",
+   "recent": "六个主题各有 2–5 个已核实的代表研究，大多为 L2；预防性抗生素、噬菌体、敷料三个主题中部分代表研究只到 L1。检索时间截至 2026-09-29，已纳入 2026 年最新研究，例如 Danielski 2026、Boross 2026、Lou 2026、Azizi 2026。",
+   "china_line": "已核实：第三军医大学肖光夏组和解放军304医院盛志勇、姚咏明组的肠源性感染研究（L2）；长海、西南、闽东南和六省的病原谱研究（L2）；2013 年真菌指南和 2024 年Ⅱ度烧伤共识（L2）。中国 2007/2012 年脓毒症和感染诊断标准的原文，以及黎鳌的原创地位只到 L0 或未核实；中文数据库未检索。",
+   "overall_note": "本报告共 18 个节点：L3 1 个、L2 12 个、L1 5 个（Colebrook 1948、Teplitz 1964、Moyer 1965、Lindberg 1965、Fox 1968，其中 Moyer 和 Fox 读到开篇段，Loebl 1974 只到 L1）。L1 节点的结果一律标注“据某某转述”。检索量约 60 次查询。本轮受 PMC reCAPTCHA、Europe PMC Cloudflare 验证和 Europe PMC REST 间歇 503/500 影响，老文献扫描原文路线基本不可用，只有 J Hyg 通过 Cambridge Core 公开 PDF 读到全文。中间材料保存在 <会话临时目录>/scratchpad/burns/D04/，包括 lowbury_fox_1954.pdf、lf54.txt、kwei.txt、avni.txt、deitch2012.txt 以及检索脚本 ep.sh、pm.sh、ab.sh。"
+  },
+  "final_coverage": {
+   "origins": "本轮找到的最早专题文献是 Aldrich 1933 NEJM 和 Cruickshank 1935，均只有题录，Cruickshank 的内容据 Lowbury & Fox 1954 转述。英国线 Colebrook 1948 到 L1，Lowbury & Fox 1954 读到 L3。美国 1954–1961 年的败血症/致死性铜绿临床病理报告只到题录。Teplitz 1964 已降为“实验模型”的奠基，不再算概念首创。“毒血症还是感染”之争只有题名线索（Aldrich 1933、Ch'en 1959），论点未读。",
+   "key_turns": "共 10 个问题转折：病房传播→水疗；三种局部药；局部药筛出耐药；定量培养 vs 组织学；按菌种和侵袭分层的归因死亡；肠源性感染与 SDD；全身预防；铜绿免疫预防；脓毒症定义；噬菌体。1960 年代 N03–N07 共 5 个奠基节点加 N01 只到 L1，结果全部写成转述。N08 经 PMC 扫描读完全文，升为 L4。",
+   "recent": "近期共 7 个主题、23 条代表研究（L2 16 条，L1 7 条），新增靶向测序/宏基因组诊断主题。三处已标注的限制：生物标志物的核心 Meta 检索截至 2020-02；窗口内预防主题没有 L2 原始数据；敷料主题没有以感染为终点的研究。A2B 登记已过预计完成日但未更新，结果未知。",
+   "china_line": "已核实 5 段：①1959–1989 年中文题录（Ch'en 1959、Liu 1964、Ge 1982、Wang DC 1986、Yang XD 1989）；②第三军医大学肠源性感染研究（L2）和 304 医院延迟复苏与移位研究（L2）；③2003 年诊断标准类文献（L1），早于 ABA 2007；④2014 年真菌指南、2024 年Ⅱ度共识、Zhu 2025 解读；⑤近五年多中心病原与诊断研究（Pan、Ouyang、Tan、Lou、Ye）。未检索 CNKI 和万方。长海、西南、闽东南的病原谱研究没有可定位来源，放入待核线索。",
+   "overall": "基本完整但有标注缺口",
+   "note": "节点 20 个：L4 1、L3 1、L2 12、L1 6。证据表 56 行：关键节点 20、近期代表研究 23、入口综述 13。核查状态：通过 46、修正 10。正文不含第 9 节约 3.55 万字符。按复审意见新增 2 个节点：Roe & Jones 1983 铜绿免疫预防 746 例 RCT（N19），Tredget 1992 水疗暴发（N20）。删除 1 条弱关系（ABA 2007→Tagami 2016）；保留 1 条存疑关系（SDD→Tagami）并标注。"
+  },
+  "final_nodes": 20,
+  "final_evidence_rows": 56
+ },
+ "D05": {
+  "research_nodes": 18,
+  "entry_sources": 10,
+  "search_log_entries": 45,
+  "search_sources": {
+   "PubMed": 34,
+   "Europe PMC": 5,
+   "Europe PMC fullTextXML": 2,
+   "PubMed esearch": 1,
+   "PMC idconv + 扫描页": 1,
+   "PubMed efetch": 1,
+   "OpenAlex": 1
+  },
+  "exclusions": 14,
+  "unverified_leads": 11,
+  "verify_node_verdicts": {
+   "修正": 4,
+   "通过": 14
+  },
+  "verify_recent_verdicts": {
+   "通过": 19,
+   "修正": 1
+  },
+  "verify_origin_verdicts": {
+   "修正": 7,
+   "通过": 3,
+   "存疑": 1
+  },
+  "missing_candidates": 9,
+  "critic_issues": {
+   "严重": 6,
+   "一般": 6
+  },
+  "critic_supplements": 23,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "部分回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "追溯到1942–1945年Cocoanut Grove临床系列与Moritz犬实验，均已读到原文扫描页（L3）；更早的1929年Cleveland Clinic火灾报告只见于引用。起源判断有Saffle 1993史料与Zawacki 1977两处独立说法支持",
+   "key_turns": "已覆盖诊断（1972 133Xe、1975支气管镜、2007 AIS分级）、死亡贡献量化（1987）、动物模型（1984绵羊）、治疗分支（1978激素/庆大霉素阴性、1991 HFPV、1998肝素/NAC、2010 HFPV RCT、2020 HEPBURN）、全身中毒（1991氰化物、2002高压氧、2007羟钴胺、2019 AKI）。其中5个节点读到L3，其余13个节点为L2",
+   "recent": "覆盖5个主题（分级可靠性、雾化肝素RCT、羟钴胺、ECMO、气道管理），代表研究都在本轮查到摘要，其中Virdis 2026读到L3；按E8检索截止日（2024-11-30）之后补查到2025–2026年的RCT和综述",
+   "china_line": "通过PubMed覆盖1983年以来第三军医大学动物研究、2011–2012年被国际综述或Meta引用的两项研究、2018共识与2020–2023年证据汇总；未检索知网和万方，中文全文均未读",
+   "overall_note": "本方向的主要研究群体集中在美国USAISR与Galveston（UTMB/Shriners），多个节点属于同一团队的连续工作，外部独立验证较少。治疗层面多次出现'动物实验或历史对照阳性，随机试验阴性或无法完成'。重要限制：关键原文中有6篇只到L2，确切检索截止日缺2篇Meta；本报告不是系统综述，节点选择受检索词影响"
+  },
+  "final_coverage": {
+   "origins": "已追溯到 1943 年 Cocoanut Grove 的 MGH 临床系列（N01，L3）和 Moritz 1945 热暴露实验（N02，L3），并补入 1962 年 Phillips & Cope 死因审计（N19，L3），填补了 1945–1972 年的空白。更早的线索已写明但只到 L1：1929 年 Cleveland Clinic 火灾调查（原件未见）、Emrys-Roberts 1915、Schnurer 1937。起点分类已按核查修正：纤维支气管镜（同年 Moylan SGO 更早）、氰化物（Wetherell 1966、Symington 1978、Clark 1981 更早）、分级（Chou 2004 更早）、绵羊模型（Meredith 1983 结论相反）改标为存在争议的首次或加限定；Li N 1983 标存疑。",
+   "key_turns": "八个转折按问题组织：死因认识、诊断与分级、死亡贡献与混杂、动物模型与通透性之争、局部药物、通气、全身中毒、气道清理与体外支持。24 个节点中 L3 8 个、L2 15 个、L1 1 个。关系依据已按核查调整：3 条降为推断，2 条升为原文明确讨论；Levine→绵羊模型一边已删除。",
+   "recent": "覆盖八个主题：分级可靠性、雾化肝素 RCT、治疗性灌洗（新增）、通气策略（新增，LAMiNAR 2021 为 L3）、羟钴胺、ECMO、插管与气管切开、领域停滞信号（Huang 2024 文献计量、登记库）。共 26 条代表研究，1 条 L3、25 条 L2。",
+   "china_line": "分四段：1983–1992 年第三军医大学动物研究（蒸汽与烟雾模型并存，原推断“偏热力”不成立）；1986–2002 年中文临床报告（1982 年起的高频通气、积水潭 62 例、瓦斯爆炸 106 例）；2004–2012 年被国际引用的工作（Chou、Rong、Ligen）；2018 年后的两份共识（2018 老年医学学会、2026 中华医学会气道灌洗）、Meta 与多中心数据（Xiao 2024、Li S 2024）。已标注同团队关系与 Fu 2017 关注声明。知网、万方未检索；有 4 篇只有作者和年份，列为待核线索。",
+   "overall": "基本完整但有标注缺口",
+   "note": "六个问题都已回答。主要缺口：6 个关键节点原文只到 L2；知网、万方未检索；Amarasekera 2025 与 Galeiras 2020 的全文和检索截止日未读；ABA 2009 共识专刊只核到题录。后补入的 N19、N22–N24、R19–R26 已核对题录，内容未经第二人独立复核，已在证据表中注明。正文（不含第 9 节）约 3.27 万字符。"
+  },
+  "final_nodes": 24,
+  "final_evidence_rows": 60
+ },
+ "D06": {
+  "research_nodes": 16,
+  "entry_sources": 8,
+  "search_log_entries": 68,
+  "search_sources": {
+   "PubMed": 50,
+   "Europe PMC": 5,
+   "OpenAlex": 3,
+   "PMC 扫描页": 3,
+   "PMC HTML": 2,
+   "WebSearch": 2,
+   "Europe PMC 全文XML": 1,
+   "WebFetch": 1
+  },
+  "exclusions": 19,
+  "unverified_leads": 8,
+  "verify_node_verdicts": {
+   "通过": 14,
+   "修正": 2
+  },
+  "verify_recent_verdicts": {
+   "通过": 17,
+   "修正": 2
+  },
+  "verify_origin_verdicts": {
+   "通过": 7,
+   "修正": 4
+  },
+  "missing_candidates": 12,
+  "critic_issues": {
+   "严重": 4,
+   "一般": 9
+  },
+  "critic_supplements": 15,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "已回答",
+   "what_now": "已回答",
+   "what_data": "部分回答",
+   "unknowns": "部分回答"
+  },
+  "research_coverage": {
+   "origins": "追到1930年 Cuthbertson 原文（L3）、1942 ebb/flow（L1）、1943 烧伤氮代谢（L1）、1946 睾酮（L1）、1948 Keyser 烧伤代谢研究（L3）；19世纪 Bernard 仅 L0。1950年代（Reiss 1956、Moore）覆盖薄弱",
+   "key_turns": "覆盖儿茶酚胺/环境温度（L3）、高蛋白（L2）、早期肠内（L3动物）、rhGH与Takala反证（L2）、普萘洛尔（L2）、过度喂养（L2）、谷氨酰胺单中心与多中心（L2）、氧雄龙（L2）、IIT（L2）、长期持续（L3）、脂肪褐变（L3）。NEJM 等付费节点只到摘要",
+   "recent": "六个主题均有2021-09-29后可核实代表研究：谷氨酰胺再评估、β阻断、氧雄龙退市后替代、二甲双胍、机制（脂肪/菌群/表观遗传）、营养实施与中国共识。入口综述检索截止最晚为2024-08-01（伞形综述），其后补查到2025–2026 年研究（MASCOTS、DeWitt、Barayan、Gao、Sullivan、Lou）",
+   "china_line": "通过PubMed收录的《中华烧伤杂志》英文摘要和期刊网页核实了公式、肠源性高代谢、谷氨酰胺RCT、早期切痂降REE、2024/2025共识；未检索CNKI/万方，早期中文指南未找到",
+   "overall_note": "本方向证据高度集中于 Galveston Shriners 单中心儿童平台，许多RCT与队列来自同一受试者池，应按研究项目而非文章数计算证据量；成人、硬结局与多中心证据相对缺乏。检索约80次（PubMed/Europe PMC/OpenAlex/Web），Europe PMC 与 OpenAlex 当日多次503/限流，已重试。中间材料在 <会话临时目录>/scratchpad/burns/D06/"
+  },
+  "final_coverage": {
+   "origins": "源头追到 Cuthbertson 1930（L3）、Lucido 1940 烧伤首例氮代谢记录（L3）、Taylor 1943 Ann Surg（L3 p215）、Keyser 1948（L3）、Cope 1953（L3）；ebb/flow 出处（Cuthbertson 1942 重印版、Wolfe 1981）只到 L1/L2；Bernard 1878 仅 L0；1940 年以前的非英文文献未系统检索",
+   "key_turns": "九个转折都有节点：负氮平衡成因之争、1953–1974 机制之争（Cope/Harrison/Zawacki/Wilmore，均 L3）、热量上限、早期肠内、合成代谢激素与 Takala 反证、普萘洛尔（含 1988 年方向相反结果）、血糖控制、持续期（Hart 2000→Gauglitz 2009→Jeschke 2011→Stanojcic 2018）、产热来源（Wolfe 1987→Sidossis 2015）、谷氨酰胺单中心阳性到多中心阴性；NEJM 等付费节点只到摘要",
+   "recent": "近期窗口六个主题均有代表研究（19 条，2022–2026），含 RE-ENERGIZE 后 Meta、中国多中心 RCT、成人 β 阻断 II 期、RE-ENERGIZE 事后分析、MASCOTS、TriNetX、脂肪移植、菌群、表观遗传时钟、中国 2024/2025 共识；另读取 ClinicalTrials.gov 注册状态",
+   "china_line": "覆盖西南医院、北京协和医院、解放军第 304 医院烧伤研究所的公式、肠源性高代谢、早期肠内、谷氨酰胺（5 项人体 RCT，22–55 例，1 项多中心）、早期切痂与 REE、大鼠普萘洛尔时机、2024/2025 共识；未检索 CNKI/万方/维普，2024 年以前中文营养指南未检出",
+   "overall": "基本完整但有标注缺口",
+   "note": "证据高度集中于 Galveston 单中心儿童平台，同一注册 NCT00675714（登记 1126 人）已终止且无登记结果，Meta 病例数可能含重复；已按研究项目标注 same_cohort_as。成稿阶段对复审增补的节点（Cope、Harrison、Zawacki 原文页，Wolfe 1987、Hart 2000、Stanojcic 2018 摘要）及注册记录、FDA 公告做了二次核对。"
+  },
+  "final_nodes": 22,
+  "final_evidence_rows": 111
+ },
+ "D07": {
+  "research_nodes": 19,
+  "entry_sources": 9,
+  "search_log_entries": 45,
+  "search_sources": {
+   "Europe PMC": 40,
+   "PMC idconv + 文章页扫描图": 1,
+   "PMC 文章页 HTML": 1,
+   "Europe PMC citations API": 1,
+   "OpenAlex": 1,
+   "Europe PMC core": 1
+  },
+  "exclusions": 12,
+  "unverified_leads": 9,
+  "verify_node_verdicts": {
+   "通过": 14,
+   "修正": 5
+  },
+  "verify_recent_verdicts": {
+   "通过": 13,
+   "修正": 2
+  },
+  "verify_origin_verdicts": {
+   "通过": 7,
+   "修正": 1
+  },
+  "missing_candidates": 9,
+  "critic_issues": {
+   "严重": 4,
+   "一般": 8
+  },
+  "critic_supplements": 16,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "部分回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "起点（Bull & Squire 1949、Bull & Fisher 1954）已读到原文扫描页（L3），关键数字和作者“首次”表述都有页码。Baux 1961 只到 L0，ABSI 1982 到 L1。更早的面积-死亡关联研究（如 Weidenfeld）没有核实",
+   "key_turns": "关键转折各有节点：方法上 probit→logistic→简化评分→修订 Baux；数据上从单中心到 NBIE、ABA 登记、NBR、BCQP；机制上从 MOF 死因到两次打击，再到基因组风暴和小鼠模型之争。Glue Grant 核心论文读到 L3，其余节点多为 L2（摘要）",
+   "recent": "近五年列了 5 个主题、约 16 篇代表研究，均为本轮查到。机器学习与多组学研究多为单中心或只有内部验证；姑息治疗主题只有 1 篇读到摘要",
+   "china_line": "起点与历史主要依赖 Sheng 2013（L4）的亲历者回顾；1950–60 年代原始报告只核实了题录（L1）；MODS、本土预测模型、昆山事件读到摘要（L2）。没有检索 CNKI/万方",
+   "overall_note": "本报告共做了约 100 次检索与调取（Europe PMC 为主，PMC 页面读全文，OpenAlex 只能用 filter）。没有使用 WebSearch。结论受英文数据库覆盖面和摘要层级阅读的限制；有争议处保留了两说"
+  },
+  "final_coverage": {
+   "origins": "三条线的起点都写进了第 1 节，并分类标注。①死亡标准：Bull & Squire 1949 和 Bull & Fisher 1954 读到扫描页（L3，有页码）。②评分：Baux 1961 只到 L0；ABSI 1982 的 Ann Emerg Med 一篇为 L1，同组 SGO 一篇为 L2。③器官衰竭与炎症：Baue 1975 和 Bone 1996 为 L1，Moore 1996 为 L2，均标注“本轮最早找到”，不写成“第一篇”。④专科烧伤单元：Colebrook 1947–48，L1。Weidenfeld 1902 没有可定位来源，只列为待核线索。",
+   "key_turns": "第 2 节按问题分 8 小节。方法：probit → logistic → 简化评分 → 登记库重新校准 → 校准与本地化。数据：单一单元 → NBIE → ABA 登记 → NBR → BCQP。死因谱：创面感染 → MOF，再到感染与 MOF 如何归类的争议。机制：两次打击 → 基因组风暴 → 小鼠模型之争。另有 TBSA 阈值与老年、器官支持两节。读到 L3 的节点有 7 个（N01、N02、N06、N13、N15、N16、N17），其余多为 L2（摘要）。",
+   "recent": "第 4 节列 6 个主题，共 22 条近期代表研究（2 条的在线或刊期日期落在窗口边界，已注明）：①模型再校准与机器学习；②老年、虚弱与合并症；③登记库、质量基准与转诊；④器官支持与脓毒症定义（本次新增）；⑤多组学与生物学衰老；⑥姑息治疗。评分类 Meta 只检索到 2021 年底，2022 年以后没有汇总证据。",
+   "china_line": "第 6 节分 7 段：1958 年起点（Sheng 2013，L4）；1960 年代早期报告（L1）；盛志勇团队 1998 年两次打击 MODS 研究（L2，定位为应用，不是范式源头）；本土评分校准与多中心描述（Zhou 2020、Tian 2018、Zeng 2020、He 2022）；昆山 8·2 的子队列，并注明同一队列被反复分析、验证集互换；多组学；救治体系。Sheng 2013 所说的乌司他丁试验已对上 Lin 2007，它是一般 ICU 试验，不是烧伤试验。没有检索 CNKI 或万方，也没有覆盖中国烧伤中心网络与质控。",
+   "overall": "基本完整但有标注缺口",
+   "note": "正文不含第 9 节约 3.48 万字符。三份材料中判为修正的内容已全部改用修正值。批评者提出的 4 个严重问题都通过修改叙事处理，分别见 2.5、2.7、第 1 节和 4.4 节，处理记录在 8.4 节。为满足来源门，本轮在 Europe PMC 和 PubMed 补查了约 30 条已有引文的 PMID 与摘要，逐条核对数字，没有新增文献或结论。凡是材料里没有的数字，已从正文删除，例如 Roberts 2012 的无效点 160，以及 RE-ENERGIZE 的 1209 例随机数。没有存疑节点。"
+  },
+  "final_nodes": 38,
+  "final_evidence_rows": 70
+ },
+ "D08": {
+  "research_nodes": 18,
+  "entry_sources": 13,
+  "search_log_entries": 69,
+  "search_sources": {
+   "PubMed": 55,
+   "OpenAlex": 6,
+   "WebSearch": 4,
+   "PMC": 2,
+   "Europe PMC": 1,
+   "anysearch": 1
+  },
+  "exclusions": 13,
+  "unverified_leads": 10,
+  "verify_node_verdicts": {
+   "通过": 14,
+   "修正": 4
+  },
+  "verify_recent_verdicts": {
+   "通过": 16,
+   "修正": 3
+  },
+  "verify_origin_verdicts": {
+   "修正": 2,
+   "通过": 9
+  },
+  "missing_candidates": 7,
+  "critic_issues": {
+   "严重": 5,
+   "一般": 6
+  },
+  "critic_supplements": 19,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "部分回答",
+   "what_data": "已回答",
+   "unknowns": "部分回答"
+  },
+  "research_coverage": {
+   "origins": "湿性愈合（Winter/Hinman）和负压（Davydov/Fleischmann/Argenta）的起源已追到 PubMed 可查的最早记录；生长因子起源追到 Cohen 1962（题录）和 Knighton 1986（扫描原文 L3）。Winter 和 Hinman 原文未读，Chariker 1989 未找到",
+   "key_turns": "生长因子线（Knighton→Krupski→Steed→Wieman→Cochrane）、负压线（Fleischmann/Argenta→Armstrong→WOLLF/WHIST/SWHSI-2→Cochrane）、微环境机制（Wysocki、James）都有原始文献支撑，多为摘要层级 L2；Knighton 与 WOLLF 到 L3",
+   "recent": "六个近期主题都有已核实的代表研究；ON101（2021-09-03）略早于窗口起点，已注明；干细胞和 AI 主题的部分代表研究只到题录层级",
+   "china_line": "流行病学（1998/2011/2020）、rbFGF、汗腺 MSC、创面中心和创面修复科政策已核实到摘要或全文；VSD 引入和 MEBO 的史料只有二手或利益相关来源；CNKI/万方未检索",
+   "overall_note": "本报告共18个节点，因为纳入范围覆盖8个子题，超过常规上限。压力性损伤和放射性溃疡没有展开。Europe PMC 服务不稳定，引用追踪覆盖有限"
+  },
+  "final_coverage": {
+   "origins": "部分：湿性愈合、负压、生长因子、细胞生物学四条线都追到了 PubMed/PMC 能查到的最早记录，分别是 Carrel 1917/1922（L2）、Gilje 1948（L1）、苏联真空法 1967（L1）、Sames 1977（L4）。Winter 1962 和 Hinman 1963 的原文未读，停在 L1，数字只有 L0 转述。Gabbiani/Majno 1971、Knighton-Hunt 1983 只到题录。负压不认定唯一首创者。",
+   "key_turns": "较完整：生长因子线（Knighton→Krupski→Steed/Wieman→Cochrane→同一队列的安全性分析）、微环境线（MMP；Castronuovo 1998 的直接检验为阴性；生物膜；巨噬细胞）、新增的病因治疗线（减压、加压、EVRA）、负压线（前史→构型→Armstrong→WOLLF/WHIST/SWHSI-2→Cochrane）和高压氧的对立 RCT，都至少有摘要层级的原始节点。Knighton 1986 和 WOLLF 读到了 L3。",
+   "recent": "较完整：8 个近期主题各有代表研究（R01–R21）。ON101 的在线日期比窗口起点早 26 天；Explorer 和 Cheng 2020 发表在窗口之前，只作背景。AI 主题只有系统综述；材料学主题只有 PubMed 计数（1,750 篇，标为 RCT 或临床试验的 8 篇）和一篇小鼠研究。",
+   "china_line": "部分：以下内容都到了摘要或目录记录层级：三项流调（分母不同，已并列成表）、rbFGF RCT、汗腺 MSC、华西 APG RCT、瑞金/上海市烧伤研究所的巨噬细胞研究、付小兵 2018 年两篇述评、865 号文（经第三方转录）、2022 年期刊改名。多数原始研究出自付小兵团队，已标注。VSD 引入史和 MEBO 史料只有二手或利益相关来源。CNKI 和万方未检索。",
+   "overall": "部分",
+   "note": "36 个节点：L1 6 个，L2 26 个，L1/L2 混合 1 个，L3 2 个，L4 1 个。证据表 98 行：关键节点 60 行，近期代表研究 21 行，入口文献 17 行；核查状态为通过 83 行、修正 15 行。核查判为“修正”的内容一律用修正值，包括 Knighton 的剔除原因、Liu 2018 的效应只来自 Armstrong 这一项试验、Castronuovo 的直接检验为阴性、Ang 2003 与 Ang 2001 为同一试验，以及 Saramago、Arango-Rodríguez、Silva、Theocharidis 的设计、层级或样本单位。判为“删除”的 N01→N13 边已去掉。审阅提出的 5 个严重问题都已改写叙事；没解决的部分（血运重建、IWGDF 的推荐理由、细胞生物学原文、中文数据库）写进了第 8 节。后补文献的题录和数字经本轮对照 PubMed 记录核对过一次，未经独立复核。正文（不含第 9 节）约 3.2 万字符。"
+  },
+  "final_nodes": 36,
+  "final_evidence_rows": 98
+ },
+ "D09": {
+  "research_nodes": 18,
+  "entry_sources": 11,
+  "search_log_entries": 38,
+  "search_sources": {
+   "PubMed": 24,
+   "Europe PMC": 8,
+   "OpenAlex": 3,
+   "PMC idconv": 1,
+   "PMC 文章页＋扫描页": 1,
+   "WebSearch": 1
+  },
+  "exclusions": 15,
+  "unverified_leads": 10,
+  "verify_node_verdicts": {
+   "修正": 4,
+   "通过": 14
+  },
+  "verify_recent_verdicts": {
+   "通过": 20
+  },
+  "verify_origin_verdicts": {
+   "通过": 10,
+   "修正": 3
+  },
+  "missing_candidates": 9,
+  "critic_issues": {
+   "严重": 3,
+   "一般": 10
+  },
+  "critic_supplements": 18,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "部分回答"
+  },
+  "research_coverage": {
+   "origins": "追溯到 1854 年 Addison（已读 PMC 扫描页 p27）、1904 年 X 线治疗、1950 年代激素，以及 1970 年代压力治疗和组织学描述。但 1970 年代的几篇奠基文献（Larson、Linares、Gabbiani、Ketchum）不在 PMC，只到 L1，内容依赖综述转述。",
+   "key_turns": "18 个节点覆盖了组织学/细胞学概念、烧伤康复疗法、评估工具、激光、放疗剂量、TGF-β 路线及其失败、GWAS、机械转导和谱系。其中 Ehrlich 1994、Wong 2011、Mascharak 2021 读到了 L3，其余多为 L2 摘要。",
+   "recent": "2021-09-29 至 2026-09-29 列出 7 个主题（单细胞/空间、机械转导转化、激光时机、注射 NMA、传统疗法证据再评估、遗传生物库、免疫生物制剂），每个主题有 2–4 篇核实过的代表研究。",
+   "china_line": "核实了 2000 年代 TGF-β/Smad 体外研究、汉族 GWAS 复制、BTX-A 早期临床、Sr-90 RCT、HQMS 全国住院数据、两篇单细胞研究，以及 2018 共识、2025 CBA 指南。未检索 CNKI/万方，也未查中国早期史料。",
+   "overall_note": "证据主体来自 PubMed 题录与摘要，以及 12 篇 PMC 全文/扫描页。Europe PMC 间歇性 503；PMC 后期出现 reCAPTCHA，按规则未绕过。中间材料在 <会话临时目录>/scratchpad/burns/D09/。"
+  },
+  "final_coverage": {
+   "origins": "已追溯到 Addison 1854（keloid 术语，存疑：p.27 未能复核）、Harsha 1903/1904（X 线，L4 限 p.454）、Conway 1952（ACTH）、Lintilhac 1966 与 Fujimori 1968（加压，早于 Larson 1971）、Perkins 1983（硅酮，与 Cochrane“1981”两说并存）、Apfelberg 1984（激光）；四个 1966–1972 年奠基节点（N01–N04）不在 PMC，只到 L1，内容依赖综述转述。",
+   "key_turns": "按 9 个问题组织：瘢痕疙瘩复发防治（放疗/激素/干扰素/冷冻并存）、压力衣从默认有效到疗效未证实、VSS→POSAS、两种病还是一个谱、TGF-β3 与抗 CTGF 两条药物路线失败或不稳定、张力与机械转导（临床 2003、动物 2007 早于 TGF-β3 失败 2011）、谱系与单细胞、激光（剥脱切除失败→PDL→点阵）、遗传（连锁→GWAS→多祖源）。L3 以上仅 N09、N16、N18、N19。",
+   "recent": "7 个主题（单细胞/空间、机械转导大动物、激光时机、注射 NMA、压力衣/硅酮证据再评估、遗传与生物库、免疫生物制剂），窗口按首次在线日期统一判定；Deng CC 2021、Liu X 2022、Waibel 2020 改为窗口前背景；注射方案与压力衣/硅酮两主题窗口内只有系统评价，未列出原始 RCT。",
+   "china_line": "覆盖 1990 年代中文期刊 PubMed 记录（52 条，举 3 例，仅题录）、2000–2008 年 TGF-β/Smad 体外研究（仅题录）、Yan 2007 家系与 Zhu 2013 GWAS 复制、Xiao 2009 肉毒毒素、Deng K 2021 Sr-90 RCT（存疑，缺 PMID）、HQMS 全国住院库（三篇同源）、两篇单细胞、2018 共识、2025 CBA 儿童指南、中日共识比较；未检索 CNKI/万方，中国是否改变国际认识判为“无法判断”。",
+   "overall": "基本完整但有标注缺口",
+   "note": "关键节点 37 个（L1 10、L2 23、L3 3、L4 1），附属证据 23 行、近期代表研究 20 条、入口综述/指南 15 条，共 95 行。核查判修正的 13 行已用修正值，存疑 2 行（Addison 1854 p.27、Deng K 2021 RCT）已在正文与证据表标注。批评者三项严重问题均已改写叙事（删除“TGF-β 失败后转向机械力”因果、改为并存叙事、补齐抗 CTGF/干扰素/激光切除失败/洋葱提取物等负性结果）。全部 PMID 本轮用 PubMed esummary 复核了题录；正文约 3.4 万字符（不含第 9 节）。"
+  },
+  "final_nodes": 37,
+  "final_evidence_rows": 95
+ },
+ "D10": {
+  "research_nodes": 17,
+  "entry_sources": 10,
+  "search_log_entries": 75,
+  "search_sources": {
+   "PubMed E-utilities": 43,
+   "Europe PMC REST": 20,
+   "OpenAlex": 8,
+   "PMC 文章页": 2,
+   "PubMed efetch": 1,
+   "Europe PMC fullTextXML": 1
+  },
+  "exclusions": 17,
+  "unverified_leads": 9,
+  "verify_node_verdicts": {
+   "修正": 3,
+   "通过": 14
+  },
+  "verify_recent_verdicts": {
+   "通过": 12,
+   "修正": 10
+  },
+  "verify_origin_verdicts": {
+   "修正": 4,
+   "通过": 6
+  },
+  "missing_candidates": 9,
+  "critic_issues": {
+   "严重": 4,
+   "一般": 8
+  },
+  "critic_supplements": 17,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "部分回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "较好：心理后果追到 1943 年 Cocoanut Grove（L1，内容 L0）和 1971 年 Andreasen（L3 扫描原文）；夹板与体位追到 1969 年 Willis（L1）；量表追到 1979/1982 年 Blades 与 Munster（L2）。1950–1960 年代的儿童心理研究（Hamburg 1953、Woodward 1959、Long & Cope 1961）只核实了题录。",
+   "key_turns": "中等：17 个节点覆盖量表化（1982、2001、2017）、运动 RCT（2001、2024）、VR（2000）、返岗（2001）、挛缩规模（2006）、多中心数据库（2007）、人群关联数据（2015–2019）和核心结局集（2022）。除 Andreasen 1971 为 L3 外，其余均为 L2 摘要级，方法细节未读。",
+   "recent": "中等：6 个主题共约 20 个代表研究，其中约三分之二为 L2，其余为 L1 题录；Europe PMC 服务不稳定，被引追踪不足。",
+   "china_line": "偏弱：只有英文数据库中的中国作者论文和中文期刊的 PubMed 摘要，CNKI 和万方未检索；中国大陆的长期结局人群研究未找到。",
+   "overall_note": "本报告的脉络是：起点为火灾后精神观察和急性期夹板；第一次转向发生在 1979–2001 年，用专用量表和小样本 RCT 回答“存活之后怎样”；第二次转向发生在 1994 年后，多中心数据库和 2015 年后人群关联数据把烧伤视为有长期超额死亡和精神风险的慢性状态；当前重点是用核心结局集和 PROM 统一测量，同时检验早期活动和 VR 等干预。已知的弱点有三处：多数节点只读摘要；前向引用追踪主要依赖作者检索和 OpenAlex 被引数；中文文献覆盖不足。瘢痕治疗交给 D09，重建手术交给 D11，运动的代谢机制交给 D06。中间材料放在 <会话临时目录>/scratchpad/burns/D10/（log*.txt、abs*.txt、pmc/ 扫描页）。"
+  },
+  "final_coverage": {
+   "origins": "较好。心理线读到 Cobb & Lindemann 1943 原文 p.814–815、822–824（L3），并把“一年约半数”改为据 Andreasen 1971 转述（出处为 Adler 1943 与本文两篇合称）；成人长期随访读到 Andreasen 1971（L3）。夹板线起点改到 1866 年（Crossref），PubMed 最早为 Gronley 1960、Koepke 1963，均只到题录。运动 RCT 起点改为 Cucuzzo 2001，长期死亡起点改为 Onarheim 2005。非英文早期文献未检索。",
+   "key_turns": "中等。31 个节点覆盖 10 个问题演变：心理、夹板、量表、运动、返岗、BMS、长期死亡、伤前精神病史、VR、核心结局集。26 个节点只读到摘要（L2），读到原文部分章节的只有 3 个（N01、N03、N17），没有全文级节点。关系判断多为推断，已逐条标注。",
+   "recent": "中等。7 个主题共 22 条近期代表研究，全部 L2。每个主题都标了窗口内 L2 的数量；VR 窗口内原始研究只有 1 项；窗口内没有检到心理干预 RCT；Vigneron 2026 运动 HRQoL Meta 结果未纳入。",
+   "china_line": "中等偏弱。已补入：大陆 Tang 2016、昆山 Shi 2018、武汉三项（Wu KP 2022、Schieffelers 2024、Ruan 2025，同一中心）、台湾八仙三篇（同一事件）、NHIRD Peng 2024。结论已收窄为“大陆没有人群关联或医保数据的长期结局研究”。CNKI 和万方未检索。",
+   "overall": "基本完整但有标注缺口",
+   "note": "复审提出的 4 个严重问题都改了叙事：3 条线的起点前移，中国线补入灾难队列和前瞻队列。一般问题中，异位骨化子线已补；疼痛与瘙痒历史线、1994 年设立 BMS 的时点原因没有解决，列入第 8 节。复审补入的 36 个 PMID 已对照 PubMed 摘要核对。无材料来源的 40 余条“作者+年份”线索只放在 8.3 待核清单，没有写进正文。正文（不含第 9 节）约 3.48 万字符。"
+  },
+  "final_nodes": 31,
+  "final_evidence_rows": 63
+ },
+ "D11": {
+  "research_nodes": 18,
+  "entry_sources": 8,
+  "search_log_entries": 23,
+  "search_sources": {
+   "PubMed": 17,
+   "OpenAlex": 2,
+   "Europe PMC REST": 1,
+   "NCBI PMC efetch": 1,
+   "PMC 文章页扫描图": 1,
+   "PubMed efetch": 1
+  },
+  "exclusions": 11,
+  "unverified_leads": 9,
+  "verify_node_verdicts": {
+   "修正": 3,
+   "通过": 15
+  },
+  "verify_recent_verdicts": {
+   "修正": 8,
+   "通过": 11
+  },
+  "verify_origin_verdicts": {
+   "修正": 5,
+   "通过": 9
+  },
+  "missing_candidates": 12,
+  "critic_issues": {
+   "严重": 3,
+   "一般": 7
+  },
+  "critic_supplements": 13,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "已回答",
+   "what_now": "部分回答",
+   "what_data": "部分回答",
+   "unknowns": "部分回答"
+  },
+  "research_coverage": {
+   "origins": "已追到的烧伤相关最早原始记录是 Wood 1863（读了原文扫描页 L3）。更早的 Susruta、Tagliacozzi、Hamilton 1854，以及 Gillies/Filatov 管状皮瓣只据 Fang & Chung 2014 转述（L0）。皮瓣概念链（轴型、肌皮、筋膜皮、血管体区、穿支、螺旋桨）和扩张链（Neumann、Radovan）的原始文献都在 PubMed 核实了题录，其中约一半读到摘要。",
+   "key_turns": "共18个节点：1个 L3，11个 L2，6个 L1。1970年代的奠基文献（McGregor、Daniel & Taylor）和中国一手史料无摘要或无原文，影响“做了什么、得到什么数字”的精度；这些条目的结果都标为转述。",
+   "recent": "整理出5个主题，每个2–5篇代表研究，均为2021–2026年本轮查到的文献；以系统综述和单中心系列为主，RCT 只有1项（脂肪移植）。",
+   "china_line": "再植、前臂皮瓣、大腿皮瓣、外置扩张器、预扩张皮瓣、面部移植六条线都有 PubMed 可查的记录，但1960–80年代中文原始出处没有查 CNKI/万方，多数停在 L1 或 L0。",
+   "overall_note": "Europe PMC 全程不可用，向前追踪没能调取系统的被引列表，改为主题检索和后续综述，可能漏掉部分重要后续研究。节点数超过常规的16个，原因是本方向实际上有皮瓣、显微、扩张三条并行技术线加中国线。"
+  },
+  "final_coverage": {
+   "origins": "Mütter 1842（Crossref 题录，L1，内容未读）是本轮找到的最早烧伤畸形手术记录；Wood 1863 读到原文扫描页 9/11 页（L3），按核查值修正日期、颈部复发和腕背侧挛缩；管状皮瓣/二战时代只据 E1 与史料摘要（原文 L0）；轴型、游离、穿支、再植的“首次”全部改为限定或两说并存（Milton/Fujino、Antia、Kroll、Malt 上臂平面）",
+   "key_turns": "30 个关键节点：L0 1、L1 6、L2 22、L3 1、L4 0。1970 年代奠基文献（McGregor、Daniel & Taylor、Harii）和中国 1960–80 年代原始报告只到题录；新增实际用量（Platt、Hop、Perrault）、急性期时机（Baumeister、Perrault）、首批随机比较（Stekelenburg 2015/2017、Saaiq 2021）节点，纠正线性升级叙事",
+   "recent": "5 个主题、21 条近期代表研究（全 L2，3 条窗口外标背景）；窗口内以系统综述为主且同团队/同注册号已标注；随机证据只有 Almeida 2023（负性）与 Abouzaid 2022；补入印度 3 个系列与巴基斯坦 RCT 作为中低收入国家数据",
+   "china_line": "显微起步（陈中伟 1963）、原创皮瓣（杨果凡、宋业光）、烧伤专科原创与引入（Sun 1991 超薄皮瓣、张涤生 1985 扩张、1988 国产扩张器、鲁开化 1989、外置扩张 1995）、预扩张皮瓣（昝涛 2013/2016 及近五年四家单中心）与面部移植（郭树忠 2008）均有 PubMed 可查记录；中文原文未查 CNKI/万方，多停在 L1–L2",
+   "overall": "基本完整但有标注缺口",
+   "note": "Europe PMC 全程 502/503，未做系统被引追踪；成稿人对批评者补充文献逐条对照 PubMed 摘要核对数字；发现 Saaiq 2021 实际发表于 2021-01（早于窗口）并已标注；无核查结论为存疑的条目，来源冲突处写两说并存"
+  },
+  "final_nodes": 30,
+  "final_evidence_rows": 60
+ },
+ "D12": {
+  "research_nodes": 16,
+  "entry_sources": 8,
+  "search_log_entries": 42,
+  "search_sources": {
+   "PubMed": 32,
+   "Europe PMC": 6,
+   "PMC 扫描页": 1,
+   "PMC 全文 HTML": 1,
+   "WebSearch": 1,
+   "OpenAlex": 1
+  },
+  "exclusions": 11,
+  "unverified_leads": 7,
+  "verify_node_verdicts": {
+   "修正": 8,
+   "通过": 8
+  },
+  "verify_recent_verdicts": {
+   "通过": 16,
+   "修正": 3
+  },
+  "verify_origin_verdicts": {
+   "通过": 7
+  },
+  "missing_candidates": 7,
+  "critic_issues": {
+   "严重": 6,
+   "一般": 6
+  },
+  "critic_supplements": 22,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "部分回答",
+   "what_data": "部分回答",
+   "unknowns": "部分回答"
+  },
+  "research_coverage": {
+   "origins": "已覆盖：1942 年 Cocoanut Grove（一手报告 L3）；1947 年时间-温度阈值（L3）；1970 年代儿童睡衣与自来水烫伤（L2）。1953/1967 年 Flammable Fabrics Act 的原始立法材料没有取得。",
+   "key_turns": "已覆盖：被动预防立法（1991，L2）；病例对照（1992）；阴性 RCT（2002，L3）；战伤（2006）；GBD 统一估计（2020，L3）；WHO 登记库（2020）。节点中有 5 个达到 L3，其余多为 L2。",
+   "recent": "整理了 6 个主题，代表研究均查到题录；约一半只到 L1，其中锂电池和备灾主题多为 L1。",
+   "china_line": "四段都有对应文献：邱财康为 L0；昆山为 L2；八仙乐园为 L3；资源调查和多中心流行病学为 L2。中文数据库（CNKI、万方）没有检索，本土预防研究空缺。",
+   "overall_note": "主线是\"灾难与实验 → 美国被动预防立法及其证据 → RCT 暴露的适用边界 → 全球差距与模型估计 → 登记库与二次分析\"，材料足以支撑。薄弱处：被引追踪因 Europe PMC 503 和 OpenAlex 限流没有系统完成；电烧伤、化学烧伤只有代表性单中心数据；法规原文与中文史料只有二手资料。中间材料在 <会话临时目录>/scratchpad/burns/D12/（log_pm.txt、b3–b5.txt、abs1.txt、abs2.txt、moritz/、faxon/、PMC*.txt）。"
+  },
+  "final_coverage": {
+   "origins": "较完整：三个并行起点都到 L3——Cocoanut Grove（Faxon 1943 p803–804）、Moritz 1947 时间-温度阈值（p695–699、712、718，写明以猪为主、人皮肤未做组织学）、英国 Colebrook 1949–1956 取暖器护栏立法先例（BMJ 1956 p1379）。Fell 1887 作为更早的火灾烧伤报告（L1）写入限定语；“被动预防”概念来源 Haddon 1968/1974 只到 L1；美国睡衣与热水线的起点为 L2；1958 年邱财康只有 L0 纪念报道；Flammable Fabrics Act 等法规原文未读。",
+   "key_turns": "较完整：批量烧伤（1943→2005 巴厘岛后送→2015 八仙→2014 昆山→2020 温岭）、被动预防（英美两线并行，热水线含人群分母、教育、立法、恒温混水阀 RCT）、报警器三层证据（病例对照、非随机阳性、整群 RCT 阴性）、教育/设备能否降低发生率（两项负性综合与 van Balen 并列）、负担估计（Forjuoh→Smolle→GBD→GBR）、电/故意/战伤分支都有摘要以上层级的节点。1943–2001 年批量烧伤仍断档；化学烧伤缺奠基文献。",
+   "recent": "基本完整：8 个主题、28 条代表研究（25 条 L2、3 条 L1），包括 GBD 同源二次分析（已按 GBD 协议说明轮次重估）、中低收入国家登记与人群调查、预防证据综合、备灾与灾后随访、锂电池/电动车、故意烧伤、武装冲突、中国大样本。已标注窗口外数据期（SABR 2014–2015、孟加拉 2016 调查）。Ukraine 23 条命中未处理；预防主题实质证据多在 2020 年前，窗口内以发生率为结局的新原始研究未统计。",
+   "china_line": "部分：7 段均有文献——1958 起点（L0）；昆山、八仙、温岭三次成批烧伤（L2–L3，已标同一队列/同一事件）；烧伤单元资源调查（L2，含每 10 万人口 0.05 单元、1.9 床）；中文文献综合 Kai-Yang 2008（L2）；福棠多中心、单中心大样本和 Li P 2025 Meta（L2，Meta 去重未核）；遵义学校调查与定义敏感性、微博暖水瓶网络调查（L2）；电动车充电与电瓶闪络烧伤（L2）。CNKI、万方未检索，本土预防干预评估空缺。",
+   "overall": "基本完整但有标注缺口",
+   "note": "27 个节点：L3 7 个、L2 20 个，无 L4。核查判“修正”的 8 个节点和 5 条近期/入口文献已用修正值；无删除、无存疑节点。复审提出的 6 个严重问题均已改写叙事：补英国先例与概念来源、取消“2011 年转向”的线性叙事、按 GBD 协议把轮次差异改为版本修订、新增故意烧伤分支与 GBD 编码范围说明、补 Mallonee 1996 和两项负性综合并限定伦敦 RCT 的外推、把“中国没有人群数据”改为“缺全国代表性”。补入文献均附 PMID/DOI/URL，成稿时已对照 PubMed 摘要（Colebrook 对照扫描页）核对数字。没有可定位来源的说法（中国烧伤协会 2012 年启动调查、昆山为近 30 年最大事件、八仙另一组数字等）只放在 8.2 待核线索。"
+  },
+  "final_nodes": 27,
+  "final_evidence_rows": 66
+ },
+ "X01": {
+  "research_nodes": 14,
+  "entry_sources": 8,
+  "search_log_entries": 23,
+  "search_sources": {
+   "PubMed": 12,
+   "Europe PMC": 3,
+   "WebSearch + curl": 3,
+   "OpenAlex": 2,
+   "PMC 页面": 1,
+   "PMC 扫描页": 1,
+   "NLM Catalog": 1
+  },
+  "exclusions": 8,
+  "unverified_leads": 8,
+  "verify_node_verdicts": {
+   "修正": 5,
+   "通过": 9
+  },
+  "verify_recent_verdicts": {
+   "通过": 9,
+   "修正": 2
+  },
+  "verify_origin_verdicts": {
+   "通过": 3,
+   "修正": 3
+  },
+  "missing_candidates": 9,
+  "critic_issues": {
+   "严重": 3,
+   "一般": 9
+  },
+  "critic_supplements": 11,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "部分回答",
+   "how_branched": "部分回答",
+   "what_now": "部分回答",
+   "what_data": "部分回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "1949 年前线索：Kong 2000 的 1934 年考证、Webster 1948 年课程、Sheng 2013 对 1930 年代认识的回忆，均为二手（L2/L4）。1958 年起点由多篇综述和官网一致确认，但原始报告未读（L1）",
+   "key_turns": "已覆盖：1958 年起点；1960 年代英文病例报告（L1）；1982 年进入西方期刊；1986 年微粒皮；国际验证与改良（德、英、日，L2）；1985–1999 年合刊及 2000 年分刊（NLM，L3）；2013 年 Burns & Trauma；2019 年 865 号文（L3）；2022 年更名（L4）。文革中断只有 Yang 2018 一个来源",
+   "recent": "4 个主题，代表研究均查到 PMID 并读了摘要或全文；缺少对烧伤中心质量和登记库的系统检索",
+   "china_line": "本条目即中国线。积水潭、304 建科年份，学会官方沿革，院士名单，诊疗科目代码未能核实",
+   "overall_note": "Europe PMC 本轮多次返回 503，主要改用 PubMed E-utilities、OpenAlex 和 PMC 页面。卫健委、中国工程院、学会官网部分页面无法直连或为动态加载。关键早期英文原始报告不在 PMC，只到题录层级，因此多数 1959–1982 年节点为 L1，结论须按'据题录/据综述转述'理解。中间材料在 <会话临时目录>/scratchpad/burns/X01/"
+  },
+  "final_coverage": {
+   "origins": "1958 年邱财康抢救作为学科共同体公认的起点，已写清（E1 全文 L4，Sun 2018 与胡钧 2011 摘要 L2），并补上同年西南医院建所和“大跃进”政治背景。1949 年前的线索：倪葆春建科年份有 1928、1929、1934 三说，Webster 1948 年课程 L2。“中国方案”补入西方前身：Colson 1958（L1），以及瑞金团队 1980 年原文自称改良 Mowlem-Jackson 法（L2）。1959–1964 年的中国原始英文报告只有题录（L1）。",
+   "key_turns": "按 7 个问题组织：能否救活；自体皮不足（交替移植→开洞嵌植→微粒皮，保留挛缩负性结果）；国外采用与相反结果（大鼠见细胞镶嵌，人体见异体细胞不存活）；存活率口径（LA50 82.8%、95.8%，以及摘要未见校正的中日比较）；中西医结合去向（两项 MEBO 随机对照）；烧伤与整形的合刊与分刊（原因无来源说明）；创面修复科（865 号文原文与当事人说法对照）。“文革停滞”只有 E2 一个来源，而且与期刊停刊时间重合。",
+   "recent": "4 个学科层面主题：创面修复科建设述评、主刊计量（有内生性）、非概率抽样的全国病案流行病学（90–100% TBSA 占 21.74% 为未解释的异常值）、史料研究。共 10 条代表研究，其中 L2 8 条、L3 1 条、L1 1 条。没有找到评价建科效果的结局研究。临床研究主题见 D01–D12。",
+   "china_line": "本方向即中国线。整理了按时间排列的事件表，写明三条结构性事实：军地双轨中军队一侧更集中；史料集中出自当事单位；原始记录缺口部分来自期刊改刊、停刊和索引覆盖。积水潭、301、304 医院建科年份，学会官方沿革，院士名单，诊疗科目代码，都未能核实。",
+   "overall": "部分",
+   "note": "关键早期原始报告（N01–N06）只到题录。中文一手文献（CNKI 回溯库、瑞金专著、1990 年代湿润暴露疗法争论）本轮没有检索，因为本轮只用公开资料、不登录、不使用浏览器工具。入口文献多出自当事单位，独立史学来源只有 4 篇，都只读到摘要。Europe PMC 全程返回 503。另外，现有 scripts/build_evidence_table.py 只合并 evidence_D*.json，不会收录 evidence_X01.json，汇总时需要调整。"
+  },
+  "final_nodes": 34,
+  "final_evidence_rows": 53
+ }
+}

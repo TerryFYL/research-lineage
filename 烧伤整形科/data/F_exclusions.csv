@@ -1,0 +1,176 @@
+﻿direction,item,reason
+D01,Blalock A. Experimental shock. Arch Surg 1931;22:610,只读到开篇段，结论未核，放入 origin_claims 而非节点
+D01,Pruitt BA Jr. Protection from excessive resuscitation: 'pushing the pendulum back'. J Trauma 2000;49:567（PMID 11003341）,社论无摘要（L1）；作为 fluid creep 命名线索写入 origin_claims
+D01,Friedrich 2004 Burns 30:464 与 Sullivan 2004 Burns 30:583,同一 22 例配对样本的两篇报告，并入 D01-N11 的 followup，不单独计为独立证据
+D01,Arlati 2007 Resuscitation（允许性低血容量，12+12 例）,样本小，作为 D01-N14 的后续写入
+D01,O'Mara 2005 J Trauma 血浆 vs 晶体腹内压 RCT（31 例）,信息写入 D01-N13 followup 与近期血浆主题背景，未单独立节点
+D01,Béchir 2013 Crit Care HES RCT,作为负性路线记录，HES 在烧伤领域不是主流分支
+D01,Kahn 2011、Nakajima 2019、Flores 2022 维生素C 研究,观察性证据，写入 D01-N12 followup 与近期主题
+D01,ABRUPT 2023（PMID 34417368）,与 ABRUPT2 同一研究项目，写入 D01-N19 的 problem_then 与近期主题，不重复作节点
+D01,Rizzo 2022/2023a/2023b Burn Navigator 系列,同一约 300 例数据库的多篇报告，只作近期主题代表，不计为多项独立证据
+D01,Carvajal 1980 Galveston 体表面积法（30 例）,写入儿童节点 D01-N09 的背景，未单列
+D01,Huang YS 1999 J Trauma 大鼠早期心肌损害,机制研究，写入中国线；与休克期心功能争议相关但属病理生理支线
+D01,Wise 2016、Mankowski 2023、Adibfar 2021 等单中心回顾研究,作为近期主题或 ACS 后续引用，未作节点
+D01,Cochrane 胶体 vs 晶体（Lewis 2018）,非烧伤专门综述，只核题录
+D01,Kao 2018 Meta、Wardhana 2025 Meta、Hsiao 2024 SR,作为入口/近期证据使用，非原始研究节点
+D02,Burke JF 1974 J Trauma《Primary burn excision and immediate grafting》（PMID 4596096）,方法报告 L1，无摘要；并入 D02-N13（同一 MGH 项目），以 Tompkins 1986 的数据代表
+D02,Tompkins 1988 Ann Surg 儿童死亡率（PMID 3190284）,与 N13 同一项目，放在 followup，不重复计
+D02,Desai 1990 Ann Surg《Early burn wound excision significantly reduces blood loss》（PMID 2357138）,重要但与 N14 同中心同期数据，放在 followup/edges/争议中引用
+D02,Gray 1982 Am J Surg（72例历史对照）,历史对照，作为 Engrav 1983 的同中心背景
+D02,Goodwin 1983 J Trauma 手部（164只手）,作为适用边界与负性结果写入 controversies/negative
+D02,Monafo 1972 Arch Surg、1974 Clin Plast Surg,美国早期推广切线切除，均无摘要（L1）
+D02,Burke 1975 Ann Surg 免疫抑制+异体皮暂时移植（PMID 809014）,属于皮肤替代物/异体皮长期存活，交 D03
+D02,Levenson 1974 Ann Surg bromelain 化学清创（PMID 4606330）,作为 N19 前身写入 origin_claims，本身为实验研究
+D02,Connor & Harvey 1946 Ann Surg 丙酮酸法,失败路线，写入 negative_or_failed
+D02,Brown & McDowell 1942 Ann Surg 厚中厚皮+异体皮'急救敷料',切除时代之前的肉芽创面覆盖，非本方向转折点
+D02,Jackson 1954 Br J Plast Surg 异体皮临床研究（PMID 13149795）,中国间植法前身之一，无摘要（L1），在 N09 中提及
+D02,Subrahmanyam 1999 Burns（印度50例RCT，切线切除 vs 蜂蜜）,支持早切的资源受限地区RCT，放入 data_paths；比较对象为蜂蜜敷料，属 D04 交叉
+D02,Chen 2011 J Burn Care Res 休克期切痂与胰岛素抵抗,机制方向（D06 交叉），在 N17 followup 提及
+D02,Hart 2001 Surgery 失血决定因素；Djurickovic 2001 止血带 vs 肾上腺素,失血控制背景证据，写入近期主题3的分歧说明
+D02,RECELL/自体细胞喷雾、培养表皮、人工真皮等,按范围交 D03
+D03,Bell E 等 1981 Science 活细胞皮肤等效物（PMID 7008197，OpenAlex 被引 1058）,是奠基工作，已写入 origin_claims。但它的主要下游是 Apligraf 等用于慢性创面的产品（归 D08），在烧伤中的直接临床路线由 Hansbrough/Boyce 复合皮承接，所以不单列节点
+D03,Munster 1996 Ann Surg（PMID 8813265）,作为 CEA 争议的对立证据写入 controversies 和 D03-N10 的后续；非随机，PMC 扫描页被验证页拦截，只读到摘要
+D03,Carsin 2000 Burns（30 例 Epicel）,支持 CEA 的病例系列，已写入争议部分；没有新的方法学贡献
+D03,Heimbach 2003 上市后研究、Branski 2007 儿童 RCT,作为 D03-N09 的后续写入，不单列
+D03,Hirsch 2017 Nature 转基因表皮干细胞治疗 JEB,对表皮干细胞生物学影响大，但疾病是大疱性表皮松解症而非烧伤；写入 D03-N12 的后续
+D03,Boyce 2017 J Burn Care Res ESS（16 名儿童）,与 D03-N13 同一研究项目，作为后续写入
+D03,Holmes 2019 Burns RECELL 混合深度（30 例）,与 D03-N15 同一研发项目，作为后续写入
+D03,Biobrane、Suprathel、猪皮敷料用于浅Ⅱ度烧伤（如 Haller 2021 综述 PMID 33946298）,主要是浅Ⅱ度或部分厚度创面的敷料问题，与 D08 伤口处理交叉，本报告不展开
+D03,"微粒皮（Zhang ML 1988 J Trauma, PMID 3290505）与 MEEK",属自体皮扩展技术，交给 D02；只在 Chai 2000 ADM+微粒皮的负性结果中提及
+D03,Apligraf、Dermagraft、TransCyte,主要用于慢性创面，归 D08
+D03,鱼皮（Kerecis）、羊膜等其他生物材料,本轮没有系统检索，属于检索缺口，不作结论
+D03,Fu X 等 2001 Lancet 表皮细胞去分化（8 名腿部溃疡病人）,对象是慢性溃疡、干预为 rhEGF，归 D08；写入中国线背景
+D03,Integra 与 BTM 在整形重建（瘢痕松解、皮瓣供区）中的应用,归 D09/D11
+D04,Church 2006 Clin Microbiol Rev；Norbury 2016 Surg Infect；Kim 2022 Medicina；Dvorak 2021 Surg Infect,都是叙述性综述，只作入口或背景，不列为原始研究节点
+D04,Avni 2010 BMJ；Barajas-Nava 2013 Cochrane；Ramos 2017；Norman 2017；Heyneman 2016；Rubio-Regidor 2018；Halstead 2018；Li AT 2022,系统综述或 Meta，按要求不作节点，用作入口文献、后续验证和争议证据
+D04,Pruitt & Foley 1973 Surgery（活检在烧伤救治中的应用）,可能是组织学分期的起点，但无摘要、原文未读，无法写结果；由 McManus 1987 节点承载“组织学对比培养”的转折
+D04,Becker 1991 Arch Surg 真菌10年回顾,作为 Horvath 2007 的前因写入 problem_then；后者有更大样本和独立关联分析
+D04,McManus 1985 Eur J Clin Microbiol 铜绿菌血症25年回顾,"与 Mason 1986 为同一 5,882 例队列，标为 same_cohort，不重复计为独立证据"
+D04,Tredget 1998 J Burn Care Rehabil（Acticoat 与硝酸银配对随机，30例）,样本小，有厂商研发背景（摘要写明是新涂层技术）；作为纳米晶银起点在 N04 的后续中提及
+D04,Sheridan 2001 J Trauma（儿童 A 组链球菌预防）,作为 Durtschi 1982 的后续写入 followup 和争议
+D04,Albrecht 2006 J Am Coll Surg（鲍曼不动杆菌与死亡）,写入近五年主题的分歧和 Mason 节点的后续，不单列
+D04,Yan 2018 Surgery；Yoon 2018 Crit Care Med；Mann-Salinas 2013,作为 ABA 2007 节点的后续验证，写入 followup 和争议，不另列节点
+D04,Cason 1966 BMJ（硝酸银与隔离器）；Cason & Lowbury 1968 Lancet；Lowbury 1971 Lancet（局部治疗替代形式）,伯明翰系列的重要试验，但无摘要、只到 L1，无法写结果
+D04,Stanford 1969 J Trauma；Fox 1969 SGO（磺胺嘧啶银临床经验）,只到 L1；归入 Fox 1968 节点的后续
+D04,Keen 2010 Burns 两篇；Shupp 2010 JBCR 国家烧伤数据库血流感染,只核实题录，未读摘要
+D04,Tagami 2016 的来信（Hurley 2016、Legrand 2016）,评论性质，只作争议线索
+D05,"Zawacki BE, et al. Ann Surg 1977;185:100-110（烟雾剂量-反应与自然史）",只用于起源判断的旁证（p100），研究本身是机制性的动物-临床对照，未改变主要认识
+D05,Mallory & Brickley 1943、Schatzki 1943、Cope & Rhinelander 1943（Ann Surg 117卷）,与Aub 1943为同一批Cocoanut Grove患者，按same_cohort并入N01，不单列
+D05,DiVincenti 1971 J Trauma 11:109；Thompson 1986 J Trauma 26:163,更早的死亡率关联报告，但前者无摘要（L1），后者只描述发生率与死亡概率，量化和拆分由Shirani 1987完成
+D05,Navar 1985 Am J Surg 150:716（吸入损伤使复苏液量从3.98增至5.76 mL/kg/%TBSA）,属D01液体复苏，交叉提及
+D05,Osler 2010 J Trauma 68:690（修订Baux，吸入损伤+17）；Ryan 1998 NEJM,属D07死亡风险评分
+D05,Miller 2009、McIntire 2017、Cox 2020、Yip 2011、Kashefi 2014等雾化肝素回顾性研究,放在争议与近期主题中汇总，Lan 2020 Meta已涵盖；不单列节点
+D05,Reper 2002 Burns（HFPV小型RCT，35例）,与Chung 2010作用重叠，样本更小
+D05,Sousse 2015 J Am Coll Surg（儿童大潮气量）、Palmieri 2009、Barrow 2004,儿童证据放在争议与data_paths中；均为单中心或同一系统的回顾性研究
+D05,Mosier 2012、Spano 2016、Oh 2012、Yamamura 2013,分级与CT的验证研究，作为Endorf节点的followup和争议证据
+D05,Brown 1987（绵羊ECMO）、Brown 1988（DMSO+肝素）、Enkhbaatar 2007/2008（雾化抗凝）,与Herndon 1984同属绵羊模型项目，并入N06
+D05,Buckley 2011 Cochrane（高压氧）,作为Weaver 2002的反证放入争议
+D05,Saffle 2002（早期气管切开RCT）、Romanowski 2016（不必要插管）,气道管理，放入负性结果与近期主题
+D05,Davis 2013 Ann Surg、Albright 2012 Crit Care Med（分级与免疫反应）,机制和生物标志物方向，未形成临床转折，放入data_paths
+D05,Megas 2021 Medicina（CO中毒史）,检索到但本轮未阅读，CO史只点到为止
+D06,Cuthbertson 1932 QJM；1942 Lancet 'Post-shock metabolic response',奠基地位明确，但本轮只核实题录（L1），不能写成已读原文的节点；放入 origin_claims
+D06,"Taylor FH, Levenson SM 等 1943 Science 97:423",烧伤氮代谢最早记录之一，但原文未读（L1）；放入 origin_claims
+D06,"Reiss E, Pearson E, Artz CP. J Clin Invest 1956;35:62-77",重要早期烧伤代谢研究，但PMC出现验证码、无摘要，未读
+D06,Wolf SE 2006 J Burn Care Res（成人氧雄龙多中心RCT，81例）,作为 D06-N12 的followup/并行证据引用，避免与Galveston儿童试验重复成节点
+D06,Hart DW 2000 Ann Surg（肌肉分解决定因素，151次研究/123人）,方法重要但角色与 D06-N08/N09 重叠；写入 data_paths
+D06,Herndon 2012 Ann Surg 长期普萘洛尔（179例）；Porro 2012 JACS 氧雄龙5年；Herndon 2016 Ann Surg 联用（612例）,同一 Galveston 研究项目（NCT00675714 等）的后续报告，作为 followup，不重复计为独立节点
+D06,Gore DC 2001 J Trauma（高血糖与死亡，58例）；Gore 2005 Ann Surg 二甲双胍（13例）；Jeschke 2016 Ann Surg 二甲双胍II期（44例）,作为 D06-N13 的背景与分支引用
+D06,Patsouris 2015 Cell Rep,与 D06-N15 同年并行发现，列为 followup/origin 争议
+D06,Ramirez 1998 Ann Surg；Przkora 2006 Ann Surg；Cochrane 2014 rhGH,作为 D06-N06/N07 的回应与后续证据
+D06,Chiarelli 1990 Am J Clin Nutr；Peck 2004 J Trauma；Cochrane 2006；Pu 2018,作为 D06-N05 的人体验证/反证与证据合成引用
+D06,Saffle 1990 J Trauma；Curreri 1974 J Am Diet Assoc；Wilmore 1971 SGO,能量目标演变的背景，放入 D06-N09 和 unverified_leads
+D06,Herndon 1987 J Trauma TPN 补充试验（28例）,放入 negative_or_failed
+D06,Wolfe RR 1987 NEJM 底物循环；Jeschke 2008 Ann Surg 病理生理反应（242例）,机制性描述，与 D06-N14 角色重叠
+D06,van den Berghe 2001 NEJM；NICE-SUGAR 2009 NEJM,非烧伤人群，只作为血糖控制外溢背景
+D06,Demling 1997 J Trauma 氧雄龙,氧雄龙在烧伤中的早期使用记录（题录L1），在 D06-N12 problem_then 中提及
+D06,Xie 1993 Burns 中国热量公式；Peng 2005 Burns 谷氨酰胺；Peng 2001 大鼠肠源性高代谢；Gao/Chai 2004 早期切痂降REE,写入 china_line 与 origin_claims，未单列节点以控制节点数
+D06,Wischmeyer 2001 Crit Care Med 谷氨酰胺（静脉）,与 D06-N10 并行，未取摘要细节
+D06,康复运动（Przkora 2007 氧雄龙+运动、Chao 2018）,属 D10，交叉点到为止
+D06,肠屏障与感染（Ryan 1992 肠通透性、Peng YZ 2001）,属 D04 交叉，仅在营养分支中提及
+D07,Belgian Outcome in Burn Injury Study Group. Br J Surg 2009;96:111-117（BOBI）,方法与 Ryan 1998 同类（年龄、面积、吸入性损伤的分级评分），作为 D07-N08 的后续写入 followup，未单列节点
+D07,Brusselaers N et al. Intensive Care Med 2005;31:1648-1653,用作“生存是否改善”争议中的证据，不单列节点
+D07,Wolf SE et al. Ann Surg 1997;225:554-569（103 例 ≥80% TBSA 儿童，死亡率 33%）,与 Kraft 2012 同属 Galveston，放入 D07-N14 的 followup 以免重复
+D07,Williams FN et al. Crit Care 2009;13:R183；Bloemsma GC et al. Burns 2008；Cumming J et al. J Trauma 2001；Kraft R et al. Ann Surg 2014,作为 MOF/死因争议的证据与 followup 引用；Kraft 2014 可能与 Kraft 2012 数据库重叠（本报告推断），不单列
+D07,Light TD et al. J Burn Care Res 2009；Cleland H et al. MJA 2016；Stylianou N et al. BMJ Open 2015；Klein MB et al. JAMA 2009,登记库与区域化的后续证据，放入 D07-N05 的 followup 与 data_paths
+D07,Finnerty CC et al. Crit Care Med 2013（Glue 蛋白组 32 例）；Dreckmann 2019,与 D07-N13 属同一 Glue Grant 项目，作为 followup，避免同一项目重复计数
+D07,Mason SA et al. Ann Surg 2019；Duke JM et al. Bull WHO 2015（长期死亡）,出院后长期死亡与“存活之后”的结局更适合交 D10，这里只在 data_paths 中提及
+D07,Zhou J et al. Burns 2020；Tian H et al. Burns Trauma 2018；Zeng QL et al. 2020,写入中国线与争议部分，不单列节点
+D07,"Shirani KZ, Pruitt BA, Mason AD. Ann Surg 1987（吸入性损伤与肺炎对死亡的影响）",属于 D05 吸入性损伤
+D07,Evans EI 1952 液体公式；Mishima 1997 两次打击大鼠模型,分别属于 D01；Mishima 只在 Sheng 2013 参考文献中出现，没有单独核实
+D07,Formosa Fun Coast 2015 粉尘爆炸系列、各国批量烧伤预案文献,属于 D12（批量/特殊原因烧伤），只作交叉引用
+D07,Tompkins 1986 中早期切痂对死亡的贡献,作为统计方法转折节点纳入；切痂本身的疗效证据交 D02
+D08,Cohen S. J Biol Chem 1962;237:1555-62（EGF 分离）,不是创面研究，只作为生长因子线的起源说法，放入 origin_claims
+D08,"Eaglstein & Mertz 1978 J Invest Dermatol；Alvarez, Mertz, Eaglstein 1983 J Surg Res",验证了湿性/封闭愈合，但属于 Winter 的延续，写入 N01 的 followup，不单独作为节点
+D08,Davydov 1986 Vestn Khir（真空疗法治疗乳腺炎299例）,是 PubMed 最早的负压治疗文献，但在西方文献谱系中的影响不明，放入 origin_claims 和争议
+D08,Steed 1996 J Am Coll Surg；Smiell 1999 Wound Repair Regen,与 N08/N11 为同一队列或合并分析，已标 same_cohort_as
+D08,Costa 2020 WHIST（JAMA）,与 WOLLF 属同一研究网络，结论相同，写入 N18 的 followup
+D08,Fu X 2001 Lancet 表皮细胞去分化,8例免疫组化观察，推断链较长，后续验证未追踪
+D08,Badiavas & Falanga 2003 Arch Dermatol（骨髓细胞治疗3例慢性创面）,是干细胞治疗慢性创面的早期人体报告，但只有3例；本轮以 Sheng 2009 作为中国附属器再生节点，此文只作背景
+D08,Fernández-Montequín 2009 Heberprot-P；Uchi 2009 bFGF 治疗糖尿病溃疡,地区性生长因子产品，只核实到题录层面
+D08,Gohel 2018 NEJM EVRA（静脉溃疡早期腔内消融，HR 1.38，中位愈合56 vs 82天）,是静脉溃疡的重要 RCT，但属于血管外科病因治疗；只在 data_paths 中提及
+D08,Edmonds 2018 Explorer；Game 2018 LeucoPatch；Frykberg 2020 TWO2,是 IWGDF 2023 推荐的依据，在近期主题和争议中提及；发表于窗口前，不作为历史节点
+D08,Lazarus 1994 定义文件；Schultz 2003 伤床准备,是框架性共识文件，不是原始研究
+D08,Armstrong 2017 NEJM《Diabetic Foot Ulcers and Their Recurrence》,综述；PubMed 无摘要，本轮未读
+D08,Gurtner 2008、Eming 2014、Falanga 2022 等综述,作为入口文献使用
+D09,Majno G et al. Contraction of granulation tissue in vitro. Science 1971;173:548 (PMID 4327529),与 N02 同组同年、内容平行；只作为 N02 的并行证据
+D09,Shah 1995 J Cell Sci (PMID 7542672) 与 Ferguson 2009 Lancet (PMID 19362676),并入 N08 的后续与负性结果，不单列节点
+D09,Engrav 2010 Burns (PMID 20537469),作为 N14 的后续证据；摘要未给样本数
+D09,Hultman 2014 Ann Surg (PMID 25115428)、Anderson 2014 JAMA Dermatol (PMID 24336931),作为 N12 在烧伤瘢痕中的转化后续，不单列
+D09,Mustoe 2002 / Gold 2014 / Monstrey 2014,共识建议，作为入口文献而不是原始研究节点
+D09,Manuskiatti & Fitzpatrick 2002 Arch Dermatol (PMID 12224975),作为 N01/N10 的后续比较；样本只有 10 例
+D09,Fitzpatrick 1999 Dermatol Surg 5-FU (PMID 10193972),5-FU 线的早期经验报告（无对照病例经验）；本方向没有为 5-FU 单列节点，放在争议与近期 NMA 中
+D09,Longaker 2014 embrace RCT (PMID 24804638),作为 N16 机械转导的临床转化后续
+D09,Deng CC 2021 Nat Commun (PMID 34140509),早于近五年窗口；放在中国线和近期主题的前导，不作为节点
+D09,Greene 2025 Nat Commun、Zhu 2013 PLoS One,作为 N15 的后续/复制
+D09,Xiao 2009 Aesthetic Plast Surg BTX-A (PMID 19357910),虽为 BTX-A 早期报告，但 19 例、无对照组，只放在中国线
+D09,Correa-Gallegos 2019 Nature 筋膜来源瘢痕,重要但属于伤口愈合生物学（与 D08 交叉），只作为 N17 的后续提及
+D09,大量 2024–2026 年孟德尔随机化与公共数据生信二次分析,方法同质、缺少验证，不作为代表研究
+D09,瘢痕挛缩手术重建（Z 成形、皮瓣、扩张）,按范围划给 D11
+D09,康复中的挛缩预防、按摩、夹板,划给 D10，只作交叉提及
+D10,"Blades BC, Jones C, Munster AM. Quality of life after major burns. J Trauma 1979;19:556-8（PMID 469967）",它是 BSHS 的前身，写入起源说法；节点选用同一团队 1982 年的 BSHS
+D10,Herndon DN 等. J Trauma 1986;26:609-19（12 例 ≥80% TBSA 儿童生活质量，PMID 3723636）,样本太小；作为 Sheridan 2000 的背景写入 problem_then
+D10,Munster AM 等 1987 BSHS-A（PMID 3573091）,属于 BSHS 演化中的一环，写入 N04 的 followup
+D10,Hoffman HG 等 2000 Clin J Pain（12 例成人 VR，PMID 11014398）；Carrougher 2009（39 例交叉 RCT）,与 N06 属同一研究团队的延续，写入 N06 的 what_changed 和 followup
+D10,Dyster-Aas 2007 J Rehabil Med；Esselman 2007 Arch Phys Med Rehabil（返岗障碍）,验证并细化 Brych 2001 的返岗结论，写入 N09 的 followup
+D10,Mason ST 等 2012 返岗系统综述,二次研究，作为入口文献 E10
+D10,Giannoni-Pastor 2016 PTSD Meta；Van Loey & Van Son 2003,二次研究，作为入口文献和争议证据
+D10,Schouten 2012 静态夹板综述,二次研究，写入争议和负性结果
+D10,Duke 2014 BMJ Open 烧伤与癌症风险（苏格兰加西澳）；Duke 2015 Bull WHO 老年人死亡,与 N12 属同一关联数据项目，写入 same_cohort_as 和 followup，不单独成节点
+D10,Holavanahalli 2010/2016 大面积烧伤长期结局（皮肤、肌骨）,只读到题录，未读摘要，不作节点
+D10,Stoddard 2006 幼儿急性应激；Meyer/Blakeney Galveston 儿童心理社会研究；Stubbs 2011 面部烧伤儿童 390 例,儿童心理线索重要，但本轮只读到题录；列入检索缺口
+D10,Patterson 1993 Psychol Bull《Psychological effects of severe burn injuries》,综述，未读摘要
+D10,Fauerbach 2000 人格与 PTSD；McKibben 2008 急性应激障碍与 PTSD 前瞻研究,题录已核实，未读摘要；PTSD 线用 Meta 和人群数据代表
+D10,Richard R 等 2009 烧伤康复共识峰会纪要,共识性文件，题录 L1，未读
+D10,Cartotto 2023 ABA 早期活动指南,指南，放在近期主题中
+D10,Nedelec 2012 下肢植皮后早期下地实践指南；Grube 1992 足部植皮 100 例早期下地,题录 L1，早期活动线用近期指南和 RCT 代表
+D10,Kneib 2019 早期加巴喷丁对长期疼痛与瘙痒的影响；Van Loey 2016 烧伤瘙痒问卷,瘙痒与神经病理性疼痛是核心结局之一，但本轮只读到题录，写入近期主题的背景
+D11,"Harii K, et al. PRS 1974;53:259-70（10例游离皮瓣）",与 D11-N04 并行，作为其 followup 提及，没有单列节点（只到 L1）
+D11,McGregor & Morgan 1973 Axial and random pattern flaps,并入 D11-N03 叙述，避免两篇同作者、同为 L1 的文献各占一个节点
+D11,Malt & McKhann 1964 JAMA 上臂再植,放在“首次”争议和 D11-N02 followup 中；与本方向烧伤主线关系较远
+D11,Pallua 1997 锁骨上动脉岛状皮瓣（8例颏胸挛缩）,对烧伤很重要，但作为预扩张锁骨上动脉皮瓣的背景并入近期主题；节点数已足够
+D11,Neumann 1957 耳后球囊扩张,只到题录，作为 D11-N08 的起源线索写入 origin_claims
+D11,Argenta 1984、Manders 1984 扩张术,与 Radovan 同期并行，作为 D11-N08 followup 提及
+D11,Pignatti 2011 东京螺旋桨皮瓣共识,属于术语共识，放在 D11-N13 followup
+D11,Mathes & Nahai 1981 之前的 McCraw 1977,没有独立核实
+D11,乳房再造、淋巴结移植、唇腭裂相关的扩张与皮瓣文献,属于边界外内容
+D11,Celik 2002（439例股前外侧皮瓣中15例失败分析）,与 Wei 2002 属同一中心同期样本，重叠未计为独立证据
+D11,Neale 1993（52个扩张器/37例）,与 Neale 1988 为同一中心、时间段重叠的病例，只作为 D11-N11 followup 和 edges 依据
+D12,Peck 2011/2012、Forjuoh 2006、Smolle 2017、Rybarczyk 2016,是综述，作为入口文献使用，不列为原始研究节点
+D12,Cope O 等 1943 年 Ann Surg Cocoanut Grove 系列（创面处理、休克合并肺损伤、代谢观察）与 Finland 1946 系列,内容是救治技术和吸入伤，交 D01/D02/D05/D06
+D12,Katcher 1981 JAMA（Dane 县 33 例）,与 Feldman 1978 结论一致，作为 N04/N05 的 followup 引用，不单列节点
+D12,Kauvar 2006（Burns、J Surg Res）,与 Wolf 2006 属于同一中心、同一时期的队列，已标 same_cohort_as
+D12,Palao 2010 化学烧伤综述,是病理与治疗综述，不含流行病学原始数据
+D12,昆山与八仙乐园的其他单篇报告（感染、ECMO、营养、护理、心理）,同一队列，只点到为止；具体技术交相应方向
+D12,Cheng 2016 PRS（长庚 49 例）,单院子集，选用国家层面的 Yang 2016
+D12,Peck 2010 美国热水立法回顾,作为 N06 的 followup 引用
+D12,Schwebel 2009 南非煤油安全干预、Mabrouk 2000/Ombati 2013 煤油炉烧伤,本轮只读题录，没有纳入节点；煤油/炉具线由 Mehta 2023（GBR）作为近期代表
+D12,Laura 2022 COVID-19 对全球烧伤救治的影响（234 个单元、43 国）,属于救治体系话题（接近 D07）；作为数据路径例子引用
+D12,Chen Z 2022、Yin 2025 等 GBD 二次分析,放入近期主题，不重复列为节点
+X01,Milner BS. Chinese burn. BMJ 1972;2:295（PMID 5022029）,读 PMC 扫描页后确认讲的是'中国式拧手腕'导致的脂肪坏死，与烧伤学科无关
+X01,"Sheng ZY, Guo ZR 1991 Chin Med J；Li A 1999 Chin Med J；Sheng Z 2002 Chin Med Sci J（中国烧伤回顾类英文综述）",都是学科自述性综述，只到 L1，内容已由 Sheng 2013（L4）覆盖；不作节点，作为交叉线索
+X01,2018 年 60 周年各单位建科史（长海、西京、华西、山东省立、广东省人民医院、江西）,单位自述；只用来核对建科年份，不作研究节点
+X01,Müller FE 1979 Z Plast Chir（德国同行访华报告）,只有题录，未读原文，不能判断是评价还是质疑，列入 gaps
+X01,Sci Sin 1977（2 例中西医结合治疗特大面积烧伤）；Wang XW 1982 Burns 98% 个案,个案，中西医结合疗效无法与其他因素分开；作为 X01-N05、X01-N07 的 followup 提及
+X01,Replantation surgery in China（PRS 1973，美国断肢再植考察团报告）,属于手外科/显微外科，不在烧伤整形制度史主线内，交给 D11 参考
+X01,Guo ZR 1989 J Burn Care Rehabil 输血抗休克；Xie WG 1993 Burns 热量需要,技术原创，归 D01、D06；本条目只在中国线清单列出
+X01,Huang YS 2018（E4）等 60 周年综述,作入口文献，不作节点

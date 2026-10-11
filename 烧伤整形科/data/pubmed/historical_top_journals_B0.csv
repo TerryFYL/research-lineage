@@ -1,0 +1,91 @@
+decade,rank,journal,n,share,total,top_langs
+≤1949,1,Annals of surgery,39,0.0589,662,eng:498;fre:66;spa:37;ger:31
+≤1949,2,The Medical and physical journal,27,0.0408,662,eng:498;fre:66;spa:37;ger:31
+≤1949,3,American journal of surgery,17,0.0257,662,eng:498;fre:66;spa:37;ger:31
+≤1949,4,British medical journal,17,0.0257,662,eng:498;fre:66;spa:37;ger:31
+≤1949,5,Provincial medical & surgical journal,15,0.0227,662,eng:498;fre:66;spa:37;ger:31
+≤1949,6,The Journal of clinical investigation,14,0.0211,662,eng:498;fre:66;spa:37;ger:31
+≤1949,7,Surgery,12,0.0181,662,eng:498;fre:66;spa:37;ger:31
+≤1949,8,"Surgery, gynecology & obstetrics",10,0.0151,662,eng:498;fre:66;spa:37;ger:31
+≤1949,9,"Archives of ophthalmology (Chicago, Ill. : 1929)",9,0.0136,662,eng:498;fre:66;spa:37;ger:31
+≤1949,10,"Archives of surgery (Chicago, Ill. : 1920)",8,0.0121,662,eng:498;fre:66;spa:37;ger:31
+1950s,1,Khirurgiia,64,0.0247,2591,eng:1202;und:486;fre:200;rus:196
+1950s,2,Annals of surgery,54,0.0208,2591,eng:1202;und:486;fre:200;rus:196
+1950s,3,Comptes rendus des seances de la Societe de biologie et de ses filiales,44,0.017,2591,eng:1202;und:486;fre:200;rus:196
+1950s,4,American journal of surgery,42,0.0162,2591,eng:1202;und:486;fre:200;rus:196
+1950s,5,Surgical forum,40,0.0154,2591,eng:1202;und:486;fre:200;rus:196
+1950s,6,"Surgery, gynecology & obstetrics",39,0.0151,2591,eng:1202;und:486;fre:200;rus:196
+1950s,7,"Lancet (London, England)",39,0.0151,2591,eng:1202;und:486;fre:200;rus:196
+1950s,8,Journal of the American Medical Association,38,0.0147,2591,eng:1202;und:486;fre:200;rus:196
+1950s,9,Surgery,37,0.0143,2591,eng:1202;und:486;fre:200;rus:196
+1950s,10,Vestnik khirurgii imeni I. I. Grekova,37,0.0143,2591,eng:1202;und:486;fre:200;rus:196
+1960s,1,Khirurgiia,110,0.0218,5040,eng:2266;rus:857;ger:554;fre:465
+1960s,2,The Journal of trauma,102,0.0202,5040,eng:2266;rus:857;ger:554;fre:465
+1960s,3,Patologicheskaia fiziologiia i eksperimental'naia terapiia,78,0.0155,5040,eng:2266;rus:857;ger:554;fre:465
+1960s,4,Plastic and reconstructive surgery,76,0.0151,5040,eng:2266;rus:857;ger:554;fre:465
+1960s,5,Surgical forum,76,0.0151,5040,eng:2266;rus:857;ger:554;fre:465
+1960s,6,Vestnik khirurgii imeni I. I. Grekova,74,0.0147,5040,eng:2266;rus:857;ger:554;fre:465
+1960s,7,Annals of surgery,68,0.0135,5040,eng:2266;rus:857;ger:554;fre:465
+1960s,8,Voenno-meditsinskii zhurnal,62,0.0123,5040,eng:2266;rus:857;ger:554;fre:465
+1960s,9,British journal of plastic surgery,59,0.0117,5040,eng:2266;rus:857;ger:554;fre:465
+1960s,10,Annals of the New York Academy of Sciences,57,0.0113,5040,eng:2266;rus:857;ger:554;fre:465
+1970s,1,The Journal of trauma,310,0.0423,7332,eng:4196;rus:1109;ger:669;fre:428
+1970s,2,Plastic and reconstructive surgery,132,0.018,7332,eng:4196;rus:1109;ger:669;fre:428
+1970s,3,Vestnik khirurgii imeni I. I. Grekova,113,0.0154,7332,eng:4196;rus:1109;ger:669;fre:428
+1970s,4,Khirurgiia,96,0.0131,7332,eng:4196;rus:1109;ger:669;fre:428
+1970s,5,Voenno-meditsinskii zhurnal,93,0.0127,7332,eng:4196;rus:1109;ger:669;fre:428
+1970s,6,Annals of surgery,88,0.012,7332,eng:4196;rus:1109;ger:669;fre:428
+1970s,7,Klinicheskaia khirurgiia,88,0.012,7332,eng:4196;rus:1109;ger:669;fre:428
+1970s,8,Scandinavian journal of plastic and reconstructive surgery,79,0.0108,7332,eng:4196;rus:1109;ger:669;fre:428
+1970s,9,"Lancet (London, England)",79,0.0108,7332,eng:4196;rus:1109;ger:669;fre:428
+1970s,10,"Archives of surgery (Chicago, Ill. : 1960)",75,0.0102,7332,eng:4196;rus:1109;ger:669;fre:428
+1980s,1,"Burns, including thermal injury",560,0.0638,8777,eng:5889;rus:1058;ger:419;chi:394
+1980s,2,The Journal of burn care & rehabilitation,483,0.055,8777,eng:5889;rus:1058;ger:419;chi:394
+1980s,3,The Journal of trauma,401,0.0457,8777,eng:5889;rus:1058;ger:419;chi:394
+1980s,4,Zhonghua zheng xing shao shang wai ke za zhi = Zhonghua zheng xing shao shang waikf [i.e. waike] zazhi = Chinese journal of plastic surgery and burns,243,0.0277,8777,eng:5889;rus:1058;ger:419;chi:394
+1980s,5,Klinicheskaia khirurgiia,177,0.0202,8777,eng:5889;rus:1058;ger:419;chi:394
+1980s,6,Khirurgiia,164,0.0187,8777,eng:5889;rus:1058;ger:419;chi:394
+1980s,7,Plastic and reconstructive surgery,124,0.0141,8777,eng:5889;rus:1058;ger:419;chi:394
+1980s,8,Annals of plastic surgery,113,0.0129,8777,eng:5889;rus:1058;ger:419;chi:394
+1980s,9,Zhonghua wai ke za zhi [Chinese journal of surgery],92,0.0105,8777,eng:5889;rus:1058;ger:419;chi:394
+1980s,10,Vestnik khirurgii imeni I. I. Grekova,89,0.0101,8777,eng:5889;rus:1058;ger:419;chi:394
+1990s,1,Burns : journal of the International Society for Burn Injuries,1264,0.1318,9592,eng:7420;chi:648;rus:506;fre:305
+1990s,2,The Journal of burn care & rehabilitation,977,0.1019,9592,eng:7420;chi:648;rus:506;fre:305
+1990s,3,Zhonghua zheng xing shao shang wai ke za zhi = Zhonghua zheng xing shao shang waikf [i.e. waike] zazhi = Chinese journal of plastic surgery and burns,430,0.0448,9592,eng:7420;chi:648;rus:506;fre:305
+1990s,4,The Journal of trauma,256,0.0267,9592,eng:7420;chi:648;rus:506;fre:305
+1990s,5,Plastic and reconstructive surgery,161,0.0168,9592,eng:7420;chi:648;rus:506;fre:305
+1990s,6,Annals of plastic surgery,111,0.0116,9592,eng:7420;chi:648;rus:506;fre:305
+1990s,7,Zhonghua wai ke za zhi [Chinese journal of surgery],86,0.009,9592,eng:7420;chi:648;rus:506;fre:305
+1990s,8,Khirurgiia,86,0.009,9592,eng:7420;chi:648;rus:506;fre:305
+1990s,9,British journal of plastic surgery,73,0.0076,9592,eng:7420;chi:648;rus:506;fre:305
+1990s,10,The Journal of surgical research,72,0.0075,9592,eng:7420;chi:648;rus:506;fre:305
+2000s,1,Burns : journal of the International Society for Burn Injuries,1855,0.1533,12103,eng:10077;chi:957;rus:257;ger:240
+2000s,2,Journal of burn care & research : official publication of the American Burn Association,636,0.0525,12103,eng:10077;chi:957;rus:257;ger:240
+2000s,3,Zhonghua shao shang za zhi = Zhonghua shaoshang zazhi = Chinese journal of burns,586,0.0484,12103,eng:10077;chi:957;rus:257;ger:240
+2000s,4,The Journal of burn care & rehabilitation,460,0.038,12103,eng:10077;chi:957;rus:257;ger:240
+2000s,5,Plastic and reconstructive surgery,253,0.0209,12103,eng:10077;chi:957;rus:257;ger:240
+2000s,6,The Journal of trauma,214,0.0177,12103,eng:10077;chi:957;rus:257;ger:240
+2000s,7,"Shock (Augusta, Ga.)",135,0.0112,12103,eng:10077;chi:957;rus:257;ger:240
+2000s,8,Critical care medicine,130,0.0107,12103,eng:10077;chi:957;rus:257;ger:240
+2000s,9,Annals of burns and fire disasters,125,0.0103,12103,eng:10077;chi:957;rus:257;ger:240
+2000s,10,Annals of plastic surgery,108,0.0089,12103,eng:10077;chi:957;rus:257;ger:240
+2010s,1,Burns : journal of the International Society for Burn Injuries,2746,0.1636,16781,eng:15025;chi:887;fre:239;ger:158
+2010s,2,Journal of burn care & research : official publication of the American Burn Association,1439,0.0858,16781,eng:15025;chi:887;fre:239;ger:158
+2010s,3,Zhonghua shao shang za zhi = Zhonghua shaoshang zazhi = Chinese journal of burns,638,0.038,16781,eng:15025;chi:887;fre:239;ger:158
+2010s,4,Annals of burns and fire disasters,334,0.0199,16781,eng:15025;chi:887;fre:239;ger:158
+2010s,5,PloS one,180,0.0107,16781,eng:15025;chi:887;fre:239;ger:158
+2010s,6,Annals of plastic surgery,170,0.0101,16781,eng:15025;chi:887;fre:239;ger:158
+2010s,7,Burns & trauma,125,0.0074,16781,eng:15025;chi:887;fre:239;ger:158
+2010s,8,"Journal of plastic, reconstructive & aesthetic surgery : JPRAS",116,0.0069,16781,eng:15025;chi:887;fre:239;ger:158
+2010s,9,Plastic and reconstructive surgery,115,0.0069,16781,eng:15025;chi:887;fre:239;ger:158
+2010s,10,"Shock (Augusta, Ga.)",114,0.0068,16781,eng:15025;chi:887;fre:239;ger:158
+2020–2026*,1,Burns : journal of the International Society for Burn Injuries,1892,0.1334,14180,eng:13505;chi:414;fre:78;ger:44
+2020–2026*,2,Journal of burn care & research : official publication of the American Burn Association,1455,0.1026,14180,eng:13505;chi:414;fre:78;ger:44
+2020–2026*,3,Cureus,261,0.0184,14180,eng:13505;chi:414;fre:78;ger:44
+2020–2026*,4,Annals of burns and fire disasters,222,0.0157,14180,eng:13505;chi:414;fre:78;ger:44
+2020–2026*,5,European burn journal,205,0.0145,14180,eng:13505;chi:414;fre:78;ger:44
+2020–2026*,6,Zhonghua shao shang yu chuang mian xiu fu za zhi,182,0.0128,14180,eng:13505;chi:414;fre:78;ger:44
+2020–2026*,7,Scientific reports,181,0.0128,14180,eng:13505;chi:414;fre:78;ger:44
+2020–2026*,8,Zhonghua shao shang za zhi = Zhonghua shaoshang zazhi = Chinese journal of burns,173,0.0122,14180,eng:13505;chi:414;fre:78;ger:44
+2020–2026*,9,International wound journal,144,0.0102,14180,eng:13505;chi:414;fre:78;ger:44
+2020–2026*,10,International journal of biological macromolecules,120,0.0085,14180,eng:13505;chi:414;fre:78;ger:44

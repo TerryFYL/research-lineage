@@ -1,0 +1,120 @@
+﻿direction,lead,why_unverified
+D01,Moyer 1965 相关复苏公式/硝酸银治疗论文（调度者线索）,本轮检索到 Monafo 1968 Ann N Y Acad Sci 硝酸银与 Monafo 1971 Moyer 讣告题录，未检索 Moyer 1965 原始记录
+D01,Pham TN 2008 ABA 复苏指南的具体推荐内容,只核到题录（PMID 18182930），无摘要
+D01,'瑞金公式'作为独立补液公式的说法,网页仅见“瑞金方案/中国方案”叙述，未找到名为瑞金公式的一手文献
+D01,第三军医大学公式由黎鳌团队于1960–70年代提出,仅有网页二手叙述（WebSearch 摘要），无一手文献与年代
+D01,Cochrane 胶体 vs 晶体综述中烧伤亚组结论,Lewis 2018（PMID 30073665）仅核题录；烧伤亚组结果来自 Lee 2014 对 2013 版的转述
+D01,Faraklas 2012 'fluid creep is not due to nursing error' 结论细节,仅核题录（PMID 22240507）
+D01,Sanchez 等 132 例以心脏指数为目标的研究,仅见 Boehm 2021 转述，本轮未核原文题录
+D01,JBCR 会议摘要 'Prospective Randomized Controlled Trial of Fresh Frozen Plasma versus Albumin in Acute Burn Resuscitation',Europe PMC 列出题名但无 PMID，未读内容
+D02,Reverdin JL 1869年12月8日向巴黎帝国外科学会报告'epidermic grafts'（点状皮）,仅 E1 转述；原始 Bulletin 未在 PubMed/OpenAlex 找到
+D02,George Pollock 1870 年 Clinical Society of London 报告16例植皮（8例成功），首例为8岁女孩烧伤溃疡,仅 E1 转述，原文未找到；E1 中 Pollock 生卒年自相矛盾
+D02,Ollier 1872 Bull Acad Med 4–8 cm² 中厚皮；Thiersch 1874 或 1886 刃厚皮,仅 E1 转述；Thiersch 年份与调度线索（1874）不一致
+D02,Krause 1893 推广全厚皮（Wolfe-Krause graft）,仅 E1 转述
+D02,Padgett 1939 Surg Gynecol Obstet 描述鼓式取皮机；Brown 1948 电动取皮刀；Humby 1934 BMJ 取皮刀,PubMed 作者检索未返回 Humby 1934；其余仅 E1 转述
+D02,Lanz 1907 'Hautschlitzapparat' 网状皮原型；Douglas 1930 筛孔皮,仅 E1 转述
+D02,Janzekovic 切线切除 2615 例、≤20%TBSA 10天内愈合,原文付费墙，仅 E1 转述
+D02,Burke 等 1976 年儿童最高 80%TBSA 救治成功,E1 转述；Burke 1976 Surg Clin North Am（PMID 772845）题录已核实但内容未读
+D02,Mowlem 1944 异体/自体间植（Mowlem-Jackson 法）,PubMed 作者检索未找到对应文献；仅见于 Chih-Chun 1980 摘要中的名称
+D02,1958 邱财康病例原始报告；瑞金 1971 年10例 >90%TBSA 救治,只见 E2 与 2018 中文纪念文，原始报告未检索到
+D02,Hackl 2012 Xpansion 100:1 微移植,仅 E1 转述，且偏向 D03
+D02,Meek 1963 South Med J/Am Surg 同时使用'酶学清创+微皮片',题录已核实（PMID 14056727、13934413），所用酶与结果未读
+D03,Girdner 1881 年用尸体皮做植皮（常被称为最早的异体皮移植报告）,PubMed 与 OpenAlex 均未检到，只能作为线索
+D03,调度者线索 'Boyce 2017 Sci Transl Med 自体工程皮',PubMed 按 Boyce ST + 2017 + Sci Transl Med 检索命中 0；本轮查到的 2017 年 Boyce 工作是 J Burn Care Res 2017;38:61-70（已作为 D03-N13 的后续）
+D03,ActivSkin 于 2007 年获 SFDA 批准（金岩团队），'中国成为继美国之后第二个国家',只有 Cheng、Lu、Fu 2016 综述这一二手来源，没有药监部门原始注册信息
+D03,"Xie H、Zou L 等 2025 年 Research Square 预印本 'First-in-Human, Open-Label, Within-Patient Controlled Study to Evaluate an Extensively Humanized Porcine Donor'",OpenAlex 只返回题名，无摘要，不能确认是否为皮肤移植
+D03,StrataGraft 于 2021 年获 FDA 批准；Integra 于 1996 年、RECELL 于 2018 年获 FDA 批准,本轮没有查 FDA 原始批准文件，只见于记忆或综述
+D03,RECELL 装置由 Fiona Wood 团队发明，源于 1990 年代的喷洒培养角质形成细胞,只从 Saraswat 2026 的利益声明中确认 Wood 为 RECELL 共同发明人；发明史的原始文献没有核实，Navarro 2000 只核实到题录
+D03,美国海军组织库（1949 年）是现代皮库的起点,本轮没有检索相关史料
+D03,日本 JACE 培养表皮产品于 2007 年获批用于烧伤,没有检索
+D03,Zhang M 等 2025 J Invest Dermatol 3D 打印皮肤用于慢性创面人体,无摘要，未读原文，是否为人体应用未能确认
+D04,黎鳌在 1980–90 年代提出“烧伤后内源性感染/肠源性感染”学说，是中国原创理论,PubMed 只找到黎鳌（Li AO）作为 1991 年马莉、肖光夏综述的合著者（无摘要），没有找到他本人首倡该学说的原始文献；中文数据库未检索
+D04,Colebrook 1942 年在格拉斯哥皇家医院建立 MRC 烧伤单位，1944 年移至伯明翰；MRC Special Report Series No.249（1944）,OpenAlex 查询失败或无命中；只核实到 Colebrook、Gibson、Todd 1944 年一篇急救文章（Br J Ind Med 1:99）和 Lancet 1944 短文的题录
+D04,Lindberg 1965 与 Pruitt 1968 JAMA 中磺胺米隆引入前后的具体死亡率数值,原文无摘要、付费墙；只有 Brown 2004 的分层结论
+D04,Moyer 1965 系列中 0.5% 硝酸银治疗大面积烧伤的病例数和死亡率,只读到开篇段
+D04,Pruitt & Foley 1973 Surgery 提出的烧伤活检组织学分期方案具体分级,PMID 4703490 无摘要，原文未读
+D04,Monafo 磺胺嘧啶银加硝酸铈（Flammacerium）的临床效果与后续争议,只见 Fox/Monafo 1977 SGO 题录与 Klasen 2000 摘要中的一句
+D04,Jones RJ、Lowbury 等的铜绿假单胞菌疫苗在烧伤患者中的保护效果,只见 1966–1977 年的题录（J Hyg、J Med Microbiol、Br J Plast Surg），结局未读
+D04,López-Rodríguez 2016 Shock 的 SDD 器官功能 RCT 是否与 de la Cal 2005 为同一批患者,只见题录，未读摘要
+D04,Keen 2010 Burns 两篇美军烧伤中心感染和多重耐药菌发生率的具体数字,只核实题录
+D05,调度者线索'Walker 2015 Lancet 吸入损伤综述',本轮检索结果：Walker PF 2015发表在Crit Care 19:351；Lancet 2016;388:1437的吸入损伤综述作者为Enkhbaatar等。线索期刊有误，已按实际记录使用
+D05,调度者线索'Glas 2016 Burns 肝素Meta',未找到。找到的是Glas 2016 Ann Intensive Care 6:33（机械通气患者雾化肝素个体患者数据Meta，不限于烧伤）和Glas 2020 J Clin Med（HEPBURN RCT）；烧伤吸入损伤专门的肝素Meta为Lan 2020 Burns Trauma
+D05,调度者线索'Chung 2010 吸入损伤高频冲击通气RCT',该RCT的对象是需通气超过24小时的烧伤患者，其中临床诊断吸入损伤者只有35–39%，并非吸入损伤专门试验
+D05,调度者线索'Zikria 1972 Ann Surg 烟雾吸入死亡原因',实际查到的是Zikria 1972 J Trauma 12:641（Smoke and carbon monoxide poisoning in fire victims，无摘要）和Zikria 1972 Surgery 71:704；Ann Surg上的是1975年'What is clinical smoke poisoning?'（L2）。'12小时内死亡者70%有吸入损伤'只见于Shirani 1987引言对其的转述
+D05,Hunt 1975支气管镜诊断准确率86%、无假阳性,只见于Enkhbaatar 2016的转述，原文不在PMC
+D05,NBR 2015年报：吸入损伤使<60岁、TBSA 0.1–19.9%患者死亡率升高近24倍,只见于Enkhbaatar 2016摘要的转述，未查阅NBR原报告
+D05,1929年Cleveland Clinic火灾调查报告（Chemical Warfare Service）,只见于Moritz 1945参考文献1，原件未找到
+D05,"Finland, Davidson, Levenson 1946 Medicine 25:215-283对Cocoanut Grove呼吸道损伤的临床与治疗分析",题录已核实，内容未读
+D05,Kreyer 2016 Shock：绵羊早期体外CO2清除无效,只经Enkhbaatar 2016参考文献表与正文转述获知
+D05,中国吸入性损伤传统分度法（轻/中/重度按解剖层次）,本轮未找到原始出处
+D05,2018中国专家共识的具体推荐内容,只读到中英文摘要
+D06,Moore FD 1959 专著 'Metabolic Care of the Surgical Patient' 及其1950年代外科代谢研究对烧伤营养的影响,专著不在PubMed，OpenAlex 检索受限流未返回；只找到 Moore 1958 NEJM 水电解质系列（非本方向）
+D06,Claude Bernard 1878 'Leçons sur les phénomènes de la vie' 中描述'diabète traumatique',仅见 Jeschke 2016 转述（L0），未核实原著
+D06,Shaffer 与 Coleman 在20世纪初提出烧伤（或发热病人）高热量喂养,仅见 Jeschke 2016 第3节一句转述，无参考文献条目核实
+D06,Blocker TG 1953 Surgical Forum 用放射性碘标记白蛋白研究烧伤蛋白代谢,仅见 Jeschke 2016 参考文献11，未在PubMed核实
+D06,Wilmore 1971 SGO '超常饮食' 建议高达约8000 kcal/d；Curreri 公式 25 kcal/kg+40 kcal/%TBSA,题录已核实（PMID 4995336；Curreri 1974 PMID 4213656），但具体数值只来自 Jeschke 2016 转述，未读原文
+D06,更早的中国烧伤营养支持指南（例如2010年代中华医学会烧伤外科学分会版本）,PubMed 与网页检索均未检出
+D06,盛志勇、柴家科团队关于烧伤后骨骼肌消耗（calpain、26S蛋白酶体）的原始研究,只见综述标题（Chai 2009、Ma & Chai 2013），未查原始研究
+D06,RE-ENERGIZE 是否有中国大陆中心参与,作者/合作者名单中未见明确中国大陆单位，未读全文附录
+D07,Bone RC 1996 提出 CARS（代偿性抗炎反应综合征）概念,只在 Tompkins 2015 参考文献中看到 Bone 的另一篇 JAMA 随笔（1996;276:1931），CARS 原始论文本轮未检索核实
+D07,Weidenfeld 1902 年最早把烧伤面积与死亡联系起来,凭记忆的线索；OpenAlex 检索接口暂停，Europe PMC 未收录
+D07,Bull JP 1971 Lancet“Revised analysis of mortality due to burns”显示硝酸银时代生存改善,题录已核实（PMID 4107409，Lancet 1971;2:1133，L1），但没有摘要；改善归因于 0.5% 硝酸银是据 Rashid 2001 转述
+D07,PNAS 2015 另两封针对 Takao 的来信（页码 E346、E347）,只在 Warren 2015 页面看到标题，未检索作者与内容
+D07,乌司他丁+胸腺肽治疗脓毒症的多中心双盲试验降低 28 天死亡率,只见 Sheng 2013 转述，原始试验题录未核实
+D07,304 医院（盛志勇）烧伤研究所的机构沿革与“烧伤脓毒症/MODS”研究时间线,只有 Sheng 2013 与 Sheng 2002 的间接信息
+D07,中国“特大面积烧伤（>80% TBSA）救治成功率”的全国汇总数字,本轮没有找到可核实的原始出处
+D07,Gomez 2009 J Am Coll Surg 尸检死因研究（军人与平民）,题录已核实（PMID 19317995），摘要未读
+D07,美国陆军外科研究所（USAISR）的长期 LA50 时间趋势报告,本轮检索没有命中
+D08,"Chariker ME, Jeter KF 等1989年在 Contemporary Surgery 报告纱布加引流管的封闭负压技术",PubMed 未收录；OpenAlex 检索'Chariker negative pressure wound'（1985–1992）为0条
+D08,苏联外科医生 Bagaoutdinov 1985年开始用负压加泡沫治疗感染创面,只见 Miller 2012 转引 Fortune 报道（L0），无原始文献
+D08,Fleischmann 于1992年在乌尔姆大学首创 VSD,只见中文网页和综述的说法；PubMed 最早论文为1993年，其中写明病例治疗于1992年
+D08,裘华德1994年将 VSD 引进中国并首次用于普外科（急性坏死性胰腺炎等）,只见刘政军2008综述和网页的二手叙述；原始报告未找到
+D08,徐荣祥 MEBO 1988年获卫生部新药证书；1992年国务院'（1992）82号文件'；1994年中国科协会议纪要,只见美宝集团官网和百科（利益相关方，L0）
+D08,Odland 1958 关于水疱顶保留使愈合加快的研究（常被列为湿性愈合的前奏）,PubMed 检索'Odland G[au] AND blister'为0条
+D08,Cohen 因发现 EGF 获1986年诺贝尔奖，以及'EGF'名称的由来,本轮只核实了 Cohen 1962 JBC 的题录
+D08,FDA 2008年给 Regranex 加黑框警告、2018年撤除的原始 FDA 文件,只读到药学媒体和厂商新闻稿的搜索摘要；FDA 标签 PDF 链接未打开
+D08,国家卫健委把'创面修复科'正式列入《医疗机构诊疗科目名录》的具体文号和科目代码,本轮所读的865号文正文中没有这一表述；百家号标题称'医疗机构设立创面修复科'，未核实
+D08,国内首个 rhEGF/rbFGF 外用药的获批年份（如'金因肽''贝复济'）,本轮未检索药监数据库或中文史料
+D09,Alibert 在 19 世纪初首次描述并命名 keloid（常见说法为 1806/1817 年）,Addison 1854 p27 只写了“originally described by Alibert”，原始文献本轮未找到
+D09,1906 年前后法国 De Beurmann & Gougerot 等报告镭治疗瘢痕疙瘩,凭印象的线索，本轮 OpenAlex/PubMed 未查到
+D09,Linares 1993 与 Ward 1991（J Burn Care Rehabil 12:257）的压力治疗史内容：包括 1970 年代之前的压力使用,只从 Cochrane 2024 参考文献表看到题录，全文未读
+D09,Alster 在 1993–1994 年已有 PDL 治疗红斑/增生性瘢痕的更早报告,本轮未检索
+D09,Baur 1975（Surg Gynecol Obstet 141:22）首次在增生性瘢痕中观察到肌成纤维细胞,只见于 Ehrlich 1994 参考文献表
+D09,Engrav 2010 的样本量为 67 名患者,摘要未给出，只有 Finnerty 2016 转述
+D09,Renovo 2011 年 2 月关于 Juvista III 期的公告原文,公司新闻稿未检索，只有两篇综述转述
+D09,《中国瘢痕疙瘩临床治疗推荐指南》（中国整形美容协会，2018，中国美容整形外科杂志 29(5)）：治疗原则为“非手术为主、药物注射为主、5-FU 联合激素”,只来自网页检索摘要（丁香园/MedSci 条目），原文未读
+D09,Galveston（Shriners）是 Larson/Linares 组的所在单位,调度线索，作者单位未核实
+D09,Cubison 2006 儿童烫伤 >500 例，21–25 天为增生性瘢痕临界,只有 Finnerty 2016 转述
+D10,Richardson P & Mustard C 2009 返岗研究（调度线索）,PubMed 检索 Mustard C*[au] AND burn*[ti]、Richardson P*[au] AND burn*[ti] AND work*[tiab] 均为 0；Europe PMC 同类检索因 503 失败；OpenAlex 关键词检索无匹配。可能作者名、年份或期刊有误，也可能不在 MEDLINE。
+D10,Mason 2017 JAMA Surg 安大略心理健康研究（调度线索）,本轮找到的是 Mason SA 等 2017 J Am Coll Surg 225:516（PMID 28774550）；按 Mason SA 作者名检索未见 JAMA Surg 的同题论文。按查到的 JACS 记录使用，线索中的期刊名可能有误。
+D10,Burn Model System 资助机构 NIDILRR（调度线索）,Klein 2007 写的是 NIDRR 于 1994 年建立；Amtmann 2022 题名中出现 NIDILRR。机构何时更名，本轮没有找到一手来源。
+D10,Cobb & Lindemann 1943 原文的具体样本量与诊断,PMC1617640 页面返回 reCAPTCHA 验证，按规则未绕过；内容只有 Andreasen 1971 的二手转述。
+D10,Adler A 1943 JAMA《Neuropsychiatric complications in victims of Boston's Cocoanut Grove disaster》的内容,只在 OpenAlex 核实了题录（JAMA 123:1098），没有 PMID，未读。
+D10,Hamburg DA 等 1953 NEJM 住院期情绪问题研究的内容,只核实了题录（NEJM 248:355-359，PMID 13025697），未读。
+D10,中国烧伤后功能障碍流行病学数据、中国早期康复介入研究（调度线索）,PubMed 用 China[ad] 加 rehabilitation 检索只见述评、指南和个别 RCT，没有全国流行病学数据；中文库未检索。
+D10,Pakistan 烧伤幸存者心理社会与躯体康复多中心整群 RCT 的正式发表,只见 Eur Psychiatry 2023 会议摘要（PMC10479179，Falder S 为作者之一），未找到正式全文。
+D10,Vigneron 2026 Burns 运动对 HRQoL 的 Meta 分析结果,只核实了题录（PMID 41447903）及一篇评论（PMID 42161696），结果未读。
+D11,Gillies 1917/1920 管状皮瓣；Filatov 1916/1917 管状皮瓣,只见于 Fang & Chung 2014 的转述，PubMed 未收录原始文献，本轮未找到档案定位
+D11,Tagliacozzi 1597 上臂皮瓣鼻再造原著,只据 Fang & Chung 转述，原著未检索
+D11,Allen & Treece 1994 DIEP 皮瓣,本轮没有检索
+D11,Hallock 2006 把穿支概念用于螺旋桨皮瓣；Teo 对螺旋桨皮瓣的贡献,只据 Hyakusoku & Ono 2020 摘要转述，原文未检索
+D11,McCraw 1977 肌皮血管区（Fang 参考文献 PMID 142995）；McLean & Buncke 1972 大网膜游离移植（PMID 4551236）,只见于 E1 参考文献列表，没有独立查询题录
+D11,杨东岳、顾玉东1977/1979年第二足趾移植再造拇指（40例/78例）；1976年 Chin Med J 游离肌肉移植,只见于 E1 参考文献列表，本轮没有在 PubMed 独立核实
+D11,Boo-Chai 1997 PRS 关于杨果凡与前臂皮瓣的札记,E1 引用；本轮 PubMed 作者检索为0命中
+D11,Klinger 等关于脂肪注射治疗严重烧伤瘢痕的原始论文（约2008年前后）,只检索到2020年的 Update 文章（PMID 32766903），原始论文题录没有找到
+D11,Koshima 超级显微外科、穿支-穿支吻合在烧伤中的应用,未检索
+D12,Cancio 2005 战伤烧伤论文（调度者线索）,PubMed 检索 Cancio LC 加 combat/war/military 命中 28 条，前 10 条里没有 2005 年由 Cancio 署名第一作者的战伤流行病学论文；已改用 Wolf 2006、Kauvar 2006
+D12,Oklahoma City 免费发放烟雾报警器项目（据 DiGuiseppi 2002 讨论，严重伤害下降 80%；可能是 Mallonee 等 1996 年 NEJM）,只见 DiGuiseppi 2002 的转述，原文未检索
+D12,"八仙乐园伤情的另一组数字（网页检索摘要写的是"">40% TBSA 281 人、>80% 41 人""）以及最终死亡 15 人的说法",只见网页检索摘要；AJPH 2016 原文为 277 人和 29 人、3 个月 12 人死亡
+D12,中国大陆每 10 万人口 0.05 个烧伤单元、0.5 名烧伤医生、1.9 张床（网页检索摘要称出自中国烧伤单元调查）,Zhanzeng 2015 摘要中没有读到这组数字
+D12,清洁炉灶 RCT（如 RESPIRE、HAPIN）是否报告了烧伤结局,本轮未检索
+D12,Flammable Fabrics Act 1953 与 1967 修正、1971/1974 年儿童睡衣标准,没有查到原始法规或专门评估文献
+D12,邱财康病例的原始医学报告（1958–1960 年代上海第二医学院或《中华外科杂志》）,只见 2018 年纪念报道和维基百科，原始报告未检索
+X01,史济湘 1988 年获美国烧伤学会伊文思奖；黎鳌 1994 年获伊文斯奖,只见中文二手网页（学会官网转载的瑞金纪念稿、成都科协稿），没有 ABA 原始记录
+X01,1982 年 5 月上海召开全国首届整形外科学术会议，成立中华医学会外科学会整形外科学组，张涤生、史济湘任副组长,来自 WebSearch 结果摘要，原网页未定位，未读原文
+X01,中国医学科学院整形外科医院 1957 年由宋儒耀创建；张涤生 1961 年在广慈医院建整形外科，1966 年在九院更名'整复外科',只见医院宣传页、百科和新闻的搜索摘要，官方院史页面无法直连
+X01,'三级与二级医院创面修复科基本配置标准的专家共识（2021 年版）'（中华损伤与修复杂志电子版，DOI 10.3877/cma.j.issn.1673-9450.2022.03.003）,期刊网站无法抓取，只见搜索结果题名
+X01,Chin Med J 1959 年连载《Management of severe burns》即邱财康病例报告,无署名、无摘要、无全文；时间与主题吻合，但未能核对内容
+X01,Tung FC 即董方中，Shih CH/Shih Tsi-siang 即史济湘，Yang Chih-chun 即杨之骏，Chang TS 即张涤生,只凭威妥玛拼写和同期中文资料推测，原文作者单位未读到
+X01,Burns & Trauma 创刊主编与创刊社论,PubMed 检索 2013 年 Burns Trauma 社论命中 0；Sheng 2013 文中有'Editor-in-Chief's remark: Professor Jun Wu'，但只能说明 2013 年第 1 卷第 2 期的按语作者
+X01,Sino-American Burn Conference 共召开四届（由 Pruitt、Herndon 等促成）的年份与会议记录,只见 Sheng 2013 叙述，引自杨宗城 2008 年专著，未找到会议文集
