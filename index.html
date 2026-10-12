@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>科室研究脉络</title>
+<meta name="description" content="给临床医生和研究者看的学科研究地图：烧伤整形科研究脉络树、解说视频和报告全文。">
+<style>
+/* 在线首页：只做入口。颜色和字体沿用研究脉络树的那一套（暖纸色、宋体标题）。 */
+:root {
+  --paper: oklch(.977 .009 78); --paper-2: oklch(.993 .005 82);
+  --ink: oklch(.23 .016 55); --ink-2: oklch(.42 .015 55);
+  --rule: oklch(.86 .012 70); --accent: oklch(.49 .16 42);
+  --serif: "Songti SC", "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
+  --sans: "PingFang SC", "SF Pro Text", -apple-system, "Helvetica Neue", "Microsoft YaHei", sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.8 var(--sans); -webkit-font-smoothing: antialiased; }
+main { max-width: 980px; margin: 0 auto; padding: 44px 24px 72px; }
+.eyebrow { font: 12px/1.4 var(--sans); letter-spacing: .16em; color: var(--accent); margin: 0; }
+h1 { font: 500 36px/1.25 var(--serif); letter-spacing: -.01em; margin: 6px 0 10px; }
+h2 { font: 500 23px/1.4 var(--serif); margin: 48px 0 8px; }
+p { margin: 0 0 12px; max-width: 40em; }
+.lede { font: 18px/1.8 var(--serif); color: var(--ink-2); }
+a { color: var(--accent); text-underline-offset: 3px; }
+.shot { display: block; margin: 18px 0 14px; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; background: var(--paper-2); }
+.shot img { display: block; width: 100%; height: auto; }
+video { display: block; width: 100%; height: auto; margin: 16px 0 6px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper-2); }
+.btn { display: inline-block; margin: 4px 12px 4px 0; padding: 10px 22px; border: 1px solid var(--accent); border-radius: 4px; text-decoration: none; font-size: 15px; }
+.btn.fill { background: var(--accent); color: var(--paper-2); }
+.btn:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.note { font-size: 14px; line-height: 1.8; color: var(--ink-2); border-top: 1px solid var(--rule); margin-top: 52px; padding-top: 16px; max-width: none; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">研究脉络</p>
+  <h1>科室研究脉络</h1>
+  <p class="lede">给临床医生和研究者看的学科研究地图。每个研究方向从哪里起步，为什么转向，近五年在研究什么。</p>
+
+  <h2>烧伤整形科研究脉络树</h2>
+  <p>13 根枝是报告的 13 章，离根越远年代越晚。点一根枝，看节点和它们之间的关系；可以按年代播放。</p>
+  <a class="shot" href="烧伤整形科/研究脉络树.html"><img src="烧伤整形科/figures/树_全貌.png" alt="烧伤整形科研究脉络树的全貌：13 根枝从根散开" width="1440" height="900"></a>
+  <p><a class="btn fill" href="烧伤整形科/研究脉络树.html">打开研究脉络树</a></p>
+
+  <h2>解说视频：休克与液体复苏</h2>
+  <p>75 秒，讲这一根枝怎样随年代长出来。有解说，请开声音。配音是 AI 合成的。</p>
+  <video controls preload="metadata" poster="烧伤整形科/figures/树_点开休克与液体复苏.png" src="烧伤整形科/解说视频_休克与液体复苏.mp4"></video>
+
+  <h2>报告全文</h2>
+  <p>烧伤整形科和精神科两份报告的正文、证据表和来源对照表，都在 GitHub 仓库里。</p>
+  <p><a class="btn" href="https://github.com/TerryFYL/research-lineage">去 GitHub 仓库看报告</a></p>
+
+  <p class="note">报告由 AI 代理流程产出，核查也由 AI 代理完成，仓库里没有临床专家审定的记录。它们不是系统综述，不构成诊疗建议。树上画的是报告的一部分，说明见仓库里烧伤整形科的 README。内容以 CC BY 4.0 许可公开，视频的背景音乐除外。</p>
+</main>
+</body>
+</html>
