@@ -1,0 +1,909 @@
+﻿direction,source,query,hits,date,note
+D01,Europe PMC REST API,"""stable angina"" AND ""traditional Chinese medicine"" AND (review OR ""systematic review"")，按被引排序",571,2026-10-17,初筛，噪声大；确定丹参/草本治疗CVD等高被引综述线索
+D01,Europe PMC REST API,"""angina pectoris"" AND ""Chinese herbal medicine"" AND ""systematic review""（按发表日倒序）",136,2026-10-17,获得2026血府逐瘀口服液RCT、2025水蛭类Meta、2024伞状评价等
+D01,Europe PMC REST API,MUSKARDIA,14,2026-10-17,"锁定主试验PMID 33273369（CMJ 2021, PMC7817287）及其亚组系列"
+D01,Europe PMC REST API,"""Compound Danshen Dripping Pill"" OR ""Dantonic"" OR ""T89"" AND angina",56,2026-10-17,锁定2023年FDDP vs 硝酸酯Meta（PMID 37283584，天士力作者）与国际多中心试验述评（PMID 37274102）
+D01,Europe PMC REST API,"""Guanxin"" AND ""coronary"" AND angina",88,2026-10-17,获得冠心丹参滴丸Meta 2025、冠心舒通胶囊2022/2025、精制冠心口服液2024等衍生药证据
+D01,Europe PMC REST API,"(JOURNAL:""Chinese Medical Journal"") AND angina AND PUB_YEAR:[1960 TO 1990]",16,2026-10-17,锁定1977年112例英文报告（PMID 410601）与1978年丹参川芎报告（PMID 417902）
+D01,Europe PMC REST API,"JOURNAL:""Zhonghua Nei Ke Za Zhi"" AND (angina OR coronary) AND PUB_YEAR:[1975 TO 1985]",41,2026-10-17,找到1980年中医治疗冠心病座谈纪要（PMID 7472033）；1977年陈可冀文未被收录
+D01,PubMed E-utilities (esearch/esummary),"coronary heart disease AND angina AND (""traditional Chinese medicine"" OR ""Chinese herbal"" OR ""herbal medicine""), 1970-1985",0,2026-10-17,老中文期刊未被如此索引；改走CMJ英文版路线
+D01,PubMed E-utilities (esearch),"CD004468 / CD004473 / ""Tongxinluo""[ti] AND ""acute myocardial infarction""[ti]",1/1/20,2026-10-17,核实两篇Cochrane（PMID 20464731、18254051）与CTS-AMI（PMID 37874574，JAMA 2023）
+D01,Europe PMC REST API,"TITLE:angina AND TITLE:(Chinese patent medicines OR Chinese medicine OR traditional Chinese medicine), 2021-2026, review/meta",10,2026-10-17,锁定2022年179 RCT网络Meta（PMID 36059992）、2023年中药注射剂NMA（归D10）等
+D01,Europe PMC REST API,SRC:COCHRANE AND angina（及 herbal 变体）,0,2026-10-17,Europe PMC不含Cochrane源；改用PubMed按注册号检索
+D01,Europe PMC REST API,"TITLE:(""Xuefu Zhuyu"" OR ""Xue Fu Zhu Yu"")",33,2026-10-17,获得2026 RCT（PMID 42136835）、2021 Meta（PMID 34630621）、2024述评（PMID 38617912）及2023撤稿文（PMID 37565163）
+D01,Europe PMC REST API,"TITLE:(""Kuan Xiong"" OR 宽胸) OR TITLE:""aerosol"" AND TITLE:angina",9,2026-10-17,锁定宽胸气雾剂2014中文RCT（PMID 24812891）与2018英文非劣效RCT（PMID 29435729），数字相同判定为同一试验
+D01,Europe PMC REST API,"TITLE:""Tongxinluo"" AND (angina OR chronic coronary OR stable coronary)",12,2026-10-17,获得1997年首篇临床研究（PMID 10322862）、Cochrane CD004474（2006）、2023/2024年Meta与总览
+D01,Europe PMC REST API,"""Qi-shen-yi-qi dripping pills"" 与 ""Qing-Xin-Jie-Yu""（及PubMed QUEST检索）",2/50（后者含QUEST主文PMID 31780034）,2026-10-17,锁定MISPS-TCM（PMID 23935677，全文已读）与QUEST（PMID 31780034）
+D01,Europe PMC citations API,MED/33273369/citations（MUSKARDIA被引）,42,2026-10-17,向前追踪：亚组5篇、Meta 1篇、ANOCA、成本-效果、菌群机制等
+D01,ClinicalTrials.gov API v2,query.intr=T89；NCT01659580与NCT03789552详情,20,2026-10-17,确认II期NCT00797953（n=124）、III期NCT01659580（n=1004，无Results）、II期III期NCT03789552（n=765，recruiting至2027-03）
+D01,OpenAlex API,/works/pmid:410601 与 /works/pmid:417902,2,2026-10-17,1977年文无作者著录；1978年文作者Liu Chunsheng等，被引39
+D01,WebSearch（中文）,冠心Ⅱ号方 1971 1972 北京地区防治冠心病协作组 郭士魁 陈可冀；精制冠心片 1982 中华心血管病杂志；郭士魁 1915-1981 宽胸丸；麝香保心丸 戴瑞鸿 华山医院；复方丹参滴丸 1993 闫希军；速效救心丸 章臣桂 1982；邓铁涛 心脾相关 / 颜德馨 衡法 / 路志正 胸痹；天士力 T89 FDA III期 2016；中成药治疗冠心病临床应用指南 2020,约11次检索,2026-10-17,用于传承线、起源叙事与监管节点；标注L0（媒体/官网/共识转述），两说并存处照录
+D01,sciengine.com（PDF直接下载）,病证结合与冠心病防治策略（中国科学:生命科学2022;52:797-811）全文PDF,1,2026-10-17,E1全文精读（L3），参考文献[1]-[136]逐条核对关键节点题录；PDF存于scratch/D01/bingzheng_jiehe_guanxinbing_2022.pdf
+D01,Europe PMC fullTextXML,PMC7817287（MUSKARDIA）、PMC10232835（国际多中心试验述评）、PMC3725842（MISPS-TCM）,3,2026-10-17,L3精读；文件存于scratch/D01/（muskardia_fulltext.xml、intl_trials_2023.xml、misps_fulltext.xml）
+D02,Europe PMC,CTS-AMI Tongxinluo,23,2026-10-17,找到2026系统综述、TXL-CAP试验等；CTS-AMI主试验需另查
+D02,Europe PMC,"Tongxinluo AND ""acute myocardial infarction"" AND SRC:MED AND PUB_YEAR:2023 AND TITLE:""myocardial infarction""",2,2026-10-17,"CTS-AMI主试验 PMID 37874574, PMC10599127"
+D02,Europe PMC,"""acute coronary syndrome"" AND ""integrated traditional Chinese and Western medicine"" AND (TITLE:consensus OR TITLE:guideline)",2,2026-10-17,未命中目标共识；换词检索
+D02,Europe PMC,"TITLE:""acute myocardial infarction"" AND TITLE:""Chinese medicine"" AND (consensus OR guideline OR expert)",0,2026-10-17,换词
+D02,Europe PMC,"(TITLE:""no-reflow"" OR TITLE:""no reflow"") AND (""Chinese medicine"" OR herbal)",9,2026-10-17,得无复流Meta 31093877、通心络ENLEAT 21034597(2010)、通心络基础研究20693395
+D02,Europe PMC,同上两篇core读取,2,2026-10-17,ENLEAT 21034597+无复流Meta 31093877 摘要已读
+D02,Europe PMC,"TITLE:""myocardial infarction"" AND ABSTRACT:""integrative medicine"" AND (consensus)",0,2026-10-17,
+D02,Europe PMC,"TITLE:""Shexiang Baoxin"" AND ABSTRACT:(PCI OR ""percutaneous coronary"")",7,2026-10-17,PCI后Meta 34931125、STEMI再灌注损伤34603032
+D02,WebSearch,急性心肌梗死 中西医结合 诊疗专家共识 2014,数条,2026-10-17,共识=中国中西医结合杂志2014;34(4):389-395；2021升级为团体标准T/CAIM 001-2021(caim.org.cn id=8342)
+D02,Europe PMC,"TITLE:""Qisheenyiqi"" OR TITLE:""Qishen Yiqi""",71,2026-10-17,近年多心衰方向；QIAO心肌梗死二级预防试验需另查
+D02,PubMed,Qishen yiqi myocardial infarction secondary prevention QIAO,0,2026-10-17,
+D02,OpenAlex,Qishen Yiqi dripping pills myocardial infarction secondary prevention,76,2026-10-17,QIAO试验=2013 doi:10.1155/2013/738391
+D02,PubMed,efetch 23935677,1,2026-10-17,"QIAO试验摘要已读：3505例,vs阿司匹林,12/18月无显著差异"
+D02,PubMed,"""acute myocardial infarction"" AND (Shengmai OR ""shen mai"" OR Ren-Shen)",9,2026-10-17,得1985参麦散注射液血流动力学研究3833502、2008生脉注射液死亡率系统评价19317159
+D02,PubMed,"""acute myocardial infarction"" AND (""traditional Chinese medicine"" OR ""Chinese medicine"" OR herbal) AND 1972:1985[dp]",4,2026-10-17,得陈可冀1983 Planta Med AMI-mixture 6611747、1983中西医结合杂志6227403、1984远期疗效6236893
+D02,PubMed,"""acute myocardial infarction"" AND 1970:1980[dp] AND chin med j",0,2026-10-17,
+D02,PubMed,Chen KJ[author] AND (myocardial infarction OR coronary heart),70(最早2007),2026-10-17,陈可冀1970s文献不在PubMed；转OpenAlex/WebSearch
+D02,OpenAlex,Beijing area acute myocardial infarction cooperation group,1194(泛),2026-10-17,得2011 J Tradit Chin Med综述 doi:10.1016/s0254-6272(12)60002-8
+D02,WebSearch,北京地区 冠心病协作组 急性心肌梗塞 中西医结合 病死率,二手史料3条,2026-10-17,8.2% vs 单纯西药29.1%(151例)——L0二手(医学通史/医学教育网)；原始中华内科杂志报告未在线可得
+D02,OpenAlex,title.search:急性心肌梗塞 中西医结合,1,2026-10-17,1975科学通报99例临床总结 doi:10.1360/csb1975-20-11-501——目前最早找到的中西医结合心梗原始文献题录
+D02,PubMed,efetch 6611747,1,2026-10-17,"陈可冀Guo SK,Chen KJ 1983 Planta Med 48:63-4 AMI-mixture；无摘要L1"
+D02,PubMed,Tongxinluo 1995-2002 sort pub_date,4,2026-10-17,通心络最早PubMed题录1997中国中西医结合杂志17卷：药效学10322866/临床心绞痛10322862(吴以岭)
+D02,PubMed efetch db=pmc,id=10599127,1,2026-10-17,CTS-AMI作者/利益冲突/基金已读(L3)；Methods正文出版商限制未提供；配发社论10.1001/jama.2023.20838
+D02,ClinicalTrials.gov API v2,NCT03792035,1,2026-10-17,注册主要终点30天MACCE与发表一致；sponsor=国家心血管病中心；注册3796例
+D02,Europe PMC,"(salvianolate OR salvianolic OR Tanshinone) AND ABSTRACT:(PCI OR ""myocardial infarction"")",81,2026-10-17,丹参多酚酸盐心梗Meta 39741628(2024)；原PCI RCT中文为主
+D02,PubMed,efetch 38852911,1,2026-10-17,Curr Probl Cardiol 2024对CTS-AMI正面评述
+D02,Europe PMC citations API,MED/37874574/citations,121,2026-10-17,无正式批评letter；后续含TXL-CAP斑块试验、FYTF919脑出血试验等
+D02,PubMed,"efetch 19317159,34603032,34931125",3,2026-10-17,"生脉Meta:4RCT 376例,死亡率RR0.18,合血管活性药后不显著;麝香保心丸PCI后Meta:19RCT 2022例 MACE RR0.38"
+D02,Europe PMC,"(danshen OR ""Salvia miltiorrhiza"") AND TITLE:(warfarin OR clopidogrel OR ticagrelor OR aspirin)",31,2026-10-17,华法林-丹参相互作用经典11302416(2001)；丹参胶囊-氯吡格雷健康人29496531
+D02,PubMed,efetch 11302416,1,2026-10-17,Chan TY 2001 Ann Pharmacother 35 丹参-华法林相互作用综述已读
+D02,Europe PMC,"TITLE:""myocardial infarction"" AND TITLE:(syndrome distribution OR ""pattern distribution"" OR syndrome evolution) AND (Chinese OR TCM)",1,2026-10-17,心梗证候分布观察性研究26779711
+D02,PubMed,efetch 26779711,1,2026-10-17,Chin J Integr Med 2019证候分布525例已读
+D02,Europe PMC,"TITLE:""Shenfu injection"" AND TITLE:""myocardial infarction""",7,2026-10-17,参附PCI Meta 36607881;再灌注损伤RCT 34926601;心源性休克28028723;Cochrane中药AMI评价=0
+D02,WebSearch,陈可冀 中西医结合治疗急性心肌梗死 冠心2号 宽胸丸,综述性史料,2026-10-17,"传承线:西苑医院陈可冀/郭士魁,活血化瘀(冠心2号1970s,1980年首篇RCT)+芳香温通(宽胸丸/气雾剂);L0-L1(自述/学会页)"
+D02,PubMed,efetch 36607881,1,2026-10-17,参附Meta实为protocol(Medicine 2023;102)
+D02,WebSearch,史载祥 中日友好医院 心梗 中西医结合 升陷祛瘀,6条,2026-10-17,"传承线:史载祥气虚血瘀/气陷血瘀,升陷祛瘀汤,2005冠脉微循环障碍中西医结合(中日友好医院学报,指南引用);L0-L1"
+D02,WebSearch,吴以岭 络病理论 通心络 1996 获批 研制,多条,2026-10-17,"传承线:吴以岭1992创以岭,1996通心络获批,973两项建脉络学说;组方人参水蛭全蝎蜈蚣等;L0-L1转述"
+D02,Europe PMC,EXT_ID:20693395 core,1,2026-10-17,"通心络2010小型猪无复流机制研究已读:L3摘要(无复流48.6%→9.5%);杨跃进/李向东团队,ENLEAT机制基础"
+D02,WebFetch,sciengine/doi 10.1360/csb1975-20-11-501,0(JS页),2026-10-17,"1975科学通报原文不可得,记L1(OpenAlex题录)"
+D02,Europe PMC,"TITLE:""ventricular remodeling"" AND ABSTRACT:(Chinese medicine OR Tongxinluo OR Qishen) AND ABSTRACT:""myocardial infarction""",20,2026-10-17,心室重构方向:40RCT Meta 34531742;通脉养心丸RCT 39489990;复方丹参滴丸37656413;通心络动物24069057;益气活血Meta 32506849
+D02,Europe PMC,TITLE:Tongxinluo AND TITLE:consensus,0,2026-10-17,通心络专家共识无PubMed题录
+D02,PubMed,"efetch 39489990,34531742",2,2026-10-17,"通脉养心丸Phytomedicine 2024:270随机/PP218,12周LVEDVI改善,11中心"
+D02,PubMed,"efetch 38506789,38506845",2,2026-10-17,JAMA 2024;331 CTS-AMI letter(Asham & Entezari-Maleki)+Reply(Chen/Shang/Yang);无摘要
+D02,WebFetch,jamanetwork 10.1001/jama.2024.0620,403,2026-10-17,"letter全文不可得(付费墙),仅题录L1"
+D02,PubMed,"efetch 41573502,41821187",2,2026-10-17,2025网状Meta:14种中药注射剂5535例无复流;2026通心络二级预防Meta:4RCT 7087例 MACE RR0.72
+D02,PubMed,"efetch 41735255,40818069",2,2026-10-17,"TXL-CAP STTT 2026:220例OCT薄帽斑块,12月最小纤维帽厚度无差异(阴性);成本效益J Evid Based Med 2025"
+D02,WebSearch,通心络 专家共识 通络药物 心血管事件链共识 2025,多条,2026-10-17,T/CAIM 001-2021(国家中医药管理局公告页);通络药物系统干预心血管事件链专家共识2025发布(新华网);通心络防治冠心病临床应用中国专家共识(知网)
+D02,WebFetch,caim.org.cn id=17649 / natcm.gov.cn 22595,连接失败,2026-10-17,政府/学会网站TLS失败;T/CAIM 001-2021信息仅L1(搜索结果转述)
+D02,Europe PMC,"TITLE:""CTS-AMI""",3,2026-10-17,rationale/design=32679281
+D02,PubMed,efetch 32679281,1,2026-10-17,"CTS-AMI设计论文Am Heart J 2020;计划3796例/120中心,终点与发表一致"
+D02,Europe PMC,"TITLE:""Shexiang Baoxin"" AND TITLE:""acute myocardial infarction""",10,2026-10-17,麝香保心丸AMI RCT 33546045(2021);GDF15-TRPV4论文37481933→2025 Expression of Concern→2026 Retraction
+D02,Europe PMC,danshen 1975-1995 心梗,0,2026-10-17,丹参注射液早期心梗文献无PubMed题录
+D02,PubMed,"efetch 33546045,28028723",2,2026-10-17,麝香保心丸AMI RCT为protocol;参附心源性休克IABP 60例RCT:支持时间52.87vs87.45h
+D02,Europe PMC,"(""chest pain center"" OR ""chest pain unit"") AND ""traditional Chinese medicine""",56(不相关),2026-10-17,胸痛中心TCM路径无直接文献
+D02,Europe PMC,TCM AND TITLE:(bleeding OR antiplatelet) AND TITLE:(PCI OR myocardial infarction OR coronary),25,2026-10-17,活血注射剂AMI抗栓等效Meta 38616000/39206257;AMI合并上消化道出血中医40350889
+D02,PubMed,"efetch 37656413,38957330",2,2026-10-17,CODE-AAMI protocol 268例48周;电针无复流pilot 60例(岳阳医院)
+D02,Europe PMC,"(AMI OR ACS) AND TITLE:""traditional Chinese medicine"" AND (registry OR real-world)",1,2026-10-17,复方血塞通胶囊PCI后心衰队列36550849
+D02,Europe PMC,AMI AND syndrome/pattern AND TCM 2021-2026,3,2026-10-17,证候新研究少;上消化道出血中医40350889
+D02,WebSearch,Tongxinluo CTS-AMI JAMA criticism placebo blinding,6条,2026-10-17,"国际批评:TCTMD 2022(成分/安慰剂/可重复性质疑)、STAT 2023、Mandrola substack、Zhu 2024 review;JAMA正式letters 3篇(2024;331,DOI见前)"
+D02,Europe PMC,"TITLE:""Shexiang Baoxin"" AND ABSTRACT:(angina AND PCI)",1,2026-10-17,麝香保心丸PCI后心绞痛专门RCT未找到;仅CTO-PCI康复protocol 41210863
+D03,Europe PMC,qiliqiangxin AND heart failure,208,2026-10-17,step1 entry: qiliqiangxin key RCTs
+D03,Europe PMC,TITLE:qiliqiangxin AND TITLE:randomized double-blind,1,2026-10-17,step1: find 2013 JACC RCT
+D03,Europe PMC,TITLE:qiliqiangxin AND SRC:MED (sorted asc),66,2026-10-17,step1-2: all qiliqiangxin MEDLINE records to find earliest 2013 JACC trial
+D03,PubMed esearch,qiliqiangxin[Title] AND 2013[dp],3,2026-10-17,find 2013 JACC RCT
+D03,OpenAlex,search=qiliqiangxin randomized double-blind placebo heart failure,174,2026-10-17,find 2013 JACC trial via OpenAlex
+D03,Europe PMC,EXT_ID:23747768 (resultType=core),1,2026-10-17,2013 JACC qiliqiangxin trial full record
+D03,Europe PMC,EXT_ID:39095596 (core),1,2026-10-17,QUEST Nature Medicine 2024 abstract
+D03,Europe PMC,EXT_ID:32024496 QUEST protocol core,1,2026-10-17,QUEST protocol registered endpoints
+D03,Europe PMC,Chinese herbal medicine AND chronic heart failure AND SRC:MED,236,2026-10-17,step1 entry search: Cochrane/reviews
+D03,Europe PMC,heart failure AND Chinese herbal/TCM AND SRC:COH,0,2026-10-17,find Cochrane reviews on TCM for HF
+D03,Europe PMC,(SRC:COH) AND heart failure AND (Chinese OR traditional medicine),0,2026-10-17,"Cochrane reviews TCM HF, fixed syntax"
+D03,Europe PMC,Cochrane AND TITLE:Chinese herbal AND heart failure,55,2026-10-17,Cochrane Chinese herbal HF title search
+D03,Europe PMC,SRC:COH AND TITLE:Shengmai,0,2026-10-17,Shengmai Cochrane review history
+D03,PubMed esearch,Shengmai[Title] AND heart failure,34,2026-10-17,Shengmai HF Cochrane original
+D03,Europe PMC citations,MED/27128629/citations (withdrawn Shengmai review),2,2026-10-17,who cites the withdrawn Cochrane review
+D03,Europe PMC,EXT_ID:27128629 withdrawn Cochrane abstract,1,2026-10-17,withdrawal reasons for Shengmai Cochrane review
+D03,Europe PMC,TITLE:Shengmai AND TITLE:heart failure,23,2026-10-17,all Shengmai HF papers incl Cochrane 2012
+D03,Europe PMC,EXT_ID:17943836 Shengmai Cochrane 2007 core,1,2026-10-17,original Cochrane Shengmai review conclusions
+D03,Europe PMC,"chronic heart failure AND expert consensus AND TCM/integrative, SRC:MED",190,2026-10-17,TCM HF expert consensus/guideline in MEDLINE
+D03,Europe PMC,heart failure AND TITLE:consensus in TCM journals,10,2026-10-17,TCM HF consensus in Chinese journals
+D03,WebSearch,慢性心力衰竭中医诊疗专家共识 2014 中华中医药学会 心衰病,multiple,2026-10-17,"2014 consensus: 毛静远/朱明军, 中医杂志 2014;55:1258-1260; 2022 guideline exists"
+D03,Europe PMC,EXT_ID:37877337 OR 38716482 reviews core,2,2026-10-17,EJHF 2023 Qiliqiangxin perspective + Frontiers 2024 refractory HF TCM review
+D03,Europe PMC,DOI:10.3389/fcvm.2024.1369642,1,2026-10-17,Frontiers refractory HF TCM review correct PMID
+D03,WebSearch,心衰病 中医病名 规范化 GB/T 16751.1-1997 中医临床诊疗术语,multiple,2026-10-17,心衰正式入国标 GB/T 16751.1-1997; 1994标准未列; 郭维琴等论证文章待核
+D03,Europe PMC,"heart failure AND traditional Chinese medicine AND SRC:MED, 1980-1999, sort cited desc",20,2026-10-17,early MEDLINE-indexed TCM HF literature
+D03,Europe PMC,"shenfu injection AND heart failure, sorted asc",220,2026-10-17,early Shenfu injection HF records
+D03,Europe PMC,EXT_ID:20030859 SECETCM-HF protocol,1,2026-10-17,SECETCM-HF protocol details
+D03,Europe PMC,TITLE:SECETCM,2,2026-10-17,SECETCM-HF result publications
+D03,PubMed esearch,Mao Jingyuan[Author] AND heart failure,56,2026-10-17,毛静远 HF publications overview
+D03,Europe PMC,EXT_ID:32954647 OR EXT_ID:30930952 core,2,2026-10-17,CACT-IHF and Shenfu 2019 RCT abstracts
+D03,Europe PMC,xinmailong AND heart failure AND SRC:MED,79,2026-10-17,Xinmailong injection HF evidence
+D03,Europe PMC,EXT_ID:23569425 OR EXT_ID:37250151,2,2026-10-17,Xinmailong 2013 trial + APSB 2023 review
+D03,WebSearch,心衰 病名 源流 考 圣济总录 中医杂志,multiple,2026-10-17,圣济总录心脏门 心衰则健忘; 中医杂志2013;54(10):891-892 病名探究文章
+D03,WebFetch CNKI portal,zzyz.cbpt.cnki.net 2014 consensus paper page,1,2026-10-17,"2014 consensus verified: 毛静远/朱明军, 中医杂志 55(14):1258-1260, 冠心病中医临床研究联盟"
+D03,Europe PMC,Zhenwu AND heart failure sorted asc,236,2026-10-17,Zhenwu tang HF earliest records
+D03,Europe PMC,TITLE:Zhenwu AND heart failure/cardiac,30,2026-10-17,Zhenwu tang HF meta-analysis
+D03,PMC idconv,"ids=39095596,23747768,32954647",3,2026-10-17,check PMC availability of key trials
+D03,Europe PMC citations,MED/39095596/citations QUEST,73,2026-10-17,forward tracking of QUEST
+D03,Europe PMC fullTextXML,PMC11333273 QUEST full text,1,2026-10-17,"QUEST L3: methods, GDMT baseline (SGLT2i 9.3%), subgroups, limitations"
+D03,Europe PMC,EXT_ID:39288272 EHJ commentary,1,2026-10-17,EHJ 2024 TCM holistic framework commentary
+D03,Europe PMC,Nature medicine + qiliqiangxin/TCM 2024-2026,5,2026-10-17,Nature Medicine companion commentary on QUEST
+D03,WebSearch,芪苈强心胶囊 批准上市 吴以岭 络病 以岭药业,multiple,2026-10-17,CAE article: 芪苈强心 我国第一个有循证证据的心衰中药 (L0转述); 批准年份未确认
+D03,Europe PMC,qiliqiangxin MED 2007-2013 asc,13,2026-10-17,earliest MEDLINE qiliqiangxin records
+D03,Europe PMC,EXT_ID:23747774 JACC editorial,1,2026-10-17,companion editorial to 2013 JACC trial
+D03,WebSearch,SECETCM-HF 结果 毛静远 复杂干预 340例,multiple,2026-10-17,结果论文公开网络未找到; 医师报报道首个注册研究结果(L0)
+D03,Europe PMC,Chinese HF guideline Zhonghua xin xue guan bing za zhi,12,2026-10-17,2018 Chinese HF guideline record
+D03,PMC idconv,ids=40351394,1,2026-10-17,2024 Chinese HF guideline PMC id
+D03,WebSearch,中国心力衰竭诊断和治疗指南2024 芪苈强心 QUEST 推荐,multiple,2026-10-17,2024指南有中医中药治疗节; 慢性心力衰竭芪苈强心临床应用专家共识2024存在; 批准年份两说(2004/~2009)
+D03,Europe PMC,EXT_ID:1833081 (1991 CHF TCM syndrome),1,2026-10-17,1991 CHF syndrome study details
+D03,Europe PMC,qiliqiangxin AND HFpEF AND (protocol OR trial),18,2026-10-17,Qiliqiangxin HFpEF trial evidence
+D03,OpenAlex,works/doi:10.1016/j.jacc.2013.05.035 + cites filter,328 citing works total,2026-10-17,forward tracking 2013 JACC trial
+D03,Europe PMC,EXT_ID 41771073/40925129/41500350,3,2026-10-17,QUEST EF-strata + SBP subanalysis + 2026 meta abstracts
+D03,Europe PMC,EXT_ID 37234711/34916929/39978275/36618925,4,2026-10-17,HFpEF review + injections NMA + Qishen cohort + qishen granules RCT
+D03,WebFetch,bjtcm.net 郭维琴经验文章 + openstd GB/T 16751.1-1997,2,2026-10-17,china_line: 郭维琴心衰合剂; GB standard record
+D03,Europe PMC,EXT_ID 27078985/27236882,2,2026-10-17,2016 integrative consensus + Xinmailong consensus abstracts
+D03,WebSearch,慢性心力衰竭芪苈强心临床应用专家共识 2024,multiple,2026-10-17,"共识: 临床心血管病杂志 2024;40(12):947-954, DOI 10.13201/j.issn.1001-1439.2024.12.001"
+D03,WebFetch,lcxxg.whuhzzs.com DOI 10.13201/j.issn.1001-1439.2024.12.001,1,2026-10-17,2024芪苈强心共识 L2: 推荐级别表+证据级别表+临床应用推荐表3
+D03,Europe PMC,herbal medicine AND heart failure AND national health insurance AND Taiwan,145,2026-10-17,real-world NHIRD evidence for herbal medicine in HF/IHD
+D03,Europe PMC,EXT_ID 42661921/42413004,2,2026-10-17,new-gen HFpEF protocol + Yiqi Fumai cohort protocol
+D03,Europe PMC,QUEST-2 AND qiliqiangxin,0,2026-10-17,check QUEST-2 follow-up trial
+D03,Europe PMC,EXT_ID 34656145/27325938/32655670,3,2026-10-17,QUEST cohort protocol + Heart Asia 2010 + Shengmai injection SR
+D03,Europe PMC,EXT_ID:3157494 (1985 yin-yang LV function),1,2026-10-17,earliest found syndrome-LV function study
+D03,Europe PMC,EXT_ID:27236886 TCM HF outcome scale,1,2026-10-17,PRO-based TCM HF rating scale 2016
+D03,Europe PMC,xinmailong AND randomized,52,2026-10-17,Xinmailong RCT evidence check
+D04,Europe PMC,"""Shensong Yangxin""",145,2026-10-17,总览参松养心文献量
+D04,Europe PMC,"""Wenxin Keli""",123,2026-10-17,稳心颗粒文献总览
+D04,Europe PMC,"Burashnikov AND ""Wenxin""",18,2026-10-17,定位稳心颗粒犬心房电生理研究(Heart Rhythm 2012)
+D04,Europe PMC,"""Shensong Yangxin"" AND ""ventricular premature""",34,2026-10-17,参松养心室早RCT检索
+D04,Europe PMC,"""Shensong Yangxin"" AND (bradycardia OR ""sinus node"")",36,2026-10-17,参松养心缓慢性心律失常检索
+D04,Europe PMC,"""Shensong Yangxin"" AND ""Chinese Medical Journal"" AND multicentre",0,2026-10-17,参松养心CMJ多中心试验（该拼写无命中，后改连写拼出）
+D04,Europe PMC,"TITLE:""Shensong Yangxin"" AND TITLE:""atrial tachyarrhythmia""",1,2026-10-17,SS-AFRF试验(EHJ 2024)定位
+D04,Europe PMC,"""Shensong Yangxin"" AND ""double-blind"" AND (premature OR arrhythmia)",25,2026-10-17,参松养心RCT全检
+D04,Europe PMC,"TITLE:""shensong yangxin""（含年份过滤尝试）",27,2026-10-17,参松养心早期文献列表
+D04,PubMed esearch,Shensong Yangxin[All Fields],42,2026-10-17,PubMed全量ID
+D04,PubMed esummary,42 PMID Shensong Yangxin,42,2026-10-17,参松养心全部题录（按年排序）
+D04,Europe PMC fullText,PMC11367280 full text,1,2026-10-17,"Heliyon参松养心综述全文,提取173条参考文献与临床试验清单"
+D04,PubMed efetch,"PMIDs 21362323,24527049,28685712,30949218,28091409,21162972,17637224 abstracts",7,2026-10-17,21362323为错配PMID（子宫内膜异位症），证实21362312才是室早试验
+D04,PubMed+EuropePMC,"Shensongyangxin OR ""Shen Song Yang Xin""",37/55,2026-10-17,用连写拼写定位CMJ 2011室早试验PMID 21362312与PAF试验21914315
+D04,PubMed efetch,"PMIDs 21362312,21914315,26999010,20058622,19938556,19719944",6,2026-10-17,参松养心室早/阵发房颤试验与机制摘要
+D04,Europe PMC,EXT_ID:21362312 OR 28685712 OR 21914315 OR 39178138 (core),4,2026-10-17,四项参松养心试验完整摘要
+D04,PubMed esearch,Wenxin[Title],79,2026-10-17,题名含Wenxin的全部PMID
+D04,PubMed esummary,79 PMID Wenxin title,79,2026-10-17,稳心颗粒相关文献题录全览(按年排序)
+D04,PubMed efetch,"PMIDs 22741473,22116050,21884675,18027666,16883915,14626194,9206239",7,2026-10-17,稳心早期文献与Heart Rhythm 2012配对论文（社论Kalifa）
+D04,Europe PMC,"""Wenxin Keli"" AND ""premature ventricular"" AND ""double-blind""",8,2026-10-17,"稳心颗粒室早RCT(CMJ 2015, PMID 26415790)定位"
+D04,Europe PMC fullText,PMC4736861 稳心颗粒室早RCT全文,1,2026-10-17,读Results段落数字与ChiCTR-TRC-12002159(L3)
+D04,Europe PMC fullText,PMC3236802 Burashnikov 2012 full text,0(反爬),2026-10-17,PMC页面动态渲染未取到全文，改用摘要L2
+D04,Europe PMC,EXT_ID:21884675 core,1,2026-10-17,Burashnikov 2012摘要(L2)
+D04,Europe PMC,"""Zhi Gan Cao"" AND arrhythmia；""Zhigancao"" OR ""Zhi-Gan-Cao"" OR ""roasted licorice decoction"" OR ""Fumai""",26/781,2026-10-17,炙甘草汤英文文献（第二条过于宽泛混入复脉类注射剂）
+D04,PubMed esearch,"""Zhi Gan Cao""[All] OR Zhigancao[All]",69,2026-10-17,炙甘草汤PubMed全量
+D04,PubMed esummary,69 PMIDs Zhigancao,66,2026-10-17,炙甘草汤题录全览(按年)：1991注射剂实验为最早
+D04,Europe PMC,EXT_ID:28091413 OR 29686614 OR 25637158,3,2026-10-17,稳心共识/缓慢性心律失常综述/炙甘草汤SR摘要
+D04,Europe PMC,aconitine AND arrhythmia AND (clinical OR poisoning OR toxicity),586,2026-10-17,乌头碱致心律失常/中毒全景
+D04,Europe PMC,"""aconite poisoning"" SRC:MED（年份过滤尝试）",211,2026-10-17,乌头碱中毒经典临床报告（过滤未生效，后改作者检索）
+D04,Europe PMC,"aconite AND poisoning AND AUTH:""Tai YT""",3,2026-10-17,Lancet 1992乌头中毒17例(PMID 1359321)与PaCE双向室速
+D04,Europe PMC,Changrolin,50,2026-10-17,常咯林(常山衍生抗心律失常药)1983-2026
+D04,Europe PMC,"EXT_ID batch 34858163,35677364,41560113,34512338,26820362,34745310,39691499",7,2026-10-17,心速宁综述/稳心SR总览/系统药理/中药CVD大综述
+D04,Europe PMC fullText,PMC11491151 SS-AFRF全文,1,2026-10-17,ChiCTR1900026912、伦理号WDRY2019-K051、资助号2017YFC1700504(L3)
+D04,PubMed efetch text,39178138 abstract text,1,2026-10-17,核对作者与机构（黄鹤/欧阳非凡/贾振华；Ouyang F 挂Hamburg）
+D04,Crossref+EuropePMC,10.1093/eurheartj/ehae625,1,2026-10-17,EHJ社论定位：Packer，45:4315-4317
+D04,PubMed efetch,39288272 Packer editorial abstract,1（无摘要）,2026-10-17,改走PMC全文
+D04,Europe PMC fullText,PMC11491152 Packer editorial全文,1,2026-10-17,国际线：Packer观点全文（L3），复核HR 0.6(0.4-0.8)与复发率14% vs 22%
+D04,Europe PMC,EXT_ID:37282921,1,2026-10-17,经方治心律失常七证候综述摘要
+D04,Europe PMC,"""sick sinus syndrome"" AND (Chinese medicine OR herbal OR aconite OR fuzi), 1975-1999",34,2026-10-17,病窦早期中医药文献（去甲乌药碱1984/附子注射液1985/心宝1990/参仙升脉液1991）
+D04,Europe PMC,EXT_ID 6233037/2986870/2268939/1813173/2946480/6240325,6,2026-10-17,病窦早期文献摘要（L1-L2）
+D04,WebSearch,稳心颗粒 研发 历史 周玉萍 广安门医院 首个抗心律失常中药新药,多来源,2026-10-17,周玉萍组方/1990s获批/严干新离子通道论证(人民日报2008)
+D04,WebSearch,参松养心胶囊 吴以岭 络病理论 获批 功能主治,多来源,2026-10-17,以岭/络病理论/通参芪三药；获批年份未见批文
+D04,Europe PMC,"""Wenxin"" AND ""Cochrane""；(Chinese herbal medicine) AND (arrhythmia OR AF) AND TITLE:systematic review",222/58,2026-10-17,国际系统评价（国际线）：未见Cochrane专版，仅2017 Monash协议与各国SR
+D04,Europe PMC citations,MED/21884675 citations,≈60条,2026-10-17,Burashnikov 2012被引追踪（eLife 2022 TMYX、2025月桂酸、2026批评综述等由此发现）
+D04,Europe PMC,EXT_ID 35315774/31471437/42656354/39617710/41815911/42232310,6,2026-10-17,通脉养心eLife/结局报告偏倚/灵宝护心丹/通阳复脉/茯律宁/WARMA摘要
+D04,Europe PMC,"TITLE:""Wenxin Keli suppresses""；TITLE:Brugada AND Wenxin",3,2026-10-17,Antzelevitch系列与严干新晚钠论文作者核实
+D04,Europe PMC,"TITLE:""proprietary Chinese medicine"" AND ""ventricular premature""；中文指南名",0/327,2026-10-17,英文库无该指南题录；中文题名检索命中杂讯
+D04,WebSearch,"中成药治疗室性早搏临床应用指南2020 中国中西医结合杂志 2021,41(6):646-651",题录+推荐要点,2026-10-17,指南题录核实；稳心2400例为公司口径
+D04,ClinicalTrials.gov API v2,NCT01612260,1,2026-10-17,注册主要终点=24h Holter室早数，与发表一致；sponsor Cong-xin Huang
+D04,ChiCTR网站,proj=44825 / ChiCTR1900026912,0（JS应用）,2026-10-17,无法在线核对SS-AFRF注册页
+D04,Europe PMC,EXT_ID:30787875；(matrine OR oxymatrine OR kushen OR Sophora flavescens) AND arrhythmi 1975-1999,1/0,2026-10-17,心速宁861例试验经综述转述；苦参早期检索0命中
+D04,本地全文检查,Heliyon综述检索截止日,-,2026-10-17,无正式检索方法节→标“未说明（叙述性综述）”
+D04,Europe PMC fullText,PMC13418305 Anatol J Cardiol 2026 稳心综述全文,1,2026-10-17,房颤/室早证据批评段、1200例试验中位降幅61% vs 22%（L3）
+D04,Europe PMC fullText,PMC5520549 SSYX心衰室早RCT全文,1,2026-10-17,全部次要终点数字与双注册号(L3)
+D04,Europe PMC,EXT_ID batch 40606602/42219066/35282353/39807341/39842371/40738293/26074982/30632430,8,2026-10-17,近期主题代表文献摘要
+D04,Europe PMC citations,MED/26415790 citations；MED/39178138 citations,≈40+30条,2026-10-17,稳心室早RCT与SS-AFRF被引追踪；发现2026安慰剂横断面批评研究
+D04,Europe PMC,"TITLE:""Placebo design, reporting compliance""",1,2026-10-17,中成药安慰剂RCT方法学横断面(PMID 42128211)
+D04,Europe PMC fullText,PMC5282678 稳心颗粒专家共识2017全文,1,2026-10-17,研发史原文（1987立项/1991八五/1995新药证书）与通讯作者郭继鸿(L3)
+D04,Crossref,Wenxin Keli PVC 2015 bibliographic,3,2026-10-17,核对DOI 10.4103/0366-6999.166026
+D04,Europe PMC+PubMed,EXT_ID:28091409；21362312 full abstract,2,2026-10-17,补齐犬自主神经试验与室早试验两层完整数字
+D04,WebSearch,通脉养心丸 炙甘草汤 化裁 董晓初 651丸 阮士怡 天津,多来源(雪球/专利CN106075038A/媒体),2026-10-17,"传承线:651丸→通脉养心丸(二手,L0)"
+D04,PubMed efetch/esummary 多次,"中间材料文件 s12,s15,s19,s25 等批量题录/摘要获取",多,2026-10-17,对已定位PMID的题录与摘要批量取回（每次请求间隔sleep 1）
+D05,Europe PMC,"""traditional Chinese medicine"" AND ""essential hypertension"" AND ""systematic review"" AND SRC:MED",see s01,2026-10-17,入口检索1：中医药治疗原发性高血压系统综述
+D05,Europe PMC,TITLE:(Chinese herbal medicines OR Chinese herbal medicine OR traditional Chinese medicine OR herbal medicine OR acupuncture) AND TITLE:hypertension,~50 of hitCount,2026-10-17,标题限定检索：中医药/针灸+高血压的综述与Meta
+D05,Europe PMC,SRC:CDR AND hypertension AND (Chinese herbal OR acupuncture OR traditional Chinese),s03_cochrane.json hitCount,2026-10-17,Cochrane 库检索：中医药/针灸与高血压
+D05,Europe PMC,"SRC:MED AND JOURNAL:""Cochrane Database Syst Rev"" AND TITLE:hypertension AND (TITLE:acupuncture OR TITLE:Chinese OR TITLE:herbal)",s04 hitCount,2026-10-17,经PubMed索引的Cochrane高血压中医药评价
+D05,Europe PMC,EXT_ID:30480757 (Cochrane Acupuncture for hypertension),1,2026-10-17,取 Cochrane 针灸降压评价细节
+D05,Europe PMC,"""Chinese herbal medicines for essential hypertension""",s07,2026-10-17,查中药治疗原发性高血压的Cochrane评价是否存在
+D05,Europe PMC,"JOURNAL:""Cochrane Database Syst Rev"" AND TITLE:(herbal OR Chinese OR phytotherapy) AND TITLE:(hypertension OR ""blood pressure"")",s08,2026-10-17,Cochrane库中药/草药降压评价题名检索
+D05,Europe PMC,EXT_ID:9551280 OR EXT_ID:10406751,2,2026-10-17,核实 Vickers 1998 与 Tang/Ernst BMJ 1999 题录
+D05,Europe PMC,"AUTH:Macklin AND TITLE:""Stop Hypertension with the Acupuncture Research Program""",s10,2026-10-17,核实 SHARP 试验题录与摘要
+D05,Europe PMC,AUTH:Flachskampf AND TITLE:acupuncture AND JOURNAL:Circulation,s11,2026-10-17,核实 Flachskampf 针刺降压 RCT 题录与摘要
+D05,Europe PMC,TITLE:(hypertension AND (guideline OR consensus) AND (traditional Chinese medicine OR integrative OR Chinese medicine)),s12,2026-10-17,查高血压中医药指南/共识（英文索引）
+D05,WebSearch,高血压中医诊疗专家共识 2020 中华中医药学会 中医杂志,约5条相关,2026-10-17,"确认《高血压中医诊疗专家共识》载于中国实验方剂学杂志2019,25(15):217-221；国家基层高血压防治管理指南(2020)首次写入中医药"
+D05,WebFetch/PDF,"medi-guide.meditool.cn 高血压中医诊疗专家共识 PDF (中国实验方剂学杂志2019,25(15):217-221)",全文5页,2026-10-17,已全文阅读；专家组组长王阶；三大证型+经典名方+76条参考文献
+D05,Europe PMC,EXT_ID:35105174,1,2026-10-17,核实2022年TCM治疗高血压综述
+D05,Europe PMC,hypertension AND (Chinese medicine OR acupuncture OR herbal) PUB_YEAR:[1960 TO 1985] sorted asc,s14,2026-10-17,早期英文索引文献：1960-1985年中医药/针灸与高血压
+D05,Europe PMC,TITLE:acupuncture AND (TITLE:blood pressure OR TITLE:hypertension) 1970-1995 asc,s15,2026-10-17,早期针刺降压文献（1970-1995）
+D05,Europe PMC,EXT_ID:1202935 OR EXT_ID:322470,2,2026-10-17,核实 Tam/Yiu 1975 与 Sugioka 1977 针刺降压早期试验
+D05,Europe PMC,TITLE:(Chinese medicine OR herbal OR plant OR traditional) AND (TITLE:hypertension OR TITLE:blood pressure) 1980-2000 asc,s17,2026-10-17,早期中药降压英文文献（1980-2000）
+D05,Europe PMC,EXT_ID:3806153 OR EXT_ID:1897264 OR EXT_ID:2633622,3,2026-10-17,核实 Black 1986、Wong 1991、Zhang 1989 三篇早期中外合作研究
+D05,Europe PMC,"JOURNAL:""Zhong Xi Yi Jie He Za Zhi"" AND TITLE:hypertension sorted asc",s19,2026-10-17,《中西医结合杂志》高血压英文题录（1981起）
+D05,Europe PMC,"AUTH:""Chen KJ"" AND TITLE:(hypertension OR ""blood pressure"") asc",s20,2026-10-17,陈可冀（Chen KJ）高血压相关文献
+D05,Europe PMC,"TITLE:""Songling Xuemaikang""",s21,2026-10-17,松龄血脉康相关文献全检
+D05,Europe PMC,EXT_ID:41075522 OR EXT_ID:30987658,2,2026-10-17,松龄血脉康多中心RCT与其2019方案
+D05,WebSearch,天麻钩藤饮 胡光慈 杂病证治新义 1958 高血压 出处,多条一致,2026-10-17,确认天麻钩藤饮始载《中医内科杂病证治新义》(1958)，原书主治高血压头痛眩晕失眠
+D05,Europe PMC,"AUTH:""Xiong XJ"" AND (TITLE:hypertension OR TITLE:""Chinese herbal"")",s23,2026-10-17,熊兴江(Xiong XJ)高血压与中药系统评价系列
+D05,Europe PMC,"TITLE:""Tianma Gouteng""; TITLE:""outcome measures"" AND TITLE:""Chinese herbal medicine for hypertension""",s24/s25,2026-10-17,天麻钩藤饮系统评价与中药降压结局指标总览
+D05,Europe PMC,"TITLE:""Tianma Gouteng Yin"" AND TITLE:""systematic review""; TITLE:""Zhengan Xifeng""; TITLE:""Acupuncture for essential hypertension"" AND JOURNAL:Int J Cardiol",3个查询,2026-10-17,天麻钩藤饮/镇肝熄风汤系统评价与熊兴江针灸SR
+D05,Europe PMC,EXT_ID:23710230 (Tianma Gouteng Yin SR full abstract),1,2026-10-17,取天麻钩藤饮SR完整摘要结果
+D05,Europe PMC fullTextXML,PMC6516840 Cochrane Acupuncture for hypertension 2018,1全文,2026-10-17,读取Cochrane 2018结果段
+D05,Europe PMC,EXT_ID:30480757 full abstract (results section),1,2026-10-17,读取Cochrane 2018摘要Results/Conclusions
+D05,Europe PMC,"TITLE:(electroacupuncture OR acupuncture) AND TITLE:(hypertension OR ""blood pressure"") AND TITLE:(randomized OR randomised OR random) 2010-2026",s31,2026-10-17,2010年后针刺降压RCT普查
+D05,Europe PMC,EXT_ID:26392838 OR 26365445 OR 22906144 OR 30737889,4,2026-10-17,核实4篇针刺降压RCT细节
+D05,Europe PMC,EXT_ID:9551280 full abstract,1,2026-10-17,读取Vickers 1998完整摘要结果
+D05,Europe PMC,EXT_ID:35105174 core (Circ Outcomes 2022 TCM treating hypertension),1,2026-10-17,入口E6；Europe PMC无摘要，题录L1
+D05,Europe PMC,EXT_ID:10406751 core (Tang/Ernst BMJ 1999),1,2026-10-17,方法学批评入口；无摘要收录，L1
+D05,Europe PMC,EXT_ID:24216113 core (2019针刺多中心试验方案),1,2026-10-17,注册号NCT01701726；注册主终点=随机前后6周24h平均SBP变化
+D05,Europe PMC,EXT_ID:37639695 core (SXC真实世界登记 vs RCT PSM),1,2026-10-17,真实世界主题代表；1325例登记+300例RCT
+D05,Europe PMC,EXT_ID:42298753 core (2026电针叙事综述),1,2026-10-17,EA临床未确证的判断，用于近五年主题与负性结果
+D05,Europe PMC,EXT_ID:42756895 core (2026 TCM睡眠-血压SR),1,2026-10-17,PROSPERO CRD420261468564；16研究/12定量合成
+D05,Europe PMC,EXT_ID:38447242 core (镇肝熄风汤颗粒SHR代谢组),1,2026-10-17,机制主题代表
+D05,Europe PMC,EXT_ID:27803727 core (太冲按压RCT),1,2026-10-17,穴位按压即时降压
+D05,Europe PMC,EXT_ID:19583930 core (松龄血脉康ABPM单盲RCT 2009),1,2026-10-17,晨峰与血压负荷改善
+D05,Europe PMC,EXT_ID:30737889 core 作者与机构,1,2026-10-17,OpenAlex/欧洲PMC互证：成都中医药大学（郑晖等）
+D05,Europe PMC,EXT_ID:2148508 core 作者与机构,1,2026-10-17,长寿降压方=西苑医院魏敏、陈可冀
+D05,Europe PMC,MED/17015784/citations (SHARP被引),102,2026-10-17,向前追踪：2015 PLoS One SR、2019网络Meta、2024 NMA等
+D05,Europe PMC,MED/17548730/citations (Flachskampf被引),151,2026-10-17,向前追踪：发现2020 Circulation天麻钩藤颗粒RCT(33019798)
+D05,Europe PMC,MED/9551280/citations (Vickers被引),433,2026-10-17,偏倚方法论被广泛引用
+D05,Europe PMC,EXT_ID:33019798 core (天麻钩藤颗粒隐匿性高血压RCT Circulation 2020),1,2026-10-17,NCT02156024；瑞金医院上海市高血压研究所
+D05,Europe PMC,EXT_ID:26207806 core (2015 PLoS One针刺SR),1,2026-10-17,23 RCT 1788例；单用针刺vs药物阴性
+D05,Europe PMC,EXT_ID:31355233 core (2019 Ann Transl Med网络Meta),1,2026-10-17,31 RCT 2649例15种干预
+D05,Europe PMC,EXT_ID:39736688 core (2024非药物干预NMA),1,2026-10-17,2013-2024检索；太极+生活方式最优，针刺+推拿入选
+D05,Europe PMC,EXT_ID:25636788 core (2015 BMJ Open难治性高血压中药SR),1,2026-10-17,5 RCT 446例，效果不确凿
+D05,Europe PMC,EXT_ID:25654379 core (2015 Medicine中成药SR),1,2026-10-17,73 RCT 8138例17种中成药
+D05,OpenAlex,works/pmid:33019798|30737889|24060112|23710230|35105174|2148508|41075522|26392838|30480757|17015784|17548730|1831735 作者与机构,12,2026-10-17,瑞金/成都中医大/广安门/阜外/西苑/UCIrvine/港大/WakeForest/Erlangen归属核实
+D05,Europe PMC,"TITLE:(""niuhuang jiangya"" OR ""qinggan jiangya"")",4,2026-10-17,牛黄降压SR 2017(28434477)与临床研究2004(15250215)；清肝降压无英文文献
+D05,Europe PMC,"TITLE:""gastrodia-uncaria""",4,2026-10-17,天麻钩藤颗粒后续：网络药理2024、脑缺血2020等
+D05,Europe PMC,EXT_ID:39762483 core (2024中国高血压指南Highlights),1,2026-10-17,Hypertens Res 2025;48:1048-1053；指南线背景
+D05,Europe PMC,EXT_ID:35761147 core (2022意大利针刺OBP+ABPM前瞻),1,2026-10-17,国际线：单臂45例
+D05,Europe PMC,EXT_ID:25654379 core 摘要补全,1,2026-10-17,主终点=死亡/严重并发症/不良事件，次终点血压与QoL
+D05,Europe PMC,EXT_ID:36588157 注册号补全 (清达颗粒方案),1,2026-10-17,ChiCTR2000033890，2020-06-15注册；非劣效vs缬沙坦
+D05,WebSearch,邓铁涛 高血压 从肝论治 肝阳上亢 石决牡蛎汤,约5条相关,2026-10-17,国医大师经验二手文章（新浪财经/世界传统医药网转载），L0
+D05,WebSearch,翁维良 西苑医院 高血压 活血化瘀 学术经验,约3条相关,2026-10-17,西苑医院官网简历：1937年生，师从郭士魁/赵锡武/岳美中，L0-L1
+D05,WebSearch,松龄血脉康胶囊 获批 康弘 上市年份,约5条相关,2026-10-17,两说并存：Trials2019方案称1994年起用；工商信息称Z10960023约1996上市
+D05,WebSearch,中华中医药学会 高血压中医诊疗指南 ZYYXH/T 与 T/CACM 1465-2023,约5条相关,2026-10-17,2019共识全文已读；T/CACM 1465-2023团体标准、2024中西医结合指南存在；2011版原文未获
+D06,Europe PMC,"""China Coronary Secondary Prevention Study""",25,2026-10-17,CCSPS主研究检索
+D06,Europe PMC,Xuezhikang,363,2026-10-17,血脂康英文文献
+D06,Europe PMC,red yeast rice AND hypercholesterolemia AND meta-analysis,437,2026-10-17,红曲meta入口
+D06,Europe PMC,"TITLE:""China coronary secondary prevention""",7,2026-10-17,CCSPS主研究
+D06,Europe PMC,"AUTH:""Becker C"" AND TITLE:""red yeast rice""",0,2026-10-17,Becker RCT
+D06,Europe PMC,"AUTH:""Gerards MC""",12,2026-10-17,Gerards meta
+D06,Europe PMC,red yeast rice AND Monascus AND meta-analysis AND hyperlipidemia,73,2026-10-17,早期红曲meta(Liu 2006等)
+D06,Europe PMC,"TITLE:""Effect of Xuezhikang""",15,2026-10-17,CCSPS主文AmJCardiol2008
+D06,Europe PMC,"TITLE:""red yeast rice"" AND TITLE:""statin-intolerant""",9,2026-10-17,Becker 2009 RCT
+D06,Europe PMC,"AUTH:""Endo A"" AND TITLE:""monacolin K""",7,2026-10-17,Endo monacolin K 奠基
+D06,Europe PMC,red yeast rice AND monacolin AND EFSA,98,2026-10-17,EFSA监管相关
+D06,PubMed efetch abstract,PMID 18549841,1,2026-10-17,CCSPS主研究摘要
+D06,PubMed efetch abstract,PMID 17608873,1,2026-10-17,老年亚组摘要
+D06,PubMed efetch abstract,PMID 17312447,1,2026-10-17,糖尿病亚组摘要
+D06,PubMed efetch abstract,PMID 19528562,1,2026-10-17,Becker RCT摘要
+D06,PubMed efetch abstract,PMID 25897793,1,2026-10-17,Gerards2015meta摘要
+D06,PubMed efetch abstract,PMID 500505,1,2026-10-17,Endo1979摘要
+D06,PubMed efetch abstract,PMID 10436958,1,2026-10-17,Kou1997早期血脂康摘要
+D06,PubMed efetch abstract,PMID 20350253,1,2026-10-17,CCSPS高血压亚组摘要
+D06,PubMed efetch abstract,PMID 29397593,1,2026-10-17,血脂康专家共识摘要
+D06,Europe PMC,Xuezhikang AND PUB_YEAR:[1990 TO 2001],5,2026-10-17,1990s血脂康最早文献
+D06,Europe PMC,"""He Dan"" AND hyperlipidemia",25,2026-10-17,荷丹片检索
+D06,Europe PMC,Zhibitai,38,2026-10-17,脂必泰检索
+D06,Europe PMC,Tongxinluo AND carotid AND plaque,70,2026-10-17,通心络斑块CAPITAL
+D06,Europe PMC,Tongxinluo AND CAPITAL,61,2026-10-17,CAPITAL试验检索
+D06,Europe PMC,"""Hedan"" AND (lipid OR hyperlipidemia)",48,2026-10-17,荷丹片英文
+D06,Europe PMC,Gynostemma pentaphyllum AND randomized AND (lipid OR cholesterol),204,2026-10-17,绞股蓝RCT
+D06,Europe PMC,"Crataegus AND (hyperlipidemia OR ""lipid"") AND meta-analysis",335,2026-10-17,山楂meta
+D06,Europe PMC,"Tongxinluo AND ""carotid atherosclerotic plaque"" AND randomized",7,2026-10-17,通心络颈动脉斑块RCT 2019?
+D06,OpenAlex,Tongxinluo carotid atheromatous plaque randomized double-blind,8,2026-10-17,CAPITAL OpenAlex检索
+D06,PubMed efetch abstract,PMID 30872737,1,2026-10-17,CAPITAL摘要
+D06,PubMed efetch abstract,PMID 41735255,1,2026-10-17,TXL-CAP结果摘要
+D06,PubMed efetch abstract,PMID 36120360,1,2026-10-17,红曲颈动脉meta摘要
+D06,PubMed efetch abstract,PMID 36120312,1,2026-10-17,脂必泰meta摘要
+D06,Europe PMC,"AUTH:""Heber D"" AND TITLE:""red yeast rice""",6,2026-10-17,Heber Cholestin RCT 1999
+D06,Europe PMC,Cholestin,77,2026-10-17,Cholestin产品文献
+D06,PubMed efetch abstract,PMID 15924803,1,2026-10-17,CCSPS设计文献摘要
+D06,PubMed efetch abstract,PMID 19602720,1,2026-10-17,CCSPS老年高血压亚组摘要
+D06,PubMed efetch abstract,PMID 9989685,1,2026-10-17,Heber1999摘要
+D06,PubMed efetch abstract,PMID 11327519,1,2026-10-17,Heber2001含量变异性摘要
+D06,PubMed efetch abstract,PMID 24993334,1,2026-10-17,血脂康PCSK9摘要
+D06,PubMed efetch abstract,PMID 38413255,1,2026-10-17,红曲伞形综述摘要
+D06,WebSearch,FDA red yeast rice warning letters 2007 Pharmanex Cholestin court ruling monacolin K drug,约10条,2026-10-17,核实Pharmanex v. Shalala案(35 F.Supp.2d 1341; 10th Cir. 221 F.3d 1151)与2007-08-09 FDA警告信(Red Yeast Rice/Red Yeast Rice-Policosonal Complex/Cholestrix)
+D06,WebSearch,EFSA 2018 scientific opinion monacolins from red yeast rice 10 mg safety,约10条,2026-10-17,"核实EFSA 2018意见(Younes等, PMID 32626016, PMC7009499)与2025 EFSA NDA意见(10.2903/j.efsa.2025.9276); 欧盟后续限量约≤3 mg/日"
+D06,PubMed efetch abstract,PMID 32626016,1,2026-10-17,EFSA2018意见PubMed摘要
+D06,Web,https://pmc.ncbi.nlm.nih.gov/articles/PMC6418108/,200936,2026-10-17,CAPITAL全文注册号grep用
+D06,Web,https://pmc.ncbi.nlm.nih.gov/articles/PMC12394960/,21385,2026-10-17,TXL-CAP rationale全文
+D06,WebSearch,中国成人血脂异常中医药防治专家共识 中华中医药学会 血脂异常中医诊疗,约10条,2026-10-17,"找到《血脂异常中西医结合诊疗专家共识》2017(中国全科杂志, doi:10.3969/j.issn.1007-9572.2017.03.002)全文PDF；2008年中华中医药学会心病分会《血脂异常中医诊疗指南》线索；《中国血脂管理指南(2023年)》官网PDF"
+D06,WebSearch,血脂康 红曲 研制史 北大维信 北京大学 1995 上市 Monascus,约10条,2026-10-17,北大维信1994年前后成立、北京大学技术背景、血脂康1995-1996上市(二手来源有出入)；北大新闻网2006报道指纹图谱
+D06,WebSearch,宋剑南 高脂血症与中医痰浊关系的实验研究 中国中西医结合杂志 1995,约8条,2026-10-17,宋剑南等1995实验研究被多篇综述/学位论文引用，卷期页未在期刊官网核实，仅二手转述(L0)
+D06,Europe PMC citations,MED/18549841/citations,199,2026-10-17,CCSPS2008被引
+D06,Europe PMC citations,MED/19528562/citations,172,2026-10-17,Becker2009被引
+D06,Europe PMC,Hedan AND randomized AND patients,22,2026-10-17,荷丹临床RCT
+D06,Europe PMC,"Xuezhikang AND (real-world OR ""real world"" OR registry) AND PUB_YEAR:[2018 TO 2026]",67,2026-10-17,血脂康真实世界
+D06,Europe PMC,Alisma AND hyperlipidemia,255,2026-10-17,泽泻降脂早期
+D06,Europe PMC,gypenosides AND hyperlipidemia AND randomized,38,2026-10-17,绞股蓝皂苷RCT
+D06,PubMed efetch abstract,PMID 35901940,1,2026-10-17,ILEP红曲立场文件
+D06,PubMed efetch abstract,PMID 35111069,1,2026-10-17,红曲15RCTmeta
+D06,PubMed efetch abstract,PMID 33085778,1,2026-10-17,荷兰药物警戒红曲病例系列
+D06,PubMed efetch abstract,PMID 34969035,1,2026-10-17,荷丹代谢综合征临床
+D06,PubMed efetch abstract,PMID 40026643,1,2026-10-17,集采对中成药影响
+D06,PubMed efetch abstract,PMID 39525586,1,2026-10-17,APSB血脂康系统综述
+D06,PubMed efetch abstract,PMID 36998136,1,2026-10-17,血脂康vs普伐他汀TG方案
+D06,PubMed efetch abstract,PMID 39100903,1,2026-10-17,台湾红曲肝硬化队列
+D06,PubMed efetch abstract,PMID 39055660,1,2026-10-17,中药降脂心血管事件meta
+D06,ClinicalTrials.gov API v2,"query.term=red yeast rice myalgia (fields NCTId,BriefTitle,StartDate,PrimaryOutcomeMeasure)",6,2026-10-17,核对Becker 2009 RCT注册号
+D06,ClinicalTrials.gov API v2,studies/NCT00639223,1,2026-10-17,Becker 2009候选注册号详情
+D06,ClinicalTrials.gov API v2,"studies/NCT00405769, NCT00365742, NCT02057302",3,2026-10-17,核对Becker 2009注册号候选与血脂康上市后再评价注册
+D06,Europe PMC,"Xuezhikang AND (postmarketing OR ""post-marketing"" OR postmarketing surveillance)",19,2026-10-17,血脂康上市后研究发表?
+D06,PubMed efetch abstract,PMID 38145747,1,2026-10-17,Grant2024JLR综述
+D06,PubMed efetch abstract,PMID 16624082,1,2026-10-17,CCSPS不同MI史分析
+D06,PubMed esummary,esummary 20 PMID 卷期页,20,2026-10-17,补齐节点卷期页
+D06,Europe PMC fullTextXML,PMC12362430/fullTextXML (English 2025 narrative review),1,2026-10-17,grep核查其参考文献中的红曲/monacolin早期文献线索
+D06,Europe PMC fullTextXML,PMC6418108/fullTextXML (CAPITAL Sci Rep 2019),1,2026-10-17,核对注册号：ChiCTR-TRC-08000212，2008-12-05注册
+D06,Europe PMC fullTextXML,PMC12394960/fullTextXML (TXL-CAP方案论文),1,2026-10-17,grep注册号未见结构化字段；发表摘要给出ChiCTR1900025842
+D06,Web,curl files.sciengine.com 血脂异常中西医结合诊疗专家共识PDF,1,2026-10-17,下载8页PDF，Read页1-4，L3
+D06,Web,curl csc.cma.org.cn 中国血脂管理指南2023 PDF,1,2026-10-17,下载PDF，Read页1-2，L3；封面页含DOI与历史沿革(1997建议→2007/2016指南→2023更名)
+D06,Europe PMC citations,MED/25897793/citations,116,2026-10-17,Gerards2015被引
+D06,PubMed efetch abstract,PMID 34587702,1,2026-10-17,日本低剂量红曲RCT摘要
+D06,Europe PMC,hawthorn AND hyperlipid* AND PUB_YEAR:[1980 TO 2002],9,2026-10-17,山楂降脂早期题录
+D06,PubMed efetch abstract,PMID 36091752,1,2026-10-17,绞股蓝SR摘要
+D07,Europe PMC,"TITLE:""viral myocarditis"" AND (""Astragalus"" OR ""traditional Chinese medicine"") AND (TITLE:""systematic review"" OR TITLE:""meta-analysis"")",12,2026-10-17,入口检索:黄芪/中药治疗病毒性心肌炎系统评价
+D07,Europe PMC,"(""Chinese herbal medicine"" OR ""traditional Chinese medicine"") AND ""myocarditis"" AND SRC:MED AND (PUB_YEAR:2012 OR PUB_YEAR:2013) AND (TITLE:""systematic review"" OR TITLE:""meta-analysis"" OR SOURCE:""Cochrane"")",4,2026-10-17,检索Cochrane/Liu ZL中药治疗病毒性心肌炎系统评价2012-2013
+D07,Europe PMC,"""viral myocarditis"" AND SRC:CMR",0,2026-10-17,检索Cochrane数据库(CMR)病毒性心肌炎系统评价
+D07,Europe PMC,"AU:""Liu ZL"" AND myocarditis",0,2026-10-17,按作者Liu ZL检索心肌炎相关系统评价
+D07,Europe PMC,"Cochrane ""Chinese herbal medicines"" ""viral myocarditis""",5,2026-10-17,检索Cochrane中药治疗病毒性心肌炎题名
+D07,Europe PMC,GET MED/20614436 + MED/15266498,2,2026-10-17,Cochrane Herbal medicines for viral myocarditis 2010更新版与2004首版题录与摘要
+D07,Europe PMC,EXT_ID:20614436 OR EXT_ID:15266498 (core),2,2026-10-17,获取Cochrane两版评价完整core记录
+D07,Europe PMC+PMC,DOI cd003711.pub4/pub6 + PMC10680413撤回页,2,2026-10-17,核对Cochrane CD003711撤回状态与pub4
+D07,Europe PMC,GET MED/23152220 core,1,2026-10-17,Cochrane pub4 (2012 Issue 11)摘要
+D07,Europe PMC,EXT_ID:23152220 + PMC10680413 fullTextXML,2,2026-10-17,pub4摘要+撤回说明XML
+D07,Europe PMC,EXT_ID:27142939 (WITHDRAWN pub6),1,2026-10-17,Cochrane撤回声明文本
+D07,PMC,PMC10680413 article page,1,2026-10-17,读WITHDRAWN全文页撤回原因
+D07,PubMed eutils,efetch db=pmc id=10680413,1,2026-10-17,读Cochrane撤回声明正文
+D07,Europe PMC,EXT_ID:23986406,1,2026-10-17,Cochrane CD003711.pub5 (2013)题录
+D07,Europe PMC,"(TITLE:""myocarditis"" AND (TITLE:""traditional Chinese medicine"" OR TITLE:""Chinese herbal"" OR TITLE:""Astragalus"" OR TITLE:""integration of Chinese and Western"")) AND (PUB_YEAR:2022-2026) AND SRC:MED",4,2026-10-17,近5年中药心肌炎英文综述
+D07,Europe PMC,EXT_ID:37690913,1,2026-10-17,Overview of SRs 成人病毒性心肌炎中药 2023 Clinical Therapeutics
+D07,Europe PMC,EXT_ID:39754214,1,2026-10-17,2025黄芪注射剂治疗VMC SR(Eur J Med Res)题录摘要
+D07,Europe PMC,"""myocarditis"" AND (""diagnostic criteria"" OR ""reference standard"") AND (""China"" OR Chinese) AND (1999 OR ""national symposium"")",495,2026-10-17,检索1999全国心肌炎诊断标准英文题录
+D07,Europe PMC,"AU:""Yang YZ"" AND myocarditis",0,2026-10-17,杨英珍心肌炎相关题录全列
+D07,Europe PMC,"(myocarditis OR ""Coxsackie"") AND (""Yang YZ"") AND PUB_YEAR:1985-2001",0,2026-10-17,Yang YZ 1985-2001心肌炎/柯萨奇题录(该语法无效)
+D07,Europe PMC,(astragalus OR huangqi) AND (coxsackie OR myocarditis) AND PUB_YEAR:1980-2003,25,2026-10-17,黄芪/柯萨奇1980-2003早期英文题录
+D07,Europe PMC,"(AUTH:""Yang YZ"") AND (myocarditis OR Coxsackie)",27,2026-10-17,"续跑:杨英珍(Yang YZ)心肌炎/柯萨奇全部英文题录27条,1985-2022"
+D07,Europe PMC,EXT_ID:585627,2,2026-10-17,"识别1999全国多中心研究=CBA源题录+英文摘要(中华心血管病杂志27(6):413-415,12医院1028例)"
+D07,Europe PMC,"myocarditis AND SOURCE:""Zhonghua Nei Ke Za Zhi"" AND PUB_YEAR:1987",0,2026-10-17,"1987座谈会纪要在EPMC无记录,转WebSearch核实"
+D07,Europe PMC,astragalus AND myocarditis AND SRC:MED,381,2026-10-17,黄芪+心肌炎全年代MEDLINE总览
+D07,Europe PMC,shengmai AND myocarditis,79,2026-10-17,生脉+心肌炎;确认2024 Shengmai San SR(PMID 39742019)
+D07,Europe PMC,"(TITLE:""dilated cardiomyopathy"") AND (astragalus OR shengmai OR ""Chinese herbal"" OR ""traditional Chinese medicine"" OR ""Chinese medicine"")",116,2026-10-17,"DCM中医药全景:2025 Fan综述40809953,2022 Cao J Ethnopharmacol,2023 Shenmai SR 36608499,2024/2025网络Meta,2024 QLQX-DCM RCT 39196518"
+D07,Europe PMC,astragalus AND myocarditis AND PUB_YEAR:1990-1999,18,2026-10-17,"1990年代黄芪心肌炎全列,与上一位缓存一致,无遗漏"
+D07,Europe PMC,EXT_ID:3009512 OR 3000541 OR 9772585 OR 7882724 OR 35722031 OR 2854784,6,2026-10-17,获取1985模型/1996单中心/1994德国合作/2022 DCM 15年队列等摘要与单位
+D07,Europe PMC,EXT_ID:23996292,1,2026-10-17,"PMID猜错(骨关节炎),改检索position statement"
+D07,Europe PMC,"TITLE:""myocarditis"" AND TITLE:""position statement"" AND SRC:MED",5,2026-10-17,"定位ESC 2013立场声明Caforio,PMID 23824828"
+D07,Europe PMC,myocarditis AND TITLE:(randomized OR randomised) AND TITLE:(Chinese OR Astragalus OR Shengmai OR Qidong) AND PUB_YEAR:2018-2026,12,2026-10-17,"近5年心肌炎中药RCT稀缺,仅见SR/网络Meta与芪苈强心Nat Med(心衰,D03)"
+D07,Europe PMC,"""viral myocarditis"" AND (syndrome OR pattern OR zheng) AND Chinese medicine",28,2026-10-17,辨证论治临床研究:2001 Kong QF 109例重症VMC辨证+卡托普利RCT(PMID 12575396)
+D07,Europe PMC,citations MED/20614436,9,2026-10-17,Cochrane pub3被引9条:后续SR(2020-2024)与综述引用
+D07,Europe PMC,EXT_ID:39196518 OR 33235067 OR 12575396 OR 40809953 OR 42751609 OR 38327190,6,2026-10-17,QLQX-DCM RCT/暴发性心肌炎黄芪回顾队列/辨证论治2001/DCM综述2025/2026天然产物综述/GBD中国心肌炎趋势 摘要
+D07,Europe PMC,"(astragalus OR shengmai OR shenmai OR ""Chinese herbal"") AND TITLE:""dilated cardiomyopathy"" AND PUB_YEAR:1990-2005",5,2026-10-17,早期DCM:中山2001中西医结合164/156(12577349);新华2002生脉血流动力学;西交大二院2005参麦免疫;1997 Br J Dermatol中药致可逆DCM病例
+D07,Europe PMC,"(TITLE:""qiliqiangxin"" AND TITLE:""dilated cardiomyopathy"") OR QLQX-DCM",9,2026-10-17,QLQX-DCM发表版与相关研究
+D07,PMC idconv,"ids=2827966,2161724,2167822,20614436,23824828",2,2026-10-17,"老CMJ三篇均不在PMC,无法读扫描页;仅Cochrane pub3有PMC"
+D07,Europe PMC,PMC3155696/fullTextXML,500错误,2026-10-17,Cochrane pub3全文XML不可得(服务端拒绝)
+D07,Europe PMC,pmc3155696?pdf=render,反爬页,2026-10-17,"PDF渲染返回验证准备页,不绕过;pub3维持L2(摘要)"
+D07,NCBI,pmc/utils/oa/oa.fcgi?id=PMC3155696,404,2026-10-17,"OA服务旧地址失效,不再尝试"
+D07,ClinicalTrials.gov API v2,query.term=myocarditis astragalus,0,2026-10-17,黄芪治疗心肌炎无国际注册
+D07,ClinicalTrials.gov API v2,query.term=viral myocarditis Chinese herbal,0,2026-10-17,VMC中药无国际注册
+D07,ClinicalTrials.gov API v2,query.term=viral myocarditis traditional Chinese medicine,0,2026-10-17,同上
+D07,ClinicalTrials.gov API v2,query.term=qiliqiangxin dilated cardiomyopathy,2,2026-10-17,"NCT02283450(30例,3月细胞因子)与NCT01293903(374例,12月LVEDd/LVEF+ELISA细胞因子)"
+D07,ClinicalTrials.gov API v2,query.term=myocarditis Shengmai,0,2026-10-17,生脉心肌炎无国际注册
+D07,ClinicalTrials.gov API v2,GET NCT02283450 / NCT01293903,2,2026-10-17,注册终点与发表终点核对:一致;注册入组374 vs 发表随机345
+D07,Europe PMC,citations MED/2827966,0,2026-10-17,"1987首篇EPMC被引0(老记录引文未链接),向前追踪改用Cochrane/综述"
+D07,PMC,articles/PMC3155696/ 页面,reCAPTCHA页,2026-10-17,"PMC页面命中验证码,按纪律不绕过"
+D07,WebSearch,1999 全国心肌炎心肌病学术研讨会纪要 诊断参考标准,多,2026-10-17,中华心血管病杂志1999;27(6):405-407;核心内容据中华急诊网等公开页转述
+D07,WebSearch,1986 全国心肌炎心肌病专题座谈会纪要 中华内科杂志 1987,多,2026-10-17,成人急性病毒性心肌炎诊断参考标准;1987年26卷10期;据徐州医学院学报1997引用与检索摘要转述
+D07,WebSearch,成人暴发性心肌炎诊断与治疗中国专家共识 2017,多,2026-10-17,中华心血管病杂志2017;45(9):742-752;2024更新为指南;要点据公开页转述
+D07,WebSearch,杨英珍 陈灏珠 上海中山医院 黄芪 病毒性心肌炎,多,2026-10-17,传承线背景:中山医院1980年代起开创;陈瑞珍团队2020上海医学科技奖(网页转述L0)
+D07,WebSearch,ChiCTR 注册 病毒性心肌炎 中药 黄芪,多,2026-10-17,ChiCTR-TRC-08000330 河南省中医院VMC急性期中医证治规范研究(2008);未见黄芪题名VMC注册
+D08,EuropePMC,"traditional Chinese medicine AND depression AND ""coronary heart disease"" AND review",3498,2026-10-17,入口文献初筛
+D08,EuropePMC,"""Chinese herbal medicine"" AND depression AND ""heart disease"" AND ""systematic review""",197,2026-10-17,CHM+抑郁+心脏病系统评价
+D08,EuropePMC,Shugan Jieyu AND depression,149,2026-10-17,舒肝解郁胶囊检索
+D08,EuropePMC,"""psycho-cardiology"" AND China",102,2026-10-17,双心医学概念
+D08,WebSearch,双心医学 中国专家共识 2019 中华心血管病杂志 心理应激相关的心血管疾病,若干,2026-10-17,找到：在心血管科就诊患者心理处方中国专家共识(2020版)、双心门诊建设规范中国专家共识(2023)、双心疾病中西医结合诊治专家共识
+D08,WebSearch,胡大一 双心医学 提出 2006 心血管病 抑郁 中华内科杂志,若干,2026-10-17,找到：胡大一《我是如何悟出并提出双心医学的》中华心血管病杂志2021;49(6):543-544；刘梅颜/胡大一2008现状分析
+D08,EuropePMC,双心疾病中西医结合诊治专家共识 (Chinese),1221,2026-10-17,共识题录查找
+D08,EuropePMC,"""psychocardiology"" AND ""expert consensus""",2,2026-10-17,共识英文题录
+D08,WebSearch,"""双心疾病中西医结合诊治专家共识"" 期刊 发布",若干,2026-10-17,定位到：中国全科医学2017;20(14):1659-1662，中国中西医结合学会心血管病专业委员会双心学组
+D08,Crossref,works?query.bibliographic=双心疾病中西医结合,8,2026-10-17,共识DOI核验
+D08,OpenAlex,works?search=双心疾病中西医结合诊治专家共识,见输出,2026-10-17,共识DOI核验2
+D08,WebFetch,chinagp.net 双心门诊建设规范中国专家共识 页面,1,2026-10-17,核验2024共识+2020心理处方共识+2017双心共识题录与摘要（L2）
+D08,EuropePMC,"""Xiaoyao"" AND depression AND ""coronary""",47,2026-10-17,逍遥散类干预冠心病抑郁
+D08,PubMed,depress* AND coronary/angina AND MeSH Medicine Chinese Traditional (Title/Abstract+MeSH),见输出,2026-10-17,早中期中药干预冠心病抑郁RCT检索
+D08,EuropePMC,Wuling%20capsule AND depression,,2026-10-17,具体中药制剂检索
+D08,EuropePMC,Chaihu%20Longgu%20Muli AND depression,,2026-10-17,具体中药制剂检索
+D08,EuropePMC,"""Wuling capsule"" AND depression",57,2026-10-17,乌灵胶囊检索
+D08,EuropePMC,"""Chaihu-Longgu-Muli"" OR ""Chaihu Longgu Muli""",52,2026-10-17,柴胡加龙骨牡蛎汤检索
+D08,WebSearch,舒肝解郁胶囊 轻中度抑郁发作 随机双盲 安慰剂 临床试验 中华精神科杂志 2011,若干,2026-10-17,找到维普题录（剂量加倍研究）与ChiCTR2300071000（卒中后抑郁RCT注册）
+D08,WebSearch,乌灵胶囊 冠心病 PCI术后 抑郁 随机对照试验,若干,2026-10-17,找到ChiCTR1800017989（CABG术后乌灵胶囊RCT注册）与基于心肝论治中药PCI术后焦虑抑郁Meta
+D08,PubMed,"""Shugan Jieyu"" esearch+esummary",46,2026-10-17,"找到AMI合并抑郁RCT(28629293,2016)、CHD抑郁Meta(37653746,2023)、ACS后多中心RCT方案(41179812,2025)"
+D08,EuropePMC,"""Qingxin Jieliyu""",0,2026-10-17,QUEST清心解瘀颗粒检索
+D08,EuropePMC,"QUEST AND ""acute coronary syndrome"" AND depression AND Chinese",110,2026-10-17,QUEST ACS抑郁检索
+D08,EuropePMC,"""Qingxin Jieyu""",15,2026-10-17,清心解郁检索
+D08,OpenAlex,Qingxin Jieyu granule acute coronary syndrome,14,2026-10-17,QUEST清心解郁检索
+D08,OpenAlex,QUEST trial depression acute coronary syndrome Chinese herbal,104,2026-10-17,QUEST清心解郁检索
+D08,PubMed,Jieyu AND coronary (esearch+esummary),13,2026-10-17,清心解郁/解郁类与冠心病交叉检索；QUEST 2019 RCT未在PubMed/EPMC命中
+D08,WebSearch,QUEST trial 2019 清心解郁颗粒 acute coronary syndrome depression,若干,2026-10-17,"澄清：QUEST(PMID 31780034)为稳定冠心病MACE终点试验，非抑郁终点；归D01。另获DEPACS(PMID 25375836,艾司西酞普兰ACS抑郁)、疏肝解郁颗粒多中心RCT线索"
+D08,EuropePMC,"acupuncture AND ""coronary heart disease"" AND depression AND randomized",593,2026-10-17,针灸治冠心病抑郁RCT
+D08,EuropePMC,"((""coronary heart disease"" OR ""heart disease"" OR ""cardiac"") AND (depression OR anxiety)) AND TITLE:(acupuncture OR electroacupuncture)",805,2026-10-17,针灸心脏情志TITLE检索
+D08,EuropePMC,EXT_ID 批量摘要抓取(10篇),10,2026-10-17,28629293/37653746/41179812/38312234/39944776/42666365/34797346/26084189/38114161/42688344
+D08,WebFetch,sctcm120.com 双心医学科普页,1,2026-10-17,L0转述：确认刘梅颜/胡大一2008中华内科杂志47(4)题录与40%/89%数字
+D08,PubMed,Zhonghua Nei Ke Za Zhi AND psychological AND cardiovascular AND 2008,2,2026-10-17,PMID 18843948 心血管内科门诊患者合并心理问题的现状分析 题录+摘要
+D08,WebFetch,ctext.org 素问·灵兰秘典论 / 素问·痿论,2,2026-10-17,核验原文：心者君主之官也神明出焉；心主身之血脉（L3）
+D08,WebSearch,金匮要略 妇人脏躁 甘麦大枣汤 原文,若干,2026-10-17,条文核验：妇人脏躁喜悲伤欲哭…甘麦大枣汤主之（L2，多源一致转引）
+D08,EuropePMC,"""Wuling"" AND (coronary OR ""percutaneous coronary"" OR angina OR ""heart failure"")",107,2026-10-17,乌灵胶囊心血管检索
+D08,EuropePMC,TITLE:(psychocardiology),35,2026-10-17,psychocardiology题名检索
+D08,EuropePMC,TITLE:(ENRICHD OR SADHART OR CREATE) AND TITLE:(depression) AND (myocardial OR coronary),17,2026-10-17,国际抗抑郁心脏病里程碑试验检索
+D08,EuropePMC,TITLE:(ENRICHD OR SADHART OR CREATE) AND TITLE:(depression) AND (myocardial OR coronary),17,2026-10-17,"ENRICHD主结果PMID12813116(JAMA2003)、SADHART-CHF(JACC2010,20723799)、CREAT设计(16449416)已核"
+D08,EuropePMC,TITLE:(mental health) AND TITLE:(cardiovascular) AND TITLE:(consensus) AND SOURCE:MED,0,2026-10-17,ESC心理健康共识原文检索
+D08,EuropePMC,"""clinical consensus"" AND ""mental health"" AND ""cardiovascular disease"" AND ""European Society of Cardiology""",52,2026-10-17,ESC共识英文检索
+D08,EuropePMC,TITLE:(psychosocial risk factors) AND TITLE:(cardiovascular) AND TITLE:(prevention) AND (TITLE:(European) OR TITLE:(ESC)),0,2026-10-17,ESC心理社会危险因素指南检索
+D08,EuropePMC,ESC clinical consensus mental health CVD,3,2026-10-17,原文PMID40878270 EurHeartJ 2025 DOI:10.1093/eurheartj/ehaf191
+D08,EuropePMC,"""heart failure"" AND depression AND prevalence AND China AND TITLE:(depression)",594,2026-10-17,中国心衰抑郁患病率检索
+D08,OpenAlex,depression prevalence Chinese patients hospitalized heart failure multicenter cross-sectional,5884,2026-10-17,心衰抑郁中国患病率
+D08,OpenAlex,40% depression heart failure China Fuwai,147,2026-10-17,心衰抑郁中国患病率
+D08,EuropePMC,Xinkeshu,69,2026-10-17,心可舒检索
+D08,EuropePMC,Xinkeshu,69,2026-10-17,"找到双盲RCT(30784924,2019)、PCI后Meta(35717809,2022)、焦虑抑郁Meta(37072088,2023)"
+D08,EuropePMC,PMC12571754 全文（SGJY ACS方案）,1,2026-10-17,L3精读：注册ITMCTR2024000099+MR-11-24-037476；西苑医院牵头5中心N=148；主要终点HAMD-17应答
+D08,WebFetch,chinagp.net 双心疾病中西医结合诊治专家共识 页面(Y2017/V20/I14/1659),1,2026-10-17,L1：题录+DOI+通信作者陈晓虎(江苏省中医院)核验；摘要动态加载未取得
+D08,WebSearch,乌灵胶囊 冠心病 抑郁 随机对照 HAMD,若干,2026-10-17,仅ChiCTR1800017989(CABG)注册可核；未找到已发表CHD抑郁RCT英文题录
+D08,WebSearch,柴胡加龙骨牡蛎汤 冠心病 合并 抑郁 随机 对照 HAMD,若干,2026-10-17,卫靖靖2021辽宁中医杂志Meta+TSA；李敏静2023 RCT(104例)可题录
+D08,EuropePMC,"""Chinese herbal medicine"" AND depressive disorders AND (Cochrane OR ""systematic review"") AND TITLE:(Chinese herbal)",94,2026-10-17,Cochrane中药抑郁检索
+D08,WebSearch,Cochrane Chinese herbal medicine depression,若干,2026-10-17,未查到Cochrane专门中药抑郁综述；替代：Yeung 2014/JAD Wang 2019/Dang 2024 NMA
+D08,PubMed,Chinese herbal AND depression AND systematic review [Title],20,2026-10-17,核验：24974002(Yeung 2014 J Psychiatr Res)、26085199(CHD抑郁中药系统评价2016)、21869903(逍遥散2012)
+D08,WebSearch,中国中西医结合学会心血管病专业委员会 双心学组 陈晓虎,若干,2026-10-17,陈晓虎任双心学组组长；2023江苏省首届双心医学专委会主委（医院官网+学会通知可核）
+D08,EuropePMC,"(""heart failure"" OR ""chronic heart failure"") AND depression AND ""Chinese patent medicine"" AND randomized",62,2026-10-17,心衰抑郁中成药RCT检索
+D08,EuropePMC,MED/28629293/citations,见输出,2026-10-17,2016舒肝解郁AMI-RCT被引追踪
+D08,EuropePMC,"TITLE:(""Psychological and pharmacological interventions for depression in patients with coronary artery disease"")",2,2026-10-17,Cochrane CAD抑郁干预检索
+D08,EuropePMC,TITLE 心理/药物干预治疗冠心病抑郁 Cochrane CD008012.pub4,2,2026-10-17,PMID 34910821 摘要已读(L2)；含escitalopram vs Bu Xin Qi头对头细节
+D08,WebFetch,chictr.org.cn showproj?proj=172352,0,2026-10-17,ChiCTR动态页405，未能直接核验乌灵胶囊注册详情，仅据检索快照转述
+D08,ClinicalTrials.gov,api/v2/studies/NCT03789344,1,2026-10-17,注册主要终点HRV=发表一致；计划240实际210；状态UNKNOWN未提交结果
+D09,Europe PMC,"""tai chi"" AND ""heart failure"" AND ""randomized""",1166,2026-10-17,入口检索：发现 RCM 2026 伞状综述、BMJ Open 2026 居家数字太极方案等
+D09,Europe PMC,"""tai chi"" AND ""cardiac rehabilitation""",533,2026-10-17,发现 Stress Health 2025 混合太极心脏康复RCT、中国心脏康复障碍综述
+D09,Europe PMC,"""baduanjin"" AND (""heart failure"" OR ""coronary"" OR ""cardiac"")",608,2026-10-17,发现 CTM 2026 可穿戴远程八段锦心衰SR
+D09,Europe PMC,"""tai chi"" AND ""cardiovascular disease"" AND ""systematic review""",1356,2026-10-17,泛检索
+D09,Europe PMC,"""cardiac rehabilitation"" AND ""Chinese medicine"" AND ""consensus""",197,2026-10-17,中西医结合心脏康复共识检索，未直接命中
+D09,Europe PMC,"AUTH:""Yeh GY"" AND TITLE:""heart failure"" AND SRC:MED",11,2026-10-17,命中 Yeh 2011 Arch Intern Med PMID21518942 PMC3277798；Yeh 2013 HFpEF PMID23057654；Yeh 共同作者 ExTraMATCH II 2018 与 JACC IPD meta 2019
+D09,Europe PMC,"AUTH:""Salmoirago-Blotcher"" AND TITLE:""cardiac rehabilitation""",3,2026-10-17,命中 JAHA 2017 RCT PMID29021268 PMC5721863 与 2015 Contemp Clin Trials 设计文献 PMID26115880（同一项目 Gentle CR Study）
+D09,Europe PMC,"AUTH:""Hartley L"" AND ""tai chi""",4,2026-10-17,命中 Cochrane 太极拳 CD010366.pub2 2014 PMID24715694；Cochrane 气功 CD010390 2015 PMID26068956
+D09,Europe PMC,"AUTH:""Taylor-Piliae RE""",75,2026-10-17,近期多为护理/卒中方向，需定向查其太极拳心血管危险因素工作
+D09,Europe PMC,"TITLE:""tai chi"" AND SRC:""Cochrane Database Syst Rev""",0,2026-10-17,SRC 字段过滤无效，改用期刊名检索
+D09,Europe PMC,"TITLE:""baduanjin"" AND ""heart failure""",54,2026-10-17,八段锦心衰SR/Meta 密集：CTM 2025 PMID41176179、Frontiers 2026 PMID41717577、JICM 2026 PMID41313613 等
+D09,Europe PMC,"TITLE:""baduanjin"" AND ""coronary""",51,2026-10-17,八段锦PCI术后SR：EJMR 2025 PMID41024290、CTM 2026 PMID41839353；麝香保心丸+八段锦 AMI RCT PMID40859564
+D09,Europe PMC,"""baduanjin"" AND ""meta-analysis"" AND (""cardiac"" OR ""heart"")",652,2026-10-17,RCM 2026 伞状综述 PMC13036533；六种传统功法NMA Ageing Res Rev 2026 PMID41475448
+D09,Europe PMC,"AUTH:""Channer KS""",222,2026-10-17,按作者未直接命中1996太极论文，改按题名检索
+D09,Europe PMC,"AUTH:""Yeh GY"" AND ""tai chi"" AND ""pilot""",38,2026-10-17,发现 Yeh 2025 JICM 太极气功科学声明系列 Part I
+D09,Europe PMC,"""tai chi"" AND ""myocardial infarction"" AND ""randomized"" AND 1990:2005[DATE_PUBLICATION]",0,2026-10-17,日期字段语法错误，改用 PUB_YEAR 区间
+D09,Europe PMC,"TITLE:""tai chi"" AND ""haemodynamic"" AND ""myocardial infarction""",3,2026-10-17,命中 Channer 1996 Postgrad Med J PMID8758013 PMC2398496（太极MI后康复最早试验线索）
+D09,Europe PMC,"AUTH:""Yeh GY"" AND AUTH:""Wood MJ""",3,2026-10-17,命中 Yeh 2004 Am J Med 首个太极心衰RCT PMID15465501
+D09,Europe PMC,"(""tai chi"" OR ""tai chi chuan"") AND ""myocardial infarction"" AND PUB_YEAR:[1990 TO 2006]",21,2026-10-17,1993 Texas Heart Inst J 'Standard and alternative adjunctive treatments in cardiac rehabilitation' 为早期综述
+D09,Europe PMC,"AUTH:""Lan C"" AND ""tai chi"" AND ""coronary""",5,2026-10-17,命中 Lan 1999 MSSE 太极CABG后 PMID10331880；Lan 2013 eCAM 综述
+D09,Europe PMC,"""qigong"" AND ""heart failure"" AND PUB_YEAR:[1990 TO 2010]",19,2026-10-17,1993 中国中西医结合杂志气功高血压（D05交叉）；Yeh 2009 JCRP 太极心血管系统综述 PMID19471133
+D09,Europe PMC,EXT_ID:8758013 AND SRC:MED,1,2026-10-17,Channer 1996 Postgrad Med J 72:349-51 摘要已读（L2）：126例AMI后三臂随机（太极38/有氧41/支持组47），仅太极组舒张压负趋势，支持组完成率仅8%
+D09,Europe PMC,EXT_ID:15465501 AND SRC:MED,1,2026-10-17,Yeh 2004 Am J Med 117:541-8 摘要已读：n=30，LVEF≤40%，12周太极，QoL差值-25分P=0.001，6MWT +135m P=0.001，BNP -138pg/mL
+D09,Europe PMC,EXT_ID:21518942 AND SRC:MED,1,2026-10-17,Yeh 2011 Arch Intern Med 171:750-7 摘要已读：n=100，NCT00110227；6MWT/峰值VO2无差异，MLHFQ -19 vs 1 P=.02，自我效能与情绪改善
+D09,Europe PMC,EXT_ID:23057654 AND SRC:MED,1,2026-10-17,Yeh 2013 Congest Heart Fail 19:77-84 摘要已读：HFpEF n=16 太极vs有氧，6MWT +69 vs +10m P=.02，太极耗氧4.3 vs 9.4 mL/kg/min
+D09,Europe PMC,EXT_ID:10331880 AND SRC:MED,1,2026-10-17,Lan 1999 MSSE 31:634-8 摘要已读：CABG后1年太极 n=20，VO2peak +10.3%，出勤3.8次/周 vs 对照1.7
+D09,Europe PMC,EXT_ID:29021268 AND SRC:MED,1,2026-10-17,Salmoirago-Blotcher 2017 JAHA 6:e006603 摘要已读：拒入心脏康复者 n=29，LITE vs PLUS，NCT02165254；MVPA +100min/wk 有利于PLUS，有氧适能无变化
+D09,Europe PMC,EXT_ID:19471133 AND SRC:MED,1,2026-10-17,Yeh 2009 JCRP 29:152-160 系统综述摘要已读：29项研究（9RCT），检索截止2007-10（英文）/2005-06（中文库），作入口文献E01
+D09,Europe PMC,EXT_ID:24715694 AND SRC:MED,1,2026-10-17,Hartley 2014 Cochrane 太极一级预防摘要已读：13试验1520人，检索截止2013-12，无终点事件数据，异质性96%，作入口E02
+D09,Europe PMC,EXT_ID:26068956 AND SRC:MED,1,2026-10-17,Hartley 2015 Cochrane 气功一级预防摘要已读：11试验1369人，检索截止2014-11，9项中文试验偏倚不可判，作入口E03
+D09,Europe PMC,EXT_ID:41923712,1,2026-10-17,RCM 2026 伞状综述摘要已读：15篇SR/MA含65原始RCT，PROSPERO CRD420251003129，AMSTAR2/ROBIS/GRADE，八段锦对NT-proBNP、易筋经对VO2max 相对突出；作入口E04
+D09,Europe PMC,EXT_ID:42688344,1,2026-10-17,Frontiers CVM 2026 TCM心脏康复叙述性综述摘要已读；作入口E05
+D09,PMC,pmc.ncbi.nlm.nih.gov/articles/PMC2398496/ (Channer 1996 全文),页面返回reCAPTCHA拦截页,2026-10-17,按纪律不绕过验证码，改试 eutils efetch db=pmc
+D09,PubMed eutils efetch db=pmc,id=2398496,出版商不允许全文发布（scanned article 无开放全文）,2026-10-17,Channer 1996 只能到摘要层 L2，正文未读
+D09,Europe PMC,PMC13036533/fullTextXML (RCM 2026 伞状综述全文),全文XML获取成功,2026-10-17,检索截止2025-03-31（英文+知网/SinoMed/万方/维普四库）；收录15篇SR/MA、65项RCT；含既往SR对照表（Ren 2017 11试验656例、Gu 2017 13试验918例）
+D09,Europe PMC citations API,MED/21518942/citations (Yeh 2011 被引),170,2026-10-17,向前追踪第一步
+D09,Europe PMC,"(TITLE:""baduanjin"" OR ABSTRACT:""baduanjin"") AND (""heart failure"" OR ""coronary"" OR ""cardiac rehabilitation"" OR ""myocardial"") AND PUB_YEAR:[2005 TO 2019]",13,2026-10-17,早期八段锦心脏文献：BE-PREMIER 2016 协议、BESMILE-HF 2018 协议、BEAR 2018 协议、台湾 EJCN 2018 RCT PMID29189045
+D09,Europe PMC,EXT_ID:27106833 AND SRC:MED,1,2026-10-17,BE-PREMIER 设计文献已读：广州中医药大学第二临床学院/广东省中医院，NCT02693795，n=110，主要终点6月LVEDVi%变化
+D09,Europe PMC,EXT_ID:29490680 AND SRC:MED,1,2026-10-17,BESMILE-HF 协议已读：Karolinska与广东合作，NCT03180320，n=200计划，主要终点peakVO2+MLHFQ
+D09,Europe PMC,EXT_ID:30012193 AND SRC:MED,1,2026-10-17,BEAR 协议已读：北京中西医结合第一医院署名，NCT03229681（回顾性注册2017-07-23），n=120，主要终点6MWT
+D09,Europe PMC,EXT_ID:29189045 AND SRC:MED,1,2026-10-17,台湾NTUH EJCN 2018 RCT已读：n=80居家八段锦12周，疲劳F=5.08 p=0.009、QoL F=9.11 p=0.001改善
+D09,Europe PMC,"""BESMILE""",14,2026-10-17,命中 BESMILE-HF 先导 RCT 2021 Frontiers PMID34386535 与 2022 患者体验质性研究
+D09,Europe PMC,"""BE-PREMIER"" OR ""BEAR trial"" AND baduanjin",3,2026-10-17,命中 BEAR 结果文献 2024 J Evid Based Med PMID38970325
+D09,Europe PMC,"AUTH:""Mao S"" AND baduanjin AND ""left ventricular""",3,2026-10-17,命中 Mao 2021 CDT BE-PREMIER 结果+蛋白组学 PMID32761487、Mao/Chen 2020 eCAM 序贯八段锦PCI后RCT PMID32714423
+D09,Europe PMC,"""baduanjin"" AND (""PCI"" OR ""percutaneous coronary"") AND ""randomized""",62,2026-10-17,PCI后八段锦RCT/SR群：CTM 2026 PMID41839353、EJMR 2025 PMID41024290、Heart&Lung 2024坐式八段锦类实验 PMID38593677
+D09,Europe PMC,EXT_ID:38970325 AND SRC:MED,1,2026-10-17,BEAR 结果已读：120入组109完成，6MWD +25.0 vs +5.0m p<0.001，VO2AT +25.87% vs +3.94%，MLHFQ -16.8% vs -3.99%
+D09,Europe PMC,EXT_ID:32761487 AND SRC:MED,1,2026-10-17,Mao 2021 已读：110例STEMI血运重建后，ΔLVEDVi -5.1±1.1 vs 0.3±1.2 mL/m2 P<0.01，80个血清蛋白变化，MMP-9正相关CXCL1负相关
+D09,Europe PMC,EXT_ID:32714423 AND SRC:MED,1,2026-10-17,Chen 2020 eCAM 已读：96例AMI-PCI后，BST 24周，SF-36全面改善，NT-proBNP多降50pg/ml p=0.013；注册号写NCT02693795与BE-PREMIER相同——注册-发表矛盾线索
+D09,Europe PMC,EXT_ID:34386535 AND SRC:MED,1,2026-10-17,BESMILE-HF 先导已读：n=18 6周，自我效能MD 3.2 (0.6-5.9)，对照组peakVO2下降干预组维持
+D09,ClinicalTrials.gov API v2,studies/NCT02693795,1,2026-10-17,BE-PREMIER注册：主办广东省中医院，UNKNOWN状态，主终点LVEDVi%Δ——与Mao2021发表一致；eCAM2020论文复用该注册号但设计与注册不符
+D09,ClinicalTrials.gov API v2,studies/NCT03229681,1,2026-10-17,BEAR注册：主办西苑医院（中国中医科学院），UNKNOWN状态；注册主终点6MWT与2024发表一致；注册时标题为慢性心衰二期康复，发表时改为缺血性HFmrEF/HFpEF
+D09,ClinicalTrials.gov API v2,studies/NCT03180320,1,2026-10-17,BESMILE-HF注册：广东省中医院，RECRUITING，计划入组150（协议文写200），主终点12周peakVO2变化与MLHFQ
+D09,ClinicalTrials.gov API v2,studies/NCT00110227,1,2026-10-17,Yeh 2011注册：Beth Israel Deaconess，COMPLETED，n=100，注册主终点含QoL与功能容量——与发表一致
+D09,ClinicalTrials.gov API v2,studies/NCT02165254,1,2026-10-17,Gentle CR注册：Miriam Hospital，COMPLETED，计划33实入29，注册主终点全部为保留率/出勤/AE/可接受性等可行性指标，而JAHA发表以MVPA/体重/QoL为主要结果——阶段2行为试验的注册-发表定位差异
+D09,WebSearch,中西医结合心脏康复 专家共识 中国康复医学会心血管病预防与康复专业委员会 2017,约10条,2026-10-17,发现PCI术后中西医结合心脏康复专家共识（2022）、慢性心力衰竭心脏康复中国专家共识、稳定性冠心病中西医结合康复共识等线索
+D09,WebSearch,"""经皮冠状动脉介入术后中西医结合心脏康复专家共识"" 期刊 年份",约5条,2026-10-17,"李宪伦、王显、吴永健等，中国康复医学杂志 2022,37(11):1517-1528（二手页面转述，需进一步核）"
+D09,WebSearch,"""中国心脏康复与二级预防指南"" 2018 中华心血管病杂志 中国康复医学会 胡大一",约6条,2026-10-17,"核实：中国康复医学会心血管病专业委员会，胡大一. 中国心脏康复与二级预防指南2018精要. 中华内科杂志 2018,57(11):802-810；全文专著北京大学医学出版社2018"
+D09,Europe PMC,"AUTH:""Taylor-Piliae RE"" AND (""tai chi"" AND (""cardiovascular"" OR ""heart""))",22,2026-10-17,命中 Taylor-Piliae 2012 EJCN 三期心脏康复太极RCT PMID21095159、2018 EJCN太极心脏康复SR/MA PMID29256626、2020 EJCN心理福祉SR/MA PMID32515204、2018 IJNS太极vs快走高血压RCT PMID30195124
+D09,Europe PMC,"TITLE:""tai chi"" AND ""heart failure with preserved ejection fraction""",5,2026-10-17,太极HFpEF专题RCT仅Yeh 2013一篇；HFpEF证据主要来自BEAR 2024亚组与传统功法NMA
+D09,Europe PMC,"""baduanjin"" AND (""remote"" OR ""home-based"" OR ""telemonitored"" OR ""wearable"")",512,2026-10-17,远程/居家八段锦：CTM 2026可穿戴远程八段锦心衰SR PMID42378743、JMIR 2026摄像头实时反馈试点 PMID42735395；China CR现状综述 JGC 2024 PMID39734652
+D09,Europe PMC,EXT_ID:38451843 AND SRC:MED,1,2026-10-17,Cochrane 2024 心衰运动康复 CD003331.pub6 确认（对照背景）
+D09,Europe PMC,EXT_ID:29256626 AND SRC:MED,1,2026-10-17,Liu/Taylor-Piliae 2018 EJCN MA已读：13项研究，有氧耐力SMD 1.12(0.58-1.66) vs 活动与非活动对照；vs非活动对照焦虑/抑郁/QoL改善；摘要中SMD符号显示异常，引用时注明
+D09,Europe PMC,EXT_ID:21095159 AND SRC:MED,1,2026-10-17,Taylor-Piliae 2012 EJCN已读：横断面自选比较 n=51，三期康复+太极者平衡/自评健康/太极自我效能更好
+D09,Europe PMC,EXT_ID:39734652 AND SRC:MED,1,2026-10-17,胡盛寿牵头《中国心血管健康与疾病报告2022》康复章节：中国心脏康复中心快速增长但参与率低、高质量证据缺乏、提出中西医结合中国特色心脏康复模式
+D09,Europe PMC,EXT_ID:38451843 AND SRC:MED,1,2026-10-17,Cochrane 2024已读：60试验8728人，检索截止2021-12-13；ExCR不降短期全因死亡RR 0.93(0.71-1.21)，降全因住院RR 0.69(0.56-0.86)，MLWHF MD -7.39分
+D09,Europe PMC,EXT_ID:42049291 AND SRC:MED,1,2026-10-17,BMJ Open 2026 居家数字辅助二元太极方案已读：NCT06876441，香港理工+青岛大学附院，12周居家训练含患者与家庭照护者
+D09,Europe PMC,EXT_ID:40091656 AND SRC:MED,1,2026-10-17,Wayne/Yeh 2025 JICM 白皮书Part I已读：2023秋哈佛Osher中心首届太极气功科学国际会议，含心肺健康证据综述——国际线材料
+D09,Europe PMC,"TITLE:""wuqinxi"" AND (""heart"" OR ""cardiac"" OR ""coronary"")",15,2026-10-17,五禽戏心脏专项RCT少，多为血压/血脂/平衡；证实本方向以太极与八段锦为主线
+D09,Europe PMC,"TITLE:""yijinjing"" AND (""heart"" OR ""cardiac"" OR ""coronary"")",13,2026-10-17,易筋经心脏专项RCT少；RCM 2026伞状综述提到易筋经对VO2max相对突出
+D09,WebSearch,国家体育总局健身气功管理中心 2003年 健身气功·八段锦 编创 推广,约8条,2026-10-17,核实：健身气功管理中心组织编创、北京体育大学杨柏龙任编创组长、2003年7月人民体育出版社出版；2003年10月京西宾馆全国试行推广四种健身气功工作会议
+D09,WebFetch/curl,cr-voice.com/news/1036.html（心脏康复网转载胡大一文章）,1,2026-10-17,原文载中华心血管病杂志2021年49卷9期（网络转载版已读，L2）：我国心脏康复启动于20世纪80年代、2012年重启时仅存8家机构、三次转折（静养→动养；运动核心→五大处方综合干预；康复/二级预防与一级预防整合）、1993朝阳医院心脏中心、2012顶层设计与培训基地
+D09,WebSearch,胡大一 丁荣晶 中国心脏康复 二级预防 发展历程 有氧代谢运动 治未病,约10条,2026-10-17,"发现胡大一2021中华心血管病杂志自述文章（经心脏康复网转载）；丁荣晶参与指南与解读工作；中国循环杂志2019,34(S1):86-90《中国心脏康复与二级预防指南解读》"
+D09,Europe PMC,"AUTH:""Qu L"" AND ""rehabilitation"" AND ""myocardial infarction"" AND PUB_YEAR:[1980 TO 2000]",0,2026-10-17,曲镭1980s AMI康复工作未见于PubMed，中文期刊未收录，归入unverified_leads
+D09,Europe PMC,"""rehabilitation"" AND ""myocardial infarction"" AND (China OR Chinese) AND PUB_YEAR:[1980 TO 1995]",156,2026-10-17,中文早期心脏康复在PubMed仅见1995中华护理杂志现状调查PMID8716659等，1980s大陆原始报告未收录
+D09,PubMed eutils efetch db=pmc,id=3277798 (Yeh 2011 全文),1,2026-10-17,作者手稿全文已读（L3）：郑曼青杨氏短架改编5个简化动作、持证教师、每周2次1小时×12周+居家≥3次/周、35分钟录像；按80m 6MWT差值计算样本量；ITT分析；讨论提到HF-ACTION运动依从难题；NCCAM R01 AT002454资助
+D09,PubMed eutils efetch db=pmc,id=5721863 (Salmoirago-Blotcher 2017 全文),1,2026-10-17,全文已读（L3）：3名持证教师（10年+），Wayne任太极专家，逐步提高有氧强度（加快节奏/降低架势）并录像核查依从性（10%抽查）；局限：拒入CR人群招募难、1/3吸烟80%超重肥胖、n=29先导样本；参考文献含Wang XQ 2016 JAHA TCE-CVD Meta PMID26961239；NCCIH R34 AT007569/K24 AT009282
+D09,Europe PMC,EXT_ID:26961239 AND SRC:MED,1,2026-10-17,Wang XQ 2016 JAHA TCE-CVD Meta已读：35 RCT 2249例，SBP -9.12mmHg、6MWT MD 59.58m(CI -153~270极宽)、MLHFQ -17.08；中国团队发JAHA——国际线与国内线交汇材料
+D09,Europe PMC,EXT_ID:41176179 AND SRC:MED,1,2026-10-17,CTM 2025 八段锦心衰Meta已读：46 RCT 3597例，检索截止2025-05-08；6MWT MD 50.71(37.48-63.94)、LVEF +3.57、NT-proBNP -139.49、MLHFQ -8.15；亚组提示3个月连续干预最优
+D09,Europe PMC,EXT_ID:41839353 AND SRC:MED,1,2026-10-17,CTM 2026 AMI-PCI八段锦SR已读：北京中医药大学刘建平团队，13研究1293例，检索截止2025-01-18，PROSPERO CRD42025634145；LVEF +6.20%、6MWD +60.21m、心血管不良事件RR 0.40(0.25-0.65) NNT=5
+D09,Europe PMC,EXT_ID:41049497 AND SRC:MED,1,2026-10-17,Frontiers Physiol 2025 剂量/生理学比较研究已读：n=30 CHF，等VO2设计（八段锦8.2 vs 功率车8.4 mL/kg/min），八段锦呈双峰间歇强度、更低通气负荷与心输出量、更高动静脉氧差——BESMILE团队（Jiang W）
+D09,WebSearch,李宪伦 王显 吴永健 经皮冠状动脉介入术后中西医结合心脏康复专家共识 中国康复医学杂志,约6条,2026-10-17,"核实：中国康复医学杂志 2022,37(11):1517-1528；第一作者李宪伦（中日友好医院）、王显（东直门医院）、吴永健（阜外医院）、刘红旭（北京中医医院）；发现公开PDF链接"
+D09,Europe PMC,"TITLE:""MISPS"" OR ((""qishen yiqi"" OR ""QSYY"") AND ""secondary prevention"")",25,2026-10-17,MISPS缩写未能按题名核实；核实到CACT-IHF（芪参益气心衰RCT，ESC HF 2020 PMID32954647）与芪参益气PCI后运动耐量RCT方案（eCAM 2021 PMID34475964）——药物二级预防只点到，属D01/D03
+D09,Read(PDF),"pci_consensus_2022.pdf 全文1-4页（中国康复医学杂志2022,37(11):1517-1528）",1,2026-10-17,PCI术后中西医结合心脏康复专家共识L4已读：三个学会联合（中国康复医学会心血管介入治疗与康复专委会、世界中联心脏康复专委会/介入心脏病学专委会）；3.4节中医导引推荐太极拳/八段锦/五禽戏并按MET开方；3.4.1太极拳节：简化二十四式最常见、杨氏吴式孙式、单次5-90min多为60min、强度2-3METs；表2按气虚血瘀/痰浊血瘀/气阴两虚/心肾阳虚列中成药（麝香保心丸、芪参益气滴丸、复方丹参滴丸等）；I期院内/II期门诊/III期社区居家三阶段；DOI 10.3969/j.issn.1001-1243.2022.11.013
+D09,Europe PMC,EXT_ID:28316177,1,2026-10-17,丁荣晶2017中华心血管病杂志45(3):209-216已读（L2）：80例ACS，三级医院指导+社区驱动家庭自助心脏康复3个月，6MWD +60.2 vs +24.9m P<0.01，规律运动比例50.26% vs 0%；末作者胡大一
+D09,Europe PMC,"AUTH:""Ding RJ"" AND ""cardiac rehabilitation""",5,2026-10-17,丁荣晶团队：2024居家远程心脏康复模式进展（中华心血管病杂志 PMID39290005）、2024左室重构个案、2023冠心病QoL调查、2019 PCI后运动耐量因素
+D09,OpenAlex,search=芪参益气滴丸 心肌梗死 二级预防,5（含1条相关）,2026-10-17,"核实到2007年中文方法学论文《中心随机化系统在""芪参益气滴丸对心肌梗死二级预防的临床试验研究""项目中的应用》——MISPS项目存在，无DOI，主结果未在本轮取得，属D01/D03交叉只点到"
+D09,PubMed eutils(全文核对),PMC3277798 参考文献第22-24号,3,2026-10-17,确认Yeh 2011明确以Yeh 2004（文献24）为方案模板（'standard protocol of a pilot trial'），并引用Lan 1999（文献22）与Lan 2008（文献23）——原文明确讨论级证据
+D09,Europe PMC,"JOURNAL:""Zhonghua nei ke za zhi"" AND PUB_YEAR:2018 AND (AUTH:""Hu DY"" OR ""cardiac rehabilitation"")",3,2026-10-17,核实《中国心脏康复与二级预防指南2018精要》PMID30392235 中华内科杂志 57(11):802-810，署名中国康复医学会心血管病预防与康复专业委员会
+D10,EuropePMC,"""Chinese herbal injection"" AND safety",see s01.json,2026-10-17,入口检索: 中药注射剂安全性综述
+D10,EuropePMC,"""traditional Chinese medicine injection"" AND ""adverse drug reactions"" AND review",see s02.json,2026-10-17,入口检索2: TCM注射剂ADR综述
+D10,EuropePMC,EXT_ID:9551280 (Vickers 1998),1,2026-10-17,核实 Vickers 质量方法学批评文献
+D10,EuropePMC,EXT_ID:10406751 (Tang/Ernst BMJ 1999),1,2026-10-17,核实 Tang/Ernst BMJ 系统/Meta 文献
+D10,PubMed efetch,efetch 10406751,1,2026-10-17,Tang 1999 BMJ 摘要获取
+D10,EuropePMC,"(""Shuxuening injection"" OR ""Shenmai injection"") AND (""intensive monitoring"" OR ""concentrated monitoring"" OR ""hospital monitoring"")",see s07.json,2026-10-17,大样本安全性集中监测检索
+D10,EuropePMC,"""Chinese herbal injection"" AND safety",94,2026-10-17,s01 入口检索
+D10,EuropePMC,"""traditional Chinese medicine injection"" AND ""adverse drug reactions"" AND review",37,2026-10-17,s02 入口检索
+D10,EuropePMC,EXT_ID:9551280 (Vickers 1998),1,2026-10-17,s03 核实
+D10,EuropePMC,EXT_ID:10406751 (Tang/Ernst BMJ 1999),1,2026-10-17,s04 核实
+D10,EuropePMC,"""Shenmai injection"" AND (""intensive monitoring"" OR ""concentrated monitoring"" OR ""hospital monitoring"")",1,2026-10-17,s05 大样本监测
+D10,PubMed efetch,efetch 10406751 rettype=abstract,1,2026-10-17,"s06 Tang 1999 摘要为空(BMJ短文无摘要),题录核实 BMJ 1999;319:160-161"
+D10,EuropePMC,"(""Shuxuening injection"" OR ""Shenmai injection"") AND (""intensive monitoring"" OR ""concentrated monitoring"" OR ""hospital monitoring"")",6,2026-10-17,s07
+D10,EuropePMC,"""Shenmai injection"" AND (""surveillance"" OR ""reevaluation"" OR ""re-evaluation"")",43,2026-10-17,s08
+D10,EuropePMC,"""Shengmai injection"" AND (""cardiogenic shock"" OR ""heart failure"")",116,2026-10-17,s09
+D10,EuropePMC,"""Chinese medicine injection"" AND (history OR development OR ""re-evaluation"") AND review",201,2026-10-17,s10
+D10,EuropePMC,"""Shenfu injection"" AND (shock OR ""heart failure"") AND (randomized OR meta)",223,2026-10-17,s11
+D10,EuropePMC,"""traditional Chinese medicine injections"" AND ""cardiovascular"" AND (safety OR efficacy) sort=CITED desc",97,2026-10-17,s12
+D10,EuropePMC,"TITLE:""Chaihu injection""",1,2026-10-17,s13 柴胡注射液题录(2010 ADR系统评价)
+D10,EuropePMC,EXT_ID:42568515,1,2026-10-17,s14 2026心脏ADR批判性综述
+D10,EuropePMC,EXT_ID:37953288,1,2026-10-17,s15 2023类过敏反应综述
+D10,EuropePMC,"TITLE:(""traditional Chinese medicine injections"" OR ""Chinese herbal injections"") AND (TITLE:(status OR review OR perspective OR development OR history OR challenges OR quality OR opportunities))",59,2026-10-17,s16
+D10,EuropePMC,EXT_ID:36348487,1,2026-10-17,s17 80年发展史综述
+D10,EuropePMC,EXT_ID:32785792,1,2026-10-17,s18 RCT质量关切
+D10,EuropePMC,"DOI:""10.1186/s13020-022-00681-w""",1,2026-10-17,s19 查PMCID
+D10,EuropePMC,fullTextXML PMC9640875,1,2026-10-17,L3全文已读:80年发展史综述(1941柴胡/1954武汉制药厂/2006鱼腥草2282例22死/2009再评价/2017改革意见/2022莲必治退市)
+D10,WebSearch,国家药品不良反应信息通报 第44期 生脉注射液 2012,多条,2026-10-17,命中NMPA原文链接
+D10,WebFetch(web_reader),https://www.nmpa.gov.cn/directory/web/nmpa/xxgk/yjjsh/ypblfytb/20120110120001828.html,1,2026-10-17,"L3全文已读:2004-01-01至2011-09-30严重报告508例,过敏性休克90+严重过敏样反应89=179例(35.2%),超剂量9例/混合用药20例/过敏体质15例"
+D10,EuropePMC,"TITLE:""Shengmai"" AND TITLE:""injection"" sort asc",82,2026-10-17,s21 早期生脉注射液题录(1988陈可冀3248344)
+D10,EuropePMC,"TITLE:""Shenmai"" AND TITLE:""injection"" sort asc",192,2026-10-17,s22 早期参麦题录(1987 2955941)
+D10,EuropePMC,"TITLE:""Shenfu"" AND TITLE:""injection"" sort asc",225,2026-10-17,s26 早期参附题录
+D10,EuropePMC,salvianolate AND PCI/coronary,40,2026-10-17,"s27 丹参多酚酸盐PCI研究(33241034,32572777)"
+D10,EuropePMC,EXT_ID:36909150,1,2026-10-17,s28 2023心血管脑血管CHI综述
+D10,EuropePMC,EXT_ID:33241034,1,2026-10-17,s29 salvianolate STEMI RCT 536例
+D10,EuropePMC,EXT_ID:32572777,1,2026-10-17,s30 salvianolate elective PCI RCT 149例
+D10,EuropePMC,"""Shenmai"" AND (""post-marketing"" OR ""postmarketing"") AND safety",14,2026-10-17,s31 参麦上市后安全(27245017)
+D10,WebSearch,2006年 鱼腥草注射液 暂停使用 SFDA 七个注射剂,多条,2026-10-17,核实:国食药监安[2006]217号(2006-06-01)暂停7品种;2006-09-05 461号分步恢复
+D10,WebSearch,2008 刺五加注射液 完达山 严重不良事件 死亡;双黄连注射液 2009,多条,2026-10-17,核实:2008-10云南红河州4院6患者3死;2008-12-24《关于进一步加强中药注射剂生产和临床使用管理的通知》
+D10,WebSearch,中药注射剂安全性再评价工作方案 国食药监安[2009]28号 七项技术原则,多条,2026-10-17,核实:2009-01-13 28号文;2010七个技术指导原则
+D10,WebSearch,2017年医保目录 中药注射剂 限二级及以上医疗机构 26个品种,多条,2026-10-17,核实:2017版医保目录首次对26个中药注射剂限用(部分限缺血性心脑血管疾病急性发作证据)
+D10,WebSearch,NMPA 修订参麦注射液说明书 公告 2018年第14号,多条,2026-10-17,"核实:2018年第14号,增加警示语;更正了调度者'2020'的记忆"
+D10,WebSearch,国家药品不良反应监测年度报告 中药注射剂 占比 2021 27.5%,多条,2026-10-17,核实:2021年中药不良反应注射给药占27.5%(静脉97.2%);2019年中药注射剂占全部注射剂报告9.1%
+D10,EuropePMC,"TITLE:""compound danshen"" OR ""composite salvia"" OR ""Salvia miltiorrhiza"" AND injection sort asc",97,2026-10-17,s36 早期丹参注射液题录(1984 6591500等)
+D10,EuropePMC,SRC:Cochrane AND (Chinese herbal OR Chinese medicine) AND injection,0,2026-10-17,s37 Europe PMC无Cochrane TCMI记录(Cochrane库不在EPMC)
+D10,EuropePMC,"TITLE:""Xinmailong""",24,2026-10-17,s38 心脉隆(2021 pragmatic RCT 32604224;2020动物研究被撤稿35991186)
+D10,OpenAlex,search=中药注射剂 历史,1155,2026-10-17,s39 无直接史料命中
+D10,WebSearch,丹参注射液 研制 历史 1960年代 上海,多条,2026-10-17,"据陆瑞宝1996综述(维普)丹参/复方丹参注射液六十年代问世;华山医院回忆(39健康网,L0)"
+D10,WebFetch,http://www.simm.ac.cn/web/yjcg/xy/xycg/202009/t20200915_5697774.html (丹参多酚酸盐),1,2026-10-17,"L2:2005年获新药证书,中科院上海药物研究所,指纹图谱质控,适应证冠心病稳定型心绞痛心血瘀阻证"
+D10,WebSearch,"""traditional Chinese medicine injections"" criticism Nature Lancet editorial",多条,2026-10-17,未发现Nature/Lancet社论;发现Tan 2019(PMC6612389)、Huang 2021 Sci Rep、Li 2019 PDS
+D10,WebFetch,https://www.bmj.com/content/319/7203/160,1,2026-10-17,"L3全文已读:Tang 1999 BMJ 319:160-161,100种期刊~10000RCT,盲法15%,未提及注射剂"
+D10,EuropePMC,EXT_ID:32186054,1,2026-10-17,s40 参麦休克Meta 2018:30RCT/2038例
+D10,EuropePMC,EXT_ID:38476325,1,2026-10-17,s41 心源性休克贝叶斯NMA 2024:43RCT/2707例
+D10,EuropePMC,EXT_ID:41971585,1,2026-10-17,s42 舒血宁安慰剂对照RCT 2026:446例/31中心
+D10,EuropePMC,EXT_ID:34916929,1,2026-10-17,s47 HFrEF NMA 2021:107RCT/9073例/6品种
+D10,EuropePMC,EXT_ID:42688225,1,2026-10-17,s48 AMI后心衰SR 2026
+D10,EuropePMC,EXT_ID:26603978,1,2026-10-17,s49 参麦肺心心衰Meta 2015:27RCT/2045例
+D10,Crossref,10.1111/j.1756-5391.2010.01072.x,1,2026-10-17,s46 核实Bian/Shang/Zhang BL 2010 J Evid-Based Med 3:88-94
+D10,EuropePMC,EXT_ID:9551280 citations,433,2026-10-17,"s44 Vickers 1998被引433,2025-2026仍有后续"
+D10,EuropePMC,"DOI:""10.1002/pds.4805""",1,2026-10-17,s50 Li H 2019 PDS 广东SRS 559066例
+D10,EuropePMC,"DOI:""10.1038/s41598-021-88339-9""",1,2026-10-17,s51 Huang R 2021 Sci Rep 湖北2014-2019信号挖掘
+D10,EuropePMC,EXT_ID:41573502,1,2026-10-17,s63 无复流/慢血流Meta 2025:14类注射剂/5535例
+D10,EuropePMC,EXT_ID:41089846,1,2026-10-17,s64 MRGPRX2类过敏综述2025
+D10,EuropePMC,EXT_ID:41673625,1,2026-10-17,"s60 瑞金医院EHR倾向评分队列(参附+集束化,2013-2023)"
+D10,EuropePMC,EXT_ID:41870792,1,2026-10-17,s58 参附脓毒症休克单中心RCT 2026:122例
+D10,EuropePMC,EXT_ID:42456111,1,2026-10-17,"s59 参附早期给药多中心RCT 2026:172例,主要终点阴性/死亡率阳性"
+D10,EuropePMC,EXT_ID:32604224,1,2026-10-17,"s57 心脉隆SIMD RCT 2021:192例,舒张功能43%降"
+D10,EuropePMC,MED/26508981 citations,20,2026-10-17,s61 丹红30888被引:衍生出古红注射液3万例(2025)/血栓通监测(2020)等同方法学研究
+D10,EuropePMC,MED/29139252 citations,0,2026-10-17,s62 舒血宁30209被引0(中文期刊)
+D10,ClinicalTrials.gov API v2,query.term=salvianolate; query.term=Shenfu,35,2026-10-17,"s53/s56 注册库:NCT03045562(丹参多酚酸盐STEMI微循环,绿谷,536例);NCT04493840(RESTORE,安贞,326例);NCT01612533(参附2万例安全性登记,中国中医科学院)"
+D10,EuropePMC,TITLE:RESTORE AND ABSTRACT:Shenfu,2,2026-10-17,"s55 RESTORE主结果(medRxiv 2024):295例随机,CMR梗死面积37.4%vs37.5%,P=0.982阴性;设计文PMID36822255(NCT04493840)"
+D10,WebSearch,柴胡注射液 1941 太行山 八路军 研制,多条,2026-10-17,"史料核实:1940钱信忠提议,129师制药所,1954武汉制药厂工业化(与2022综述一致)"
+D10,WebSearch,张伯礼 中药注射剂再评价;王永炎 2012 高峰会议,多条,2026-10-17,核实:2012两院院士支持再评价/重大专项ADR降至5‰以下;2020-05-12张伯礼'正名'访谈(国家中医药管理局官网);2023张伯礼任NMPA上市后评价专家工作组组长(天津中医药大学官网)
+D10,WebSearch,莲必治注射液 注销注册证书 2022年第2号,多条,2026-10-17,"核实:2022-01-11注销,首个再评价退市中药注射剂"
+D10,WebSearch,Shuanghuanglian injection 2009 Qinghai suspend,多条,2026-10-17,核实:2009-02-12卫生部+SFDA紧急暂停;3例严重反应1例死亡;Ji K 2009 Regul Toxicol Pharmacol评9品种严重过敏
+D10,WebFetch,https://institute.tjutcm.edu.cn/info/1042/1170.htm,1,2026-10-17,"L2:2023-12-18国家药监局组建专家工作组,组长张伯礼,首批28人"
+D10,WebSearch,生脉散 出处 医学启源 张元素,多条,2026-10-17,"核实:生脉散最早出自金代张元素《医学启源》(1186),李东垣推广(沈阳药科大学学报考证文章)"
+D11,Europe PMC,"""blood stasis syndrome"" AND ""diagnostic criteria"" AND review",296,2026-10-17,
+D11,Europe PMC,"""blood stasis"" AND ""coronary heart disease"" AND (omics OR metabolomics) AND review",199,2026-10-17,
+D11,Europe PMC,"TITLE:""blood stasis syndrome"" AND (standardization OR diagnosis OR criteria) AND (review OR consensus)",51,2026-10-17,
+D11,Europe PMC,"TITLE:""oketsu"" AND (diagnosis OR diagnostic OR standard)",2,2026-10-17,
+D11,Europe PMC,"""blood stasis syndrome"" AND (consensus OR ""expert consensus"" OR internationalization)",270,2026-10-17,
+D11,Europe PMC,"AUTH:""Chen KJ"" AND ""blood stasis""",42,2026-10-17,
+D11,Europe PMC,"TITLE:""ICD-11"" AND (traditional medicine OR Chinese medicine OR TM chapter)",31,2026-10-17,
+D11,Europe PMC,"AUTH:""Terasawa K"" AND oketsu",7,2026-10-17,
+D11,Europe PMC,"AUTH:""Li SM"" AND TITLE:""diagnostic criteria of blood-stasis""",1,2026-10-17,
+D11,WebSearch,血瘀证诊断参考标准 中国中西医结合研究会活血化瘀专业委员会 1986 中西医结合杂志 1987,多结果,2026-10-17,命中tcmjc期刊页/西苑医院页/好大夫；采用期刊页与医院页
+D11,Europe PMC,EXT_ID:24610412 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:27783323 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:27921194 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:26485909 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:34532747 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:3255534 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:2961476 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:2605736 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:3255537 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:6219827 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:2942291 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,EXT_ID:2430727 SRC:MED,1,2026-10-17,摘要拉取
+D11,Europe PMC,"""blood stasis"" AND (consensus OR criterion) AND (""Zhongguo Zhong Xi Yi Jie He Za Zhi""[Journal] OR ""China Journal of Chinese and Western Medicine""[Journal]) AND 2011:2012[dp]",0,2026-10-17,
+D11,WebSearch,"""血瘀证诊断参考标准"" ""中西医结合杂志"" 1987 7(3):129 题录",多结果,2026-10-17,获1987 7(3):129与1989 9(2):111两版题录，来源chinjmap期刊PDF与haodf医生文章
+D11,WebFetch,http://www.chinjmap.com/cn/article/pdf/preview/200007091.pdf,,2026-10-17,首次WebFetch被拒，curl得148字节HTML（非PDF），放弃该来源
+D11,WebSearch,"""第一届全国活血化瘀研究学术会议"" 1982 ""试行标准"" 血瘀证",多结果,2026-10-17,命中haodf/天津中医药大学期刊页
+D11,PubMed esearch,oketsu[tiab] AND 1980:2000[dp],13,2026-10-17,
+D11,PubMed esearch,"""blood stasis"" AND questionnaire AND (korea OR korean)[affil]",13,2026-10-17,
+D11,PubMed esearch,oketsu[ti] AND diagnosis[ti],1,2026-10-17,
+D11,Europe PMC,"(metabonom* OR metabolomic*) AND TITLE:""blood stasis"" AND (coronary OR angina)",38,2026-10-17,
+D11,PubMed esummary,"1,0,5,1,8,4,5,8,,,9,4,9,4,6,2,5,,,7,7,0,3,9,7,8,,,8,0,5,1,6,2,8,,,1,4,4,6,3,6,7,,,3,5,9,4,6,9,4,,,3,5,9,4,6,9,3,,,4,0,4,2,2,2,7,,,4,0,4,2,2,2,6,,,4,0,4,2,2,2,5,,,6,5,3,0,6,5,1",88,2026-10-17,题录
+D11,Europe PMC,"""syndrome element*"" AND ""coronary heart disease"" AND (epidemiolog* OR distribut* OR factor analysis OR cluster)",26,2026-10-17,
+D11,WebFetch,https://www.most.gov.cn/cxfw/kjjlcx/kjjl2003/200802/t20080214_59048.html,1,2026-10-17,科技部官方目录确认一等奖 J-234-1-01 西苑医院
+D11,WebFetch,https://www.cacms.ac.cn/research_platform/detail/1732.html,1,2026-10-17,中医科学院官网确认首个一等奖表述/1982首个RCT/国际血瘀证诊断指南
+D11,Europe PMC,"(hemorrh* OR hemorheolog*) AND ""blood stasis"" AND (syndrome OR zheng) AND 1981:1995[dp]",0,2026-10-17,
+D11,PubMed esearch,"hemorheology[Title] AND (""blood stasis"" OR ""blood-stasis"")",20,2026-10-17,
+D11,PubMed esearch,"""blood viscosity"" AND (""blood stasis"" OR ""blood-stasis"")[ti] AND 1982:1995[dp]",37,2026-10-17,
+D11,PubMed esearch,hemorheologic[ti] AND 1980:1996[dp],156,2026-10-17,
+D11,PubMed esummary,"8111207,1304841,1301845,1302539,1392488,1498541,1773464,1773453,2594735,2286818",79,2026-10-17,血液流变学老文献题录
+D11,Europe PMC,EXT_ID:19082799 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,EXT_ID:32614604 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,EXT_ID:23878597 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,EXT_ID:23238996 AND SRC:MED,1,2026-10-17,摘要
+D11,PubMed esearch,"(metabolomic* OR metabonomic* OR ""metabonomics"") AND ""blood stasis"" AND 2007:2013[dp]",12,2026-10-17,
+D11,PubMed esummary,"24490576,24288569,23747921,23285965,23207746,22803435,22675387,22097206,21288451,20815270,19937207,18762461",12,2026-10-17,早期代谢组学题录
+D11,Europe PMC,EXT_ID:20815270 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,EXT_ID:22675387 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,EXT_ID:19937207 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,EXT_ID:21288451 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,PMC2586309/fullTextXML,1,2026-10-17,Matsumoto 2008 oketsu proteomics 全文XML已下载
+D11,Europe PMC,PMC9248085/fullTextXML,1,2026-10-17,Reddy&Fan 2022 ICD-11 全文已下载
+D11,WebFetch,https://www.who.int/standards/classifications/icd11,,2026-10-17,WHO官方ICD-11页面
+D11,Europe PMC,PMC8577172/fullTextXML,1,2026-10-17,Harrison 2021 ICD-21世纪分类 全文（含WHO分类负责人Jakob署名）
+D11,WebSearch,"""中西医结合杂志"" 1988 8(10) 血瘀证诊断标准 王阶 OR 翁维良",多结果,2026-10-17,"确认PMID3255534为王阶/陈可冀/翁维良 血瘀证诊断标准的研究 1988;8(10):585-587,589（Semantic Scholar PDF引文佐证）"
+D11,Europe PMC,EXT_ID:24599819 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,EXT_ID:35308037 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,EXT_ID:24023575 AND SRC:MED,1,2026-10-17,摘要
+D11,Europe PMC,"(""tongue diagnosis"" OR tongue image* OR ""sublingual vein*"") AND (""blood stasis"" OR oketsu OR stasis) AND (deep learning OR machine learning OR neural) AND 2019:2026[dp]",0,2026-10-17,
+D11,Europe PMC,"tongue AND (""blood stasis"" OR ""blood-stasis syndrome"") AND (deep learning OR ""convolutional neural"" OR classifier) ",457,2026-10-17,
+D11,Europe PMC,"(""blood stasis syndrome"" OR ""blood-stasis"") AND (coronary OR ""heart failure"") AND (multicenter OR real-world OR registry OR nationwide) AND (distribution OR prevalence OR epidemiolog*) AND 2021:2026[dp]",0,2026-10-17,
+D11,Europe PMC,"""coronary heart disease"" AND ""traditional Chinese medicine"" AND syndrome AND (cross-sectional OR ""case series"" OR survey) AND (distribution OR prevalence) AND 2022:2026[dp]",18,2026-10-17,
+D11,Europe PMC,"AUTH:""Ko SG"" OR (TITLE:""blood stasis"" AND (Korea OR Korean OR ""Korean medicine"")) AND (diagnos* OR pattern OR biomarker) AND 2015:2026[dp]",0,2026-10-17,
+D11,PubMed esummary,"24280472,24288560,26482123,27250050,28327172,30156424,30249298,31263505",71,2026-10-17,韩国血瘀问卷相关题录
+D11,Europe PMC,"TITLE:""blood stasis"" AND (microbiota OR metabolomics OR multi-omics OR machine learning) AND 2022:2026[dp]",0,2026-10-17,
+D11,Europe PMC,"(TITLE:""blood stasis"" OR TITLE:""blood-stasis"") AND journal:""Chin J Integr Med"" AND 2021:2026[dp]",0,2026-10-17,
+D11,PubMed esearch,"""blood stasis"" AND (guide OR guideline OR international) AND 2021:2023[dp] AND (Chin J Integr Med[Journal] OR Zhongguo Zhong Xi Yi Jie He Za Zhi[Journal])",3,2026-10-17,
+D11,PubMed esearch,blood stasis[ti] AND 2022[dp],54,2026-10-17,
+D11,PubMed esummary,"35357680,35357679",2,2026-10-17,国际血瘀证诊断指南英文版题录
+D11,Europe PMC,EXT_ID:35357679 AND SRC:MED,1,2026-10-17,指南题录/摘要
+D11,Europe PMC,EXT_ID:35357680 AND SRC:MED,1,2026-10-17,指南题录/摘要
+D11,PubMed esummary,21823417,1,2026-10-17,2029例证候题录
+D11,Europe PMC citations,MED/20815270/citations,17,2026-10-17,向前追踪简维雄2010
+D11,Europe PMC,"(""blood stasis syndrome"" OR ""blood-stasis syndrome"") AND (""gut microbiota"" OR ""intestinal flora"" OR microbiome) AND 2021:2026[dp]",0,2026-10-17,
+D11,Europe PMC,"TITLE:""blood stasis"" AND (microbiome OR microbiota)",15,2026-10-17,
+D11,Europe PMC,EXT_ID:41158877 AND SRC:MED,1,2026-10-17,近五年代表文献摘要
+D11,Europe PMC,EXT_ID:40671145 AND SRC:MED,1,2026-10-17,近五年代表文献摘要
+D11,Europe PMC,EXT_ID:36523490 AND SRC:MED,1,2026-10-17,近五年代表文献摘要
+D11,Europe PMC,EXT_ID:38539207 AND SRC:MED,1,2026-10-17,近五年代表文献摘要
+D11,Europe PMC,EXT_ID:37088809 AND SRC:MED,1,2026-10-17,近五年代表文献摘要
+D11,Europe PMC,EXT_ID:39559795 AND SRC:MED,1,2026-10-17,近五年代表文献摘要
+D11,Europe PMC,EXT_ID:41333340 AND SRC:MED,1,2026-10-17,近五年代表文献摘要
+D11,Europe PMC,EXT_ID:42415497 AND SRC:MED,1,2026-10-17,近五年代表文献摘要
+D11,Europe PMC,EXT_ID:41602324 AND SRC:MED,1,2026-10-17,近五年代表文献摘要
+D11,WebSearch,陈可冀 血瘀证与活血化瘀研究 2003年度 国家科技进步一等奖 中国中医科学院,多结果,2026-10-17,命中科技部目录/CACMS页/CMS页
+D11,WebSearch,世界中医药学会联合会 国际血瘀证诊断指南 2021 发布 标准 编号,多结果,2026-10-17,命中西苑/ncrccmc指南页；CJIM 2022;28(4):297-303
+D11,WebFetch,https://ncrccmc.xyhospital.com/Html/News/Articles/165.html,1,2026-10-17,指南主/次标准全文条款已读
+D12,Europe PMC,"TITLE:""network pharmacology"" AND TITLE:""traditional Chinese medicine""",170,2026-10-17,epmc_001.json 入口综述检索
+D12,Europe PMC,"TITLE:""network pharmacology"" AND (TITLE:criticism OR TITLE:quality OR TITLE:reliability OR TITLE:overrated OR TITLE:pitfalls)",112,2026-10-17,epmc_002.json
+D12,Europe PMC,"TITLE:berberine AND TITLE:(dyslipidemia OR ""lipid-lowering"" OR hyperlipidemia) AND TITLE:(meta-analysis OR review)",8,2026-10-17,epmc_003.json 入口 E3
+D12,Europe PMC,"AUTHOR:""Hopkins AL"" AND TITLE:""network pharmacology""",2,2026-10-17,epmc_004.json Hopkins 2007/2008
+D12,Europe PMC,"TITLE:""network target"" AND AUTHOR:""Li S"" AND (TITLE:""traditional Chinese medicine"" OR TITLE:""Chinese medicine"")",4,2026-10-17,epmc_005.json 李梢系列
+D12,Europe PMC,"(TITLE:""network pharmacology"") AND (TITLE:""questionable"" OR TITLE:""unreliable"" OR TITLE:""critique"" OR TITLE:""concerns"" OR TITLE:""bubble"" OR TITLE:""overuse"" OR TITLE:""misuse"")",0,2026-10-17,epmc_006.json
+D12,Europe PMC,"TITLE:""network pharmacology"" AND (TITLE:""methodological quality"" OR TITLE:""quality assessment"" OR TITLE:""reporting quality"")",3,2026-10-17,epmc_007.json
+D12,Europe PMC,"TITLE:""evaluation of network pharmacology"" OR TITLE:""network pharmacology evaluation""",17,2026-10-17,epmc_008.json
+D12,Europe PMC,"TITLE:""guideline"" AND TITLE:""network pharmacology""",0,2026-10-17,epmc_009.json
+D12,Europe PMC,"TITLE:""tetramethylpyrazine"" OR TITLE:ligustrazine",1399,2026-10-17,epmc_010.json
+D12,Europe PMC,"TITLE:""sodium tanshinone IIA sulfonate""",140,2026-10-17,epmc_011.json
+D12,Europe PMC,TITLE:puerarin AND TITLE:(angina OR myocardial OR coronary OR cardiovascular) ,100,2026-10-17,epmc_012.json
+D12,PubMed esearch,tetramethylpyrazine [1975..1985],15,2026-10-17,es_001.json 最早 1979
+D12,PubMed esearch,"""sodium tanshinone II-A sulfonate"" OR ""sodium tanshinone IIA sulfonate"" [1975..1995]",9,2026-10-17,es_002.json 最早 1979
+D12,PubMed esearch,puerarin AND (angina OR coronary) [1975..1995],8,2026-10-17,es_003.json
+D12,PubMed esummary,tetramethylpyrazine 1975-1985 esummary,-,2026-10-17,15 条题录核读
+D12,PubMed esummary,sodium tanshinone IIA sulfonate 1975-1995 esummary,-,2026-10-17,9 条题录核读
+D12,PubMed esummary,puerarin angina/coronary 1975-1995 esummary,-,2026-10-17,8 条题录核读
+D12,PubMed esearch,(ligustrazine OR chuanxiongzine OR chuanxiong)  [1975..1985],18,2026-10-17,es_004.json
+D12,PubMed esearch,"""Panax notoginseng"" AND (saponin OR ""Xuesaitong"" OR ""total saponins"") AND (myocardial OR coronary OR angina OR platelet) [1980..1995]",18,2026-10-17,es_005.json 最早 1989
+D12,PubMed esearch,"berberine AND (hypercholesterolemia OR ""low density lipoprotein"" OR lipid) [2004..2005]",13,2026-10-17,es_006.json
+D12,PubMed esummary,ligustrazine/chuanxiong 1975-1985 esummary,-,2026-10-17,3 条新增题录
+D12,PubMed esummary,Panax notoginseng saponins cardio 1980-1995 esummary,-,2026-10-17,12 条题录核读
+D12,PubMed esummary,berberine lipid 2004-2005 esummary,-,2026-10-17,Nat Med 2004 确认
+D12,PubMed esearch,"""Chung Hua I Hsueh Tsa Chih""[Journal] AND (pyrazine OR chuanxiong OR ligustrazine OR ""Ligusticum"") [1975..1980]",0,2026-10-17,1977 中华医学杂志未检到
+D12,PubMed esearch,astragaloside AND (myocardial OR cardiac OR heart) [1995..2010],18,2026-10-17,es_007.json 最早 1995
+D12,Europe PMC,"TITLE:""Salvia miltiorrhiza"" AND TITLE:genome",60,2026-10-17,epmc_013.json
+D12,PubMed esearch,"""Salvia miltiorrhiza"" AND genome[ti] [2015..2017]",9,2026-10-17,es_008.json
+D12,PubMed,astragaloside cardio 1995-2010 esummary,-,2026-10-17,18 条题录核读
+D12,PubMed esummary,Salvia miltiorrhiza genome candidates 2015-2017,-,2026-10-17,Mol Plant 2016 确认
+D12,Europe PMC,"(AUTHOR:""Li S"") AND (TITLE:""zheng"" OR TITLE:""network"") AND (TITLE:""traditional Chinese medicine"" OR TITLE:""Chinese medicine"" OR TITLE:""herbal"" OR TITLE:""medicine"")",51,2026-10-17,epmc_014.json 发现 2023 AI 综述/2022 指南综述等
+D12,Europe PMC,"TITLE:""ZHENG"" AND TITLE:network",4,2026-10-17,epmc_015.json IET 2007
+D12,Europe PMC,berberine AND (gut microbiota OR intestinal flora) AND TITLE:(berberine),148,2026-10-17,epmc_016.json
+D12,Europe PMC,"TITLE:""Berberine"" AND TITLE:""AMP-activated protein kinase"" AND 2006:2007[pdat]",0,2026-10-17,epmc_017.json 语法失败
+D12,Europe PMC,"TITLE:berberine AND TITLE:""AMP-activated""",19,2026-10-17,epmc_018.json
+D12,Europe PMC,TITLE:berberine AND TITLE:microbiota AND (PUB_YEAR:2015 OR PUB_YEAR:2016 OR PUB_YEAR:2017 OR PUB_YEAR:2018 OR PUB_YEAR:2019 OR PUB_YEAR:2020),36,2026-10-17,epmc_019.json berberine microbiota 2015-2020
+D12,PubMed esearch,"berberine AND ""AMP-activated protein kinase"" AND (diabetic OR insulin-resistant) [2005..2007]",2,2026-10-17,es_009.json Lee 2006
+D12,PubMed esearch,Zhang X berberine gut microbiota diabetes [2015..2015],1,2026-10-17,es_010.json Sci Rep 2015
+D12,Europe PMC,"TITLE:""Blind docking"" AND TITLE:""network pharmacology""",2,2026-10-17,epmc_020.json Che 2025
+D12,Europe PMC,"(TITLE:""network pharmacology"" AND (TITLE:bibliometric OR TITLE:""explosive"" OR TITLE:growth))",30,2026-10-17,epmc_021.json
+D12,PubMed esearch,"""network pharmacology""[tiab] [2007..2010]",13,2026-10-17,es_011.json 增长曲线
+D12,PubMed esearch,"""network pharmacology""[tiab] [2011..2013]",72,2026-10-17,es_012.json
+D12,PubMed esearch,"""network pharmacology""[tiab] [2014..2016]",141,2026-10-17,es_013.json
+D12,PubMed esearch,"""network pharmacology""[tiab] [2017..2019]",512,2026-10-17,es_014.json
+D12,PubMed esearch,"""network pharmacology""[tiab] [2020..2022]",3849,2026-10-17,es_015.json
+D12,PubMed esearch,"""network pharmacology""[tiab] [2023..2026]",14467,2026-10-17,es_016.json 爆发证据
+D12,PubMed esearch,"(""traditional Chinese medicine""[tiab] OR ""Chinese herbal""[tiab] OR ""Chinese medicine""[tiab]) AND (pharmacolog*[tiab] OR mechanis*[tiab] OR ""network pharmacology""[tiab]) [2021/10/17..2026/10/17]",18197,2026-10-17,es_017.json 本方向近五年宽口径
+D12,PubMed esearch,"(""traditional Chinese medicine""[ti] OR ""Chinese herbal""[ti] OR ""Chinese medicine""[ti] OR ""network pharmacology""[ti] OR ""Chinese materia medica""[ti]) [2021/10/17..2026/10/17]",14006,2026-10-17,es_018.json 标题口径
+D12,Europe PMC,"(TITLE:""ferroptosis"" AND (TITLE:""traditional Chinese medicine"" OR TITLE:""Chinese herbal"" OR TITLE:""monomer"" OR TITLE:tanshinone OR TITLE:astragaloside OR TITLE:puerarin OR TITLE:quercetin)) AND (TITLE:myocardial OR TITLE:cardiac OR TITLE:heart OR TITLE:atherosclerosis)",20,2026-10-17,epmc_022.json ferroptosis TCM CV theme
+D12,Europe PMC citations,MED/15531889 citations (Kong 2004 berberine),1029,2026-10-17,cit_kong.json 前向追踪
+D12,Europe PMC,TITLE:BATMAN-TCM OR TITLE:ETCM OR TITLE:SymMap,8,2026-10-17,epmc_023.json 数据库论文
+D12,PubMed esearch,Xuesaitong,129,2026-10-17,es_019.json 未逐条展开
+D12,Europe PMC references,MED/18936753 references (Hopkins 2008),117,2026-10-17,ref_hopkins.json 核对无李梢引用
+D12,PubMed efetch,"affiliations 8732134,26879404,30365030,30380087",-,2026-10-17,单位核实：华山医院/北京蛋白质组研究中心/中国中医科学院中药研究所/北京中医药大学等
+D12,OpenAlex,"pmid 6381893, 539430, 506727 abstract lookup",-,2026-10-17,三条老文献均无摘要
+D12,Europe PMC fullTextXML,PMC12030339 fulltext pitfalls,-,2026-10-17,Panossian 2025 全文 L3
+D12,Europe PMC fullTextXML,PMC11973355 fulltext blind docking,-,2026-10-17,Che 2025 全文 L3（35 篇审阅+基准数据）
+D12,PubMed efetch,abstracts 17370429 / 22066431 / 18936753,-,2026-10-17,三条均无摘要，L1
+D12,PubMed efetch,abstracts 15531889 / 21689469 / 27018390,-,2026-10-17,Kong/NIMS 摘要已读；salvia 短报文无摘要
+D12,PubMed efetch,abstracts 39800680 / 40283973 / 35178906,-,2026-10-17,入口综述摘要
+D12,PubMed efetch,"abstracts 21689469,6381893,3157500",-,2026-10-17,节点候选
+D12,PubMed efetch,"abstracts 3938713,8732134,36941490",-,2026-10-17,节点候选
+D12,PubMed efetch,"abstracts 2413290,27018390,35178906",-,2026-10-17,Bache 1985 摘要已读
+D12,PubMed efetch,abstracts 16873688,-,2026-10-17,Lee 2006 AMPK
+D12,PubMed efetch,abstracts 26396057,-,2026-10-17,菌群 2015
+D12,PubMed efetch,abstracts 41543854,-,2026-10-17,JAMA Netw Open RCT
+D12,PubMed efetch,abstracts 42249406,-,2026-10-17,HTD1801 Ib
+D12,PubMed efetch,"abstracts 40196361,41520828",-,2026-10-17,批评+编评
+D12,PubMed efetch,"abstracts 36696989,42356246",-,2026-10-17,铁死亡+菌群 SR
+D12,PubMed efetch,"abstracts 41322006,2403009",-,2026-10-17,AI 综述+PNS 1990
+D12,PubMed efetch,abstracts 39986690 / 35754692,-,2026-10-17,共识+文献计量
+D12,PubMed efetch,abstracts 38197310 / 41322308,-,2026-10-17,AI 综述 2024+心脏 NP 应用 2025
+D12,Europe PMC citations,MED/17370429 citations (Li 2007),258,2026-10-17,cit_li2007.json 前向追踪
+D12,WebSearch,李梢 网络靶标 2007 清华,-,2026-10-17,清华官网：1999 假说/2007 寒热网络（L0）
+D12,WebSearch,川芎嗪 四甲基吡嗪 1977 中华医学杂志 北京制药工业研究所,-,2026-10-17,1977 论文未直接命中（L0）
+D12,WebSearch,丹参酮IIA磺酸钠 上海 研制历史 / 葛根素 医科院药物所 阜外,-,2026-10-17,"L0 history: STIIA 1970s Shanghai; puerarin IMP 1993 approval, 1996/1997 award"
+D12,WebSearch,network pharmacology criticism unreliable flawed studies editorial,-,2026-10-17,发现 Panossian 2025 与 Che 2025
+D12,WebSearch,网络药理学评价方法指南 世界中医药学会联合会 T/CWM 2021 李梢,-,2026-10-17,标准 2021 发布、2018 起筹备
+D12,WebSearch,血塞通注射液 三七总皂苷 1980年代 云南 昆药,-,2026-10-17,1970s 分离/1983 临床/1985 商标（L0）
+D12,PubMed efetch,abstracts 26879404,-,2026-10-17,BATMAN-TCM 摘要（芪参益气滴丸案例）
+D12,PubMed,Salvia miltiorrhiza genome[ti] 2015-2017,-,2026-10-17,同一检索的手工补记（与 es_008 相同查询），保留以与 scratch 日志一致
+X01,Europe PMC,"""history"" AND ""integrated traditional Chinese and Western medicine"" AND cardiovascular",1335,2026-10-17,过于宽泛，未直接命中学科史文献
+X01,Europe PMC,"TITLE:""traditional Chinese medicine"" AND TITLE:""cardiovascular disease"" AND TITLE:""evidence""",1,2026-10-17,命中 JACC 2017 综述 PMID 28619197，选为入口
+X01,Europe PMC,"""blood stasis syndrome"" AND ""coronary heart disease"" AND (TITLE:review OR TITLE:""systematic review"")",38,2026-10-17,多为机制/药物综述，作为补充入口线索
+X01,Europe PMC,"AUTH:""Chen KJ"" AND TITLE:(review AND (cardiovascular OR ""heart""))",3,2026-10-17,陈可冀年度学术综述线索
+X01,Europe PMC,"""Xuefu Zhuyu"" AND TITLE:review",96,2026-10-17,血府逐瘀相关综述，非入口级
+X01,Europe PMC,"TITLE:""integrative medicine"" AND TITLE:China AND TITLE:(history OR development)",3,2026-10-17,命中 PMID 16355626《20世纪中国中西医结合医学史回顾》，选为入口
+X01,NLM Catalog,Zhong Xi Yi Jie He Za Zhi[ta] (efetch 8207427),1 record,2026-10-17,"中西医结合杂志 ISSN 0254-9034, 中国中医研究院, 1981-1991"
+X01,NLM Catalog,Zhongguo Zhong Xi Yi Jie He Za Zhi[ta] (efetch 9211576),1 record,2026-10-17,"中国中西医结合杂志 ISSN 1003-5370, 1992-, 接续前刊"
+X01,NLM Catalog,Zhonghua Xin Xue Guan Bing Za Zhi[ta] (efetch 7910682),1 record,2026-10-17,"中华心血管病杂志 ISSN 0253-3758, [1973?]-, 中华医学会, 英文名 Chinese Journal of Cardiology"
+X01,NLM Catalog,"""Chinese Journal of Integrative Medicine"" (efetch)",2+ records,2026-10-17,"CJIM NLM DateIssued [2003]-, 含前英文版 ISSN 1006-6497; 另命中中西医结合心脑血管病杂志 2003- ISSN 1672-1349"
+X01,Europe PMC,EXT_ID:28619197,1,2026-10-17,JACC2017摘要
+X01,Europe PMC,EXT_ID:16355626,1,2026-10-17,2005史综述摘要
+X01,Europe PMC,"(""Jing Zhi Guan Xin Pian"" OR ""Jingzhi Guanxin"" OR ""refined Guanxin"")",7,2026-10-17,精制冠心片近年代理
+X01,Europe PMC,"(""Guanxin II"" OR ""Guanxin-2"" OR ""Guanxin No.2"" OR ""Kuan Hsin 2"") AND (angina OR coronary)",24,2026-10-17,命中冠心2号综述 PMID 20082256
+X01,Europe PMC,"""blood stasis"" AND ""diagnostic criteria"" AND TITLE:(reference OR standard) AND PUB_YEAR:[1985 TO 1995]",0,2026-10-17,1986标准原文未入库
+X01,Europe PMC,"tongxinluo AND SRC:MED AND PUB_YEAR:2023 AND JOURNAL:""Jama""",1,2026-10-17,CTS-AMI PMID 37874574
+X01,Europe PMC,"qiliqiangxin AND JOURNAL:""Nature medicine""",1,2026-10-17,QUEST PMID 39095596
+X01,Europe PMC,shensong yangxin AND (TITLE:randomized OR TITLE:trial) AND PUB_YEAR:[2023 TO 2026],11,2026-10-17,命中EHJ 2024 SS-AFRF PMID 39178138
+X01,Europe PMC,xuezhikang AND TITLE:(review OR history),61,2026-10-17,血脂康综述线索
+X01,Europe PMC,"""shexiang baoxin"" AND TITLE:(review OR history)",43,2026-10-17,麝香保心丸综述线索
+X01,Europe PMC,wenxin keli AND TITLE:(review OR history),17,2026-10-17,稳心颗粒综述线索
+X01,Europe PMC,suxiao jiuxin,134,2026-10-17,速效救心丸文献集
+X01,Europe PMC,"JOURNAL:""Zhonghua Xin Xue Guan Bing Za Zhi"" AND PUB_YEAR:1982",69,2026-10-17,确认1982年卷期在库
+X01,Europe PMC,"""blood stasis"" AND ""diagnostic criteria"" AND China",1923,2026-10-17,宽泛，改用AUTH/TITLE策略
+X01,Europe PMC,"AUTH:""Chen KJ"" AND TITLE:""blood stasis""",26,2026-10-17,命中2017/2015血瘀证标准论文与2012综述
+X01,Europe PMC,"""Xi Yuan Hospital"" AND (TITLE:history OR TITLE:cardiovascular)",1,2026-10-17,无建制史文献
+X01,Europe PMC,"""Academy of Traditional Chinese Medicine"" AND TITLE:(history OR ""40th"" OR ""50th"")",11,2026-10-17,命中中华医史杂志2015机构简史 PMID 26813325
+X01,Europe PMC,"""coronary heart disease"" AND ""traditional Chinese medicine"" AND PUB_YEAR:[1973 TO 1981] AND ""angina"" AND (AUTH:""Chen KJ"" OR AUTH:""Chen K"")",0,2026-10-17,1970s英文题录无获
+X01,Europe PMC,"JOURNAL:""Zhonghua Xin Xue Guan Bing Za Zhi"" AND PUB_YEAR:1982 AND (angina OR Guanxin OR ""double blind"" OR ""coronary heart"")",4,2026-10-17,命中精制冠心片RCT PMID 6751749
+X01,Europe PMC,"AUTH:""Chen KJ"" AND PUB_YEAR:[1973 TO 1990]",42,2026-10-17,陈可冀1980s活血化瘀系列题录
+X01,PubMed esummary,PMID 6751749,1,2026-10-17,卷期页核实10(2):85-89
+X01,PubMed esummary,PMID 37874574,1,2026-10-17,JAMA卷期页核实
+X01,PubMed esummary,PMID 39095596,1,2026-10-17,Nat Med卷期页核实
+X01,PubMed esummary,PMID 39178138,1,2026-10-17,EHJ卷期页核实
+X01,PubMed efetch,abstract PMID 37874574,1,2026-10-17,查注册号与摘要（NCT03792035）
+X01,PubMed efetch,abstract PMID 39095596,1,2026-10-17,查注册号与摘要（ChiCTR1900021929）
+X01,PubMed efetch,abstract PMID 39178138,1,2026-10-17,查注册号与摘要（结构化摘要）
+X01,Europe PMC,"JOURNAL:""Zhong Xi Yi Jie He Za Zhi"" AND PUB_YEAR:1987 AND (stasis OR blood OR diagnostic)",17,2026-10-17,1986/87血瘀证标准原文未入PubMed
+X01,Europe PMC,"JOURNAL:""Zhong Xi Yi Jie He Za Zhi"" AND PUB_YEAR:[1981 TO 1986] AND (coronary OR angina OR stasis)",65,2026-10-17,1980s血瘀证客观化研究题录群
+X01,Europe PMC,"""血瘀证诊断参考标准""",0,2026-10-17,中文全文检索0命中
+X01,Europe PMC,EXT_ID:26485909,1,2026-10-17,2015实用血瘀证标准摘要（载1986标准/2011共识）
+X01,Europe PMC,EXT_ID:27921194,1,2026-10-17,2017 CJIM实用标准（无摘要）
+X01,Europe PMC,EXT_ID:24610412,1,2026-10-17,2014血瘀证标准方法学综述摘要
+X01,Europe PMC,EXT_ID:31772600,1,2026-10-17,精制冠心片网络药理摘要
+X01,Europe PMC,EXT_ID:39525586,1,2026-10-17,APSB 2024血脂康系统更新摘要
+X01,Europe PMC,EXT_ID:20082256,1,2026-10-17,冠心2号（Guanxin II）CJIM 2009综述摘要
+X01,Europe PMC,EXT_ID:23238996,1,2026-10-17,2012血瘀证与活血化瘀综述（无摘要）
+X01,Europe PMC,EXT_ID:26813325,1,2026-10-17,中华医史杂志2015机构简史摘要
+X01,ClinicalTrials.gov,query.intr=T89,8,2026-10-17,NCT00797953（II期2007）、NCT01659580（III期2012）、NCT01679028（日本I期）、NCT04993729（高山病2021）、NCT02388984（糖尿病视网膜病变III期）等
+X01,ClinicalTrials.gov,query.intr=Compound Danshen Dripping Pill,8,2026-10-17,国内与海外CDDP试验集
+X01,Europe PMC,"TITLE:""tongxinluo"" AND TITLE:review",24,2026-10-17,通心络系统评价群（2025-2026）
+X01,Europe PMC,"TITLE:""qiliqiangxin"" AND TITLE:review",3,2026-10-17,芪苈强心系统评价
+X01,Europe PMC,"TITLE:""shexiang baoxin"" AND TITLE:(""history"" OR overview OR ""development"")",0,2026-10-17,无史类综述题名
+X01,Europe PMC,"TITLE:""compound danshen dripping pill"" AND TITLE:(review OR ""systematic"")",1,2026-10-17,2022年26RCT系统评价 PMID 36120120
+X01,Europe PMC,"(""dripping pill"" OR ""Fufang Danshen"" OR Dantonic) AND ""Food and Drug Administration"" AND ""investigational new drug""",7,2026-10-17,命中PMC5407045、PMC10232835、PMC4846759
+X01,Europe PMC fullTextXML,PMC5407045 fulltext,-,2026-10-17,复方丹参滴丸临床应用建议全文：1994上市、4.5亿人次、FDA II期125例15中心
+X01,Europe PMC fulltext,"""Tongxinluo"" AND ""launched in 1996""",0,2026-10-17,改用其他措辞
+X01,Europe PMC fulltext,"""Tongxinluo capsule"" AND ""1996"" AND ""Yiling""",7,2026-10-17,命中PMC10578693（dates back to 1996）
+X01,Europe PMC fulltext,"""Qiliqiangxin"" AND (""approved in 2004"" OR ""launched in 2004"")",0,2026-10-17,2004上市年份未能核实
+X01,Europe PMC fulltext,"""Shexiang Baoxin"" AND ""1981""",7,2026-10-17,命中PMC9701736（marketing in 1981）
+X01,Europe PMC fulltext,"""Wenxin Keli"" AND (""developed in"" OR ""approved in"" OR ""1995"")",84,2026-10-17,稳心颗粒年份未直接命中
+X01,Europe PMC fulltext,"""Suxiao Jiuxin"" AND ""1982""",2,2026-10-17,命中PMC11451125（1982年CFDA批准、中新药业六中药厂）
+X01,Europe PMC fulltext,"""dripping pill"" AND ""in 1997"" AND FDA",6,2026-10-17,命中PMC4846759
+X01,Europe PMC fulltext,"""Xuezhikang"" AND (""launched"" OR ""marketed in 1995"")",11,2026-10-17,命中集采研究等
+X01,Europe PMC fullTextXML,PMC10232835 fulltext grep (T89/FDA/first/Dantonic),-,2026-10-17,国际多中心试验展望：T89 III期2012-2016.3、通心络越南2013、约10品种IND
+X01,Europe PMC fullTextXML,PMC5407045 fulltext grep (1997/IND),-,2026-10-17,1997年IND未在该文出现，改引PMC4846759
+X01,Europe PMC fullTextXML,PMC12587000 fulltext grep (1996/developed/Yiling),-,2026-10-17,吴以岭络病理论组方（虫药）叙述
+X01,Europe PMC fullTextXML,PMC11544391 fulltext grep (1995/approval/WBL),-,2026-10-17,血脂康1995首篇临床报告（参考文献表）与亚洲多地区获批表述
+X01,Europe PMC fullTextXML,PMC13506899 fulltext grep (2004/developed),-,2026-10-17,芪苈强心年份无获
+X01,Europe PMC fullTextXML,PMC13222831 fulltext grep (developed/approved),-,2026-10-17,稳心颗粒『首个CFDA批准抗心律失常中药』表述，无年份
+X01,Europe PMC fullTextXML,PMC9701736 fulltext grep (1981/developed),-,2026-10-17,麝香保心丸1981年上市表述
+X01,Europe PMC fullTextXML,PMC13418305 fulltext grep (developed/approved/1995),-,2026-10-17,稳心颗粒QC综述，年份无获
+X01,Europe PMC fullTextXML,PMC10578693 fulltext grep (1996/developed/Yiling),-,2026-10-17,通心络dates back to 1996+以岭药业
+X01,Europe PMC fullTextXML,PMC4846759 fulltext grep (1997/IND/FDA),-,2026-10-17,1997年FDA受理IND 56956
+X01,Europe PMC fullTextXML,PMC11451125 fulltext grep (1982/Tianjin),-,2026-10-17,速效救心丸1982年批准
+X01,ClinicalTrials.gov,NCT03792035 detail,1,2026-10-17,注册主要终点MACCE 30天，与发表一致
+X01,Europe PMC,"""China coronary secondary prevention study"" OR CCSPS AND xuezhikang",23,2026-10-17,CCSPS主报告与亚组群
+X01,Europe PMC,"(""Guo Shikui"" OR ""Kuo Shih-Kuei"" OR ""GUO Shi-kui"")",28,2026-10-17,郭士魁纪念文献无获（命中为同形异名）
+X01,Europe PMC,"(""Kuan Xiong"" OR ""broad-chest"") AND aerosol AND (angina OR coronary)",7,2026-10-17,命中1983 Planta Med（PMID 6844452）与2014多中心RCT（24812891）
+X01,Europe PMC,"TITLE:""China coronary secondary prevention""",7,2026-10-17,CCSPS主报告PMID 15924803与亚组
+X01,Europe PMC,"CITES:37874574_MED AND (TITLE:""editorial"" OR TITLE:comment* OR TITLE:concern* OR TITLE:letter OR TITLE:""traditional Chinese medicine"")",27,2026-10-17,引用JAMA2023的评论/综述群
+X01,Europe PMC,"JOURNAL:""Jama"" AND PUB_YEAR:2023 AND TITLE:(""traditional Chinese medicine"" OR ""Chinese herbal"" OR tongxinluo)",3,2026-10-17,原文+两篇配套评论（37874581 Curfman、37874582 Bach）
+X01,NLM Catalog,chung i tsa chih,0,2026-10-17,中医杂志著录未命中
+X01,PubMed efetch,editorial PMID 37874581,1,2026-10-17,JAMA 2023配套评论（Curfman）
+X01,PubMed efetch,editorial PMID 37874582,1,2026-10-17,JAMA 2023配套评论（Bach）
+X01,Europe PMC,"""Deng Tietao"" AND (heart OR coronary OR ""phlegm and blood stasis"" OR 痰)",14,2026-10-17,邓铁涛亲撰心血管题录无获
+X01,Europe PMC,"""Shi Zaixiang""",9,2026-10-17,命中2025升陷祛瘀方HFrEF试验（40502625）等
+X01,Europe PMC,EXT_ID:25499939,1,2026-10-17,血脂康美国多中心研究题录核实
+X01,Europe PMC,EXT_ID:15924803,1,2026-10-17,CCSPS摘要（66中心4870例、45.1%降低）
+X01,Europe PMC,EXT_ID:39691499,1,2026-10-17,Frontiers CVM 2024总览摘要（55 RCT/36261例）
+X01,Europe PMC,EXT_ID:25335323,1,2026-10-17,"2013年度综述摘要（作者Li SM, Xu H, Chen KJ）"
+X01,WebSearch,中国中西医结合学会 1981年 成立 大会 简史,~10,2026-10-17,命中学会官网简介页，1981年11月成立
+X01,WebSearch,中华中医药学会 心病分会 成立 时间,~8,2026-10-17,仅获心血管网等非官方页，2006年说法待证
+X01,WebSearch,中国中西医结合学会 心血管病专业委员会 成立 1980年代 冠心病座谈会,~6,2026-10-17,未获成立年份官方记载
+X01,WebSearch,"""血瘀证与活血化瘀研究"" 国家科技进步奖 一等奖 2003 陈可冀 西苑医院",~5,2026-10-17,命中中国中西医结合杂志2016陈可冀专文页(正文不可读)
+X01,WebSearch,国家中医心血管病临床医学研究中心 西苑医院 批准 2019 科技部,~5,2026-10-17,命中西苑医院官网中心页
+X01,WebSearch,2003年度国家科学技术进步奖 一等奖 血瘀证 活血化瘀 获奖名单 gov.cn,~5,2026-10-17,gov.cn名单未见；命中环球中医药2009述评PDF
+X01,WebFetch,http://www.caim.org.cn/list_channel_nav.jsp?classId=10897&type=1&id=1259,1,2026-10-17,学会简介全文已读：1981年11月成立、历届理事会、专委会名单
+X01,WebFetch,https://www.xyhospital.com/Html/News/Articles/20524.html,1,2026-10-17,2019年5月获批、首批国家中医临床医学研究中心、主任陈可冀
+X01,WebFetch,https://www.xyhospital.com/Html/Departments/Main/Detail_103.html,1,2026-10-17,心血管科1960年成立、精制冠心片/宽胸气雾剂、1982年首个RCT表述
+X01,WebFetch,https://www.who.int/news/item/25-05-2019-world-health-assembly-update,1,2026-10-17,ICD-11 2019-05-25通过、2022-01-01生效；未提传统医学章节
+X01,WebFetch,https://www.tcmjc.com/doi/10.88888/j.1003-5370.2016.9.1029-1031,1,2026-10-17,仅导航页，正文不可读
+X01,WebSearch,"国家中医药管理局 ""十一五"" 重点专科 心血管科 名单 公布",~8,2026-10-17,仅医院自述，未见官方名单页
+X01,WebSearch,(who.int) ICD-11 traditional medicine chapter Module 1 adopted 2019,~6,2026-10-17,WHO官网直链404；转经期刊文献核实传统医学章节
+X01,PubMed esummary,PMID 26813325,1,2026-10-17,"中华医史杂志2015;45(6):352-355, Sun Q"
+X01,PubMed esummary,PMID 6751749 authors,1,2026-10-17,1982年RCT作者列表仅Chen KJ
+X01,Europe PMC,"TITLE:""traditional medicine"" AND TITLE:""ICD-11""",3,2026-10-17,命中PMID 35773641、32891598
+X01,Europe PMC,"AUTH:""Yakubo"" AND ICD-11",1,2026-10-17,Kampo相关，非主要来源
+X01,Europe PMC,EXT_ID:35773641 (abstract),1,2026-10-17,ICD-11纳入传统医学章节已核实(BMC Med Inform Decis Mak 2022)

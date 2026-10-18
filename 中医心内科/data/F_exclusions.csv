@@ -1,0 +1,104 @@
+﻿direction,item,reason
+D01,"CTS-AMI（通心络治急性心梗，JAMA 2023, PMID 37874574）",适应证为急性心肌梗死，归D02；仅在D01-N06 followup与国际线交叉引用
+D01,芎芍胶囊（2000）与XS0601（2006）防治PCI后再狭窄研究,PCI围术期/再狭窄主题归D02（再狭窄与动脉粥样硬化交界D06）；仅在传承线提及
+D01,血瘀证诊断标准系列（1983/1987/1991/2016/2018）与冠心病中医辨证标准（1979/1991）,证候标准化方法学归D11；E1表1已列，点到为止
+D01,"针刺治疗慢性稳定型心绞痛多中心RCT（JAMA Intern Med 2019, PMID 31355870）",非药物疗法，超出本方向中成药/方药主线；作为毗邻证据提及
+D01,血脂康/红曲（Xuezhikang FDA II期等）,血脂异常与动脉粥样硬化归D06
+D01,"通心络治不稳定心绞痛Cochrane评价（CD004474, 2006）及中药注射剂治心绞痛的Meta（PMID 36509258、33879729等）",不稳定心绞痛邻近ACS；注射剂归D10
+D01,ADECODE研究与GLARE研究中的焦虑抑郁结局部分,双心疾病归D08；本报告仅引其真实世界方法
+D01,八段锦/心脏康复类研究（Baduanjin等，2025-2026）,康复与二级预防功法归D09
+D01,冠心舒通胶囊、丹红注射剂、舒血宁注射剂等单药评价,注射剂归D10；冠心舒通胶囊已在其2022/2025 Meta中覆盖，未列节点（节点的选择以改变认识的原始研究为准）
+D01,Guanxin II（冠心Ⅱ号）2008-2013年动物与药代系列（PMID 18837326、19041701、20139667、24223659、20082256）,机制/药理归D12；仅在D01-N01 followup作为方谱系延续提及
+D02,麝香保心丸治疗稳定性冠心病的长期干预研究（含2010年代长期用药RCT与MUST方向研究）,稳定期冠心病人群属D01；本方向只纳入AMI/PCI围术期人群证据
+D02,"芪参益气滴丸治疗慢性缺血性心衰的CACT-IHF随机对照试验（PMID对应2020, JACC: Heart Failure? 本轮OpenAlex核实doi:10.1002/ehf2.12980为ESC Heart Failure）",心衰长期治疗属D03；仅在节点N09的followup中提及药物转向
+D02,通心络用于稳定性心绞痛/冠心病心绞痛的后续大量RCT与TXL-CAP之前的斑块研究,心绞痛主线属D01；TXL-CAP因直接源于CTS-AMI后的ACS人群外推而纳入近五年主题
+D02,FYTF919（中风醒脑方）急性脑出血多中心试验（2024）,"脑出血非本方向；仅在引用网络中作为""中药大样本试验方法论参照""出现"
+D02,丹参-葛根（Danshen-Gegen）与华法林/阿司匹林健康人试验（PMID 22867637、32736050）,相互作用机制属D12；本方向保留N05与近期安全性主题的最小证据链
+D02,丹参酮IIA及其衍生物的动物心梗/再灌注损伤研究与Meta（PMID 39161965等）,单体机制研究属D12
+D02,八段锦联合麝香保心丸治疗AMI的前瞻随机研究（PMID 40859564）与心脏康复方向,传统功法与康复属D09；该研究为本轮新发现，列入 exclusions 供D09参考
+D02,复方血塞通胶囊对AMI PCI后心衰发生率的研究（PMID 36550849）,结局为心衰发生率，证据形式为单一回顾队列，信息量低于已选主题代表文献
+D03,"Ma Q, et al. Clinical effects of Xinmailong therapy in patients with chronic heart failure. Int J Med Sciences 2013;10:624-633（PMID 23569425）",设计描述粗糙（单中心『自愿者』分组、无安慰剂、无随机细节），作为注射剂证据形态的代表写进data_paths，不列为节点
+D03,"Du K, et al. The effects of qishen granules for patients with chronic heart failure: a multicenter randomized double-blind placebo-controlled trial. Front Pharmacol 2022;13:1017734（PMID 36618925）",191例NT-proBNP终点RCT，与2013 JACC同型但规模与期刊层级较低；作为证据路径例证，主节点让位于芪苈强心与CACT-IHF主线
+D03,Adjunctive qiliqiangxin capsule for heart failure in predominantly middle-aged and older adults: a systematic review and meta-analysis. Front Cardiovasc Med 2026;13:1881321（PMID 42656795）,与2026 J Ethnopharmacol Meta（24 RCT、方法学更完整、检索截止日明确）重复，取后者
+D03,Efficacy and safety of Dengzhan Shengmai capsule in the treatment of chronic heart failure: a systematic review and meta-analysis. Front Cardiovasc Med 2025（PMID 40060965）,灯盏生脉胶囊证据仍为低质量Meta层级，非本方向主证据链
+D03,2022 AHA/ACC/HFSA心衰指南及其中文解读（中华心血管病杂志2022;50:822-824等）,解读文献仅涉及西药更新，未见中医药条目；作为『国际指南未纳入』的旁证，不单列节点
+D03,"Efficacy, safety of TCM injections for dilated cardiomyopathy with HF: Bayesian NMA. J Ethnopharmacol 2022;282:114604（PMID 34499964）",扩张型心肌病人群属D07方向
+D03,Chinese Herbal Medicine as an Adjunctive Therapy Improves the Survival Rate of Patients with Ischemic Heart Disease: A Nationwide Population-Based Cohort Study. Evid Based Complement Alternat Med 2022,人群为缺血性心脏病整体而非心衰，且结局为生存率粗颗粒分析；真实世界主题已由芪参益气84中心队列代表
+D03,The convergence of ancient chinese medicine with modern therapeutics to prevent cardiac fibrosis. Am J Hypertens 2012（PMID 22262254）等机制类文献,机制证据在recent_themes以综述整合呈现，避免把临床前研究拔高为节点
+D04,参松养心胶囊质量评价/色谱指纹类论文（Biomed Chromatogr 2024;38:e5832；J Chromatogr Sci 2015;53:240-252 等）,属药物分析/质控，非心律失常临床或机制节点（归D12口径更合适）
+D04,中成药治疗失眠/冠心病/心肌病的网络Meta（如失眠NMA PMID 34738444、扩心病NMA PMID 38212037）,适应证不属于D04心律失常主线，交叉处不展开
+D04,针灸治疗室早/心律失常SR/MA（PMID 36569126；PMID 28642714）,针灸非本方向纳入范围（方向地图无对应条目），避免越界
+D04,稳心颗粒1996年“温心汤/稳定心绞痛”等早期同名近名文献（PMID 9206239 wenxin decoction angina 1996；PMID 14626194 wenxin capsule 心肌缺血大鼠 2003）,同名“wenxin”但为不同方剂（心绞痛/心肌缺血适应证），与稳心颗粒（抗心律失常）非同一药物，防同名混淆
+D04,2016 PLos One参松养心阵发房颤SR（PMID 26999010）,考虑过作为入口，但E1（2025 SR，10 RCT 1713例）与E8（2026 SR，PROSPERO注册）覆盖更新、方法更规范
+D04,Hua 2015稳心室早试验的部分后续亚组/联合用药小试验（如稳心+美托洛尔SR PMID 35966568、稳心+胺碘酮Cardiol Res Pract 2018）,联合用药小试验证据等级低，作为近期主题/排除说明，不设独立节点
+D04,Taiwan NHIRD中药-房颤/卒中系列（PMID 27428543等）,数据库为台湾健保，研究对象以缺血性卒中终点为主，与D06/D03交叉更甚，且非中成药固定制剂试验
+D04,芪苈强心QUEST、通心络CTS-AMI,属D03/D02方向，仅在Packer社论叙述中作为参松养心的平行证据被引用，不设节点
+D05,"Hypertension in rats following multiple acupuncture of the adrenal glands (Endocrinology 1974, PMID 4426288)",动物实验且为'针刺致升压'的副作用研究，与临床降压主线方向相反；保留在国际线叙述外。
+D05,苏联1970-1990年代针刺/耳针降压系列（Terapevticheskii Arkhiv、Voprosy kurortologii等约10篇）,同为早期非药物降压探索但属他国医学体系，与中医辨证针刺主线并行不构成节点；仅存于s15题录。
+D05,功法降压证据（太极、八段锦、气功、瑜伽的SR与2024 NMA中'太极+生活方式'最优结果）,按分工归D09传统功法方向，本方向仅在2024 NMA（PMID 39736688）处点到。
+D05,"血府逐瘀汤SR（2015 Medicine, PMID 26496333）、龙胆泻肝汤SR（2018 Front Pharmacol, PMID 29867474）、放血疗法SR（2019 Chin J Integr Med, PMID 29959751）",方剂/疗法分支的SR，未改变主叙事走向，纳入会把节点数推向20+；其存在已由共识参考文献覆盖。
+D05,中药注射剂降压相关文献（如川芎嗪治疗肺动脉高压系列，PMID 3133124、1773453）,肺动脉高压与D10中药注射剂方向边界外。
+D05,2022年《中国高血压临床实践指南》(130/80阈值) 及其中医药解读（PMID 37802822）,诊断阈值之争属西医指南学，与中医干预无直接因果，仅在数据路径与指南线不展开。
+D05,穴位按压/激光针/经皮穴位电刺激（TEAS）研究（2016太冲按压RCT PMID 27803727、2020-2022 TEAS方案等）,穴位刺激的设备化分支，证据尚为早期（多为方案或小样本），在近五年主题的针刺主题下以代表文献覆盖，不单列节点。
+D06,CCSPS不同MI病史分析（中华内科2006;45(1):21-24，PMID 16624082）、老年高血压亚组（J Clin Pharmacol 2009;49(8):947-56）、高血压亚组（Ann Med 2010;42(3):231-40）、2005 Lu ZL中文糖尿病分析（PMID 16563271）,同一队列（same_cohort_as D06-N05）的多重报告，不重复计为独立节点，已在N05 followup覆盖
+D06,CCSPS设计文（中华心血管病杂志2005;33(2):109-115）,与中文主文同文（摘要即含设计与主结果），并入节点D06-N05
+D06,Jian J 1999（血脂康对TXA2/PGI2）、Xu B 1999（LDL氧化）、Qi G 1999（兔血管成形术后内膜增生，PMID 11798686/11798687/11798688）,早期机制/动物研究，证据链弱、偏离临床节点选择标准；仅作data_paths举例
+D06,Sartore G 2013（地中海饮食+红曲治疗不耐受人群，PMID 24454511）,国际线小型试验，写入international_line即可，不设节点
+D06,Minamizuka 2021（日本18例低剂量红曲RCT）,样本过小，作为近五年监管-剂量主题（T5）代表而非节点
+D06,Li P 2021、Trogkanis 2024、Jamialahmadi 2026（PMID 41681060）、Rahmani 2023（PMID 36259545）、Buzzelli 2024等重复性meta/综述,证据综合文献，归入recent_themes T2与controversies，不设原始研究节点
+D06,Hong MY等2008/2011（Heber团队红曲与前列腺癌/结肠癌）,抗癌方向偏离血脂异常主题
+D06,Packer M 2024 Eur Heart J评论（Traditional Chinese medicine: cardiovascular drug development through a holistic framework）,国际评论，写入international_line引用即可
+D06,Huang X 2021真珠调脂胶囊电子病历2年回顾（PMID 34707672）,非本方向重点品种，仅作data_paths真实世界举例
+D06,Wu N等2026初始降脂策略共识（PMC13226597）、Li S 2025 Drugs评论,西医策略背景文献，用于T4主题定位对比，非节点
+D06,Shanthi S 1994山楂酊剂大鼠降脂实验（PMID 7927437）,题录级动物实验，不足以支撑山楂临床脉络节点；1980s中文临床试验未能核到
+D06,Su Q 2023等单片复方他汀/依折麦布研究、Zou 2026 evolocumab真实世界研究,纯西药研究，仅作PCSK9时代背景
+D07,"Zheng Q, et al. Clinical and Preclinical Systematic Review of Astragalus Membranaceus for Viral Myocarditis. Oxid Med Cell Longev 2020;2020:1560353 (PMID 33204391)",与2023年overview（D07-N17）功能重叠，且为临床+临床前混合评价；改列近五年T1代表文献之一
+D07,"Jialiken D, et al. Eur J Med Res 2025 黄芪注射液SR (PMID 39754214)",已作入口文献D07-ES4，不重复设节点
+D07,"Cheang I, et al. Qiliqiangxin in HFrEF randomized trial. Nat Med 2024;30:2295-2302 (PMID 39095596)",心衰（芪苈强心QUEST）属D03方向，仅在DCM节点交叉处点到
+D07,"Chen S, et al. Intravenous Vitamin C for VMC in Children SR/MA. Evid Based Complement Alternat Med 2019 (PMID 31178914)",干预为维生素C非中药；儿科只点到
+D07,"Ferguson JE, et al. Br J Dermatol 1997 中药致可逆性DCM个案 (PMID 9155965)",个案报告非研究节点；改收入negative_or_failed作为安全性反面证据
+D07,2012年Cochrane pub4（PMID 23152220）单独设节点,与pub3/pub5同链且结论数字并入pub5节点followup/关键结果，避免节点冗余
+D08,QUEST试验（Qing-Xin-Jie-Yu Granule，2019，PMID 31780034）,多中心安慰剂RCT但终点为稳定型冠心病MACE，无抑郁/焦虑终点，属D01（活血化瘀主线）；调度者样例提示的同名混淆已澄清
+D08,健脾解郁汤多中心RCT（Chin J Integr Med 2023;29(4):299-307，PMID 36301455，ChiCTR2000040922）,纳入人群为原发性轻中度抑郁（心脾两虚证），非心血管病共病人群，越出本方向边界；但其多中心方法学（vs帕累西汀、AE 7.14% vs 22.86%）可作为方法参照
+D08,舒肝解郁胶囊卒中后抑郁系列（J Ethnopharmacol 2022 Meta等，PMID 35562090等）,卒中人群归脑血管方向，不属心血管共病边界内
+D08,舒肝解郁胶囊治疗老年抑郁Meta（Sci Rep 2025，PMID 40596629）与帕金森病RCT（BMC Complement Med Ther 2025，PMID 40634949）,非心血管人群
+D08,心可舒Meta方案（Medicine 2021，PMID 34797346，PROSPERO CRD42019131346）,与2022年完成版Meta（PMID 35717809）同一项目，same_cohort，不重复计为独立证据
+D08,传统运动功法在心脏康复中的证据（Baduanjin等，PMID 41496150、33847664）,归D09心脏康复方向，本方向只点到
+D08,抗心律失常/心衰中成药试验（参松养心、芪苈强心等）,归D03/D04交叉方向
+D09,Cochrane 2024运动康复治疗心衰（CD003331.pub6，60试验8728人）,作为功法所在大盘的背景与入口（E08），非功法专项干预，不设为节点
+D09,"ExTraMATCH II（Eur J Heart Fail 2018, PMID 30255969）与JACC 2019运动康复IPD Meta（PMID 30922474，Yeh共同作者）",运动康复总体证据背景（IPD方法学重要），与功法专项无关，不设节点
+D09,"Cochrane Meditation for CVD（2024, PMID 38358047）",冥想非运动功法，超出D09纳入范围
+D09,"六种传统功法网络Meta（Ageing Res Rev 2026, PMID 41475448，高血压人群48 RCT）",高血压人群属D05交叉，仅列入近期主题代表（L1）
+D09,"麝香保心丸＋八段锦治疗AMI前瞻随机研究（Medicine 2025, PMID 40859564）",药物＋功法联合，药物部分属D02/D06交叉；证据层级低（Medicine），仅记录不设节点
+D09,太极/八段锦在COPD、膝骨关节炎、帕金森、认知障碍、睡眠等非心血管人群的大量RCT与Meta,超出心脏康复范围；仅在检索中作为背景出现
+D09,Stress and Health 2025混合太极心脏康复RCT（冠心病慢性冠脉综合征，PMID 40922118）,题录核实但摘要未读（时间预算），留作后续核查；与已选N11人群重叠度高
+D09,"八段锦红外热成像体温Meta（Medicine 2026, PMID 42363563）、八段锦长期习练者心肺功能横断面（Front Sports Act Living 2024, PMID 39624620）等功法运动学研究",属功法运动学基础研究，D09以临床康复为主线，仅在data_paths提及剂量测量路径
+D10,Lin S et al. Front Pharmacol 2021;12:659707（HFrEF网络Meta，107 RCT/9073例）,与2024年心源性休克NMA、2026年AMI后心衰SR同质的证据整合研究，选一代表入近五年主题即可；该文列入T5代表而非节点
+D10,Ma R et al. Chinese Herbal Medicines 2026;18:461-469（舒血宁安慰剂对照RCT，446例卒中，PMID 41971585）,适应证为急性缺血性卒中，超出本方向心血管范围；作为'集中监测→安慰剂RCT证据升级'的方法学里程碑在节点followup中提及
+D10,Shi L et al. BMC Complement Altern Med 2015;15:418（参麦肺心病心衰Meta，27 RCT/2045例，PMID 26603978）,肺心病适应证与大量同质Meta之一；方法学结论（纳入研究质量普遍低）已在 controversies与data_paths中体现
+D10,Chaihu注射液ADR系统评价（中国中药杂志2010，PMID 21144455）,柴胡注射液以呼吸道适应证为主，非心血管；其历史地位由2022综述Table 1承担
+D10,Li C et al. BMC Complement Altern Med 2018;18:277（血栓通30884例监测，PMID 30326892）,与丹红30888/舒血宁30209同构的第三次复制，作为D10-N10的followup记录，不单列节点
+D10,Tan L et al. 中国中药杂志2014中药注射剂ADR研究进展（Zheng 2022 ref 1）；Bai X 2008品种现状分析（ref 3）,仅作为综述转引的背景文献，CNKI全文不可得，未能独立核实
+D11,"Terasawa K, et al. Yakugaku Zasshi, 1983, 103(3): 313-318（抗瘀血药物对凝血与纤溶的影响，PMID 6620131）",药理机制方向，按纳入范围归D12（中药作用机制），仅在N05的日本线叙述中作为背景引用
+D11,Kosuge T / Ishida H 系列（Chem Pharm Bull 1984-1987，oketsu药材抗凝成分，PMID 4042225-4042227、3594693-3594694）,同上，成分药理方向归D12；作为国际线背景保留在international_line
+D11,活血化瘀方药疗效RCT（如精制冠心片、血府逐瘀、Danlou片等）,各病种临床疗效归D01/D02/D03等；Danlou多中心RCT（ChiCTR1900023708，PMID 39559795）仅在近五年主题中作为按证候分层的试验设计示例
+D11,Ma XJ 2021活血解毒干预PCI术后（PMID 34532749）、薛一涛等瘀毒研究,瘀毒病因的疗效与机制归病种方向；仅作为N11的followup提及
+D11,周俊琴等2029例冠心病心绞痛证候分析（PMID 21823417）,与王阶324例同一范式且样本更大，为避免节点冗余列为N07的followup而非独立节点
+D11,韩新民1989微循环定量多因素分析（PMID 2605736）,作为N01的followup，方法上为N01的定量延伸，不承担独立节点作用
+D11,李国贤1993肾炎164例血液流变学与血瘀（PMID 8111207）、秦万章1981硬皮病活血化瘀（PMID 6219780）等非心血管病血瘀研究,病种在心内科之外，仅说明血瘀证标准的跨科适用性
+D12,Hopkins AL. Network pharmacology. Nature Biotechnology 2007;25(10):1110-1111（PMID 17921993）,Hopkins 2008 之前的概念前奏评述，内容与 D12-N10 重复，未单列为节点
+D12,Li S. Exploring traditional Chinese medicine by a novel therapeutic concept of network target. Chin J Integr Med 2016;22(3)（PMID 27145941，被引 66）,网络靶标的英文重复综述，已被 2007/2011 节点与 2022 综述覆盖
+D12,Network pharmacology in traditional chinese medicine. Evid Based Complement Alternat Med 2014（PMID 24707305，被引 126）,早期一般性综述，学术权重低于 2022 指南综述与 2024/2025 AI 综述
+D12,General expert consensus（中文版 中国中药杂志 2024，PMID 39701688）,与英文版（PMID 39986690）同文两版，取英文版入 recent_themes，避免重复计数
+D12,Odebiyi/Ojewole 的 Jatropha podagrica 四甲基吡嗪系列（PMID 7367488、7367493、7201650、7280088）,平行发现材料，放 international_line；非心血管主线，不设节点
+D12,STIIA 机制系列（PMID 6461196、6461197、6462017、2955642、2082470、8274165）与 TMP 机制系列（PMID 6462022、7102333、3834748、3159499）,同一药物的同质后续研究，已归入 D12-N01/N02 followup，不逐篇设节点
+D12,Gegen Qinlian Decoction GPB 2020（PMID 33359679）与 apoE-/- 菌群论文（PMID 30257374、32231564）,入选 recent_themes 代表研究，未升格为节点（糖尿病/动脉粥样硬化为主，非本方向核心节点级别）
+D12,撤稿论文本体（STIIA 多信号通路论文与葛根素 PPARα 论文的原始版本）,仅引用其撤稿记录（PMID 40046745、40636833）作为可靠性证据，不作为科学节点
+X01,"Huang H, et al. SS-AFRF trial. Eur Heart J. 2024;45(40):4305-4314（PMID 39178138）",作为近五年主题代表（T1）而非节点：心律失常疗效细节归D04，节点名额保留给学科级事件
+X01,"Wang L, et al. Guanxin II (冠心2号) for the management of coronary heart disease. Chin J Integr Med. 2009（PMID 20082256）",药物机制/质控综述，非事件；其内容与史大卓2009重叠，仅作冠心2号现存性的佐证
+X01,Chen KJ等. Blood stasis syndrome and its treatment with activating blood circulation to remove blood stasis therapy. Chin J Integr Med. 2012（PMID 23238996）,无摘要且全文付费墙，未读；血瘀证史叙述已由2014/2015/2017标准文献覆盖
+X01,《中西医结合心脑血管病杂志》2003年创刊（NLM，ISSN 1672-1349）,已核实但属次级期刊事件，记入N11 followup与unverified_leads补充，不单列节点
+X01,"Li SM, Xu H, Chen KJ. Integrative medicine on coronary heart disease: annual academic review 2013. 中国中西医结合杂志. 2014;34(8)（PMID 25335323）",年度进展综述，用于传承谱系署名核实，非里程碑事件
+X01,APSB 2024血脂康系统更新（PMID 39525586）与2022 CDDP系统评价（PMID 36120120）,证据综合类，归入近期主题T3，不占节点
+X01,Systematic review and Meta-analysis of 26 RCTs of Compound Danshen Dripping Pill. 2022（PMID 36120120）,同上，疗效汇总归D01域
+X01,科学网访谈《陈可冀：天下的路很多，不能没有中西医结合这条路》(2024)与中国科协《陈可冀的科研人生》,新闻/访谈类来源按纪律不采信；其提到的1971年协作组年份转入unverified_leads

@@ -1,0 +1,712 @@
+{
+ "rows": [
+  {
+   "row_id": "D01-R07",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:18254051)逐项比对：Duan X、2008、Cochrane、CD004473、DOI一致；摘要证实15 trials/1776人；心电图RR1.16(1.05-1.27)、症状RR1.09(1.04-1.13)、发作MD-0.70、硝酸甘油MD-0.60、vs丹参症状RR1.21/心电图RR1.55、vs异山梨酯均不显著、evidence remains weak，全部与摘要原文吻合"
+  },
+  {
+   "row_id": "D01-R11",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core核英文版PMID 29435729（Yang QN、CJIM 2018;24(5):336-342、DOI一致）：750例(376/374)、3喷0.6mL、5分钟94.41% vs 90.64% P>0.05、CCS II/III不良反应9.29% vs 26.22%与10.13% vs 20.88%均吻合；另核中文版PMID 24812891（2014;34(4):396-401、入组780、3分钟53.72% vs 47.86%、ST-T 74.07% vs 73.13%）亦吻合"
+  },
+  {
+   "row_id": "D01-R03",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:410601)：题名、Chinese Medical Journal 1977;3(3):167-172一致，PubMed确无作者著录，无摘要；key_result如实写'原文不可及'，L1属实"
+  },
+  {
+   "row_id": "D01-R35",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:42851529)：Front Pharmacol 2026;17:1952286、DOI一致；实际题名'...for stable angina pectoris: an updated systematic review and meta-analysis of RCTs'（第一作者Zhao X，行内以'据题录'标注未录）；key_result如实写'据题名转述、仅题录核实'"
+  },
+  {
+   "row_id": "D01-R36",
+   "verdict": "正确",
+   "field_issues": "摘要未出现'多中心'字样，该design细节未能从摘要核实（ChiCTR不可直接访问）；key_result已自我限定'仅题录核实'，不影响结论",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:37947990)：Wu SH等、CJIM 2024;30(5):443-448、DOI 10.1007/s11655-023-3628-x一致；ADECODE真实世界、1428例与摘要Methods吻合"
+  },
+  {
+   "row_id": "EVID-D02-004",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:6225546)：Kou WR、1983、中西医结合杂志3(3):146-148、益气活血'Yi Qi Huo Xue'随机对照题名一致；无摘要，L1'题录层，正文不可得'属实"
+  },
+  {
+   "row_id": "EVID-D02-008",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:6236893)：Zhao GY、1984、4(5):268-269、64例出院后长期作用题名一致；无摘要，L1属实"
+  },
+  {
+   "row_id": "EVID-D02-002",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "OpenAlex works/W4242092084：题名'中西医结合治疗急性心肌梗塞99例的临床总结'、1975、Chinese Science Bulletin(中文版)20(11):501-505、DOI 10.1360/csb1975-20-11-501、作者天津市南开医院冠心病研究组全部吻合；全文页未核（行内已如实声明）"
+  },
+  {
+   "row_id": "EVID-D02-036",
+   "verdict": "小误差",
+   "field_issues": "行内'摘要未随本轮core返回'不实：Europe PMC core实际返回了1460字符摘要，且摘要明确方向为多剂量丹参胶囊诱导CYP使氯吡格雷清除率升高(96.5%)、抗血小板活性下降；因行未给方向性结论，不改变结论",
+   "corrected": "摘要可经Europe PMC core获取；方向：丹参胶囊降低氯吡格雷抗血小板活性（CYP诱导、清除率+96.5%，AUC约降50%，n=20健康男性）；可升L2",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:29496531)：Zhou CH、Food Chem Toxicol 2018;119:302-308、题名一致；摘要全文已读并比对"
+  },
+  {
+   "row_id": "EVID-D02-045",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:41210863)：Liu Z等、Front Med 2025;12:1668432、DOI 10.3389/fmed.2025.1668432、麝香保心丸联合运动康复CTO-PCI研究方案一致；'方案发表阶段'属实（摘要含四组设计与主终点，行标注L1属保守未越权）"
+  },
+  {
+   "row_id": "EVID-D02-023",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:41821187)：Feng Y等、Brain and Behavior 2026;16(3):e71232、DOI 10.1002/brb3.71232一致；摘要证实4项RCT/7087例、MACE RR0.72(0.59-0.88) p=0.001、卒中RR0.84(0.61-1.17) p=0.31不显著，全部吻合"
+  },
+  {
+   "row_id": "D03-R02",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:1833081)：Liu YZ, Guo SP、1991、11(7):405-6,388-9、65例CHF一致；摘要证实心气虚为主、阴虚→阳虚演变、阴虚组pANP/pAII升高、阳虚组pANP/pALD升高而pAII下降、pANP-pALD正相关P<0.005、pAII与两者负相关P<0.001，全部吻合"
+  },
+  {
+   "row_id": "D03-R04",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:20030859)：Mao J等、Trials 2009;10:122、DOI一致；摘要证实340例计划、A组单纯西药vs B组加中医药、12个月、ChiCTR-TRC-00000059；另以Europe PMC检索SECETCM-HF及题名片段，仅命中2009方案（hitCount=2，另一篇无关），'结果论文不可见'声明成立；结果部分如实标L0"
+  },
+  {
+   "row_id": "D03-R14",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:30369168)：中国心力衰竭诊断和治疗指南2018、中华心血管病杂志46(10):760-789、DOI 10.3760/cma.j.issn.0253-3758.2018.10.004一致；无摘要，L1'题录级核实'属实"
+  },
+  {
+   "row_id": "D03-R24",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:31127505)：Mei J等、CJIM 2019;25(10):770-777、DOI 10.1007/s11655-019-2704-8，证实行内'卷期页经Crossref修正为25(10):770-777'正确；摘要可及（16 RCT/1320例），行标L1属保守"
+  },
+  {
+   "row_id": "D03-R23",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:37234711)+PMC10206212全文：Fan Y等、Front Pharmacol 2023;14:1154167一致；结论段明确'most of the studies...small sample size, short observation time, and lack of rigor in design'并呼吁大样本多中心RCT，'指出仍缺高质量试验'为忠实转述"
+  },
+  {
+   "row_id": "D03-R15",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:37877337)：Packer M、Eur J Heart Fail 2023;25(12):2130-2143、DOI 10.1002/ejhf.3068一致；摘要证实营养过剩/剥夺框架、黄芪甲苷/丹参酮IIA/人参皂苷/periplocymarin、QUEST 859事件/3119例/中位18.2月、除SGLT2i外获益；QUEST口径分歧已如实标'推断'"
+  },
+  {
+   "row_id": "EVID-D04-019",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:26415790)+PMC4736861全文：Hua W等、CMJ 2015;128(19):2557-2564一致；全文证实1200例、60家中心、导入期、分层区组随机、ChiCTR-TRC-12002159；摘要证实15138±7597→5686±5940 vs 14529±5929→10592±8009、FAS 83.8% vs 43.5% P<0.001，全部吻合"
+  },
+  {
+   "row_id": "EVID-D04-026",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:35572220)：Liu LJ等、J Geriatr Cardiol 2022;19(4):284-291、DOI一致；摘要证实584例(292/292)、40粒bid+美托洛尔vs美托洛尔+安慰剂、8周、总有效率76.4% vs 51.4% P<0.001、-4537 vs -3013次/24h，全部吻合"
+  },
+  {
+   "row_id": "EVID-D04-008",
+   "verdict": "正确",
+   "field_issues": "首作者行内未录，实为Dai S（Dai S, Chan MY, Lee SS, Ogle CW）；行内已标'未录（题录层）'，非错误",
+   "corrected": "first_author: Dai S",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:3799527)：题名、AJCM 1986;14(3-4):119-123、DOI一致；附带核实行内交叉引用PMID 6223495（1983苦参总黄酮培养心肌细胞）与PMID 2088002（1990苦参碱）均真实存在且题录相符；L1'题录层'属实"
+  },
+  {
+   "row_id": "EVID-D04-043",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:30632430)：Sun J等、J Int Med Res 2019;47(2):884-892、DOI 10.1177/0300060518799819一致；摘要证实兔快速起搏房颤模型四组、炙甘草汤水提组逆转右心房肌纤维化并缩短fAPD"
+  },
+  {
+   "row_id": "EVID-D04-051",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:31471437)：Qiu R等、BMJ Open 2019;9(8):e028803、DOI一致；摘要证实系统评价研究结局/测量工具/测量时点变异并指向核心结局集开发，key_result吻合"
+  },
+  {
+   "row_id": "EVID-D04-030",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:42504903)+PMC13418305全文：Fu J等、Anatol J Cardiol 2026;30(80):487-500、DOI一致；全文证实房颤Meta为8项小RCT(n=624)、OR 3.21(2.14-4.82)、均无双盲、I2=52%，Hua 2015中位降幅61% vs 22%无硬终点，配方变异/质控/监管转化限制均有批评段，L3成立"
+  },
+  {
+   "row_id": "D05-R04",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:2633622)：Zhang TX, Wang YF, Ciriello J（行内自纠'原稿误作Zhang G'与题录相符）、AJCM 1989;17(3-4):211-219、DOI一致；摘要证实5周龄给药至16周龄、显著延缓高血压发生、心率/体重/摄食水/尿电解质不受影响、交感血管运动机制"
+  },
+  {
+   "row_id": "D05-R16",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:33019798)：Zhang DY等、Circulation 2020;142(19):1821-1830、DOI一致；摘要证实251例、天麻钩藤颗粒5-10g bid×4周、ITT日间2.52/1.79 P≤0.025、24h 2.33/1.49 P≤0.012、诊室与夜间P≥0.162、PP 229例、仅1例日间困倦AE，全部吻合"
+  },
+  {
+   "row_id": "D05-R01",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:1202935)：Tam KC, Yiu HH、AJCM 1975;3(4):369-375、DOI一致；摘要证实28例、16例显效/8例中等/4例无效、与病程及既往用药史相关，全部吻合"
+  },
+  {
+   "row_id": "D05-R32",
+   "verdict": "正确",
+   "field_issues": "首作者行内未录，实为Zhang P（Zhang P, Chen Y, ..., Jia W, Yang M）；行内已标'题录'来源，非错误",
+   "corrected": "first_author: Zhang P",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:35800160)：题名、Front Cardiovasc Med 2022;9:888569、DOI一致；摘要证实II期两臂假针对照、ChiCTR2100043737、64例1:1、含代谢组；'方案发表，结果待发表'属实"
+  },
+  {
+   "row_id": "D05-R33",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(EXT_ID:42656444)：Zhong X, Yu C, Guo H、Front Med 2026;13:1888399、DOI一致；摘要证实16篇报告/15项独立RCT、RoB2+GRADE、诊室SBP -6.63(-11.41至-1.84)、DBP无明确效应(-0.07)、变化值DBP -3.97(-7.26至-0.68)、动态血压证据稀少，全部吻合"
+  },
+  {
+   "row_id": "D01-R41",
+   "verdict": "正确",
+   "field_issues": "卷期页'59卷第5期447-450'未能经国际库逐项复核（Crossref/OpenAlex无此中文刊记录），但chndoi注册页证实题名、作者（王阶;陈光）、2018年注册且DOI后缀r.2018.05与中医杂志（CN11-2166/R）2018年第5期一致；原文未读属实",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "chndoi解析页(https://www.chndoi.org/Resolution/Handler?doi=10.13288/j.11-2166/r.2018.05.020)证实题名'冠心病稳定型心绞痛中医诊疗专家共识'、作者王阶;陈光、注册2018-03-20、解析至CNKI；Crossref/OpenAlex无记录（中文刊正常）；key_result如实写'无PMID、经公开引用核实、原文未读'，L1属实"
+  },
+  {
+   "row_id": "D05-R27",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 35105174)：题名/期刊/2022年/15(3):e008723/DOI 全部一致；Crossref+OpenAlex 确认唯一作者 Jing Li，单位 Fu Wai Hospital；Europe PMC 摘要确为空，L1『无摘要』如实"
+  },
+  {
+   "row_id": "EV-D06-03",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 9989685)：Heber D, AJCN 1999;69(2):231-236 一致；摘要逐数核对：83例(46男37女,34-78岁)、2.4 g/d×12周、TC 6.57±0.93→5.38±0.80 mmol/L(254±36→208±31,P<0.001)、LDL/TG降、HDL无显著变化，全部一致"
+  },
+  {
+   "row_id": "EV-D06-02",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 10436958)：Kou W, Zhonghua Nei Ke Za Zhi 1997;36(8):529-531 一致；摘要逐数核对：108例(53/55)、TC-23.0%/LDL-C-28.0%/TG-28.1%(P<0.001) vs 辛伐他汀-23.3%/-29.5%/-29.5%、HDL +5.0%(P>0.05) vs +14.3%(P<0.01)、组间无显著差异、血脂康副作用更少，全部一致"
+  },
+  {
+   "row_id": "EV-D06-17",
+   "verdict": "正确",
+   "field_issues": "该文为 J Clin Epidemiol 增刊会议摘要（52卷 Suppl 页码 5S），非正刊论文；报告按题录引用无碍",
+   "corrected": "J Clin Epidemiol 1999;52 Suppl 1:S5（会议摘要）",
+   "reading_level_ok": true,
+   "checked_how": "Crossref(DOI 10.1016/S0895-4356(99)80007-9)：题名/期刊/1999年/第一作者 Jing Li 一致；L1『题录核实、数字未读』如实"
+  },
+  {
+   "row_id": "EV-D06-37",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 39055660)：Xie L, Front Cardiovasc Med 2024;11:1407536 一致；摘要逐数核对：23项试验/7316例、377/3670 vs 717/3646、RR 0.52(0.47-0.58)、LDL-C 多降0.46 mmol/L、基线LDL-C交互P=0.03 且TG交互亦存在，全部一致"
+  },
+  {
+   "row_id": "EV-D06-30",
+   "verdict": "正确",
+   "field_issues": "卷页未填（实为 4(1):14-24），非错误",
+   "corrected": "Health Care Science 2025;4(1):14-24",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 40026643)：Yang Z, Health Care Science 2025, DOI 10.1002/hcs2.70003 一致；摘要核对：他汀单价降25%-96%、可负担性0.242→0.014(阿托伐他汀)、DDD上升、脂必泰/血脂康价格小幅波动且用量支出无显著影响、数据窗2019-01至2020-12，全部在摘要内得到印证（key_result称细句来自全文，实际摘要已含）"
+  },
+  {
+   "row_id": "EV-D06-25",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 25897793)：Gerards MC, Atherosclerosis 2015;240(2):415-423 一致；摘要核对：20项研究、红曲降LDL-C 1.02 mmol/L、安全性评估方法学多数低质量、检索截止2014年11月，全部一致"
+  },
+  {
+   "row_id": "EV-D07-04",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 2167822)：Yang YZ, Chin Med J 1990;103(4):304-307 一致；摘要逐数核对：NK 11.5±11.9%→44.9±15.0%、常规对照12.9±6%无变化、黄芪治疗2天后α/γ-IFN滴度明显升高(16例)、对照12例、中和抗体不变，全部一致"
+  },
+  {
+   "row_id": "EV-D07-19",
+   "verdict": "正确",
+   "field_issues": "报告称『16项动物研究/634只』对应关系未核——本次已读摘要：原文确写'16 animal studies with 634 animals'，该数字与摘要一致，核实程度强于报告声明；该数字移入待核线索已保守处理",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 33204391)：Zheng Q, Oxid Med Cell Longev 2020:1560353, DOI 一致；题录层核对；摘要实际可得且含临床28项RCT/2522例+临床前16项动物/634只"
+  },
+  {
+   "row_id": "EV-D07-02",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 2827966)：Yang YZ, Chin Med J 1987;100(7):595-602, 题名一致；摘要字段确为空，L1『未收录摘要、未读原文』如实"
+  },
+  {
+   "row_id": "EV-D07-29",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 39742019)：Zhang BR, Cardiovasc Ther 2024:2127018 一致；摘要逐数核对：44项RCT/4298例、29种加减煎剂+15种中成药、心悸RR 2.30(1.59-3.33)、胸痛RR 1.57、cTnI更低、总体质量低，全部一致"
+  },
+  {
+   "row_id": "EV-D07-39",
+   "verdict": "正确",
+   "field_issues": "STAT3激活剂规范拼写为 Colivelin（报告写 ColivelIN），拼写小差异不改结论",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 38279453)：Chang Z, Cell Mol Biol 2023;69(15):180-185 一致；摘要核对：模型+高/中/低剂量(80/40/20 μg/mL)四组、凋亡/炎症/氧化应激降低、STAT3/IL-6下降、Colivelin加重损伤且可被黄芪逆转（呈剂量梯度），一致"
+  },
+  {
+   "row_id": "EV-D07-27",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 23824828)：Caforio AL, Eur Heart J 2013;34(33):2636-48,2648a-d 一致；摘要(607字符)核对：不含 herbal/traditional/Chinese/complement 等字样，『摘要层面无中药推荐』的否定性陈述成立；L2成立"
+  },
+  {
+   "row_id": "D08-R17",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 38114161)：Zhong SJ…末位 Xian SX(冼绍祥)，中国中药杂志 2023;48(20):5675-5680, DOI 一致；摘要核对：病郁同存/独立共存互为因果、痰—瘀—毒三期治则、称可改善器质损害与情绪障碍并调节微观指标（摘要确未列数据），全部一致"
+  },
+  {
+   "row_id": "D08-R08",
+   "verdict": "正确",
+   "field_issues": "摘要实际可得（ACS组抑郁65.6%/焦虑78.9%等），L1偏保守而非失实",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 20137541)：Liu MY(刘梅颜)/Jiang RH(姜荣环)/Hu DY(胡大一), 中华心血管病杂志 2009;37(10):904-907 一致；L1『题录级核实、具体数字未核』如实"
+  },
+  {
+   "row_id": "D08-R16",
+   "verdict": "正确",
+   "field_issues": "卷页未填（实为 76(1):62-68）；PubMed 正式题名不含(DEPACS)字样但摘要内确为 DEPACS 研究，标注无碍",
+   "corrected": "J Clin Psychiatry 2015;76(1):62-68",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 25375836)：Kim JM, J Clin Psychiatry 2015, 24周双盲安慰剂RCT 一致；L1『题录级核实』如实"
+  },
+  {
+   "row_id": "D08-R34",
+   "verdict": "正确",
+   "field_issues": "first_author 按机构署名『欧洲心脏病学会』，正式第一作者为 Bueno H，建议补注",
+   "corrected": "Bueno H（ESC）；Eur Heart J 2025;46(41):4156-4225 已核对无误",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 40878270)：2025 ESC Clinical Consensus Statement on mental health and CVD, Eur Heart J 46(41):4156-4225, DOI 一致；其转述源德文评述 PMID 41484331 (Herz 2026;51(1):37-44, Meesmann & Ladwig) 亦核实存在；L1『据题录与转述』如实"
+  },
+  {
+   "row_id": "D08-R31",
+   "verdict": "小误差",
+   "field_issues": "first_author 留空（实为 Chen Z, Nie J, Tian J）；题名用缩写 PCI，官方题名为 percutaneous coronary intervention 全拼；n=8/759 经摘要核实无误，L1『题录级』如实（摘要实际可得）",
+   "corrected": "first_author: Chen Z；题名：Can acupuncture improve cardiac function in patients after percutaneous coronary intervention? A systematic review and meta-analysis（Front Med 2026;13:1926216）",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 42780566)：题名/期刊/2026年/DOI 一致；摘要核对 8 项 RCT/759 例与所填 n 一致"
+  },
+  {
+   "row_id": "D08-R24",
+   "verdict": "正确",
+   "field_issues": "Europe PMC 摘要确为空，L1『无摘要』如实；正式第一作者为 Liu L，机构署名可接受",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 39944776)：Gen Psychiatr 2025;38(1):e101747, DOI 10.1136/gpsych-2024-101747 一致；摘要字段为空核实"
+  },
+  {
+   "row_id": "D09-N17",
+   "verdict": "小误差",
+   "field_issues": "期号错：实为 83(985):717-721，报告写 83(986)；DOI 错：10.1136/pgmj.2007.061994 实际指向另一篇文章（Gene therapy in head and neck cancer, PMJ 83(986):731-737），正确 DOI 为 10.1136/pgmj.2007.061267。题名/作者/年份/期刊/页码/PMID 均正确",
+   "corrected": "Postgrad Med J 2007;83(985):717-721；DOI 10.1136/pgmj.2007.061267",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 17989272)+Crossref 双源核对：Barrow DE…Channer KS, PMJ 2007 一致；Crossref 验证 061994 DOI 归属他文；L1『摘要未读』如实"
+  },
+  {
+   "row_id": "D09-N07",
+   "verdict": "小误差",
+   "field_issues": "期号错：Europe PMC 与 Crossref 均为 Issue 6（2015-06-11 发表），报告写 (7)；其余全部一致（11项完成+1项进行中/1369例、9项中文试验偏倚不可判定且无法联系作者、20-30年远期随访归因不成立、未做Meta）",
+   "corrected": "Cochrane Database Syst Rev 2015;(6):CD010390",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 26068956)+Crossref(DOI 10.1002/14651858.CD010390.pub2) 双源核对；摘要全文逐句核对 key_result 三项表述，均与原文一致"
+  },
+  {
+   "row_id": "D09-N01",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 8758013)：Channer KS, PMJ 1996;72(848):349-351 一致；摘要逐数核对：126例(男90,平均56岁)、太极38/有氧41/支持47、8周11次课、仅太极组舒张压下降趋势(Rs=0.79,P<0.01)、完成率支持8% vs 太极82%、有氧73%(均P<0.001)，全部一致"
+  },
+  {
+   "row_id": "D09-R16",
+   "verdict": "正确",
+   "field_issues": "文章号报告自标『未核』，实际为 152(19):e376-e390",
+   "corrected": "Circulation 2025;152(19):e376-e390",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 41084821)：Coutinho T, Circulation 2025;152, AHA 科学声明, DOI 一致；摘要全文检索确认无 Tai Chi 字样，『摘要无太极』否定性陈述成立"
+  },
+  {
+   "row_id": "D09-R07",
+   "verdict": "小误差",
+   "field_issues": "题名为缩写式描述（含 SR/Meta、PROSPERO 号），非官方完整题名；所有锚点（期刊/年/卷页/PMID/DOI）与全部统计数字经摘要逐项核实无误：13项/1293例(男870/女423)、LVEF +6.20%(3.14-9.25)、6MWD +60.21 m(17.96-102.46)、心血管不良事件15/133 vs 40/133、RR 0.40(0.25-0.65)、NNT=5、CRD42025634145",
+   "corrected": "官方题名：Is Baduanjin beneficial and safe for the rehabilitation of patients with acute myocardial infarction undergoing percutaneous coronary intervention? A systematic review and meta-analysis of randomised controlled trials",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 41839353)：Liang SB…Liu JP, Complement Ther Med 2026;98:103345 一致；摘要全文逐数核对"
+  },
+  {
+   "row_id": "D09-E04",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 26961239)：Wang XQ, JAHA 2016;5(3):e002562 一致；摘要逐数核对：35篇/2249例、SBP -9.12 mmHg、6MWT MD 59.58 m(-153.13~269.93, CI确跨零点)、MLHFQ -17.08，全部一致"
+  },
+  {
+   "row_id": "D10-R01",
+   "verdict": "正确",
+   "field_issues": "『研制单位史料两说（八路军制药所/利华制药厂）』仅见光明网史料（L0），超出可核查的学术渠道；其余史实全部经 E1（Zheng W 2022, Chinese Medicine 17:127, PMID 36348487）全文逐条印证：1941年柴胡注射液诞生、1954年12月武汉制药厂第一个工业化、1980年代约1400种（转引 Bai 2008，与报告所记二手来源完全一致）、截至2022-07-06 NMPA 128品种/872批准文号/196企业",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC 拉取 E1 (PMC9640875) 全文 XML 检索关键词 1954/2282/872/1400/Wuhan 逐条比对；光明网页面按纪律未抓取，L0 标注如实"
+  },
+  {
+   "row_id": "D10-R05",
+   "verdict": "正确",
+   "field_issues": "218号文(2006-06-01)/461号文(2006-09-05)文号与日期属 NMPA 监管通告，无法经允许的学术库独立复核（报告 url 为 NMPA 目录页，按纪律未抓取）；学术可核部分全部通过：Allergy 通信 PMID 19210362 (2009;64(5):816-817, Ji KM, 题名即 Houttuynia cordata injection 致休克与致死性过敏) 题录一致；2282例ADR/22死亡（2006-2008）与 E1 Table 1 原文完全一致",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 19210362) 题录核对 + E1 (PMC9640875) 全文 Table 1 逐字核对『2282 ADRs from 2006 to 2008, and 22 people died』；通告文号标注 L1 转述如实"
+  },
+  {
+   "row_id": "D10-R17",
+   "verdict": "正确",
+   "field_issues": "双来源行（设计文+preprint 主结果）标注清晰；两源均核实",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "设计文 Europe PMC core(PMID 36822255)：Wang X, Am Heart J 2023;260:9-17, NCT04493840、计划326例、10家中心均一致；主结果经 OpenAlex(medRxiv DOI 10.1101/2024.07.01.24309807) 摘要逐数核对：随机295例/CMR可评估273例、梗死面积37.4±14.1% vs 37.5±14.5%、效应-0.04%(-3.45~3.37)、P=0.982、其余影像与生化终点及安全性均阴性；Europe PMC 检索未见正式发表版本，『截至2026-10-17仍为preprint』成立"
+  },
+  {
+   "row_id": "D10-R31",
+   "verdict": "正确",
+   "field_issues": "题名为中文描述性译题，官方英文题名为 Efficacy and Safety of Shenfu Injection in Patients with Septic Shock: A Randomized Controlled Open-Label Trial with Network Pharmacology-Based Mechanistic Insights；全部锚点与数字无误",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core(PMID 41870792)：Huang P, Chin J Integr Med 2026;32(7):579-587, DOI 一致；摘要逐数核对：单中心开放标签随机平行对照、参附100ml+生理盐水 vs 生理盐水200ml×7天、122例(1:1)、28天死亡率41.0%(25/61) vs 50.8%(31/61) P=0.271、7天死亡4.9%(3/61) vs 16.4%(10/61) P=0.046、第7天去甲肾上腺素剂量更低、配网络药理学，全部一致"
+  },
+  {
+   "row_id": "D10-R34",
+   "verdict": "小误差",
+   "field_issues": "题录、n_patients=5535、排序药物名单均与摘要一致；但摘要明言14种干预含'standard treatment'，即13类中药注射剂+标准治疗，行内'n_wounds_flaps_other=14类注射剂干预'多计1类。",
+   "corrected": "n_wounds_flaps_other 改为：14种干预（13类中药注射剂+标准治疗）",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 41573502：Cai T等2025，Front Cardiovasc Med 12:1619345，DOI 10.3389/fcvm.2025.1619345，题名、样本量5535、14种干预（含标准治疗）逐项核对。"
+  },
+  {
+   "row_id": "D10-R26",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 36909150：Jiang Huajuan等2023，Front Pharmacol 14:1038906，DOI一致；摘要确认丹参/红花/三七/川芎类占主体、注射给药可能产生新不良反应，key_result如实概括。"
+  },
+  {
+   "row_id": "D11-N07",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 19082799：Wang J（王阶）2008，Chin J Integr Med 14(4):274-280，DOI一致；324例、前八位证候要素85.8/79.6/41.1/38.0/24.7/18.9/17.5/4.4%及Gensini评分演变轨迹逐项与摘要Results一致。"
+  },
+  {
+   "row_id": "D11-N02",
+   "verdict": "小误差",
+   "field_issues": "key_result所引Luo 2015数字全部核对无误；惟题名通行刊出题名为《血瘀证诊断参考标准》（中西医结合杂志1987;7(3):129），行内少'参考'二字；原文无独立在线题录页。L1转述标注如实。",
+   "corrected": "题名补全为：血瘀证诊断参考标准（第二届全国活血化瘀研究学术会议修订，广州；刊于1987;7(3):129）",
+   "reading_level_ok": true,
+   "checked_how": "标准本体经Europe PMC MED/CBA检索无独立题录；key_result数字经PubMed efetch PMID 26485909摘要逐项核对：criterion B敏感度中位0.762(0.731-0.790)、特异度0.902(0.858-0.936)完全一致。"
+  },
+  {
+   "row_id": "D11-N01",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 6219827：Jin HM 1982，Zhong Xi Yi Jie He Za Zhi 2(3):182-184，题名一致；PubMed无摘要，key_result如实写'据题录与后继文献转述、具体数字无法核对'，L1标注可信。"
+  },
+  {
+   "row_id": "D11-R06",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core+PMC12833428全文：Mi Z等2025，Front Cardiovasc Med 12:1669239，DOI一致；1503入组/1435分组、气虚血瘀13.8%、气滞血瘀12.3%、心血瘀阻12.9%见摘要，LGBM验证集准确率72.51%见正文Highlights/结果，逐项一致。"
+  },
+  {
+   "row_id": "D11-R11",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 35357679：Qiu Y, Xu H 2022，Chin J Integr Med 28(4):291-296，DOI 10.1007/s11655-022-2889-0一致；无摘要，L1'题录核实、正文未获取'标注如实。"
+  },
+  {
+   "row_id": "D11-E08",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 6225543：Chen KJ 1983，Zhong Xi Yi Jie He Za Zhi 3(3):134-139，题名一致；无摘要，L1标注'题录核实、无摘要'如实。"
+  },
+  {
+   "row_id": "D12-007",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "PubMed efetch PMID 8732134：Luo HM等1995，中国中西医结合杂志15(12):707-709，华山医院（上海医科大学）一致；摘要逐数核对全符：15/19症状减轻、LVEDV降11.74±18.39ml、LVESV降9.35±18.01ml、HR 88.21±17.19→64.55±13.06、PER 1.80±0.86→1.95±0.85 u/s（P<0.05）、LVEF/PFR改善无统计学显著性。"
+  },
+  {
+   "row_id": "D12-004",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 3938713：Fan LL, O'Keefe DD, Powell WW 1985，Chin Med J 98(11):821-832；英文题名确为葛根素对急性心肌缺血犬区域心肌血流与血流动力学研究；行内'第三作者著录为Powell WW'与PubMed一致；无摘要，L1如实。"
+  },
+  {
+   "row_id": "D12-013",
+   "verdict": "正确",
+   "field_issues": "主题录核实无误；衍生声明中prime editing论文PMID 41987526确证存在（J Integr Plant Biol，Engineering prime editors in Salvia miltiorrhiza）；'通讯作者Song J'与SmCPK24之AGR记录ID未能经当前记录字段独立确认（非矛盾）。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 27018390：Xu H 2016，Molecular Plant 9(6):949-952，DOI一致，作者含Song J；无摘要，L1如实；另以Europe PMC查证PMID 41987526存在。"
+  },
+  {
+   "row_id": "D12-044",
+   "verdict": "正确",
+   "field_issues": "撤稿状态核实无误（Exp Ther Med 2025;30(3):166，撤稿声明注明retracts DOI 10.3892/etm.2019.7984）；行内first_author为空，实际第一作者He L，可补全；卷页可补30(3):166。",
+   "corrected": "first_author=He L；volume_pages=30(3):166",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 40636833：题名带[Retracted]标记，作者He L等，摘要即撤稿声明。"
+  },
+  {
+   "row_id": "D12-028",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 41322006：Cui G 2025，Comput Struct Biotechnol J 27:5087-5104，DOI一致；摘要确认AI-NP跨尺度案例与挑战（噪声、高维、动态性、跨尺度整合不足），key_result如实。"
+  },
+  {
+   "row_id": "D12-021",
+   "verdict": "正确",
+   "field_issues": "题录与主旨核实无误；《网络药理学评价方法指南》在摘要中确认，但编号'SCM0061-2021'未见于摘要文本，属摘要外细节（未见矛盾）。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 35178906：Wang ZY…Li S（末位）2022，中国中药杂志47(1):7-17，DOI一致；摘要确认网络靶标发展与评价方法指南叙述，L2可信。"
+  },
+  {
+   "row_id": "X01-R27",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core 三条均核：PMID 38506843 Zakiev V等（JAMA 2024;331(15):1332，DOI 10.1001/jama.2024.0620）、38506789 Asham H/Entezari-Maleki T（1332，DOI .0623）、38506845 Chen G/Shang M/Yang Y Reply（1332-1333），与行内题录完全一致。"
+  },
+  {
+   "row_id": "X01-R05",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "PubMed efetch PMID 26485909：Luo J等2015，中国中西医结合杂志35(8):950-956；摘要Results逐数核对全符：criterion B敏0.762(0.731-0.790)/特0.902(0.858-0.936)、criterion A敏0.911(0.888-0.930)/特0.875(0.826-0.915)、符合率91.96%、Kappa=0.82、712例。"
+  },
+  {
+   "row_id": "X01-R07",
+   "verdict": "正确",
+   "field_issues": "PMC5407045原文原句为'more than 450 million patients cumulatively since it came into the market in 1994'；行内将4.5亿转写为'人次'并已自注口径差异（人次≠患者数、企业公布口径、无独立核实），属保守处理而非错误。'came into the market in 1994'逐字核实。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC全文PMC5407045核对1994上市与450 million原句；另核PMC10232835全文确认'Fufang Danshen dripping pill…produced by the Tasly Group'，研制企业天士力核实。"
+  },
+  {
+   "row_id": "X01-R41",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 32891598：Choi SH 2020，J Integr Med 18(6):455-458，DOI一致；摘要确认PIPE-11为基于规则推理的TEAM临床决策支持系统、用于实施ICD-11传统医学章节，key_result与design相符。"
+  },
+  {
+   "row_id": "X01-R37",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 39178138：Huang H等2024，Eur Heart J 45(40):4305-4314，DOI一致；摘要核对：66中心、920例持续性房颤消融后、12个月、85.5% vs 77.7%、HR 0.6(0.4-0.8) P=0.001、QoL改善，全符。"
+  },
+  {
+   "row_id": "X01-R34",
+   "verdict": "正确",
+   "field_issues": "行内doi字段为空，可补10.4103/0366-6999.204106；其余与X01-R07同源核对一致。",
+   "corrected": "doi=10.4103/0366-6999.204106",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 28397728：团体署名Writing Group…2017，Chin Med J 130(8):972-978一致；全文PMC5407045可及并已读，L3可信。"
+  },
+  {
+   "row_id": "D01-R01",
+   "verdict": "无法核实",
+   "field_issues": "原文与新医药学杂志1972年第1期29-32均无法经公开学术库核验；E1载体（中国科学:生命科学2022;52:797-811）亦未检索到在线记录。行内L1'原文不可及、据E1转述'标注如实，无捏造迹象。建议移入待核线索（纸本/知网扫描核对）。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "试过：Europe PMC MED检索（Xin Yi Yao 1972、coronary No.2 decoction 1972）0命中；CBA检索'冠心2号'中英文0命中；OpenAlex查E1因免费配额受限无结果；Crossref未收录该中文版期刊。"
+  },
+  {
+   "row_id": "D01-R02",
+   "verdict": "无法核实",
+   "field_issues": "中华内科杂志1977年16(4):232-235无在线题录；配对文献（中医杂志1979;9:51-57）同样不可核。行内L1'据E1转述'标注如实。建议移入待核线索。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "试过：Europe PMC MED检索（Chung Hua Nei Ko 1977 Chen K）0命中；CBA 0命中；E1（中国科学:生命科学2022;52:797-811）经OpenAlex/Crossref均未获取到记录。"
+  },
+  {
+   "row_id": "D01-R05",
+   "verdict": "正确",
+   "field_issues": "原文题录其实可在PubMed核到：PMID 6751749（Chen KJ，中华心血管病杂志1982;10(2):85-89，112例双盲），建议补入行内pmid字段；PubMed无摘要，行内'原文不可及、效应值无法核对'的L1标注仍成立。",
+   "corrected": "pmid=6751749",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC core PMID 6751749：题名'The therapeutic effect of purified coronary heart II tablets on 112 cases of angina pectoris by double blind method'、1982、卷10期2页85-89、第一作者Chen KJ，与行内题录全符。"
+  },
+  {
+   "row_id": "D05-R20",
+   "verdict": "无法核实",
+   "field_issues": "无PMID/DOI，中华中医药杂志非MEDLINE期刊，CBA未见；题名与卷期页具体但无独立在线题录页。行内L1'题录层、原文未读'标注如实。建议移入待核线索（万方/维普人工核对卷期页）。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "试过：Europe PMC MED+CBA检索（浴足/邓铁涛/foot bath/Deng/页码4528-4530）均0命中；CNKI、万方需登录付费未使用。"
+  },
+  {
+   "row_id": "EV-D07-09",
+   "verdict": "正确",
+   "field_issues": "",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "Europe PMC CBA记录id 585627（与行内result_location一致）核心记录逐项核对：Zhonghua Xin Xue Guan Bing Za Zhi 1999 27卷413-415、协作组署名、12家医院、1028例（602 vs 426）、黄芪+牛磺酸+辅酶Q10+抗心律失常药 vs GIK+辅酶Q10+抗心律失常药、临床P<0.001/ST-T P<0.01/窦房阻滞与阵发性房颤P<0.05、EVs RNA转阴、早搏无差异——与key_result全部一致。"
+  },
+  {
+   "row_id": "EV-D07-10",
+   "verdict": "无法核实",
+   "field_issues": "中华心血管病杂志1999;27(6):405-407纪要在CBA未被收录（同期27卷413-431等条目可见，405-407缺），PMC引文库亦未见。行内L1'条文内容全部据中华急诊网转述、未经原刊核对'标注如实。建议移入待核线索。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "试过：CBA检索1999年中华心血管病杂志 myocarditis/cardiomyopathy 全列表扫描无405-407条目；'diagnostic reference standard'+myocarditis、\"Zhonghua Xin Xue Guan Bing Za Zhi\"+405+myocarditis均0命中。"
+  },
+  {
+   "row_id": "D09-N22",
+   "verdict": "无法核实",
+   "field_issues": "无PMID/DOI，中国循环杂志未被CBA收录（刊名 transliteration 检索0命中），英文题名检索亦未见；volume_pages仅到32(4)缺页码。行内L1'二手书目来源交叉印证'标注如实。建议移入待核线索，并补全页码。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "试过：CBA检索（bypass grafting+rehabilitation 2017、Xun Huan刊名）、Europe PMC英文题名（integrated TCM-WM+coronary artery bypass+cardiac rehabilitation consensus）均未见该共识题录。"
+  },
+  {
+   "row_id": "D10-R13",
+   "verdict": "无法核实",
+   "field_issues": "政策文件本体（2017版国家基本医保目录）无学术库题录，'26个品种限二级及以上医疗机构'的品种数经多路径检索未获独立学术旁证（亦未见反证）；E1的ADR下降趋势为二手转述且行内已注明构成比口径、因果未证。行内L1标注如实。建议补官方文件出处（人社部发〔2017〕15号）入待核线索。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "试过：Europe PMC检索NRDL/medical insurance/secondary hospitals/26 TCM injections等6组查询；并grep PMC9998719（中药注射剂综述2023）与PMC13576168全文，均未含该限定条目的直接表述。"
+  },
+  {
+   "row_id": "D11-N17",
+   "verdict": "正确",
+   "field_issues": "GB/T 16751.2-1997标准真实存在，所引辽宁中医杂志2017比较文DOI 10.13192/j.issn.1000-1719.2017.04.005经doi.org确认注册于chndoi（302解析）；但'523次引用'的具体数字因该刊原文付费不可读而未能独立复核（行内已如实标注为转述）。",
+   "corrected": "",
+   "reading_level_ok": true,
+   "checked_how": "试过：Crossref无该DOI（中文DOI注册体系），doi.org解析确认注册有效；欧洲PMC/CBA无该标准与比较文题录；523次数字无法核对，未见矛盾。"
+  }
+ ],
+ "summaries": [
+  "抽样下标0-28共29行全部核验。判定：正确28行、小误差1行（EVID-D02-036：行内'摘要未随本轮core返回'不实，摘要可经Europe PMC core获取且明确丹参胶囊降低氯吡格雷抗血小板活性，因该行未给方向性结论故不改结论）、实质错误0行、无法核实0行。所有L0/L1行的'转述/原文未读'标注均如实；全部reading_level可信（L2行均有摘要，L3行18/23已下载PMC全文逐数核验通过；行8、行5分别经OpenAlex与中文DOI注册库handle核实）。行20、27首作者未录（实为Dai S/Zhang P），建议补录。补录D01-R41（下标5，中医杂志2018专家共识）：经chndoi注册页核实题名/作者（王阶;陈光）/2018年注册一致，判正确，L1如实标注，rows共29行与抽样下标0-28一一对应。",
+  "抽查下标29–57共29行：正确25、小误差4（D08-R31题名缩写且first_author缺失，应补Chen Z；D09-N17期号应为83(985)且DOI误为061994实属他文、应改10.1136/pgmj.2007.061267；D09-N07期号应为(6)非(7)；D09-R07题名为缩写式描述，应换官方完整英文题名，数字全部无误）、实质错误0、无法核实0。全部PMID经Europe PMC/Crossref/OpenAlex实查：题录基本准确，L2行的统计数字逐项与摘要一致（含D09-R07、D10-R31、D10-R17全部数字）；L0/L1行均如实标注转述或未读；无摘要却标L2的情形未发现。D10两条史实行经E1（Zheng W 2022, PMC9640875）全文印证，仅NMPA文号与光明网史料细节无法经学术渠道复核，建议留待核线索。reading_level全部可信。",
+  "抽样29行（下标58-86）：正确21、小误差2、实质错误0、无法核实6。小误差：D10-R34（14种干预含标准治疗，'14类注射剂'多计1类）；D11-N02（题名应为《血瘀证诊断参考标准》）。无法核实6行均为无PMID/DOI且公开学术库不可及者：D01-R01（1972冠心2号）、D01-R02（1977中华内科杂志）、D05-R20（浴足方）、EV-D07-10（27(6):405-407）、D09-N22（CABG康复共识）、D10-R13（2017医保目录政策），均已试MEDLINE/CBA/Crossref/chndoi等路径并建议移入待核线索。所有L0/L1行的'转述/原文未读'标注均如实，全部reading_level可信；L2/L3行关键数字（5535例、324例证候要素、LGBM 72.51%、敏感度0.762/特异度0.902、PER 1.80±0.86→1.95±0.85、1028例九五攻关、85.5%vs77.7%等）逐项与PubMed/Europe PMC摘要或PMC全文一致；另发现D01-R05实有题录PMID 6751749可补。未修改任何报告文件。"
+ ],
+ "n_sample": 87,
+ "seed": "20261018",
+ "tally": {
+  "正确": 74,
+  "小误差": 7,
+  "无法核实": 6
+ }
+}
