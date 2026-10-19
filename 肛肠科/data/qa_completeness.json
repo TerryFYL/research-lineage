@@ -1,0 +1,797 @@
+{
+ "chapters": [
+  {
+   "id": "D01",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "第 0 节『本章口径』（约第 21 行）与第 9 节 D01-N22 行、evidence_D01.json",
+     "issue": "核查状态计数矛盾：口径写『通过 16、修正 6、删除 0、存疑 0』，但第 9 节 D01-N22 核查状态为『存疑』，证据表节点级实际为通过 15、修正 6、存疑 1，读者无法据此核对审计底账。",
+     "fix": "口径改为『通过 15、修正 6、存疑 1（N22 FDA 新闻稿原文未逐段核读）』，与第 9 节和证据表一致。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 4 节主题一（Lauricella 2026 句）",
+     "issue": "『17 项 RCT（SH 1041/CH 1031）』合计 2072 例，与『TSA 所需信息规模 2608 未被达到（实际 1913）』并列且未说明 1913 的口径，读者会误当作同一分母。",
+     "fix": "补一句说明 1913 是复发结局可入并样本（或 TSA 实际信息规模所据例数）及与 2072 的差异原因，写明分母来源。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 5 节争议四（Jin 2025 句）",
+     "issue": "Jin 2025 失禁 Meta 的数字误挂 [D01-E02]（E02 是 Lauricella 2026 复发 Meta），其真实证据行为 evidence_D01.json 的 D01-R32（PMID 39854786），引用错位妨碍回查。",
+     "fix": "该处标注改为 [D01-R32] 或为 Jin 2025（Surgery 180:109139）单设入口编号并在第 10 节表补行。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 9 节速查表 D01-N07 行",
+     "issue": "N07（Zhang SM 2003）行的样本列写『佐证 80 例（2005）』、关键结果列写『2004 累计 226 例』，把姚礼庆团队 2004 报告与钟芸诗 2005 RCT 的数字写进了本文节点行，读者会误当作该文例数。",
+     "fix": "N07 行样本改『例数未取得（题录）』；226/80 例佐证保留在第 6 节传承线叙述中，行内注明系其他团队报告。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 1 节源头段、第 9 节 N01 行、第 8 节检索缺口（Whitehead 1882 三处）",
+     "issue": "Whitehead 1882 的 L4 声明三处表述不一（『已读扫描页 L4』『L4（本轮未复核）』『因验证机制未独立复核』），读者难以判断 L4 是否成立。",
+     "fix": "三处统一为『L4（初稿读扫描页 pp.148-149；复核轮未逐页复核）』。"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "历史链（Whitehead→MM→肛垫学说→PPH→长期结局清算→eTHoS→指南分流→中国线）完整，负性路线、监管节点（FDA/NICE）、注册终点核查与口径修正均到位；中国线若干环节停留 L0 转述但逐条标注且在第 8 节交代影响。抽检 N01/N11/N15/N17/N22 与证据表一致。可在标注缺口前提下称为完整脉络，仅存计数与引用标注类瑕疵。"
+  },
+  {
+   "id": "D02",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "必须改",
+     "where": "第 0 节三分钟速读①（约第 7 行）",
+     "issue": "『1879 年 Andrews 报告 3,300 例大系列并披露死亡与重大并发症』与本章核查结论相抵：D02-N01 已查明原始扫描页仅载 5 条操作要领与总例数，『9 例死亡、23 例重大并发症、25% 剧痛』只存在于 Pata 2021→DCR 1988 二手转述链。只读速读的临床读者会把死亡/并发症数字当成 1879 年原文披露，恰违反本章自己确立的转述/原文区分纪律。",
+     "fix": "速读①改为『……3,300 例大系列（原文页仅载方法要领与总例数；死亡与重大并发症数字系二手转述，见 D02-N01）』。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 9 节 D02-N17 行及证据表同行",
+     "issue": "激光五年 RCT 这一关键节点第一作者空缺（『第一作者未在补充材料中给出』），而其摘要与 PMID 42478482 均已核实，作者名就在同一条 PubMed 记录内，影响引用完整性。",
+     "fix": "从已核的 PubMed 摘要记录补第一作者与卷期，速查表与 evidence_D02.json 同步。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 3 节分支图",
+     "issue": "已编号节点 D02-N11（Misra 2000 MPFF RCT，药物保守线起点）未出现在 mermaid 分支图中，药物保守整条分支无线可循，图与第 2 节转折六、第 4 节主题七脱节。",
+     "fix": "补 N11 节点及一条边（如 N07→N11『扩展：阶梯底层』，虚线推断），或在图注中声明药物线见第 2 节转折六。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 5 节争议一",
+     "issue": "『HOLLAND RCT 在 III 度报告套扎复发 47.5% vs 6.1%、非劣效失败 [D02-N12] 之后的重开』——[D02-N12]（2005 Cochrane）紧跟 HOLLAND 结果句，读起来像为 HOLLAND 数据作证。",
+     "fix": "引用只保留在『传统阶梯』句；HOLLAND 句改写为『III 度分岔点定量长期停留在 D02-N12，HOLLAND RCT 报告……后重开』。"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "证据修正链（1992→1995）、消痔灵→芍倍迭代、多普勒拆解、HOLLAND 重开 III 度与负性/停滞清单完整；消痔灵线证据依赖单一英文队列与个案的安全画像已在第 8 节如实声明（CNKI 影响）。抽检 N01/N07/N12/N15/N17 与证据表一致。可称完整脉络，但速读①对 1879 原文内容的表述必须先改。"
+  },
+  {
+   "id": "D03",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "第 9 节速查表 N08 行『关键结果』列",
+     "issue": "『切割0/13复发但失禁54%；引流组更低复发』与正文相抵：切割组复发 0/13 本是最低，引流组复发 14%（2/14）与 39%（9/23）更高，引流组的优势在失禁更低（26%–36% vs 54%）。表格扫描会把复发-失禁取舍看反。",
+     "fix": "改为『引流组失禁更低（26–36% vs 54%）但复发更高（14–39% vs 0/13）』。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 12 节标题结构（文末两节）",
+     "issue": "章内出现两个『## 12 复核修订记录』且全文无第 11 节，编号断档，读者易以为缺页或漏节。",
+     "fix": "将两节合并为一节或后一节改编号为『## 13』，并补一行说明证据表落点（data/evidence_D03.json）。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 0 节速读①（第 7 行）",
+     "issue": "速读直接引用『药线日下，肠肌随长……』的古籍原文句式而未带转述标注；第 1 节已声明两书原本均未核得、该条全部内容为二手转述，速读层读者可能误以为古籍原文已核。",
+     "fix": "速读①句末补『（转述层，古籍原本未核，归属两说并存）』。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 7 节数据路径小结『指南/共识路径』条",
+     "issue": "《肛瘘诊治中国专家共识（2020 版）》在此处被直接引用其立场（『高位瘘挂线仍为主力』），未再标转述层；该共识原文未核得的声明仅在第 5 节与第 10 节 E07 出现。",
+     "fix": "在第 7 节该条后加『（转述层）』，与第 5 节、E07 口径一致。"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "双古典源头、负性证据链（Van Tets/Hämäläinen/García-Aguilar 零结果）、松挂边界、中国 RCT 化回应与 Kshara sutra 平行线完整；撤稿与回溯注册如实入册；1556→2022 跨断层重构链与约一个世纪题录断层已显式标注（第 3、6、8 节）。抽检 N01/N07/N10/N14/N16 与证据表一致。可在断层标注前提下称为完整脉络。"
+  },
+  {
+   "id": "D04",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "部分满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "第 4 节主题三（PRP 句）",
+     "issue": "PRP III 期双盲 RCT（Int J Colorectal Dis 2019;34:1113-1119，证据表 D04-EV-028 year=2019）发表于窗口外（2019 < 2021-10），却作为『近五年重点』代表研究且未标窗口外地位，与 D01 对窗口外锚点（Zhang 2020）的显式标注做法不一致。",
+     "fix": "标注『（2019，窗口外背景锚点）』；主题三窗口内证据以 Front Med 2025 Meta（检索至 2024-06）与 Updates Surg 2025 网状 Meta 为主。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 6 节传承线（西医 ADM/LIFT-Plug 段）",
+     "issue": "正文直接引用《肛瘘诊治中国专家共识（2020 版）》『把 LIFT、瘘管填塞、VAAFT、脱细胞生物补片纳入规范』，而第 10 节 E8 已声明该共识要点据公开网页转述（L0–L1），正文未带标记；D03 章对同一文件的处理是显式标『转述层』，跨章口径不一。",
+     "fix": "在第 6 节该句后加『（要点据公开网页转述）』，与 E8 及 D03 的处理拉齐。"
+    },
+    {
+     "severity": "建议改",
+     "where": "第 9 节速查表 D04-N06 行『关键结果』列",
+     "issue": "只写『一期愈合 94.4%』未给 17/18 分母，证据表 key_result 已记 17/18，两处颗粒度不一致。",
+     "fix": "速查表补『17/18（94.4%）』。"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "四章中证据审计最强：材料封闭两起两落、LIFT 口径混乱（47%–95%）、TROPIS 之争两说并留、注册漂移三例与四篇撤稿全部入册并排除出证据链；Elting 1912 起点停留转述层已声明。抽检 N01/N06/N07/N14/N16 与证据表一致。仅 PRP 2019 一处窗口纪律瑕疵，可在标注缺口前提下称为完整脉络。"
+  },
+  {
+   "id": "D05",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "部分满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "directions/D05_肛裂.md 第 6 节国际线（\"英国 Notaras 1969/1971 技术定型（注意其 1962 年原文曾告诫慎用侧切，历史在此开了个玩笑）\"）",
+     "issue": "\"其 1962 年原文\"指代歧义：1962 年原文是 Bennett & Goligher（[D05-N02]，2.1 节已述），Notaras 并无 1962 年原文，读者易误读为 Notaras 本人在 1962 年告诫慎用侧切",
+     "fix": "把指代落到人名：改为\"（注意 Bennett & Goligher 1962 原文曾告诫慎用侧切……）\"，并可保留\"与七年后的侧切路线构成反讽\"之意"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D05_肛裂.md 第 4 节主题一/二/三（Biomed Res Int 2026、Ann Med Surg 2025、Int J Surg 2025 五药网络 Meta、Sci Rep 2023、Cureus 2024、Updates Surg 2024 等）",
+     "issue": "多篇近五年系统评价/网络 Meta 只给发表年，未给实际检索截止日，也未像第 10 节入口文献表那样标\"未说明\"，无法排除以发表年替代检索截止，与任务书\"截止日期、近期窗口、检索窗口三者分开\"的硬要求存在缺口",
+     "fix": "逐篇补查原文/PROSPERO 的检索截止并在正文与证据行同步标注；确实查不到的统一标\"检索截止：未说明\"，保持与入口文献表同一口径"
+    },
+    {
+     "severity": "建议改",
+     "where": "data/evidence_D05.json D05-R50 至 D05-R67（支撑文献行）",
+     "issue": "支撑文献行的 node_id 复用其所支撑节点的编号（如 Watts 1964 标 D05-N02、Keighley 1976 标 D05-N06），一个 node_id 对应多行；仅靠 kind 字段\"（支撑文献，不独立计节点）\"区分，机读统计或按 node_id 回查时易把支撑文献误并入节点证据",
+     "fix": "在 role 字段统一补\"支撑文献：node_id 指被支撑节点\"的显式说明，或改用专门字段（如 supports_node）承载关联、node_id 留空，避免节点计数与证据行混淆"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "六问均可答：双源头（切/扩）转述层标注、Eisenhammer 重定向、Bennett 1962 量化代价、扩张被超声宣判、化学括约肌三分支、近五年 BTX/LIS 界线与切量之争齐备；22 个节点要素齐全（抽查 N01/N02/N07/N13/N19），L4/L2/L1 分层与\"据 Riboni 2024 转述\"逐处标注，gonyautoxin 失败支线、Arroyo 2013 撤稿、Maria/Brisinda 撤稿传闻证伪、中文非 MEDLINE 缺口均如实保留。遗留为近五年部分综述检索截止未标与一处指代歧义，均属小改，可在标注缺口前提下称完整脉络。"
+  },
+  {
+   "id": "D06",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "部分满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "data/evidence_D06.json D06-EV56（Chaveli Díaz 2020 西班牙长程队列）与 D06-EV57（巴林 2023 队列）；对应 directions/D06_肛周脓肿.md 第 6 节国际线",
+     "issue": "两行 verification_status 标\"通过\"，但 limitations 自记\"本轮仅据调研材料转述，未独立核题录\"，且 EV56 期刊卷页空缺；正文却直接引用 303 例、48.2% 复发、40.3% 成瘘、2.4% 无症状瘘等具体数字，核查状态与行内限定自相矛盾",
+     "fix": "两行核查状态改为\"未核/存疑\"（或补齐题录核实后再改\"通过\"），并在正文首次引用处加\"据调研材料转述\"限定语"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D06_肛周脓肿.md 第 4 节主题五/主题六（Lin 2023、Chen 2025、Sanchez-Haro 2025 三篇系统评价）",
+     "issue": "三篇近五年系统评价未标注检索截止（证据行同样未记），而同节 Sun 2024（1992 至 2022-07）、Kim 2024（至 2023-01-05）均有标注，口径不一",
+     "fix": "补查 PROSPERO 注册号（Lin/Chen 已给注册号可回查）或原文 Methods 的检索截止并标注；不可得时统一标\"检索截止：未说明\""
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D06_肛周脓肿.md 第 5 节争议一（\"ASCRS 2016/2022、SICCR 2015/2020、中国 2018/2025 共识均取个体化口径，无一家推荐无差别一次根治\"）",
+     "issue": "该句对 ASCRS 2022 的立场做了肯定表述，但第 6 节与第 8 节缺口 9 已声明 ASCRS 2022 正文未读、推荐条款仅据题录与共识/综述转述，两处口径不一致，读者可能把转述当原文核对结论",
+     "fix": "在第 5 节该句补\"（据题录与共识/综述转述，正文未读）\"限定，或交叉引用第 8 节缺口 9"
+    },
+    {
+     "severity": "建议改",
+     "where": "data/evidence_D06.json D06-EV39（机器学习预测 737 例）与 D06-EV47（糖尿病血糖控制与复发 232 例）",
+     "issue": "两条近五年代表研究 first_author 为\"（题录未列第一作者）\"，正文亦未给出作者名，读者只能靠 PMID 回查，与全表体例不一致",
+     "fix": "按 PMID 41393021、41709901 回填第一作者姓名，正文相应位置可一并补出"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "六问均可答：从\"脓肿是什么\"到一次根治之争、抗生素阴-阳-阴、小儿两极 Meta、中国挂线 RCT 化的演变链完整；抽查 N04/N06/N10/N12/N17 要素齐全，P<0.106、非随机不作因果解释等细节诚实；1950s-2004 中国段单源转述链、Eisenhammer/Parks 原文未读、ATLAS/PERIQxA 未揭榜均显式标注，负性结果 7 条齐备。建议项集中在证据行核查状态口径、检索截止补标与题录回填，无误导性问题，可在标注缺口前提下称完整脉络。"
+  },
+  {
+   "id": "D07",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "部分满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "部分满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "directions/D07_功能性便秘.md 第 4 节(6) 与第 9 节速查表 D07-N19；data/evidence_D07.json D07-EV-019",
+     "issue": "电针 vs 普芦卡必利主试验（2021 AJG）是编号节点，但其样本总量与主要终点结果在正文、速查表（样本列\"总数未在材料记录\"）、证据行均缺失，只记两篇亚组分析；读者无从判断非劣效是否成立，该节点\"结果\"要素空缺",
+     "fix": "回读该主试验摘要（PMID 33273258）补样本量、主要终点结果与非劣效结论；若仍不可得，在正文与速查表明示\"主试验主结果本轮未核\"，不应让编号节点只以\"亚组之母\"身份存在"
+    },
+    {
+     "severity": "建议改",
+     "where": "data/evidence_D07.json D07-EV-061（Johanson & Ueno 2007 鲁比前列酮剂量摸索，APT 25(11):1351-1361）",
+     "issue": "DOI 字段填的是 Johanson 2008 AGJ 论文的 DOI（10.1111/j.1572-0241.2007.01524.x），与 D07-EV-010 完全相同；两篇不同期刊、不同 PMID 的论文共用同一 DOI，题录回查断链",
+     "fix": "按 PMID 17509103 改为该 APT 2007 论文自身的 DOI"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D07_功能性便秘.md 第 4 节(3)（Gong 2018 补中益气改良方 Meta 列于\"近五年重点\"下）",
+     "issue": "2018 年发表的评价落在 2021-10-18 至 2026-10-18 重点窗口之外，且未标注检索截止，放在\"近五年重点\"小节易被当作近五年证据",
+     "fix": "移至第 2/6 节历史与传承段，或保留原位但在句首注明\"窗口外早期汇总\"；同时补标或注明其检索截止\"未说明\""
+    },
+    {
+     "severity": "建议改",
+     "where": "data/evidence_D07.json D07-EV-036（Chiba 2024 黑变病停药消退个案）",
+     "issue": "journal 字段只记 PMC 编号与卷页（17:783-787）、无期刊名，正文引用处也未给期刊，题录三要素缺一",
+     "fix": "按 PMID 39282237 补全期刊名与卷期"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "六问均可答：Lane 外科线理论崩塌、STC 客观分型、罗马标准统一入组、渗透一线/促分泌促动力二线、中成药三部曲、黑变病安全叙事与 tegaserod 监管节点齐备；抽查 N01/N03/N08/N14/N19 中仅 N19 缺主试验结果，其余要素齐全；四类源头分类、吴咸中线 L0 限定、CNKI 影响说明、五条负性/停滞路线均合规。node_elements 因 N19 结果空缺记部分满足；其余为题录字段与窗口标注类小改，可在标注缺口前提下称完整脉络。"
+  },
+  {
+   "id": "D08",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "directions/D08_盆底与出口梗阻.md 第 2 节转折八、第 6 节传承线；data/evidence_D08.json D08-R014",
+     "issue": "李华山 2006 消痔灵 RCT 的近期疗效三处表述不一致：第 2 节\"高浓度组临床控制 19＋有效 1、低浓度组 16/16\"，第 6 节\"近期临床控制 36/36\"，证据行\"近期临床控制 20/20 与 16/16\"；若高浓度组仅 19 例控制，则 36/36 与 20/20 两处与正文矛盾，读者无法确定高浓度组是否全部临床控制",
+     "fix": "统一为\"高浓度组 19/20 临床控制（另 1 例有效）、低浓度组 16/16 临床控制\"，第 6 节与证据行 key_result 同步修改"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D08_盆底与出口梗阻.md 第 0 节本章口径（\"无删除级、无存疑级条目\"）",
+     "issue": "证据表 D08-R057（Maher & Baessler 2006）与 D08-R058（FIGO 2020）核查状态为\"存疑\"，虽属未编号关键节点、口径句字面仅指编号节点与入口文献，但按现文易读作全章无存疑条目，与证据表冲突",
+     "fix": "把口径句限定为\"17 个编号节点与 8 篇入口文献无存疑级条目\"，未编号文献的存疑标注保留，正文第 2 节\"本轮未经独立复核\"限定语同步保留"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D08_盆底与出口梗阻.md 第 4 节(1)④（Neuromodulation 2025 SNM 治便秘 Meta）与(2)④（PTNS vs 生物反馈两篇）",
+     "issue": "以\"代表研究\"列入近五年正文，但摘要未读、无合并效应或疗效结果（证据表 L1 明示\"摘要未读\"），正文未同步标注阅读层级，读者易当作已核对结果的证据",
+     "fix": "在正文相应括注\"题录层，结果未读\"，或补读摘要给出一句话合并结果后再引用"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "六问均可答：四大脱垂术式原型（1971 前定型，Wells 1959 补环为核查新增）、功能线客观化（Wasserman→Preston→Rao）、SNM 三十年后等来假对照（SUBSoNIC 阴性）、前突两学科错位、Dixon 学术诚信事件均完整；抽查 N01/N03/N09/N10/N14 要素齐全（N14 存在三处表述不一致，属一致性问题而非要素缺失）；近五年检索截止标注为四章最佳；中国注射线 1970s-80s 源头不可达、审读环节缺位的补偿路径均如实披露。可在标注缺口前提下称完整脉络。"
+  },
+  {
+   "id": "D09",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "directions/D09_术后疼痛与坐浴熏洗.md 第9节速查表 D09-N11 行、第1节（7）；data/evidence_D09.json D09-EV-011",
+     "issue": "证据表 N11 核查状态已于2026-10-19改为「存疑（题录经多渠道不可达，移待核线索）」，但正文第9节速查表仍写「修正（样本量360；L2→L1）」、第1节（7）仍称「公开可核的最早对照报告」，三处状态不同步；而该节点疗效数字（96.5% vs 73.8%）的题录已不可回查",
+     "fix": "速查表 D09-N11 核查状态同步为「存疑（题录不可达）」；第1节（7）把「公开可核的最早对照报告」改为「据检索快照转述的最早对照报告（题录待核）」，并在第8节待核线索明列该题录不可达"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D09_术后疼痛与坐浴熏洗.md 第6节传承线⑤「局部注射镇痛产业注册GBI268」",
+     "issue": "注册号「GBI268」与 ChiCTR 编号体系（ChiCTR 开头）不符，全章无任何留痕可回查，读者无法核证",
+     "fix": "复核原始注册号；无法核实则删去编号，仅保留「ChiCTR 产业注册（局部注射镇痛）」"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D09_术后疼痛与坐浴熏洗.md 第9节速查表 D09-N20 行；data/evidence_D09.json D09-EV-020",
+     "issue": "该节点是外用GTN支线的阴性证据并进入负性结果清单第4条，但速查表与证据表第一作者均为「（题名作者，Int Surg）」空缺，关键负性节点回查链不完整",
+     "fix": "按 PMID 23102076 补第一作者实名；确实不可得则两处统一注明「第一作者本轮未核」"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D09_术后疼痛与坐浴熏洗.md 第7节数据路径小结「分析单位均为患者」",
+     "issue": "概括与速查表不一致：N08（Toyonaga 尿潴留）分析单位为「手术例次」、N07（Tejirian 坐浴审查）为「文献/研究」",
+     "fix": "改为「分析单位以患者为主；尿潴留回顾（N08）按手术例次、坐浴证据审查（N07）按文献计」"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "抽查 N02/N08/N11/N14/N17 五节点：问题、数据/设计/单位、结果、局限、后续回应均齐全（N08 回顾期修正、N17 关键结果写反修正均有留痕）。起点四类标注到位（Nivatvongs 明示非最早局麻文献、王敏英快照层限定）；负性结果、注册-发表终点漂移（POHM、Liao）、撤稿（熏洗红膏）、PERCEPT vs PROSPECT 冲突均保留。中医熏洗线受 CNKI 未检索限制但第8节已如实标注。问题集中在个别节点回查状态未同步，无误导性错误，可在标注缺口前提下称完整脉络。"
+  },
+  {
+   "id": "D10",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "directions/D10_创面愈合与祛腐生肌.md 第9节速查表 D10-N09、D10-N12 行；data/evidence_D10.json D10-EV-009、D10-EV-012",
+     "issue": "两个关键节点（结局异质性系统评价、PRP vs 推移瓣 RCT）第一作者分别以「（多作者系统评价组）」「（埃及RCT团队）」代称，「第一作者」要素缺失，影响回查与署名核实",
+     "fix": "按 PMID 33963945 / 35486027 补实名第一作者；确实不可得则在速查表注明「本轮未核」"
+    },
+    {
+     "severity": "建议改",
+     "where": "data/evidence_D10.json D10-EV-037（正文第4节主题五同步）",
+     "issue": "机器学习风险预测研究卷页仅写「1829528」缺卷号，与本刊其他条目「13:文章号」体例不一致，引用不完整",
+     "fix": "核补为「Front Surg 2026;13:1829528」并同步正文第4节主题五的写法"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "抽查 N03/N09/N11/N14/N16 五节点要素齐全：N14 注册与终点一致性有「系据论文声明」限定、N16 无注册号+量级异常+主终点矛盾三点硬伤如实呈现。四类起点标注完整（MEBO 争议的首次、生肌玉红膏善本未读限定）；「动物层呼应≠临床验证」「两条线临床层从未交汇」的关系与结论限定规范；撤稿潮、PRP 阴性队列、汞蓄积等负性证据完整；近五年 RCT 计数底账（约六项、注册可核仅一项）明确。"
+  },
+  {
+   "id": "D11",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "directions/D11_诊断客观化.md 第3节分支图",
+     "issue": "多条边无关系标签（如 M1→M3、M3→M4、M4→M5、D3→D4、D5→D6、I5→I6、S1→S2、C1→C2），与全报告「边须注明关系类型（验证/扩展/质疑等）与依据」的口径不一致，无法区分原文依据与推断",
+     "fix": "为无标签边逐一补关系类型与依据（原文明确引用/同一项目扩展/时间先后推断），推断边改虚线并保持全章实虚线口径一致"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/D11_诊断客观化.md 第4节主题2（儿科正常值）；data/evidence_D11.json D11-EV-034",
+     "issue": "正文写「998 份测压回顾……儿童肛门静息压 75.6±21.3 mmHg、接近成人且无年龄梯度」，未注明该值系无肛门直肠畸形 944 例亚组口径（998 例中畸形亚组为 45.3±19.2 mmHg；证据表与修订记录已注明），正文直接引用易被读成 998 例总体值",
+     "fix": "正文补括注「（无肛门直肠畸形的 944 例；肛门直肠畸形亚组 45.3±19.2 mmHg）」"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "抽查 N05/N08/N12/N15/N17 五节点要素齐全（Sultan P 值修正、IAPWG §5.2 原文位置均可回查）。起点含「作者自称首次」（Jones 2007）与三处调度线索更正（Mahieu 期刊、Shorvon 期刊、St James's 归属 Morris 2000），分类纪律好；「受试者数≠患者数」口径明示；负梯度判据被推翻、PNTML 退潮、CT/瘘管造影边缘化、MRD 未取代 X 线等负性路线完整。问题为分支图边标签缺失与一处数字口径未同步。"
+  },
+  {
+   "id": "D12",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "directions/D12_针灸与穴位疗法.md 第9节速查表 D12-N13 行；data/evidence_D12.json D12-EV-013、EV-026、EV-027、EV-031、EV-032、EV-040、EV-041",
+     "issue": "多行第一作者为「本轮未核名」占位，其中 D12-N13 是速查表节点（便秘 TEA 分支锚点）、EV-026（CORRECT 方案）与 EV-028（taVNS RCT 相关行）是近五年主题代表，作者要素缺失影响回查与署名核实",
+     "fix": "按 PMID（38127047、39652211、41475813、41543815、42116778、41504675、38647724）补实名第一作者；不可得则在行内统一注明「第一作者未核（题录可得）」"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "抽查 N04/N07/N08/N11/N12 五节点要素齐全（Vickers「359篇」改标正文未核、Annals 2016 注册核对一致、Wu 2018 全文核实均有留痕）。1997 NIH 共识与 1998-1999 国际方法学批评线在位且题录可查（满足「国际线不能从 Cochrane 起算」要求）；针麻衰退、手针独立效应无法确立、Cochrane 20 年停留 protocol（已确证）、Medicine 2022 Meta 内部数字矛盾等负性证据完整；「无非中国团队独立验证」结论附检索覆盖局限说明。古籍与针麻起点均如实标 L0。"
+  },
+  {
+   "id": "X01",
+   "six_questions": {
+    "from_where": "满足",
+    "why_changed": "满足",
+    "how_branched": "满足",
+    "what_now": "满足",
+    "what_data": "满足",
+    "unknowns": "满足"
+   },
+   "node_elements": "满足",
+   "origin_classification": "满足",
+   "recent_with_cutoff": "满足",
+   "relations_with_basis": "满足",
+   "negatives_kept": "满足",
+   "units_separated": "满足",
+   "readability": "满足",
+   "top_issues": [
+    {
+     "severity": "建议改",
+     "where": "directions/X01_中国肛肠学科史.md 第1节「最早找到的疾病分类文本」段；data/evidence_X01.json X01-EV-019 key_result",
+     "issue": "「比《太平圣惠方》年代学线索约早1800年」与章内自身年份不自洽：《五十二病方》约前2世纪、《太平圣惠方》992 年，相差约 1150 年上下，1800 无法由任何两处年份推出，属不可溯源数字",
+     "fix": "核对考据文（PMID 21569694）原句是否确有此数；若原句无，则两处改为按章内年份自算口径（约 1100–1200 年）并同步正文与证据表"
+    },
+    {
+     "severity": "建议改",
+     "where": "data/evidence_X01.json X01-EV-027、X01-EV-030（对应正文第4节主题一/二、第5节争议4）",
+     "issue": "聚多卡醇泡沫多中心研究与 ALTA 肝损伤病例报告的第一作者均为「（多中心研究组）」「（WJG病例报告作者）」占位；后者被用作硬化剂安全性负性证据的关键引用，作者要素缺失",
+     "fix": "按 PMID 41748745 / 28785156 补实名第一作者，证据表与正文引用处同步"
+    },
+    {
+     "severity": "建议改",
+     "where": "directions/X01_中国肛肠学科史.md 第9节速查表 X01-N11 行「转述源DOI 10.2174/18761038mta10mtmex」；data/evidence_X01.json X01-EV-011",
+     "issue": "该字符串非标准可解析 DOI 格式，且证据表同行 doi/url 字段为空，读者无法据此回查 Longo 1998 的转述源，回查链不完整",
+     "fix": "核对该 Bentham 式 DOI 的正确拼写并补入证据表 X01-EV-011；无法核实则删除该 DOI，仅保留「转述源 Front Surg 2021（PMC8435716）与 Sturiale 2021 综述」"
+    }
+   ],
+   "can_call_complete": true,
+   "verdict_note": "抽查 N01/N07/N11/N13/N16 五节点要素齐全（N07 期刊归属修正为印度刊、零被引负性结构事实保留；N13 1520 例前瞻队列摘要层限定清楚）。起点四类标注规范：1954 张庆荣降为「存在争议的首次」、1956 中医建科两说并立、消痔灵「作者自称首次」、枯痔方药源头两说并立；NICE TA128 定性统一、FDA 召回按存疑保留、「NICE 2018 撤回」不采用，争议纪律好。1950 年代一手文献缺失、传承链多转述层均已在第8节明示，属标注缺口前提下的完整双轨学科史。"
+  }
+ ],
+ "synthesis": {
+  "deliverables": [
+   {
+    "item": "A 一页总览（A_科室研究总览.md）",
+    "verdict": "满足",
+    "issue": "A1 方向地图、A2 每方向一行六问、A3 转向指引、A4 六条阅读提醒、A5 用法齐全；年份统一带\"本轮最早/公认奠基，不是绝对第一篇\"限定。唯一断链：A2-D09 起点含 1957 Salvati 尿潴留专文（正文有 PMID 13424882），但 D_关键文献证据表.csv 与 C_timeline_items.csv 均查无该文献，读者按 A5 指引查表会落空。",
+    "fix": "为 Salvati 1957（Am J Surg 104:114-117，PMID 13424882）补证据表行与时间线条目，或在 A2-D09 该处加\"仅见正文，未入证据表\"标注。"
+   },
+   {
+    "item": "C 时间线与分支图（C_时间线与分支图.md）",
+    "verdict": "部分满足",
+    "issue": "C1/C3/C4/C5 与机器产物一致（关系 28 条、转向 6 次、冲突 6 条）。C2 有两处年份与章节不符：①\"1959 Winter 家猪湿性愈合实验\"应为 1962（D10 章：Winter 1962 Nature 193:293-294，PMID 14007593，OpenAlex 被引 2254 即该篇；A2 也写 1962）；②\"2013 芍倍 vs 消痔灵 1520 例前瞻对照\"应为 2014（D02 章两处、X01 章两处、时间线 CSV、证据表 D02-N16 均 2014）。另外 C2 引用的 5 个节点 D01-N19、D02-N10、D05-N16、D07-N09、X01-N19 在 data/C_timeline_items.csv 中不存在——build_c_tables.py 只保留 year 字段含四位年份的条目（X01-N19\"约前2世纪\"被静默丢弃），\"全表见 234 条 CSV\"的追溯承诺对这些行落空。",
+    "fix": "C2 表 Winter 行改 1959→1962（并移入 1960s 段），芍倍行改 2013→2014；补全 data/pipeline/*_write.json 的 timeline_items（或放宽 build_c_tables.py 年份解析，纪年前条目保留原文年份）后重跑，核对 C2 引用的全部节点均可检得。"
+   },
+   {
+    "item": "E 文献数量与期刊背景（E_文献数量与期刊背景.md）",
+    "verdict": "部分满足",
+    "issue": "E0 口径与全部计数和机器产物逐项一致：C0 117,369、B0 569、B0_herb 338、D01–D12（含 D07 40,942、D08 26,501，与 counts_meta.json 权威值相同）、E2 四项 17,632/20,697/270/17,380（=recent_union_summary.csv）、E4/E5 期刊计数、E6/E7 的 ISSN/起始年/h 指数/OA 2 年被引（抽查 DCR 1.582/230、AJG 336、TCP 2.400/87、IJCD 3.205/125、CRD 1.598/130、Phytomedicine 9.546/178 等均与 journal_background.csv 一致）。唯一瑕疵：E1 合计 673 含 X01 的 39 行证据，但表内无 X01 行，按列求和只得 634，无解释。",
+    "fix": "在 E1 合计行加注\"673 含 X01 证据 39 行（学科史横切无独立检索式，故无 PubMed 计数行）\"，或补一行 X01（PubMed 全量与近期列记\"—\"）。"
+   },
+   {
+    "item": "F 检索、选读排除与覆盖状态（F_检索选读排除与覆盖状态.md）",
+    "verdict": "部分满足",
+    "issue": "F1–F4、F6、F8 与机器产物一致（检索日志 1,195、排除 105、待核 124、缺口 163、80 行抽查 64/11/3/2、核查判定 576=通过 481/修正 93/存疑 2、F_coverage 汇总的批评 7 严重/67 一般与六问 64+8 亦逐项吻合）。两处不符：①F5 表后注记\"核查判定=通过/修正/存疑合并计数\"\"最早年份=时间线最早条目\"均与 build_f5_table.py 实际逻辑不符（实为 check_source=独立核查 的行数、证据表关键节点最早年份），由此 D02 写 1879（时间线最早 1869 Morgan，A2/C2 均以 1869 为起点）、D06 写 1949（时间线 1956；1949 为证据行 Courtney 解剖描述）、D11 写 1965（时间线 1963，A2/C2 写\"1963–65\"）、D09 写 1982（D09 章自称最早文献为 1957 Salvati）；②F7 称 qa_facts.json \"冲突 6 处\"，该文件实为 8 处（1 实质 ALTA 获批年 + 7 表述级），且点名的\"NICE TA128 定性\"实为 qa_relations.json 因果冲突第 1 条，\"药线日下归属两说\"在 qa_facts.json 全文未出现。",
+    "fix": "F5 删去手写表头（保留脚本表头消除双表头），注记改为\"核查判定=独立核查行数；最早年份=证据表关键节点最早年份（非时间线最早条目）\"，并为 D02/D06/D11/D09 加注与时间线/正文起点的差异（1869/1956/1963/1957）；F7 把\"6 处\"改为\"8 处（1 实质+7 表述级）\"，TA128 定性与药线归属两说移到 qa_relations.json 因果冲突条目下叙述。"
+   },
+   {
+    "item": "D 证据表结构（D_关键文献证据表.csv/.md，抽看）",
+    "verdict": "满足",
+    "issue": "673 行与 README/E 一致；表头含 row_id、direction_id、kind、node_id、analysis_unit、n_studies、n_reports、n_patients、n_wounds_flaps_other、same_cohort_as、reading_level_min、verification_status、result_location 等字段，研究数/报告数/患者数/专科单位分列、同队列去重与层级口径齐备，与任务书证据口径要求相符。",
+    "fix": "无需改动。"
+   },
+   {
+    "item": "三个时间口径分开",
+    "verdict": "满足",
+    "issue": "README 三口径表（截止 2026-10-18 / 近期窗口 2021-10-18 至 2026-10-18 / 文献统计窗口与年度图 1990–2025）与 E0、E3、counts_meta.json 的 query_date/recent_window 一致，未发现混用。",
+    "fix": "无需改动。"
+   },
+   {
+    "item": "数量口径（数据库/检索式/窗口/日期/去重/限制）",
+    "verdict": "满足",
+    "issue": "E0 声明 PubMed via esearch、[dp] 字段、查询日 2026-10-18、15 条检索式（B0_herb/B0/C0+D01–D12，与 counts_meta.json 逐条可对）；F2 记录 CNKI/万方、ChiCTR、付费墙等访问限制；F3 记录噪声抽样（B0 27.5%、D09 12.5%）与用途限制；去重口径在 E2 以 17,632 vs 20,697 说明。",
+    "fix": "无需改动。"
+   },
+   {
+    "item": "期刊指标口径",
+    "verdict": "满足",
+    "issue": "E6 用 NLM 沿革、E7 用 OpenAlex，并明示\"OA 2 年被引与影响因子口径不同、中文核心缺失只代表 OpenAlex 覆盖\"；抽查数值与 journal_background.csv 一致。",
+    "fix": "无需改动。"
+   },
+   {
+    "item": "逐方向覆盖状态",
+    "verdict": "部分满足",
+    "issue": "F5 表 13 行齐全、数值与 data/F_table.md 完全一致、统一评级 13/13\"基本完整但有标注缺口\"；但表头双行叠放、列派生注记错误及最早年份列四处与时间线/正文冲突（详见 F 条目），且 X01 最早关键节点年份 1617 之外，C2/X01 章声称的最早中文源头《五十二病方》（约前2世纪，考据文 PMID 21569694，X01-N19）在时间线 CSV 中不存在，附表层面看不到真正的最早条目。",
+    "fix": "同 F 条目修法；把 X01-N19 补入 C_timeline_items.csv（年份保留\"约前2世纪\"原文），F5 加注\"纪年前条目不计入最早年份列\"。"
+   },
+   {
+    "item": "不宣称完整版",
+    "verdict": "满足",
+    "issue": "README 状态声明、A2 覆盖列、F5 统一评级一致；CNKI/万方未检索与 ChiCTR 不可机读两大共同缺口在 README、A4、F6 重复如实披露，并声明\"这仍然是一份可用的报告\"。",
+    "fix": "无需改动。"
+   }
+  ],
+  "claim_checks": [
+   {
+    "claim": "A2-D01：起点为 1882 Whitehead 环切（扫描页 L4），1937 Milligan-Morgan（DOI 直取）",
+    "where": "A_科室研究总览.md A2 表 D01 行 ↔ directions/D01_混合痔与吻合器之争.md 第 7 行",
+    "supported": "有依据",
+    "note": "D01 章\"从哪里来\"同写 1882/1937；F_coverage D01 记 Whitehead 1882 为 L4 扫描页、MM 期号 5959 经修正。"
+   },
+   {
+    "claim": "A2-D01：2026 年含试验序贯分析的更新 Meta 复发 RR 1.56",
+    "where": "A2 表 D01 行 ↔ D01 章 第 13 行",
+    "supported": "有依据",
+    "note": "章内\"吻合器远期复发的再清算（2026 年含 TSA 的更新 Meta：复发 RR 1.56）\"。"
+   },
+   {
+    "claim": "C2：2000 年 Mehigan/Rowsell 同刊背靠背首代验证 RCT，期号 9206",
+    "where": "C_时间线与分支图.md C2 表 2000s 行 ↔ D01 章 第 45 行",
+    "supported": "有依据",
+    "note": "Lancet 2000;355(9206):782-785 与 779-781，PMID 10711925/10711924 章内一致。"
+   },
+   {
+    "claim": "A2-D02：HOLLAND RCT 把 III 度重新谈判（复发 47.5% vs 6.1%）",
+    "where": "A2 表 D02 行 ↔ D02 章 第 13、55、82 行",
+    "supported": "有依据",
+    "note": "n=87、10 院、提前终止、非劣效失败、QALY 差 -0.045 均章内一致；提前终止的局限也已声明。"
+   },
+   {
+    "claim": "A4：ALTA 一年复发 16%、九年 47.5%",
+    "where": "A_科室研究总览.md A4 第 4 条 ↔ D02 章 第 49、88 行",
+    "supported": "有依据",
+    "note": "Takano 2006 一年 16%（12/73）、Abe 2022 九年累积 47.5%，两个不同来源，章内分列未混用。"
+   },
+   {
+    "claim": "A2-D02：2014 头对头消痔灵肛管狭窄 3.5% vs 0",
+    "where": "A2 表 D02 行 ↔ D02 章 第 47 行",
+    "supported": "有依据",
+    "note": "安阿玥队列 1,520 例，狭窄 26 例（3.5%）对芍倍 0，硬结 1.1% 同章可查。"
+   },
+   {
+    "claim": "C2：\"2013 芍倍 vs 消痔灵 1520 例前瞻对照\"",
+    "where": "C_时间线与分支图.md C2 表 2010s 行 ↔ D02 章 第 47、159 行、X01 章 第 11、35 行、C_timeline_items.csv",
+    "supported": "与章节不符",
+    "note": "两章、时间线 CSV（D02-N16/X01-N13）与证据表均为 2014 年（PMID 24972583）；C2 应改 2013→2014。"
+   },
+   {
+    "claim": "A2-D03：芬兰 63% 控便损害与汇总失禁 12%（隐窝腺性 18%）；48 RCT 网络 Meta",
+    "where": "A2 表 D03 行 ↔ D03 章 第 8、40、44 行",
+    "supported": "有依据",
+    "note": "Hämäläinen 35 例 63%、Ritchie 2009 汇总 12%/18%；\"中国 48 个 RCT\"见章内\"还有什么不知道\"。"
+   },
+   {
+    "claim": "A2-D04：Aguilar 1985 瓣 189 例；瓣复发区间 2–54%",
+    "where": "A2 表 D04 行 ↔ D04 章 第 7、27、39 行",
+    "supported": "有依据",
+    "note": "章内注明 2%–54% 为二手转述区间（Meinero 2011 引言），与 A2\"波动大\"表述一致。"
+   },
+   {
+    "claim": "C2：2007 Rojanasakul LIFT 首报 94.4%",
+    "where": "C2 表 2000s 行 ↔ D04 章 第 11、31、43 行",
+    "supported": "有依据",
+    "note": "18 例前瞻观察；MEDLINE 误标 RCT 一事章内已声明。"
+   },
+   {
+    "claim": "C2：\"1959 Winter 家猪湿性愈合实验（Nature，被引 2254）\"",
+    "where": "C2 表 1950s 行 ↔ D10 章 第 7、26 行、A2 表 D10 行",
+    "supported": "与章节不符",
+    "note": "D10 章：Winter GD，Nature 1962;193:293-294（PMID 14007593，DOI 10.1038/193293a0），OpenAlex 被引 2254 即该篇；A2 亦写 1962 Winter。C2 年份应改 1962。"
+   },
+   {
+    "claim": "A2-D05：1993 内镜超声证明扩肛后 65% 括约肌缺损；Cochrane 收口与 69 RCT 网络 Meta",
+    "where": "A2 表 D05 行 ↔ D05 章 第 8、11、42、54 行",
+    "supported": "有依据",
+    "note": "Nielsen 1993（13/20=65%）；75 RCT Cochrane 与 69 RCT 网络 Meta 分列未混。"
+   },
+   {
+    "claim": "A4：LIS 即刻愈合可靠、远期 45% \"曾失禁\"",
+    "where": "A_科室研究总览.md A4 第 4 条 ↔ D05 章 第 54 行",
+    "supported": "有依据",
+    "note": "Nyam & Pemberton 1999（585 例）：愈合 96%、\"曾出现任何程度失禁\"45%（女 53.4%/男 33.3%）。"
+   },
+   {
+    "claim": "A2-D06：1984 Ramanujam 1023 例；成瘘率基线 6.8%–65.6%",
+    "where": "A2 表 D06 行 ↔ D06 章 第 8、94、151 行",
+    "supported": "有依据",
+    "note": "34.7% 内口检出同章；6.8%（Alabbad）至 65.6%（Blondin）的异质性清单见第 151 行。"
+   },
+   {
+    "claim": "A2-D07：2026 elobixibat vs 普芦卡必利 55.6% vs 33.9%；C2：1991 Wexner 筛选（163 例评估仅 16 例手术）",
+    "where": "A2 表 D07 行、C2 表 1990s 行 ↔ D07 章 第 10、8 行",
+    "supported": "有依据",
+    "note": "两处数字与章内完全一致；乳果糖 1968 双盲 RCT（Gut 9:84-86）亦可在章内核对。"
+   },
+   {
+    "claim": "A2/C4-D08：FINPOP 3515 例；SUBSoNIC 假对照 P=0.06 阴性；Cochrane 2008 全领域仅 12 RCT/380 人",
+    "where": "A2 表 D08 行、C4 第 1 条 ↔ D08 章 第 3、10、11、38 行",
+    "supported": "有依据",
+    "note": "三处数字均章内一致，Cochrane CD001758.pub2 检索至 2008-01-10 有注明。"
+   },
+   {
+    "claim": "A2-D09：美国 Optum 理赔库 23426 例",
+    "where": "A2 表 D09 行 ↔ D09 章 第 134 行",
+    "supported": "有依据",
+    "note": "章内\"美国Optum理赔库23426例阿片流行病学——中国无对应理赔库研究公开\"。"
+   },
+   {
+    "claim": "A2-D11：1214 例三体系 AI 判读验证；亚洲仅 38.7% 中心有本地正常值；C2：Shorvon 47 名志愿者、Sultan 202 名孕妇",
+    "where": "A2 表 D11 行、C2 表 1980s/1990s 行 ↔ D11 章 第 8、10、26、40、42、94 行",
+    "supported": "有依据",
+    "note": "AUC 0.79–0.99 三体系、38.7%、47 名志愿者、202 名孕妇（初产 35% 缺损）逐项一致。"
+   },
+   {
+    "claim": "A2-D12：穴位埋线 Meta 23 RCT/1794 例；2016 年 1075 例假针 RCT",
+    "where": "A2 表 D12 行 ↔ D12 章 第 10、26、40 行",
+    "supported": "有依据",
+    "note": "Liu Z 2016 Ann Intern Med 1075 例、CSBM 组间差 0.90 章内一致；AJG 2021 非劣效同章。"
+   },
+   {
+    "claim": "A2-X01：1980 中华全国中医学会肛肠分会成立、1981《中国肛肠病杂志》创刊（不入 MEDLINE）",
+    "where": "A2 表 X01 行 ↔ X01 章 第 41 行、C_timeline_items.csv X01-N08/N09",
+    "supported": "有依据",
+    "note": "章内注明首任会长为转述、期刊按刊名 PubMed 检索 0 条。"
+   },
+   {
+    "claim": "C2：约1977–1983 史兆岐消痔灵研制与 1,205 例英文系列（PMID 22557383）",
+    "where": "C2 表 1970s 行 ↔ D02 章 第 47 行、data/qa_cross_pmid.json",
+    "supported": "有依据",
+    "note": "D02 写 1983、X01 写 1977–1983 区间，跨章比对已判为表述差异并留痕；研制档案缺口在 F6 声明。"
+   },
+   {
+    "claim": "A2-D10：2021–23 马应龙/康复新液英文 RCT 双双撤稿",
+    "where": "A2 表 D10 行 ↔ D10 章 第 12、46 行",
+    "supported": "有依据",
+    "note": "ECAM 2021/2022 两篇均 2023 年撤稿，撤稿通知 DOI 章内给出；\"撤稿后原文数字不可再引用\"已声明。"
+   },
+   {
+    "claim": "C2：2021 TRISDS 双挂线 RCT、2022 PPAC2 否定常规填塞（ChiCTR 注册/50 中心）",
+    "where": "C2 表 2020s 行 ↔ D06 章 第 45、49 行",
+    "supported": "有依据",
+    "note": "TRISDS（ChiCTR2000032941，78.2% vs 41.2%）与 PPAC2（ISRCTN93273484，50 家 NHS 医院，433 例）均章内核对；ChiCTR 未独立核对的限制已声明。"
+   }
+  ],
+  "top_issues": [
+   {
+    "severity": "必须改",
+    "where": "C_时间线与分支图.md C2 表 1950s 行：\"1959 Winter 家猪湿性愈合实验（Nature，被引 2254）[D10-N03]\"",
+    "issue": "年份错误：D10 章（Nature 1962;193:293-294，PMID 14007593，DOI 10.1038/193293a0）与 A2 表 D10 行均为 1962，被引 2254 的正是 1962 年那篇；C2 会误导读者把湿性愈合奠基记为 1959。",
+    "fix": "改为 1962 Winter 家猪湿性愈合实验，并把该行移入 1960s 段（或就地更正年份、调整年代标签）。"
+   },
+   {
+    "severity": "必须改",
+    "where": "C_时间线与分支图.md C2 表 2010s 行：\"2013 芍倍 vs 消痔灵 1520 例前瞻对照（狭窄 3.5% vs 0）\"",
+    "issue": "年份错误：D02 章两处、X01 章两处、C_timeline_items.csv（D02-N16/X01-N13）与证据表均为 2014（PMID 24972583），仅 C2 写 2013。",
+    "fix": "2013 改 2014。"
+   },
+   {
+    "severity": "必须改",
+    "where": "C_时间线与分支图.md C2 引用的 [X01-N19]（第 59 行）、[D01-N19]（第 89 行）、[D02-N10]（第 93 行）、[D05-N16]（第 87 行）、[D07-N09]（第 90 行）与 data/C_timeline_items.csv",
+    "issue": "五个被引节点在号称\"全表\"的时间线 CSV 中不存在：build_c_tables.py 只保留 year 字段含四位年份的条目，X01-N19（约前2世纪《五十二病方》，报告声称的痔中文分类最早可核源头）被静默丢弃，其余四个为成稿阶段补收/写法差异；读者按 C2→CSV 的追溯链落空。",
+    "fix": "补全 data/pipeline/*_write.json 的 timeline_items 或放宽年份解析（纪年前条目保留原文字段）后重跑 build_c_tables.py，并加一步\"C2 引用节点 ⊆ CSV 节点\"的机检。"
+   },
+   {
+    "severity": "必须改",
+    "where": "F_检索选读排除与覆盖状态.md F5 表后注记与\"最早年份\"列（对照 scripts/build_f5_table.py 与 data/C_timeline_items.csv）",
+    "issue": "注记\"核查判定=通过/修正/存疑合并计数\"\"最早年份=时间线最早条目\"与脚本实际逻辑不符（实为独立核查行数、证据表关键节点最早年份）；由此最早年份列与 A2/C2 冲突：D02 1879（时间线 1869）、D06 1949（时间线 1956）、D11 1965（时间线 1963）、D09 1982（D09 章自称最早文献 1957 Salvati）。临床读者据此引用\"方向最早文献年份\"会被误导。",
+    "fix": "注记改为实际口径（独立核查行数；证据表关键节点最早年份，非时间线最早条目），并为 D02/D06/D11/D09 加注与时间线/正文起点（1869/1956/1963/1957）的差异及原因。"
+   },
+   {
+    "severity": "必须改",
+    "where": "F_检索选读排除与覆盖状态.md F7 第一段（\"冲突 6 处，含 Eisenhammer 锚年、ALTA 获批年、NICE TA128 定性、'药线日下'归属两说等\"）；README\"阅读层级与全表统计\"段\"跨章事实冲突 6 处\"",
+    "issue": "与机器产物不一致：data/qa_facts.json 实有 8 处冲突（1 实质 ALTA 获批年 + 7 表述级），且\"NICE TA128 定性\"属 qa_relations.json 因果冲突第 1 条（qa_facts 仅在 checked_topics 作证伪线索），\"药线日下归属两说\"在 qa_facts.json 全文未出现；F7 把三个来源的条目混在一个错误计数下。",
+    "fix": "F7 改为\"冲突 8 处（1 实质+7 表述级），另因果冲突 6 条见 qa_relations.json/C5\"，把 TA128 定性移到因果冲突条目下；README 相应改为与 C5 口径一致（6 条为因果/说法冲突，事实比对冲突 8 处）或加注区分两个文件。"
+   },
+   {
+    "severity": "建议改",
+    "where": "F_检索选读排除与覆盖状态.md F5 表（第 45–48 行附近）",
+    "issue": "手写表头行（方向|节点|证据行|入口来源|…）与脚本生成的表头行（方向|节点数|关键节点文献行|其中 L3/L4|…）上下叠放，Markdown 渲染为一个表带两行表头。",
+    "fix": "删去手写表头行，只保留 build_f5_table.py 生成的表头。"
+   },
+   {
+    "severity": "建议改",
+    "where": "A_科室研究总览.md A2 表 D09 行\"1957 Salvati 尿潴留系统研究\" ↔ D_关键文献证据表.csv 与 C_timeline_items.csv",
+    "issue": "D09 章把 Salvati 1957（Am J Surg 104:114-117，PMID 13424882）标为\"目前最早找到的文献\"并给出完整题录，但证据表与时间线 CSV 均无该行；A5 指引读者\"查具体文献用证据表\"会落空，也与 F5 的 D09 最早年份 1982 形成表面矛盾。",
+    "fix": "补 Salvati 1957 证据行与时间线条目（或在 A2 该处标注\"仅正文，未入证据表\"），并同步 F5 注记。"
+   },
+   {
+    "severity": "建议改",
+    "where": "E_文献数量与期刊背景.md E1 表合计行",
+    "issue": "合计 673 含 X01 的 39 行证据，但 E1 无 X01 行，按列求和只得 634，差 39 无解释。",
+    "fix": "合计行加注\"含 X01 证据 39 行（学科史横切，无独立检索式）\"或补 X01 行（PubMed 列记\"—\"）。"
+   }
+  ],
+  "summary": "总览与附录质量总体扎实：A/C/E/F 的绝大多数数字与 data/ 机器产物逐项一致（证据表 673 行、日志 1,195、排除 105、待核 124、缺口 163、抽查 64/11/3/2、判定 576=481/93/2、关系 28/转向 6、D07=40,942、E2 四项、期刊指标抽查全对）。判定：A/D 结构/三口径/数量口径/期刊口径/不宣称完整版为满足；C、E、F、逐方向覆盖为部分满足。必须改 5 条：C2 两处年份错误（Winter 1959 应为 1962、芍倍 2013 应为 2014）、C2 引用的 5 个节点缺失于时间线 CSV（含《五十二病方》条目被构建脚本静默丢弃）、F5 列口径注记失实且最早年份列四处与时间线/正文冲突（D02 1879/1869、D06 1949/1956、D11 1965/1963、D09 1982/1957）、F7 把 qa_facts.json 的 8 处冲突写成 6 处并错置 TA128 与\"药线日下\"条目来源。建议改 3 条：F5 双表头、Salvati 1957 未入证据表与时间线、E1 合计含 X01 39 行未注明。23 项跨文件说法抽查中 20 项有依据、2 项与章节不符（即上述两处年份）、其余一致。"
+ }
+}

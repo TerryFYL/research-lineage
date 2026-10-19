@@ -1,0 +1,106 @@
+﻿direction,item,reason
+D01,"HubBLe 试验（Brown S et al. HAL vs 胶圈套扎，Lancet 2016;388:356-364, PMID 27236344 及 HTA 2016）",痔动脉结扎与套扎属 D02（门诊微创线），仅作为 eTHoS 同期英国大试验计划背景点到
+D01,THD/HAL/DG-HAL 文献（含 Festen 2009 PPH vs THD 的 THD 侧结论）,痔动脉结扎归 D02；Festen 文只取其 PPH 复发/再手术信息作国际线
+D01,STARR（吻合器经肛直肠切除术）与直肠脱垂 stapled 操作,归 D08 出口梗阻/直肠脱垂；仅在 Pescatori 并发症处点到
+D01,激光痔扎（LHP）、射频消融（RFA/ORION）、直肠动脉栓塞（RAE）详细文献,门诊微创/能量器械线归 D02；仅列入近五年主题第五项作格局交代
+D01,Lohsiriwat V. Hemorrhoids: from basic pathophysiology to clinical management. WJG 2012（PMID 22563187）与 Lohsiriwat 2015 综述（PMC4541377）,高质量背景综述但非本方向争论节点；历史与现状已由 Pata 2021 与 Lauricella 2026 覆盖
+D01,Bhatti MI et al. Milligan-Morgan vs Ferguson 系统评价. World J Surg 2016;40:1509-1519（PMID 26813541）,开放 vs 闭合之争的非核心支线，仅在 N04 followup 提及，未设节点
+D01,Goligher 分度相关、失禁治疗（PTQ 注射，Chan & Tjandra 2006 PMID 16482420）,失禁治疗与分度方法学属 D08/D11 交叉，本轮只记结局数字不展开
+D01,消痔灵注射、套扎、硬化注射的主体文献群（含 Xiu-Zhang 1983 的完整临床分析）,归 D02；本方向只保留'外剥内扎+硬化注射'杂交术式与指南列举层面的内容
+D02,MacRae HM et al. Comparison of hemorrhoidal treatments: a meta-analysis. Can J Surg 1997;40:14-7（PMID 9030078）,与 1995 DCR meta 高度重叠（同一团队），选 1995 版为节点，1997 版作同项目补充
+D02,Alonso-Coello P et al. Laxatives for the treatment of hemorrhoids. Cochrane 2005（PMID 16235372）,药物保守线以纤维 SR（PMID 16405552）与 Cochrane phlebotonics（PMID 22895941）作入口，轻泻剂 Cochrane 为辅助证据，不单列节点
+D02,意大利 SIUCP 2024 指南（PMID 39228195）与台湾 consensus 2025（PMID 41162746）,指南类入口已足够（ASCRS 2024/AGA 2026/JARC 2017），两者仅在 international_line 中作监管/共识节点提及
+D02,Johanson 1992 之后的 IRC 随机比较（Gupta 2003，PMID 14502378；Marques 2006，PMID 17115317）,IRC 已非当前主流门诊手段，其兴衰以 N04+N06/N07 修正链与 JARC 2025 综述表述覆盖，不单列节点
+D02,"中国 1,225 例冷冻治疗（中华外科杂志 1981，PMID 7261756）",冷冻线整体按负性/失败路线处理，以 Goligher 1976 与 Pata 2021 表述；中国个案在 china_line/negative 段点到
+D02,TONEFACT（WJGS 2025，PMID 40740911）与 HIFU-RAL 联合硬化（PMID 40922264）,单中心新概念、证据与复现均不足，放 recent_themes 范围外（早期线索已在栓塞/ALTA 主题覆盖相近内容）
+D02,Thrombosed external hemorrhoids 手术 vs 保守 SR（Updates Surg 2026，PMID 40576944）,血栓性外痔属急性病管理，超出本方向门诊慢性阶梯主线
+D02,两篇消痔灵机制组学研究（PMID 40291892、41809221）作为节点,机制层证据对临床脉络影响尚小，放 china_line 与 data_paths 提及，不占节点名额
+D03,括约肌保留新术式原始研究：LIFT（含 rerouting 对照）、VAAFT、FiLaC、推移瓣、干细胞、TROPIS 原始病例系列,归 D04；本方向仅保留其与挂线对照的证据合成（Chen 2025、Fuschillo 2025）与 Garg 2024 评论作对比引用。
+D03,克罗恩肛瘘的长期挂线引流研究（Williams 1991 中 Crohn 分支、Ritchie 2009 之外克罗恩专题）,边界外（克罗恩肛瘘专线），仅在 Williams 1991 节点内点到。
+D03,Goodsall 规则、直肠内超声/MRI/测压诊断学文献,归 D11（肛肠诊断客观化）。
+D03,肛周脓肿一次性根治 vs 分期手术研究（含 TRISDS 脓肿 RCT、隧道式挂线治疗脓肿的林晖 2009 保留为挂线外延）,归 D06；林晖 RCT 因'挂线疗法'本体而保留。
+D03,克罗恩以外特殊病因瘘的挂线报告：化脓性汗腺炎合并复杂瘘（2024 J Dermatol）、腹壁瘘、前列腺脓肿瘘等病例报告,罕见病因个案，不改变主线证据结构。
+D03,"儿科肛瘘非切割挂线（Front Surg 2023, PMID 37114148）与儿童挂线病例系列（2005/2008 中西医结合学报）",年龄亚组，非主线；已在 china_line/data_paths 提及其中文文献。
+D03,VAAFT 中转挂线的预测因子（2022 Laparoendosc Adv Surg Tech）、AI/生物材料封堵与挂线联合研究,归 D04/D10；本方向只保留以挂线为主体的比较研究。
+D03,Tang/Ernst 1999、Vickers 1998 针灸方法学批评文献,评述病种不含肛肠疾病，按 2026-10-18 核实口径只作跨病种方法学背景，不列节点。
+D04,O'Connor L 2006 克罗恩瘘栓系列（DCR 49:1569-1573，PMID 16998638）,克罗恩肛瘘属边界外，仅在 D04-N05 的项目群注记中提到
+D04,Garcia-Olmo 2003/2005 克罗恩干细胞首报（PMID 12756590/15933795）,克罗恩线边界外；以 2009 年含隐窝腺 35 例的混合 II 期为节点
+D04,Giamundo 2015 FiLaC 长期随访（PMID 25724967）,与 D04-N12 同组同队列延伸，作 followup 不另立节点
+D04,Shanwani 2010（PMID 20010348）、Malakorn 2017（PMID 28891850）、Rojanasakul 2009 简化技术,LIFT 传播/长期验证，作 D04-N06 followup
+D04,Ellis BioLIFT 2010（PMID 20847616）,衍生变体受节点预算所限，写入 edges 与负性/停滞路线
+D04,Stellingwerf 2019、Lin 2019、An Y 2024、37460830（Tech Coloproctol 2023 NMA）,证据综合文献作为 recent theme 代表，不占原始研究节点
+D04,"Parks 分类（Parks AG, Gordon PH, Hardcastle JD. Br J Surg 1976;63:1-12，PMID 1267867）",分类学属 D11 交叉，仅作背景引用（Meinero 2011 按 Parks 分类记录病例）
+D04,肛瘘挂线 Meta（Int Wound J 2024，PMID 38484699，已撤稿）,挂线主题属 D03；撤稿作为 D04 争议材料引用而非节点
+D04,deleted：2026 年多项单臂新技术（ASGIIFT 皮肤植入、LIPOGEMS 微碎片脂肪等）,样本极小且未形成分支验证链，仅以 2026 年 Europe PMC 检索记录存在于日志中
+D05,"Brisinda G, Cadeddu F, Brandara F, et al. Randomized clinical trial comparing botulinum toxin injections with 0.2 per cent nitroglycerin ointment for chronic anal fissure. Br J Surg. 2007;94:1037?（PMID 17256809）",同一罗马团队的后续重复 RCT，信息被 NEJM 1999 与 Arroyo 2005 覆盖；作为 N16 的 followup 保留，不单独设节点
+D05,"Pérez-Legaz J, Arroyo A, et al. Perianal versus endoanal application of GTN 0.4% ointment RCT. Dis Colon Rectum. 2012;55(8):893-899（PMID 22810476，NCT01132391）",2013 年被撤稿（PMID 23652758），不能作为疗效证据节点；作为撤稿案例写入 controversies 与 N18 followup
+D05,Gabriel 1930 裂切除术（fissurectomy）、Morgan & Thompson 1956 后位标准化、Samson & Stewart 1970 皮瓣、Leong & Seow-Choen 1995 推进瓣,仅历史综述转述层（L0），未单独核实原始文献；皮瓣线与 D03/D04 交叉，本方向点到为止
+D05,"Jost WH. Ten years' experience with botulin toxin in anal fissure. Int J Colorectal Dis. 2002（PMID 12172922）；Jost WH, Schrank B. Repeat botulin toxin injections. Dig Dis Sci. 1999（PMID 10492136）",BTX 线的随访与重复注射经验，作为 N14 followup 与近五年主题背景，不独立设节点
+D05,"Libertiny G, Knight JS, Farouk R. Randomised trial of topical 0.2% GTN and LIS: long-term follow-up. Eur J Surg. 2002;168:418-421（PMID 12463433）",GTN vs LIS 24 个月 RCT，结论与 Arroyo 2005/Cochrane 一致（LIS 全愈、GTN 19/35），作为边缘材料并入 N18/N19 的 followup，避免节点冗余
+D05,"Arroyo A, et al. Open versus closed lateral sphincterotomy as outpatient procedure. J Am Coll Surg. 2004（PMID 15325604）",与 N18 同组（作者、样本量 80、患者队列不同），以 same-project 形式并入 N18 引文，不单独设节点
+D05,"Kenny SE, et al. Double blind randomised controlled trial of topical glyceryl trinitrate in anal fissure. Arch Dis Child. 2001（PMID 11668104）",儿童肛裂 RCT，按纳入范围儿童只点到，写入 data_paths 与 gaps
+D05,"Alawady M, Emile SH, et al. Posterolateral versus lateral internal anal sphincterotomy RCT. Int J Colorectal Dis. 2018;33:1461-1467",切开方位变异 RCT，取自历史综述参考文献列表；近年主题已由 2024-2025 的 LIS 标准化材料覆盖，未单独设节点
+D05,"Arroyo A, et al. Treatment algorithm for anal fissure（西班牙共识）Cir Esp. 2018（PMID 29525120）",可作入口文献但入口已满 8 篇；保留在近五年/指南主题的 representative 中
+D05,"Jost WH, Schimrigk K. Riddle of the sphincters in anal fissure. Dis Colon Rectum. 1995（PMID 7736891）",括约肌解剖讨论短文，对机制线补充有限，未设节点
+D06,"Kronborg O, Olsen H. Incision and drainage v. incision, curettage and suture under antibiotic cover. Acta Chir Scand 1984;150:689-692（PMID 6397949）",一期缝合路线（非一次根治 vs 引流主线）；摘要已读，写入negative_or_failed，不设独立节点
+D06,Eisenhammer 1958/1966/1978 系列（PMID 13556476/5908774/657933）,与1956同一路线的展开与总结，1956已立节点承载其学说起点，系列合并叙述避免节点冗余
+D06,Hanley 1976（DCR 19(6):507-515十年随访）与1978（Ann Surg 187(4):435-437橡皮筋挂线）,作为1965节点（D06-N03）的followup记录，不独立设节点
+D06,Sun Y 2024 Eur J Pediatr Surg（小儿Meta，1262例）,与Lin 2023（D06-N15）构成小儿争议的对峙双方，保留一个节点+在recent_themes/controversies详述另一侧，避免同题双节点
+D06,Rojanasakul 2021 DCR（LIFT at abscess drainage）、Erol 2020、Durgun 2023、Gaddam 2026、Blondin 2025、Chen SZ 2024新分类、Skovgaards 2023丹麦队列等,近五年证据（2021-2026），按任务书归入recent_themes代表研究，不占用节点名额
+D06,克罗恩肛周脓肿相关文献（ATLAS共识中英夫利西单抗节、2026小儿克罗恩风险多中心研究等）,任务书边界外（克罗恩归相邻方向），只在其预警价值处点到
+D06,Sho 2020 NSQIP（DCR 63:1127-1133）、Narayanan 2023 Am J Surg、Maniskas 2024 Am Surg,引流场所/围术期结局属近五年主题与data_paths例证，非本方向节点级转折
+D06,2011 ASCRS practice parameters（PMID 22067173）、2005版（PMID 15933794）、德国S3 2012（PMID 22362468）、日本2018指南（PMID 31559351）、WSES-AAST 2021（PMID 34530908）、ACPGBI 2018（PMID 30178915）,指南/立场声明按任务书作入口文献与international_line材料，不作为研究节点；核心指南以ASCRS 2022（E02）与SICCR 2020（E03）为代表
+D07,"Preston DM, Hawley PR, Lennard-Jones JE, Todd IP. Results of colectomy for severe idiopathic constipation in women (Arbuthnot Lane's disease). Br J Surg 1984;71:547-552（PMID 6733431）",与 N01/N02 同一谱系的历史桥梁，已并入 Lane 节点 followup 与 origin_claims，不单设节点（避免凑数）
+D07,Kamm MA 等. Dynamic scanning defines a colonic defect in severe idiopathic constipation. Gut 1988;29:1085-1092（PMID 3410334）,同组机制性研究，节点选其结局论文（N03）；本文列入 data_paths（核素传输）
+D07,Chiarioni 2006 生物反馈 RCT（Gastroenterology 130:657-664）,盆底失弛缓治疗属 D08；保留为 N09 以『明确边界』作用点到即止
+D07,Boccasanta P 等. Stapled transanal rectal resection versus stapled anopexy RCT. Int J Colorectal Dis 2007;22:245-251（PMID 17021748）,以痔病为主对照，交叉 D01/D02，本方向只保留 ODS 主线
+D07,Wald A 等. Neurotrophin-3 improves functional constipation. Am J Gastroenterol 2003;98:1338-1347（PMID 12818279）,已终止开发支线（神经营养因子），非改变认识的关键节点；未做失败原因核实，不写入 negative_or_failed
+D07,"Sonnenberg A, Koch TR. Physician visits in the United States for constipation: 1958 to 1986. Dig Dis Sci 1989;34:606-611（PMID 2784759）；Sonnenberg A, Flynn J? Epidemiology of constipation in the United States. Dis Colon Rectum 1989;32:1-8（PMID 2910654）",流行病学背景，列入 data_paths，不设节点
+D07,《中国肛肠病杂志》《结直肠肛门外科》相关中文文献,未被 MEDLINE 收录且 CNKI 全文不可得（不登录不付费），只能通过二手 Meta 的参考文献题录间接反映（如六味安消 2009）
+D07,Nusko 1993 / Morales 2009 / Müller-Lissner 1996 等蒽醌安全文献,承担争议与负性叙事功能，已写入 controversies 与 negative_or_failed，不设原始研究节点（避免节点膨胀）
+D08,"Lehur PA, et al. Outcomes of stapled transanal rectal resection vs. biofeedback for the treatment of outlet obstruction associated with rectal intussusception: a multicenter, randomized, controlled trial. Dis Colon Rectum. 2008;51(11):1611-1618 (PMID 18642046)",STARR主线归D07；本方向只在Pescatori 2008与controversies中点到（已核实题录与摘要，119例随机）
+D08,"Boccasanta P, Venturi M, et al. 2004起STARR系列（Dis Colon Rectum 2004前瞻多中心试验等）",同上，归D07；本轮检索未发现其撤稿记录（WebSearch层）
+D08,"Kenefick NJ, et al. Gut 2002;51:225-8（已撤回）",不作为节点（原文数据已被撤回），仅进入controversies/negative_or_failed作为路线事件
+D08,Gourgiotis S & Baratsis S. Rectal prolapse. Int J Colorectal Dis. 2007;21:811-822 (PMID 17021747),该综述已于2007年12月被撤回（Int J Colorectal Dis 22:1561），不作为证据引用
+D08,"Ellis CN. Anterior levatorplasty for chronic anal fissures in females with a rectocele (DCR 2004;47:1170-3, PMID 15148646)",属D05肛裂方向的前突相关RCT，本轮仅核实题录，未纳入节点
+D08,"Ripstein 1975 DCR内套叠研讨会（DCR 18:458-460, PMID 1181147）",会议研讨记录（无摘要无数据表），作为N16的概念前驱在edges/unverified之外以题录引用
+D08,"Fathy M, Elfallal AH, Emile SH. Literature review of transperineal repair of rectocele (Int Urogynecol J 2021, PMID 34621481)",与SGS 2019、IUGA 2026、Balata 2020重合，避免节点冗余
+D08,"Mei ZB, Wei D. 直肠脱垂外科治疗进展：手术入路演变视角（2025, PMID 41397821）",中文综述（PubMed题录L1），内容与Spivak & Hu 2025历史综述重合；留作china_line背景
+D09,PPH/TST/LigaSure/激光等术式间疼痛比较文献（如Balciscueta 2021 NMA内部术式臂、Simillis 2015 BJS术式NMA）,术式选择属D01；本方向只取其『日间手术疼痛可控』与麻醉可比性结论
+D09,针刺/电针/耳穴细节研究（35419404系统评价、36550890电针Meta、腕踝针NCT07340307）,归D12；本方向在recent_themes与negative_or_failed中点到
+D09,创面愈合与敷料/祛腐生肌文献（康复新液熏洗促愈合、白及RCT ChiCTR-IIR-16007736、红光联合熏洗）,归D10；本方向只取疼痛终点相关结论并注明分工
+D09,肛裂坐浴vs侧方内括约肌切开的系统评价（PMID 36337820）与肛裂药物阶梯,归D05；仅在坐浴线边缘引用Gupta系列
+D09,痔动脉栓塞、胶圈套扎等非手术治疗的国际指南内容,归D02；ASCRS/SICCR指南仅作国际线态度背景
+D09,亚甲蓝肛周注射镇痛（Meta PMID 40944330；2026复合亚甲蓝vs布比卡因脂质体RCT PMID 42427264）,有价值的术中辅助支线，但节点名额让位于麻醉/坐浴/甲硝唑/ERAS主轴；已在data_paths与controversies边缘提及
+D10,Atiyeh BS. Benefit-cost analysis of moist exposed burn ointment. Burns 2002;28（PMID 12417161）,重要但属卫生经济学辅证，未选为节点（已在N07 followup与国际线引用）
+D10,Meta-analysis of platelet-rich plasma therapy for anal fistula. J Cosmet Dermatol 2022;21:4559-4566（PMID 35049123）,与N13/2023 MA内容重叠，取后两者为代表（检索截止更晚、期刊更对口）
+D10,Platelet-rich plasma in the treatment of anal fistula: SR/MA. Int J Colorectal Dis 2023;38:70（PMID 36905475）,作为入口文献E06使用；其“单用62.39% vs 联合83.12%”分层并入N13叙述，未单独设节点
+D10,Efficacy and safety of Chinese herbal ointment in treating perianal eczema: SR/MA（PMID 37478223）,湿疹属皮肤方向，非术后创面
+D10,"中药坐浴/熏洗镇痛类Meta（如Electroacupuncture postoperative pain MA, PMID 36550898；TCM care model pain MA, PMID 38053898）",止痛终点属D09；本方向仅保留以愈合为终点的试验
+D10,Treatment of anal fistulas with Obsidian RFT（PMID 39095560）及干细胞/脂肪源性系列（PMID 40933558等）,属D04括约肌保留新术式竞争线，交叉点到为止
+D10,Kangfuxin solution enema for anastomotic leakage（PMID 41178890）,吻合口漏属结直肠肿瘤围手术期方向，边界外，仅在data_paths注记
+D10,"Shengji Yuhong Ointment accelerates diabetic wound healing（J Ethnopharmacol 2026, PMID 42624442）",糖尿病足为一般创面（边界外）；在N01 followup作机制线注记
+D10,Taiwan society consensus on hemorrhoidal disease（PMID 41162746）、Portuguese/SICCR共识,痔病诊疗共识属D01/D02，其中创面管理条目未单独展开
+D10,"LLLT open proctological wounds（J Coloproctol 2024;44:S1-S138, DOI 10.1055/s-0045-1808880）",会议摘要级证据，仅在国际线/物理疗法处点名，不作节点
+D11,"Parks AG, Gordon PH, Hardcastle JD. A classification of fistula-in-ano. Br J Surg 1976;63:1-12（PMID 1267867）",外科解剖分类而非影像研究；作为 St James's 分级（N11）的基架在正文与 edges 提及，不立节点
+D11,"Keighley MR, et al. Anorectal physiology measurement: report of a working party. Br J Surg 1989;76:356-357（PMID 2720345）",1.5 页会议报告；作为测压标准化链（N13）的前置在 citation 与 edges 中保留
+D11,"Healy JC, et al. AJR 1997;169:775-779（PMID 9275895）",与 Schoenenberger 1998 合并进 N10（MR 排粪造影出现期的一体两面：新模态+一致性差）
+D11,"Ratuapli SK, et al. Gastroenterology 2013;144:314-322（PMID 23142135）",与 N15 同一 Mayo 62 例健康队列（same_cohort_as 已注），角色为表型扩展，作为 N15 的 followup 呈现
+D11,"Carrington EV, et al. Neurogastroenterol Motil 2014;26:625-635（115 名健康志愿者 HRM 正常值，PMID 24628873）",与 N17 同一 QMUL 项目链且作用与 Noelting 2012 平行，放 N14 followup 与共识背景，不单立节点
+D11,"Sultan AH, et al. Br J Surg 1994;81:463-465（组织学验证，PMID 8173933）",作为 N08 的验证性 followup 呈现，避免节点膨胀
+D11,Goei R. Radiology 1990;174:121-123（无症状者排粪造影对照，PMID 2294537）,作用与 Shorvon 1989 重复（后续放大），作为 N05 followup 提及
+D11,"Regadas FSP, et al. Dis Colon Rectum 2011;54:686-692（echodefecography 多中心对照，PMID 21552052）与 Murad-Regadas 系列动态超声",动态超声支线的代表作，避免节点数膨胀，放 data_paths 与 N10 的互补语境
+D11,"Ramage L, et al. Tech Coloproctol 2017;21:915-927（MRD vs 透视 meta，PMID 29094218）与 Grossi 2018",入口/综述类，承担证据汇总角色，不设原始研究节点
+D11,"Jin H, Zhang C. A New Dynamic Echodefecography (EDF)…（2020 medRxiv/preprint，DOI 10.1101/2020.04.06.20049551）",预印本未经同行评审，仅记录不采信
+D12,Jin L等针刺麻醉文献计量（Front Med 2023;PMC10285535）作为节点,已作L2/L4级资料用于N01历史框架，但其为计量研究而非原始研究，不单列为节点
+D12,"PROSPECT guideline for haemorrhoid surgery（Eur J Anaesthesiol Intensive Care 2023, PMID 39917290）","属D09术后疼痛方向的多模式镇痛指南；本方向仅用其存在作为""国际指南载体不含针灸""的旁证（未读全文）"
+D12,除Li N 2010、Bian 2013外的其余约30项中文灸法RCT,已被J Perianesth Nurs 2023（34RCT）与Heliyon 2024（14RCT）Meta覆盖，单列节点无增量
+D12,JAMA Netw Open 2023阿片性便秘RCT、EClinicalMed 2023帕金森便秘RCT不单列节点,病种（癌痛阿片、帕金森）距肛肠核心适应证较远，列为N10的followup与recent_themes交叉
+D12,NMO 2024假针安慰剂分析、女性亚组/超重度便秘等二次分析不单列节点,均为Annals/AJG母试验的次级产出，以followup字段承载，不重复计为独立证据
+D12,韩济生1980s系列动物实验原始论文逐篇精读,机制框架已由2016/2023两篇综述+2004综述承载；动物细节对本报告问题（临床脉络）非关键
+D12,Ann Coloproctol 2026 POUR病例-对照作为针灸疗效证据,为流行病学背景研究，仅用于发生率口径争议与高危人群定义
+X01,痔瘘栓2006系列（PMID 16421664等）、VAAFT 2011（PMID 22002535）等新术式原始文献,属D04术式竞争线；X01仅在国际线点到为止（已在弹药核实，未列为节点）
+X01,Longo 2001 day surgery（DOI 10.1007/bf02234705）等PPH早期临床文献,临床细节归D01；X01只收1998发明与2000引入节点
+X01,TCM anorectal泛检命中1016条（Europe PMC 2024-2026）,泛检噪声过大，未逐条筛选；已按主题抽取代表性研究
+X01,"Herrmann/Desfosses肛腺史（DCR 2026, PMID 42200457）",属肛瘘病因学术史（D03）细节，非学科建制节点
+X01,浙江省/山东省等地方医学会肛肠学组换届信息,地方建制层次过多，X01只收国家级节点

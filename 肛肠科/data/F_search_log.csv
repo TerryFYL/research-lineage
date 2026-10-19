@@ -1,0 +1,1196 @@
+﻿direction,source,query,hits,date,note
+D01,Europe PMC,haemorrhoids review management 2022..2026 OPEN_ACCESS,1150,2026-10-18,HTTP 200
+D01,Europe PMC,stapled hemorrhoidopexy meta-analysis,88,2026-10-18,HTTP 200
+D01,Europe PMC,eTHoS Watson Lancet 2016 haemorrhoidectomy,15,2026-10-18,HTTP 200
+D01,Europe PMC,Burch Cochrane stapled haemorrhoidopexy,2,2026-10-18,HTTP 200
+D01,Europe PMC,Tjandra Chan stapled meta-analysis Dis Colon Rectum 2007,2,2026-10-18,HTTP 200
+D01,Europe PMC,Cochrane CD005393 stapled haemorrhoidopexy withdrawn,1,2026-10-18,HTTP 200
+D01,Europe PMC,Longo 1998 stapled anopexy haemorrhoids,1,2026-10-18,HTTP 200
+D01,Europe PMC,Thomson 1975 nature of haemorrhoids,0,2026-10-18,HTTP 200
+D01,Europe PMC,Thomson nature haemorrhoids Br J Surg 1975,2,2026-10-18,HTTP 200
+D01,OpenAlex,Milligan Morgan 1937 Lancet DOI,,2026-10-18,HTTP 200
+D01,Europe PMC,Parks 1956 surgical treatment of haemorrhoids,2,2026-10-18,HTTP 200
+D01,OpenAlex,Parks 1956 surgical treatment haemorrhoids Ann R Coll Surg Engl,,2026-10-18,HTTP 200
+D01,Europe PMC,Ferguson closed hemorrhoidectomy 1959,183,2026-10-18,HTTP 200
+D01,OpenAlex,Parks 1956 DOI lookup,,2026-10-18,HTTP 200
+D01,OpenAlex,Ferguson 1959 hemorrhoidectomy closed technique,,2026-10-18,HTTP 200
+D01,NCBI idconv,FSurg historical overview PMCID,,2026-10-18,HTTP 200
+D01,Europe PMC fulltext,PMC8435716 historical overview full text,,2026-10-18,HTTP 200
+D01,Europe PMC,verify PMIDs batch,4,2026-10-18,HTTP 200
+D01,Europe PMC fulltext,PMC2371350 Whitehead 1882,,2026-10-18,HTTP 500
+D01,PMC article page,Whitehead 1882 scan page,,2026-10-18,HTTP 200
+D01,PMC scans,Whitehead 1882 BMJ 3 page scans download,,2026-10-18,HTTP 200; 3 scan pages downloaded
+D01,Europe PMC,Festen stapled hemorrhoidectomy long term Netherlands,0,2026-10-18,HTTP 200
+D01,Europe PMC,Shao stapled Milligan-Morgan meta,0,2026-10-18,HTTP 200
+D01,Europe PMC,stapled haemorrhoidopexy long-term follow-up randomized,141,2026-10-18,HTTP 200
+D01,Europe PMC,Shao WJ meta stapled,40,2026-10-18,HTTP 200
+D01,Europe PMC fulltext,PMC5269572 eTHoS full text,,2026-10-18,HTTP 200
+D01,OpenAlex,Festen stapled haemorrhoidopexy,,2026-10-18,HTTP 200
+D01,Europe PMC,Fu CG stapled hemorrhoidopexy China,0,2026-10-18,HTTP 200
+D01,Europe PMC,tissue-selecting therapy hemorrhoid TST,17,2026-10-18,HTTP 200
+D01,Europe PMC,verify 22557383 Xiu Zhang 1983,1,2026-10-18,HTTP 200
+D01,WebSearch,NICE IPG146 stapled haemorrhoidopexy 2003 guidance,,2026-10-18,发现IPG146为颈椎螺钉指南，痔吻合器应为IPG34(2003-12-17)/TA128(2007)
+D01,WebSearch,NICE haemorrhoids guideline 2016 stapled haemorrhoidopexy not recommended NG37/NG146,,2026-10-18,线索指向NG146痔指南，需直接核实
+D01,WebFetch,NICE NG146 chapter/recommendations,,2026-10-18,NG146为长期病假职场指南，非痔指南；搜索摘要误导，需查NG760
+D01,WebFetch,NICE TA128 overview + chapter/1-Guidance,,2026-10-18,"TA128 2007-09-26发布,2016-04-24复查无新证据仍有效;推荐SH为脱垂内痔选项,证据仅限HCS33吻合器(PPH01/03,Ethicon)"
+D01,WebSearch,site:nice.org.uk haemorrhoids guideline excisional stapled,,2026-10-18,确认IPG34+TA128为NICE痔吻合器主要文件
+D01,Europe PMC,ASCRS clinical practice guidelines hemorrhoids 2018 2024,28,2026-10-18,HTTP 200
+D01,Europe PMC,ASCRS hemorrhoids guideline 2024 Dis Colon Rectum,10,2026-10-18,HTTP 200
+D01,Europe PMC,PMID 38294832 ASCRS 2024 guideline abstract,1,2026-10-18,HTTP 200
+D01,WebSearch,ASCRS 2024 guideline stapled hemorrhoidopexy first-line statement,,2026-10-18,Medscape/GuidelineCentral摘要:2024版称SH一线疗效边际、复发更高;需二级转述标注
+D01,NCBI idconv,Taiwan consensus PMCID,,2026-10-18,HTTP 200
+D01,NCBI idconv,Italian SICOP guideline PMCID,,2026-10-18,HTTP 200
+D01,Europe PMC fulltext,PMC12572025 Taiwan consensus,,2026-10-18,HTTP 200
+D01,Europe PMC,Yao L stapled hemorrhoid China,1,2026-10-18,HTTP 200
+D01,Europe PMC,procedure for prolapse hemorrhoids China early 2000,5,2026-10-18,HTTP 200
+D01,Europe PMC,Zhonghua wai ke za zhi 2000-2003 stapled hemorrhoid PPH,2,2026-10-18,HTTP 200
+D01,Europe PMC,Chin Med J stapled haemorrhoidopexy China,0,2026-10-18,HTTP 200
+D01,Europe PMC,Fu C Zhonghua stapled PPH,0,2026-10-18,HTTP 200
+D01,WebSearch,痔临床诊治指南 2006版 中华医学会外科学分会结直肠肛门病学组,,2026-10-18,"找到2006版PDF(三学会联合制定,2006年7月修订)、2010修订版、2020版线索"
+D01,WebFetch,haodf 痔临床诊治指南2006版全文,,2026-10-18,PPH适应证原文已核:环状脱垂ⅢⅣ度内痔及反复出血Ⅱ度;术式列举MM/Parks/Ferguson/外剥内扎加硬化注射/环形痔切除(Whitehead已基本摒弃)
+D01,WebSearch,痔诊断和治疗指南 2010修订版 中国痔病诊疗指南2020,,2026-10-18,线索:2010修订版PDF medsci;2020版 guide.medlive.cn
+D01,WebSearch,中国痔病诊疗指南2020 SH吻合器 推荐,,2026-10-18,"2020版将PPH更新为吻合器痔切除术SH,推荐套扎复发或愿手术的Ⅲ~Ⅳ度(环切/TST);另有痔中西医结合诊疗指南2025版"
+D01,WebSearch,TST 开环式吻合器 研制 丁义江 姚礼庆,,2026-10-18,"百度百科(L0):TST基于中医分段齿形结扎+PPH,丁义江团队参与研发;向锋2014世界华人消化杂志TST vs PPH有全文"
+D01,Europe PMC,verify recent theme PMIDs core,5,2026-10-18,HTTP 200
+D01,OpenAlex,citation counts Thomson 1975 via pmid,,2026-10-18,HTTP 200
+D01,OpenAlex,citation counts eTHoS via doi,,2026-10-18,HTTP 200
+D01,Europe PMC,eTHoS protocol Trials 2014 abstract,1,2026-10-18,HTTP 200
+D01,NCBI idconv,Yang 2022 BJS Open PMCID,,2026-10-18,HTTP 200
+D01,Europe PMC fulltext,PMC9099087 Yang MLPPH fulltext,,2026-10-18,HTTP 200
+D01,WebSearch,姚礼庆 PPH 2000 中山医院,,2026-10-18,"维普题录:PPH由Longo 1998首报,国内姚礼庆/傅传刚2000年7月率先开展;姚礼庆2004世界华人消化杂志226例;钟芸诗姚礼庆2003外科理论与实践综述"
+D01,WebSearch,史兆岐 消痔灵 四步注射 广安门医院,,2026-10-18,"广安门医院官网(L0):1977年研制消痔灵(五倍子明矾),四步注射法,国家科技进步二等奖;英文临床系列Xiu-Zhang 1983 Ancient Sci Life PMID 22557383已核"
+D01,WebSearch,分段齿形结扎术 丁泽民 南京市中医院,,2026-10-18,百度百科(L0):丁泽民1982年分段齿形结扎治疗环状混合痔;TST以此为基础理论
+D01,Europe PMC,recent abstracts batch2,4,2026-10-18,HTTP 200
+D01,Europe PMC,day-case haemorrhoid surgery 2021-2026,112,2026-10-18,HTTP 200
+D01,Europe PMC,Stelzner corpus cavernosum rectum haemorrhoids,6,2026-10-18,HTTP 200
+D01,OpenAlex,Festen S hemorrhoid author search final attempt,,2026-10-18,HTTP 200
+D01,Europe PMC,Goligher classification limitations abstract,1,2026-10-18,HTTP 200
+D01,Europe PMC,Festen PPH THD 2009 recurrence PMIDs,22,2026-10-18,HTTP 200
+D01,Crossref,Festen PPH THD DOI verify,,2026-10-18,HTTP 200
+D01,Crossref,Festen redo PPH DOI verify,,2026-10-18,HTTP 200
+D02,EuropePMC,"TITLE:""clinical practice guidelines"" AND TITLE:hemorrhoids AND (SRC:MED)",4,2026-10-18,entry: ASCRS guideline
+D02,PubMed esummary,"ids=38294832,32584937,29420423,11776698",4,2026-10-18,hemorrhoid CPG candidates
+D02,PubMed esummary,"ids=38294832,32584937,29420423,11776698",4,2026-10-18,hemorrhoid CPG candidates
+D02,EuropePMC,"(AUTH:""Alonso-Coello"") AND (TITLE:hemorrhoid*) AND (SRC:MED)",4,2026-10-18,Alonso-Coello hemorrhoid SRs
+D02,EuropePMC,"TITLE:""rubber band ligation"" AND (SRC:MED)",226,2026-10-18,RBL title search
+D02,EuropePMC,SRC:CHR AND TITLE:haemorrhoid*,0,2026-10-18,Cochrane reviews haemorrhoids
+D02,PubMed esummary+esearch,Alonso-Coello ids; Cochrane DB haemorrhoid[Title],4+?,2026-10-18,SR/guideline entry candidates
+D02,PubMed esearch,"""Cochrane Database Syst Rev""[Journal] AND (haemorrhoid OR hemorrhoid)[Title]",see output,2026-10-18,Cochrane hemorrhoid reviews
+D02,EuropePMC,"TITLE:""Rubber band ligation"" AND AUTH:""Alonso-Coello""",see output,2026-10-18,RBL SR by Alonso-Coello
+D02,PubMed esearch,Alonso-Coello[Author] AND hemorrhoid*[tiab],see output,2026-10-18,all Alonso-Coello hemorrhoid papers
+D02,PubMed esearch,MacRae[Author] AND McLeod[Author] AND hemorrhoid*[Title],see output,2026-10-18,MacRae McLeod meta-analysis 1995
+D02,PubMed esearch,J Anus Rectum Colon[jour] AND guideline*[ti] AND hemorrhoid*[ti],see output,2026-10-18,Japanese hemorrhoid guideline in JARC
+D02,PubMed esummary,"ids=9030078,7607026,31583307",3,2026-10-18,MacRae 1997? 1995? + JARC guideline
+D02,PubMed esearch,(Rubber band ligation OR ligation)[ti] AND haemorrhoid*[ti] AND Cochrane[jour],see output,2026-10-18,Cochrane RBL review
+D02,PubMed esearch,hemorrhoid*[ti] AND (management OR treatment)[ti] AND review[pt] AND 2023:2026[dp],see output,2026-10-18,recent narrative reviews
+D02,PubMed esummary,recent hemorrhoid management reviews batch1,16,2026-10-18,titles
+D02,PubMed esummary,recent hemorrhoid management reviews batch2,24,2026-10-18,titles
+D02,PubMed esearch,Blaisdell[Author] AND hemorrhoid*[ti],see output,2026-10-18,Blaisdell 1958 RBL
+D02,PubMed esearch,Barron[Author] AND hemorrhoid*[ti],see output,2026-10-18,Barron 1963 ligator
+D02,PubMed esummary,Blaisdell/Barron candidates,9,2026-10-18,titles
+D02,PubMed esearch,infrared coagulation[ti] AND hemorrhoid*[ti],see output,2026-10-18,IRC origin
+D02,PubMed esearch,cryosurgery[ti] AND hemorrhoid*[ti],see output,2026-10-18,cryotherapy route
+D02,PubMed esummary,IRC candidates,6,2026-10-18,infrared coagulation early papers
+D02,PubMed esummary,cryosurgery hemorrhoid candidates,18,2026-10-18,cryotherapy rise and fall
+D02,PubMed efetch,"ids=22557383,10355514 abstracts",2,2026-10-18,消痔灵 1983 1205例 + 1999 成分
+D02,Crossref,10.1007/bf02934821,1,2026-10-18,1997 four-step injection
+D02,PubMed esearch,Morinaga[Author] AND hemorrhoid*[ti],see output,2026-10-18,Morinaga 1995 DG-HAL
+D02,PubMed esearch,Dal Monte[Author] AND (transanal OR THD OR hemorrhoid*)[ti],see output,2026-10-18,Dal Monte THD 2003?
+D02,PubMed esummary,Morinaga/DalMonte candidates,5,2026-10-18,titles
+D02,PubMed esearch,"""aluminum potassium sulfate and tannic acid""[tiab] AND hemorrhoid*[ti]",see output,2026-10-18,ALTA sclerotherapy
+D02,PubMed esummary,ALTA early papers,14,2026-10-18,ALTA Kondo/Takano line
+D02,PubMed esearch,Kondo[Author] AND (scleros* OR hemorrhoid*)[ti],see output,2026-10-18,Kondo ALTA origin
+D02,PubMed esearch,Takano M[Author] AND hemorrhoid*[ti],see output,2026-10-18,Takano ALTA trials
+D02,PubMed esummary,Takano M candidates,6,2026-10-18,Takano ALTA RCTs
+D02,PMC idconv,PMIDs entry sources,6,2026-10-18,find PMCIDs
+D02,EuropePMC fullTextXML,"PMC6768674,PMC12035339",2,2026-10-18,JARC 2017 guideline + 2025 trends full text
+D02,EuropePMC,"(""history of haemorrhoids"" OR ""history of hemorrhoids"" OR ""historical review"") AND hemorrhoid*",195,2026-10-18,history of hemorrhoids
+D02,PubMed esearch,"""injection treatment of hemorrhoids""[Title]",see output,2026-10-18,sclerotherapy older series
+D02,PubMed esearch,phenol[ti] AND almond[tiab] AND hemorrhoid*[tiab],see output,2026-10-18,phenol almond oil series
+D02,PubMed esearch,hemorrhoid*[ti] AND (injection OR scleros*)[ti],see output,2026-10-18,all injection/sclero titles
+D02,PubMed esummary,older sclerotherapy titles,10,2026-10-18,old series
+D02,EuropePMC,"(FULL_TEXT:""Morgan"" AND FULL_TEXT:""1869"" AND FULL_TEXT:haemorrhoids) OR (FULL_TEXT:""Andrews"" AND FULL_TEXT:""1879"" AND FULL_TEXT:sclerotherapy)",0,2026-10-18,19th century sclerotherapy origins via fulltext
+D02,EuropePMC,"FULL_TEXT:""injection sclerotherapy"" AND FULL_TEXT:""1869"" AND hemorrhoid*",0,2026-10-18,1869 mention in fulltext
+D02,WebSearch,Morgan 1869 carbolic acid injection hemorrhoids Andrews 1879 history,multiple,2026-10-18,found Pata 2021 history review + PMC9401644
+D02,EuropePMC,PMCID:PMC8435716 + PMCID:PMC9401644,2,2026-10-18,Pata 2021 history + 1879 Andrews original
+D02,EuropePMC fullTextXML,PMC9401644,1,2026-10-18,Andrews 1879 original full text (L3)
+D02,PMC page,PMC9401644 page HTML,1,2026-10-18,look for scan images/author
+D02,EuropePMC fullTextXML,PMC8435716 Pata 2021 history review,1,2026-10-18,L3 history source
+D02,PubMed efetch + EuropePMC fullTextXML,3282844; PMC2198557,2,2026-10-18,Andrews 1988 DCR retro + Swinford Edwards 1888 BMJ
+D02,Crossref,10.1136/bmj.2.1450.815,1,2026-10-18,Swinford Edwards 1888 BMJ
+D02,PubMed esearch,flavonoid*[ti] AND haemorrhoid*[ti] AND Cochrane[jour],see output,2026-10-18,flavonoids Cochrane
+D02,PubMed esearch,flavonoids[ti] AND hemorrhoid*[ti],see output,2026-10-18,flavonoids reviews without journal filter
+D02,PubMed esummary,flavonoid hemorrhoid candidates,6,2026-10-18,MPFF line
+D02,PubMed esearch,phlebotonic*[tiab] AND hemorrhoid*[ti],see output,2026-10-18,phlebotonics SRs
+D02,PubMed esummary,phlebotonics candidates,13,2026-10-18,MPFF/phlebotonics
+D02,PubMed esearch,Cochrane Database Syst Rev[jour] AND hemorrhoid/haemorrhoid[ti] (no wildcard),see output,2026-10-18,all Cochrane hemorrhoid reviews
+D02,PubMed esummary,Cochrane hemorrhoid reviews list,8,2026-10-18,titles
+D02,PubMed esearch,(Shaobei OR Anzhi OR An s method)[tiab] AND hemorrhoid*,see output,2026-10-18,安阿玥芍倍注射液
+D02,PubMed esearch,xiaozhiling[tiab],see output,2026-10-18,消痔灵 all PubMed mentions
+D02,PubMed esummary,xiaozhiling/shaobei candidates,24,2026-10-18,消痔灵/芍倍 PubMed corpus
+D02,PubMed esearch,(rectal stenosis/stricture/necrosis[tiab] OR perforation[ti]) AND sclerotherapy[tiab] AND hemorrhoid*,see output,2026-10-18,sclerotherapy severe AEs
+D02,PubMed esummary,sclerotherapy AE candidates,5,2026-10-18,AE reports
+D02,PubMed efetch,"abstracts 1442682,7607026,7717320,15843937",4,2026-10-18,node abstracts batch1
+D02,PubMed efetch,"abstracts 19508513,16034963,24972583,34990425",4,2026-10-18,node abstracts batch2
+D02,PubMed efetch,"abstracts 13969563,13571517,7318625,1269347,22557383,10355514",6,2026-10-18,node abstracts batch3
+D02,PMC idconv,"22557383,13969563,13571517,1269347",4,2026-10-18,check PMC availability of old classics
+D02,EuropePMC fullTextXML,PMC3331546 (XiaoZhiLing 1983),1,2026-10-18,1983 1205例全文已读 L3/L4
+D02,EuropePMC citations,MED/13969563 citations hitCount,118,2026-10-18,forward tracking
+D02,EuropePMC citations,MED/7717320 citations hitCount,190,2026-10-18,forward tracking
+D02,EuropePMC citations,MED/1442682 citations hitCount,58,2026-10-18,forward tracking
+D02,EuropePMC citations,MED/15843937 citations hitCount,43,2026-10-18,forward tracking
+D02,EuropePMC citations,MED/7607026 citations hitCount,227,2026-10-18,forward tracking
+D02,EuropePMC citations,MED/19508513 citations hitCount,30,2026-10-18,forward tracking
+D02,OpenAlex,works/pmid:22557383,1,2026-10-18,1983 XZL citation count
+D02,PubMed esearch,haemorrhoidal artery ligation[ti] AND (meta-analysis OR randomized)[ti],see output,2026-10-18,HAL RCTs and MAs
+D02,PubMed esummary,HAL RCT/MA candidates,35,2026-10-18,titles
+D02,PubMed efetch,"abstracts 22504188,40665575,41553737,38428446",4,2026-10-18,HAL Doppler line abstracts
+D02,PubMed esearch,polidocanol[tiab] AND foam[tiab] AND hemorrhoid*[ti],see output,2026-10-18,polidocanol foam
+D02,PubMed esearch,cap-assisted/endoscopic + sclerotherapy/ligation + hemorrhoid*[ti] 2020-2026,see output,2026-10-18,endoscopic office treatments
+D02,PubMed esummary,polidocanol foam candidates,21,2026-10-18,titles
+D02,PubMed esummary,endoscopic office treatment candidates,22,2026-10-18,CES/endoscopic titles
+D02,PubMed efetch,"abstracts 39908072,40824576,42067175",3,2026-10-18,RAE Cochrane + JAMA review + AGA CPU
+D02,PubMed esearch,ALTA or aluminum potassium sulfate + hemorrhoid* 2022-2026,see output,2026-10-18,ALTA recent
+D02,PubMed esearch,MPFF/micronized purified flavonoid/diosmin + hemorrhoid* + randomized 2021-2026,see output,2026-10-18,MPFF recent RCTs
+D02,PubMed esummary,ALTA recent + MPFF recent titles,15,2026-10-18,titles
+D02,PubMed esearch,ALTA/aluminum potassium sulfate + hemorrhoid* + survey/questionnaire/registry/nationwide,see output,2026-10-18,ALTA surveys
+D02,PubMed esearch,rubber band ligation[ti] AND hemorrhoid*[ti] 2022-2026,see output,2026-10-18,recent RBL
+D02,PubMed esummary,recent RBL titles,19,2026-10-18,titles
+D02,PubMed efetch,abstracts HOLLAND trial + recent office-based SRs,6,2026-10-18,recent themes abstracts
+D02,PubMed esearch,Misra[Author] AND haemorrhoid*[ti] 2000-2001,see output,2026-10-18,Misra MPFF RCT
+D02,PubMed efetch,10931020 Misra 2000 abstract,1,2026-10-18,MPFF acute bleeding RCT
+D02,PubMed efetch,34990420 Cosman editorial,1,2026-10-18,Xiaozhiling in 21st Century
+D02,WebFetch NICE,https://www.nice.org.uk/guidance/ipg343,1,2026-10-18,误中 IPG343=大隐静脉取材；确认痔动脉结扎为 IPG342
+D02,WebSearch,"NICE interventional procedures guidance ""haemorrhoidal artery ligation"" IPG site:nice.org.uk",multiple,2026-10-18,定位 IPG342/HTG218
+D02,WebFetch NICE,https://www.nice.org.uk/guidance/htg218/chapter/1-Recommendations,1,2026-10-18,NICE 推荐：短中期有效替代、无重大安全问题、常规安排即可使用
+D02,WebSearch,《中国痔病诊疗指南(2020)》 门诊 硬化注射 套扎 推荐意见,multiple,2026-10-18,定位中国指南题录
+D02,WebFetch sinomed,https://www.sinomed.ac.cn/article.do?ui=2020730749,1,2026-10-18,中国痔病诊疗指南(2020) 结直肠肛门外科 2020;26(5):519-533 任东林
+D02,WebSearch,史兆岐 消痔灵 注射液 1977 广安门医院 国家发明奖 四步注射法,multiple,2026-10-18,获奖说法：官网=1985国家科技进步二等奖；调度线索=国家发明奖，两说并存
+D02,WebFetch 广安门医院官网,https://www.gamyy.cn/gzb/department/anorectal/technology/3356.html,1,2026-10-18,消痔灵四步注射技术页 L0：1970s末研发、获奖清单、2006日本引进'痔稳'之说
+D02,WebSearch,枯痔钉 历史 丁泽民 陆琦 福建枯痔散 内痔注射疗法 中国肛肠 学科史,multiple,2026-10-18,枯痔散(南宋魏氏家藏方)→枯痔钉(丁泽民/陆琦/陈民藩)→消痔灵 传承链 L0
+D02,PubMed esearch,(Shaobei OR Anzhi OR An s method)[tiab] AND hemorrhoid*,6,2026-10-18,安氏芍倍注射液线
+D02,PubMed efetch,"abstracts 16405552,22895941,22504188 tail",3,2026-10-18,entry abstracts + Schuurman tail
+D02,PubMed esummary,"10931020,16034963,22895941 bibliographic",3,2026-10-18,final citation fields
+D02,PubMed efetch,"abstracts 39086750,37188908,40481245,37848640",4,2026-10-18,recent theme abstracts A
+D02,PubMed efetch,"abstracts 38380823,36331754,41503542",3,2026-10-18,recent theme abstracts B
+D03,Europe PMC,"(TITLE:""anal fistula"") AND (TITLE:""seton"") AND (TITLE:""systematic review"" OR TITLE:""meta-analysis"" OR TITLE:""network meta"")",2,2026-10-18,entry recent SR seton
+D03,Europe PMC,"(TITLE:""fistula-in-ano"") AND (TITLE:""network meta-analysis"")",1,2026-10-18,entry NMA fistula
+D03,Europe PMC,"(SRC:MED) AND (TITLE:""surgical interventions for fistula-in-ano"" OR (AUTH:""Jacob T"" AND TITLE:""fistula-in-ano"" AND SRC:CCT))",0,2026-10-18,Cochrane Jacob fistula
+D03,Europe PMC,"(TITLE:""fistula-in-ano"") AND (AUTH:""Jacob"") AND (SRC:MED OR SRC:PMCID)",0,2026-10-18,
+D03,Europe PMC,"(TITLE:""seton"") AND (TITLE:""fistula"") AND (FIRST_PDATE:[2015-01-01 TO 2026-10-18]) AND (TITLE:""review"" OR ABSTRACT:""systematic review"")",4,2026-10-18,
+D03,Europe PMC,"TITLE:""anal fistula"" AND TITLE:""guideline"" AND (TITLE:""ASCRS"" OR TITLE:""clinical practice guideline"")",0,2026-10-18,
+D03,Europe PMC,"(SRC:CCT) AND (TITLE:""fistula-in-ano"" OR TITLE:""fistula in ano"")",0,2026-10-18,
+D03,Europe PMC,"(TITLE:""anal fistula"") AND (TITLE:""Clinical Practice Guideline"")",0,2026-10-18,
+D03,Europe PMC,"TITLE:""fistula"" AND TITLE:""anal"" AND (TITLE:""management"" OR TITLE:""treatment"") AND (TITLE:""guidelines"" OR TITLE:""guideline"") AND (PUB_YEAR:[2020 TO 2026])",2,2026-10-18,
+D03,Europe PMC,"""Cochrane Database Syst Rev"" AND TITLE:""fistula-in-ano""",0,2026-10-18,
+D03,Europe PMC,"TITLE:""Surgical interventions for fistula-in-ano""",0,2026-10-18,
+D03,Europe PMC,"(TITLE:""kshara sutra"" OR TITLE:""ksharasutra"" OR TITLE:""kshara sootra"") AND (TITLE:""review"" OR TITLE:""randomized"" OR TITLE:""trial"")",2,2026-10-18,
+D03,PubMed esearch,kshara sutra fistula,9,2026-10-18,
+D03,PubMed esearch,"""surgical interventions for fistula-in-ano""",4538,2026-10-18,
+D03,Europe PMC,"TITLE:""Kshaara Sootra"" OR TITLE:""Kshara Sutra"" AND TITLE:""multicentric""",0,2026-10-18,
+D03,Europe PMC,"(AUTH:""Deshpande P"") AND TITLE:""fistula""",4,2026-10-18,
+D03,Europe PMC,"TITLE:""fistula-in-ano"" AND (TITLE:""cutting seton"") AND (TITLE:""randomized"" OR TITLE:""prospective"")",1,2026-10-18,
+D03,PubMed esummary,"uid=1108672,4570230,11875680",3 records,2026-10-18,Deshpande 1973/1976 + ayurvedic seton RCT details
+D03,Europe PMC,"(SRC:MED) AND (TITLE:""multicentric"" OR TITLE:""multicentre"" OR TITLE:""multicenter"") AND TITLE:""fistula-in-ano"" AND (PUB_YEAR:[1989 TO 1995])",1,2026-10-18,
+D03,Europe PMC,"(JOURNAL:""Indian J Med Res"") AND TITLE:""fistula"" AND (PUB_YEAR:[1989 TO 1995])",1,2026-10-18,
+D03,PMC idconv,10.1136/bmj.1.5224.463,1,2026-10-18,check PMCID for Parks 1961
+D03,PMC article page,PMC1953161 Parks 1961 BMJ scan page,1,2026-10-18,full text scan images
+D03,Europe PMC,EXT_ID:13732880 core,1,2026-10-18,Parks 1961 metadata; fullTextXML not available (scanned article)
+D03,Europe PMC,"(AUTH:""Parks AG"") AND (TITLE:""fistula"")",7,2026-10-18,
+D03,Europe PMC,"(AUTH:""Parks AG"" OR AUTH:""Parks A"") AND (TITLE:""seton"")",0,2026-10-18,
+D03,Europe PMC,"(TITLE:""cutting seton"")",42,2026-10-18,
+D03,Europe PMC,"(TITLE:""loose seton"") AND (TITLE:""cryptoglandular"" OR TITLE:""fistula"") AND NOT SRC:PPR",13,2026-10-18,
+D03,Europe PMC,"(TITLE:""seton"") AND (TITLE:""fistula"" OR TITLE:""anal"") AND (PUB_YEAR:[1975 TO 2005])",36,2026-10-18,
+D03,PubMed efetch,9 seton classic abstracts,9,2026-10-18,1998BJS/2003TC/2004BJS/1997DCR/1991BJS/1989DCR/1984DCR/1995BJS/1995IntJColorectalDis
+D03,Europe PMC,"(TITLE:""seton"") AND (AFF:""China"") AND (FIRST_PDATE:[2015-01-01 TO 2026-10-18]) AND (TITLE:""randomized"" OR ABSTRACT:""randomized controlled"")",10,2026-10-18,
+D03,ClinicalTrials.gov API,NCT05087407,1,2026-10-18,DADS RCT registry endpoints check
+D03,WebSearch,挂线疗法 中医 源流 永类钤方 古今医统大全 外科正宗 肛瘘,多个结果,2026-10-18,确认1556引文与永类钤方1337记载(转述层)
+D03,WebSearch,曹吉勋 切开挂线疗法 虚实结合挂线 高位复杂性肛瘘 成都中医药大学,多个结果,2026-10-18,曹吉勋虚实结合挂线线索
+D03,WebFetch,sctcm120.com 肛瘘切缝（挂线）内口引流术,1,2026-10-18,成都中医药大学附属医院术式页
+D03,WebSearch,曹吉勋 挂线 高位肛瘘 中医杂志 成都中医学院学报 论文,多个结果,2026-10-18,"曹吉勋具体早期论文未直接找到,主遍《中国痔瘘学》线索"
+D03,WebSearch,丁泽民 南京 挂线 肛瘘 丁义江 丁氏痔科,多个结果,2026-10-18,丁氏挂线疗法:低位切开高位虚挂引流等;L0转述
+D03,WebSearch,肛瘘诊治中国专家共识 2020 中华胃肠外科杂志 挂线,多个结果,2026-10-18,"确认共识题录:2020,23(12):1123"
+D03,WebSearch,Hippocrates On Fistulae horsehair seton,待补,2026-10-18,
+D03,Europe PMC,"(AUTH:""Eisenhammer S"") AND (TITLE:""fistula"" OR TITLE:""sphincter"")",7,2026-10-18,
+D03,PubMed esummary,"Eisenhammer 13076663,13360660,657933",3,2026-10-18,Eisenhammer 1953/1956/1978 期刊确认
+D03,MIT Classics,Hippocrates On Fistulae (Adams translation) full text,1,2026-10-18,找到马鬃/毛线挂线原文段落
+D03,Europe PMC,"TITLE:""On Fistulae"" AND (JOURNAL:""Dis Colon Rectum"" OR TITLE:""Hippocrates"")",1,2026-10-18,
+D03,Europe PMC,"(TITLE:""Cryptoglandular"") AND (TITLE:""guidelines"") AND (AUTH:""ESCP"" OR TITLE:""European Society of Coloproctology"")",1,2026-10-18,
+D03,PubMed efetch,ESCP 2024 guideline abstract,1,2026-10-18,
+D03,OpenAlex,doi:10.1136/bmj.1.5224.463,1,2026-10-18,Parks 1961 被引数
+D03,ClinicalTrials.gov API,seton anal fistula China,n=,2026-10-18,中国注册的挂线试验
+D03,ClinicalTrials.gov API,query.intr=seton query.cond=fistula,40,2026-10-18,全球注册挂线试验概览
+D03,Europe PMC,"(TITLE:""kshara sutra"" OR TITLE:""ksharasutra"" OR ABSTRACT:""kshara sutra"") AND (FIRST_PDATE:[2020-01-01 TO 2026-10-18])",11,2026-10-18,
+D03,Crossref,Surgical interventions for fistula-in-ano Cochrane,5,2026-10-18,查Cochrane CD006313状态
+D03,Crossref,10.1002/14651858.cd006319.pub2,1,2026-10-18,Cochrane anorectal fistula 手术干预系统评价题录
+D03,Europe PMC,"TITLE:""Surgical intervention for anorectal fistula""",2,2026-10-18,
+D03,PubMed efetch,20464741 Cochrane abstract,1,2026-10-18,
+D03,Europe PMC,"TITLE:""TROPIS""",36,2026-10-18,
+D03,Europe PMC,"(TITLE:""anal fistula"") AND (TITLE:""practice parameters"" OR TITLE:""clinical practice guidelines"") AND (PUB_YEAR:[2023 TO 2026])",1,2026-10-18,
+D03,Europe PMC,"(TITLE:""loose combined cutting seton"") AND (PUB_YEAR:[2023 TO 2026])",5,2026-10-18,
+D03,Europe PMC,"(JOURNAL:""Dis Colon Rectum"") AND (TITLE:""fistula"") AND (TITLE:""Guidelines"" OR TITLE:""parameters"" OR TITLE:""Clinical Practice"")",8,2026-10-18,
+D03,Europe PMC,"(AUTH:""Garg P"") AND (TITLE:""seton"")",4,2026-10-18,
+D03,PubMed esearch,seton AND fistula AND China[Affiliation] 1980-2010,0,2026-10-18,
+D03,WebSearch,广安门医院 李国栋 高位复杂性肛瘘 挂线,多个结果,2026-10-18,李国栋切开挂线术L0(医院官网/百科)
+D03,Europe PMC citations,MED/1937599 citations,31,2026-10-18,ICMR 1991 前向追踪
+D03,WebFetch,zhongyibaodian 中国医学通史 中西医结合临床医学的发展(切开挂线段落),1,2026-10-18,"L0转述:广安门史兆岐等切开挂线,1978年前后成果鉴定"
+D03,Europe PMC,"(TITLE:""thread-drawing"") OR (TITLE:""medicated seton"") OR (ABSTRACT:""thread-drawing therapy"" AND TITLE:""fistula"")",22,2026-10-18,
+D03,PubMed efetch,"efetch batch5(19175623,31974827), batch6(40607121,40646373), batch7(37707561,40606235,20015430,15885176,20015429), 41607971",10,2026-10-18,精读关键节点摘要;记录补登
+D03,WebSearch,外科正宗 陈实功 1617 挂线 治漏 原文 鹅管,1个直接相关页,2026-10-18,"lius.cc称'药线日下'句见外科正宗·脏毒论——与北京中医药管理局页(古今医统大全引永类钤方)两说并存,保留两说"
+D03,PubMed efetch,"efetch batch4(41524718,38484699)",2,2026-10-18,LCCS 2026前瞻队列n=132;IWJ2024 Meta(已撤稿)
+D04,EuropePMC,anal fistula sphincter-preserving procedures review LIFT plug,<filled after>,2026-10-18,
+D04,EuropePMC,"TITLE:""fistula-in-ano"" AND TITLE:guideline AND SRC:MED",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Vogel JD"" AND anal fistula guideline",(see output),2026-10-18,
+D04,EuropePMC,"(TITLE:""anal fistula"" OR TITLE:""fistula-in-ano"") AND (TITLE:guideline OR TITLE:""clinical practice guideline"") AND (SRC:MED) AND (PUB_YEAR:2019 OR PUB_YEAR:2020 OR PUB_YEAR:2024 OR PUB_YEAR:2025)",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""anal fistula"" AND TITLE:""systematic review"" AND TITLE:meta-analysis AND PUB_YEAR:[2020 TO 2026]",(see output),2026-10-18,
+D04,EuropePMC,"""Clinical Practice Guidelines for the Treatment of Anal Fistulas""",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Sirany AM"" OR TITLE:""Anal fistula plug"" AND PUB_YEAR:2017 AND SRC:MED",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""anal fistula"" AND TITLE:""plug"" AND TITLE:""systematic review""",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""ligation of the intersphincteric fistula tract"" AND (TITLE:""systematic review"" OR TITLE:""meta-analysis"")",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Sirany"" anal fistula",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""fistula plug"" AND TITLE:""long-term"" AND PUB_YEAR:[2015 TO 2020]",(see output),2026-10-18,
+D04,EuropePMC,"(TITLE:""fistula"" OR TITLE:""anorectal"") AND (TITLE:""Clinical Practice Guideline"" OR TITLE:""guideline"") AND SRC:MED AND PUB_YEAR:[2019 TO 2026]",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""minimally invasive"" AND TITLE:""anal fistula"" AND TITLE:review",(see output),2026-10-18,
+D04,EuropePMC,"(TITLE:""history"" OR TITLE:""evolution"") AND TITLE:""fistula-in-ano"" ",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Elting AW"" AND fistula",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""fistula in ano"" AND AUTH:""Parks AG"" AND PUB_YEAR:[1958 TO 1970]",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Parks AG"" AND TITLE:flap",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Parks AG"" AND (fistula) AND PUB_YEAR:[1960 TO 1980]",(see output),2026-10-18,
+D04,EuropePMC,964106,(see output),2026-10-18,
+D04,EuropePMC,"FULL_TEXT:""Elting"" AND FULL_TEXT:""advancement flap"" AND FULL_TEXT:""fistula""",(see output),2026-10-18,
+D04,EuropePMC,"""Elting"" AND ""advancement flap""",(see output),2026-10-18,
+D04,EuropePMC,"""Parks"" AND ""advancement flap"" AND ""first described"" AND fistula",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""fibrin glue"" AND fistula-in-ano",(see output),2026-10-18,
+D04,EuropePMC,"(TITLE:""fibrin"" AND TITLE:""fistula"") AND (AUTH:""Abel W"" OR AUTH:""Abel"")",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""fibrin"" AND fistula-in-ano AND PUB_YEAR:[1988 TO 1998]",(see output),2026-10-18,
+D04,EuropePMC,"""fibrin sealant"" AND ""fistula-in-ano"" AND PUB_YEAR:[1988 TO 2000]",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:(""fibrin"" AND (anorectal OR ""anal"")) AND PUB_YEAR:[1990 TO 2000]",(see output),2026-10-18,
+D04,EuropePMC,"""fistula in ano"" AND ""fibrin"" AND PUB_YEAR:[1988 TO 1995]",(see output),2026-10-18,
+D04,OpenAlex,search=fibrin glue fistula-in-ano sort=publication_date:asc,(see output),2026-10-18,
+D04,Crossref,doi:10.1007/bf02050009,1,2026-10-18,fibrin glue 1993 DCR author check
+D04,EuropePMC,"AUTH:""Abel ME"" AND TITLE:""fibrin glue""",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""anal fistula plug"" AND PUB_YEAR:[2005 TO 2008]",(see output),2026-10-18,
+D04,EuropePMC,"(AUTH:""O'Connor L"" OR AUTH:""Champagne BJ"" OR AUTH:""Armstrong DN"") AND ""fistula plug""",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""O'Connor"" AND TITLE:""anal fistula plug"" AND TITLE:""146""",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Rojanasakul"" AND fistula",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""intersphincteric fistula tract"" AND (AUTH:""Rojanasakul"" OR (TITLE:ligation AND TITLE:LIFT))",(see output),2026-10-18,
+D04,EuropePMC,"""ligation of the intersphincteric fistula tract"" AND ""fistula-in-ano"" AND PUB_YEAR:2007",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""newly devised"" AND fistula",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Rojanasakul A"" AND PUB_YEAR:2007",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Meinero P"" AND fistula",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""video-assisted anal fistula"" AND PUB_YEAR:[2010 TO 2013]",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Giamundo P"" AND (laser OR FiLaC)",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""van Koperen PJ"" AND (flap OR fistula)",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""endorectal advancement flap"" AND PUB_YEAR:[1984 TO 1990]",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""advancement flap"" AND fistula AND (AUTH:""Ortiz H"" OR AUTH:""Ortiz H"")",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Aguilar PS"" AND flap",(see output),2026-10-18,
+D04,EuropePMC,"(TITLE:""advancement flap"" OR TITLE:""rectal flap"" OR TITLE:""anorectal flap"") AND fistula AND PUB_YEAR:[1993 TO 2003]",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Aguilar"" AND TITLE:""Endorectal advancement""",(see output),2026-10-18,
+D04,OpenAlex,Aguilar endorectal advancement flap 1985; Kodner endorectal advancement flap,(see output),2026-10-18,
+D04,PubMed-esearch,"""endorectal advancement flap procedure""","3 (2286808,10663008,22340667)",2026-10-18,
+D04,PubMed-esummary,aguilar[au] AND dis colon rectum[ta],21 (checked list),2026-10-18,
+D04,EuropePMC,"AUTH:""Garcia-Olmo D"" AND TITLE:fistula",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Garcia-Olmo D"" AND (TITLE:""expanded adipose"" OR TITLE:""adipose-derived"" OR TITLE:""stem cell"") AND PUB_YEAR:[2003 TO 2010]",(see output),2026-10-18,
+D04,EuropePMC,"(TITLE:anal OR TITLE:anorectal OR TITLE:fistula-in-ano OR TITLE:""anal fistula"") AND (PUB_TYPE:""retraction"" OR TITLE:retraction OR TITLE:retracted)",(see output),2026-10-18,
+D04,PubMed-esearch,(anal fistula/fistula-in-ano/LIFT/intersphincteric)[ti] AND retracted publication[pt],(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Mushaya C"" AND fistula",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:FiLaC AND (TITLE:randomized OR TITLE:""randomised"")",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""FOTOFIST""",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:fistula AND TITLE:laser AND TITLE:randomized AND (TITLE:""single-blinded"" OR TITLE:multicentre OR TITLE:multicenter)",(see output),2026-10-18,
+D04,EuropePMC,(TITLE:laser AND TITLE:fistula) AND (TITLE:randomized OR TITLE:randomised) AND SRC:MED,(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Garg P"" AND TITLE:TROPIS",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""over-the-scope clip"" AND fistula AND (TITLE:randomized OR TITLE:""FOTOFIST"")",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Garg P"" AND TITLE:""intersphincteric space"" AND PUB_YEAR:[2016 TO 2019]",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""over-the-scope clip"" AND TITLE:""anal fistula""",(see output),2026-10-18,
+D04,EuropePMC,"(TITLE:OTSC OR TITLE:""over-the-scope"") AND TITLE:fistula",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""fistula clip"" OR (TITLE:clip AND TITLE:fistula-in-ano)",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""An Y"" AND fistula AND (TITLE:""main tract"" OR TITLE:anorectal OR TITLE:""anal fistula"")",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""acellular dermal matrix"" AND (TITLE:fistula) AND TITLE:anal",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Wang ZJ"" AND TITLE:fistula AND (TITLE:""dermal matrix"" OR TITLE:plug OR TITLE:""bioprosthetic"")",(see output),2026-10-18,
+D04,ClinicalTrials.gov,NCT01478139 registry endpoint check,1,2026-10-18,
+D04,ClinicalTrials.gov,NCT01803347 registry endpoint check,1,2026-10-18,
+D04,PubMed-esearch,An AY[au] AND fistula / An A[au] anorectal,(see output),2026-10-18,
+D04,EuropePMC,"(TITLE:""thread-dragging"" OR TITLE:""thread dragging"" OR TITLE:""dragging therapy"" OR (TITLE:""seton"" AND TITLE:""dragging"")) AND fistula",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:fistula AND (TITLE:""Chinese medicine"" OR TITLE:""integrated"") AND TITLE:""sphincter""",(see output),2026-10-18,
+D04,EuropePMC,"SRC:COCHR AND (fistula-in-ano OR ""anal fistula"")",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""umbrella review"" AND ""anal fistula""",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""network meta-analysis"" AND TITLE:""anal fistula""",(see output),2026-10-18,
+D04,EuropePMC,TITLE:PERFACT AND fistula,(see output),2026-10-18,
+D04,EuropePMC,(TITLE:Otis) AND (fistula OR sphincterotomy OR fissure),(see output),2026-10-18,
+D04,EuropePMC,TITLE:BioLIFT,(see output),2026-10-18,
+D04,EuropePMC,"(AUTH:""Ellis CN"" AND TITLE:fistula)",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Rojanasakul A"" AND PUB_YEAR:[2008 TO 2020]",(see output),2026-10-18,
+D04,EuropePMC,"AUTH:""Sahakitrungruang"" AND fistula",(see output),2026-10-18,
+D04,EuropePMC,"""Parks and Stitz"" ",(see output),2026-10-18,
+D04,EuropePMC,"""coring"" AND ""anorectal flap"" AND fistula",(see output),2026-10-18,
+D04,EuropePMC,EXT_ID:21876614,(see output),2026-10-18,
+D04,EuropePMC,"(ABSTRACT:""Parks"" AND ABSTRACT:""flap"") AND ABSTRACT:fistula AND ABSTRACT:""high""",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""advancement flap"" AND TITLE:fistula AND OPEN_ACCESS:Y AND PUB_YEAR:[2015 TO 2026]",(see output),2026-10-18,
+D04,OpenAlex,works/doi:10.1007/bf02590941 and Elting 1912 doi,2,2026-10-18,
+D04,EuropePMC,"AUTH:""Shanwani"" AND fistula",(see output),2026-10-18,
+D04,EuropePMC,"TITLE:""anal fistula"" AND TITLE:consensus AND (AUTH:consensus OR TITLE:Chinese) AND PUB_YEAR:[2019 TO 2026]",(see output),2026-10-18,
+D04,ClinicalTrials.gov,NCT06212739 registry date check,1,2026-10-18,
+D04,PubMed-efetch,affiliation of PMID 26606429 (Han JG),1,2026-10-18,
+D04,EuropePMC,"(TITLE:""anal fistula"" OR TITLE:""fistula-in-ano"") AND (TITLE:guideline OR TITLE:""clinical practice guideline"") AND SRC:MED AND 2019-2025",0,2026-10-18,
+D04,EuropePMC,"TITLE:""anal fistula plug"" AND TITLE:""systematic review""",5,2026-10-18,
+D04,EuropePMC,"(TITLE:""fistula"" OR TITLE:""anorectal"") AND (TITLE:""Clinical Practice Guideline"" OR TITLE:guideline) AND SRC:MED AND PUB_YEAR:[2019 TO 2026]",10,2026-10-18,
+D04,EuropePMC,"(TITLE:""history"" OR TITLE:""evolution"") AND TITLE:""fistula-in-ano""",2,2026-10-18,
+D04,EuropePMC,TITLE:(fibrin AND (anorectal OR anal)) AND PUB_YEAR:[1990 TO 2000],4,2026-10-18,
+D04,EuropePMC,"TITLE:""intersphincteric fistula tract"" AND (TITLE:ligation AND TITLE:LIFT)",41,2026-10-18,
+D04,EuropePMC,"TITLE:""advancement flap"" AND fistula AND (AUTH:""Ortiz H"")",2,2026-10-18,
+D04,EuropePMC,"AUTH:""Garcia-Olmo D"" AND (expanded adipose OR adipose-derived OR stem cell) AND PUB_YEAR:[2003 TO 2010]",9,2026-10-18,
+D04,EuropePMC,"(TITLE:anal OR TITLE:anorectal OR TITLE:fistula-in-ano OR TITLE:""anal fistula"") AND (PUB_TYPE:retraction OR TITLE:retraction OR TITLE:retracted)",23,2026-10-18,
+D04,EuropePMC,"""Parks and Stitz""",6,2026-10-18,
+D04,EuropePMC,"(TITLE:""thread-dragging"" OR TITLE:""thread dragging"" OR TITLE:""dragging therapy"" OR (TITLE:seton AND TITLE:dragging)) AND fistula",6,2026-10-18,
+D04,EuropePMC,"TITLE:fistula AND (TITLE:""Chinese medicine"" OR TITLE:integrated) AND TITLE:""sphincter""",0,2026-10-18,
+D04,EuropePMC,"AUTH:""An Y"" AND fistula AND (main tract OR anorectal OR ""anal fistula"")",2,2026-10-18,
+D04,EuropePMC,"AUTH:""Wang ZJ"" AND TITLE:fistula AND (dermal matrix OR plug OR bioprosthetic)",10,2026-10-18,
+D04,EuropePMC,"TITLE:""anal fistula"" AND TITLE:consensus AND PUB_YEAR:[2019 TO 2026]",1,2026-10-18,
+D04,EuropePMC,"AUTH:""Rojanasakul A"" 2007 exact JMAT record",2,2026-10-18,
+D04,EuropePMC-core EXT_ID fetch,41357640,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,22362043,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,27824697,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,35732009,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,964106,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,13732880,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,21876616,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,8482163,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,16421664,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,17082891,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,16998638,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,17427539,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,22002535,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,24119103,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,25724967,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,19402190,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,4017809,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,2286808,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,10663008,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,19273960,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,31886629,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,32318991,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,40489006,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,20847616,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,31037566,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,28891850,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,23044679,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,25944433,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,22609079,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,21383557,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,18573198,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,31183438,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,30506546,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,26606429,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,28259693,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,39840327,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,40442569,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,37737881,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,40693967,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,20010348,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,35614286,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,40933558,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,42678555,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,40929949,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,42141242,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,38844401,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,42040561,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,21876614,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,22205460,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,19476898,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,25852290,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,23268266,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,31958934,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,35866804,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,23067044,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,33353263,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,40736689,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-core EXT_ID fetch,41313473,1,2026-10-18,abstract/record retrieved
+D04,EuropePMC-fullTextXML,PMC1953161,1,2026-10-18,fail 500 (scanned only)
+D04,EuropePMC-fullTextXML,PMC3160532,1,2026-10-18,fail 500
+D04,EuropePMC-fullTextXML,PMC3160530,1,2026-10-18,fail 500
+D04,EuropePMC-fullTextXML,PMC3226694,1,2026-10-18,OK Meinero 2011 L3
+D04,EuropePMC-fullTextXML,PMC11748383,1,2026-10-18,OK FOISF 2025 L3
+D04,EuropePMC-fullTextXML,PMC9568451,1,2026-10-18,OK AFC RCT L3
+D04,EuropePMC-fullTextXML,PMC12679015,1,2026-10-18,OK Chua 2025 L3
+D04,PMC-webpage,pmc.ncbi.nlm.nih.gov/articles/PMC1953161/,1,2026-10-18,"blocked by reCAPTCHA, not bypassed"
+D04,PMC-webpage,pmc.ncbi.nlm.nih.gov/articles/PMC3160532/,1,2026-10-18,"blocked by reCAPTCHA, not bypassed"
+D04,NCBI-OA-api,pmc/utils/oa/oa.fcgi?id=PMC1953161 / PMC1407359,0,2026-10-18,404
+D04,PubMed-efetch-pmc,db=pmc id=1953161,1,2026-10-18,publisher disallows download
+D04,PubMed-esearch,aguilar[au] AND endorectal[tiab] AND 1985[dp],0,2026-10-18,
+D04,PubMed-esearch,Aguilar PS[au],68,2026-10-18,
+D04,PubMed-esearch,Hardy TG Jr[au] AND flap,0,2026-10-18,
+D04,PubMed-esearch,aguilar[au] AND dis colon rectum[ta],21,2026-10-18,list checked -> PMID 4017809
+D04,PubMed-esummary,"23268266,31958934,35866804 journals",3,2026-10-18,
+D04,PubMed-esummary,13 retracted-paper summaries,13,2026-10-18,
+D04,PubMed-efetch,"32967495,35685902 retraction details",2,2026-10-18,"LIFT vs fistulectomy RCT (Dongying, Shandong) marked Retracted"
+D04,PubMed-esearch,An AY[au] AND fistula,0,2026-10-18,
+D04,PubMed-esearch,"(""An, Ah Yue""[au] OR An A[au]) AND anorectal",4,2026-10-18,"-> 24972583 An's Shaobei injection (hemorrhoid, D02)"
+D04,PubMed-esearch,肛瘘诊治中国专家共识 (Chinese),0,2026-10-18,
+D04,PubMed-esearch,"""Chinese expert consensus"" AND fistula-in-ano AND 2021[dp]",0,2026-10-18,
+D04,PubMed-efetch,26606429 affiliations,1,2026-10-18,"Han JG = Beijing Chaoyang Hospital, Capital Medical University"
+D04,OpenAlex,works?search=fibrin glue fistula-in-ano sort=publication_date:asc,1179,2026-10-18,-> 1988 German chapter; 1993 Abel DCR
+D04,OpenAlex,works/doi:10.1007/bf02050009 (Crossref-verified Abel ME 1993),1,2026-10-18,
+D04,OpenAlex,works/doi:10.1007/bf02590941 (Parks & Stitz 1976 abstract obtained),1,2026-10-18,abstract via inverted index; cited_by 200
+D04,OpenAlex,works/doi:10.1097/00000658-191211000-00010 (Elting 1912),1,2026-10-18,no abstract; cited_by 78
+D04,OpenAlex,search=Aguilar endorectal advancement flap fistula 1985,72,2026-10-18,
+D04,OpenAlex,search=Kodner endorectal advancement flap complicated anorectal,97,2026-10-18,
+D04,Crossref,works/10.1007/bf02050009,1,2026-10-18,"Abel ME, Chiu YS, Russell TR, Volpe PA. DCR 1993;36:447-449"
+D04,ClinicalTrials.gov,NCT06212739 registration timing,1,2026-10-18,"start 2018-01, primary completion 2020-12, first registered 2023-12-25 (post-hoc registration)"
+D04,WebSearch,ASCRS clinical practice guideline anal fistula 2024 Dis Colon Rectum,1,2026-10-18,-> 2022 Gaertner guideline is current; no 2024/2020 fistula guideline
+D04,WebFetch,guidelinecentral.com/guideline/9283 (ASCRS 2016 guideline summary),1,2026-10-18,flap 1B; LIFT 1B; plug & fibrin glue 'relatively ineffective' 2B; no VAAFT/laser
+D04,WebFetch,ascrsu.com guideline library,1,2026-10-18,only 2022 version listed
+D04,WebFetch,ascrsu.com 2022 guideline view page,0,2026-10-18,HTTP 404
+D04,WebFetch,guidelinecentral.com/guideline/1971902 (ASCRS 2022 summary),1,2026-10-18,flap 1B; LIFT 1B; plug+glue relatively ineffective 1B; endoscopic/laser 2C; MSC for Crohn 2B
+D04,WebSearch,Gaertner 2022 ASCRS guideline recommendations grades,1,2026-10-18,corroborated grades via snippets/secondary summaries
+D04,WebSearch,安阿玥 安氏疗法 肛瘘 主灶切开 次灶引流 中日友好医院,1,2026-10-18,L0 secondary sources: 百度百科/好大夫在线/搜狐; paper in non-MEDLINE journal
+D04,WebSearch,肛瘘诊治中国专家共识 2020 脱细胞生物补片 LIFT 中华胃肠外科杂志,1,2026-10-18,-> consensus 2020; 王振军 first ADM in China; LIFT-Plug
+D04,WebSearch,拖线疗法 肛瘘 陆金根 顾氏外科 龙华医院 始于年代,1,2026-10-18,L0: 龙华医院官网/文汇2019; 顾氏外科1862; 拖线约40年
+D05,EuropePMC,anal fissure AND (systematic review OR meta-analysis) AND (FIRST_PDATE:[2021-10-18 TO 2026-10-18]),604,2026-10-18,入口检索：近五年系统综述
+D05,EuropePMC,ASCRS guideline anal fissure,16,2026-10-18,入口检索：ASCRS指南
+D05,EuropePMC,clinical practice guidelines AND anal fissure,1044,2026-10-18,入口：指南
+D05,EuropePMC,Nelson RL AND anal fissure AND Cochrane,46,2026-10-18,入口：Cochrane Nelson
+D05,EuropePMC,practice parameters AND anal fissure,754,2026-10-18,入口：practice parameters
+D05,EuropePMC,"TITLE:""chronic anal fissure"" AND (review OR ""state of the art"") AND FIRST_PDATE:[2018-01-01 TO 2026-10-18]",,2026-10-18,入口：近八年综述
+D05,EuropePMC,"TITLE:""chronic anal fissure"" AND (SRC:REV OR SRC:MED) AND PUB_YEAR:[2018 TO 2026]",110,2026-10-18,入口：近八年标题含 chronic anal fissure 的期刊综述
+D05,PubMed,"anal fissure AND (JAMA[jour] OR ""JAMA.""[jour]) AND review",0,2026-10-18,入口：JAMA 肛裂综述
+D05,PubMed,"""chronic anal fissure""[ti] AND 2023[dp] AND (jama[ta])",0,2026-10-18,入口：JAMA 2023 chronic anal fissure 综述
+D05,PubMed,"anal fissure AND (""Dis Colon Rectum""[ta]) AND (""guideline"" OR ""practice parameter"")",5,2026-10-18,入口：DCR 肛裂指南
+D05,EuropePMC,"TITLE:""anal fissure"" AND TITLE:review AND PUB_YEAR:[2021 TO 2026]",20,2026-10-18,入口：标题含 anal fissure + review 2021-2026
+D05,EuropePMC,PMC11242537 fullTextXML,1,2026-10-18,历史综述全文下载成功（J Clin Med 2024）
+D05,EuropePMC,"AUTH:""Notaras"" AND TITLE:""sphincterotomy""",2,2026-10-18,Notaras侧切
+D05,EuropePMC,"AUTH:""Hoffmann D"" AND TITLE:""sphincterotomy"" AND PUB_YEAR:1970",1,2026-10-18,Hoffmann-Goligher 1970
+D05,EuropePMC,"AUTH:""Bennett RC"" AND AUTH:""Goligher"" AND PUB_YEAR:1962",1,2026-10-18,Bennett-Goligher 1962
+D05,EuropePMC,"AUTH:""Watts"" AND AUTH:""Goligher"" AND TITLE:""fissure"" AND PUB_YEAR:1964",1,2026-10-18,Watts-Goligher 1964 扩肛
+D05,EuropePMC,"AUTH:""Eisenhammer"" AND SRC:MED",21,2026-10-18,Eisenhammer 全部
+D05,EuropePMC,"AUTH:""Schouten WR"" AND TITLE:""Ischaemic"" ",1,2026-10-18,Schouten 1996 缺血
+D05,OpenAlex,Eisenhammer surgical correction chronic internal anal sphincteric contracture,32,2026-10-18,Eisenhammer 1951 OpenAlex
+D05,OpenAlex,"title.search:""surgical correction of chronic internal anal (sphincteric) contracture""",1,2026-10-18,Eisenhammer 1951 标题检索
+D05,EuropePMC,"AUTH:""Lord PH"" AND SRC:MED",31,2026-10-18,Lord PH 医学论文
+D05,EuropePMC,"AUTH:""Klosterhalfen"" AND anal fissure",2,2026-10-18,Klosterhalfen 肛裂
+D05,EuropePMC,"AUTH:""Guillemot F"" AND TITLE:""sphincter"" AND PUB_YEAR:[1992 TO 1994]",0,2026-10-18,Guillemot 1993
+D05,EuropePMC,"AUTH:""Loder PB"" AND TITLE:""glyceryl trinitrate""",1,2026-10-18,Loder 1994 GTN
+D05,EuropePMC,"AUTH:""Lund JN"" AND TITLE:""glyceryl trinitrate""",7,2026-10-18,Lund 1997 GTN RCT
+D05,EuropePMC,"AUTH:""Carapeti EA"" AND TITLE:""diltiazem""",2,2026-10-18,Carapeti 地尔硫䓬
+D05,EuropePMC,"AUTH:""Guillemot"" AND TITLE:""nitrate""",1,2026-10-18,Guillemot 硝酸酯
+D05,EuropePMC,"AUTH:""Lord PH"" AND TITLE:""haemorrhoids"" AND PUB_YEAR:[1968 TO 1975]",4,2026-10-18,Lord 1969-75 痔扩肛
+D05,EuropePMC,"AUTH:""Lund JN"" AND SRC:Lancet AND PUB_YEAR:1997",0,2026-10-18,Lund Lancet 1997 RCT
+D05,EuropePMC,"AUTH:""Jost WH"" AND TITLE:""anal fissure""",11,2026-10-18,Jost BTX
+D05,EuropePMC,"AUTH:""Maria G"" AND TITLE:""botulinum"" AND PUB_YEAR:[1997 TO 1999]",5,2026-10-18,Maria 1998 BTX
+D05,EuropePMC,"AUTH:""Brisinda G"" AND SRC:NEJM",0,2026-10-18,Brisinda NEJM 1999
+D05,PubMed,Maria G[au] AND anal fissure AND retracted publication[pt],0,2026-10-18,Maria 肛裂撤稿
+D05,PubMed,Brisinda[au] AND retracted publication[pt],0,2026-10-18,Brisinda 撤稿
+D05,PubMed,anal fissure AND retracted publication[pt],1,2026-10-18,肛裂领域全部撤稿
+D05,PubMed,retraction of publication[pt] AND (anal fissure OR Brisinda OR Maria G[au]),0,2026-10-18,肛裂撤稿声明
+D05,EuropePMC,EXT_ID:22810476 core,1,2026-10-18,GTN 给药途径撤稿论文详情
+D05,PubMed,"efetch 10395629,9435326,9833804,22810476",4,2026-10-18,核对撤稿/勘误关联（CommentsCorrections）
+D05,PubMed,10.1097/DCR.0b013e318295d95c[doi],1,2026-10-18,撤稿声明 DOI
+D05,EuropePMC,"AUTH:""Maria G"" AND TITLE:""fissure"" AND PUB_YEAR:[2004 TO 2014]",9,2026-10-18,Maria 后续肛裂论文
+D05,PubMed,efetch 23652758 撤稿声明全文,1,2026-10-18,Perez-Legaz/Arroyo 2012 GTN RCT 撤稿原因
+D05,EuropePMC,"AUTH:""Brisinda"" AND TITLE:""retraction""",0,2026-10-18,Brisinda 撤稿声明
+D05,EuropePMC,"AUTH:""Arroyo A"" AND TITLE:""anal fissure"" AND PUB_YEAR:[2004 TO 2014]",7,2026-10-18,Arroyo 肛裂 RCT 系列
+D05,EuropePMC,"AUTH:""Perez-Legaz"" OR AUTH:""Pérez-Legaz""",16,2026-10-18,Perez-Legaz 全部论文
+D05,EuropePMC,"AUTH:""Brisinda G"" AND TITLE:""fissure""",26,2026-10-18,Brisinda 肛裂论文
+D05,EuropePMC,"AUTH:""Brisinda"" AND TITLE:""retraction""",0,2026-10-18,Brisinda 撤稿声明
+D05,PubMed,17256809,1,2026-10-18,BJS 2007 RCT 撤稿状态核查（efetch）
+D05,EuropePMC,"AUTH:""Hancock BD"" AND TITLE:""anal fissure""",1,2026-10-18,Hancock 高静息压
+D05,EuropePMC,"AUTH:""OKelly T"" AND TITLE:""nitric oxide""",0,2026-10-18,OKelly NO
+D05,EuropePMC,"TITLE:""nitric oxide"" AND TITLE:""internal anal sphincter"" AND PUB_YEAR:[1990 TO 2000]",10,2026-10-18,NO 机制 1990s
+D05,EuropePMC,"AUTH:""Arroyo A"" AND TITLE:""sphincterotomy""",2,2026-10-18,Arroyo GTN vs LIS
+D05,EuropePMC,"AUTH:""Antropoli""",145,2026-10-18,Antropoli 硝苯地平
+D05,EuropePMC,"AUTH:""Antropoli C"" AND TITLE:""nifedipine""",8,2026-10-18,Antropoli C 硝苯地平
+D05,PubMed,8988122[uid],1,2026-10-18,Lund Lancet 1997 RCT by PMID
+D05,EuropePMC,"TITLE:""randomised"" AND TITLE:""glyceryl trinitrate"" AND TITLE:""anal fissure""",6,2026-10-18,GTN RCT 题名检索
+D05,EuropePMC,PMC7173741 fullTextXML,1,2026-10-18,Cochrane 非手术疗法 2012 全文
+D05,EuropePMC,EXT_ID:22336789 core abstract 全文,1,2026-10-18,Cochrane 2012 非手术摘要全文
+D05,EuropePMC,"AUTH:""Nyam DC"" AND TITLE:""sphincterotomy""",1,2026-10-18,Nyam 长期LIS
+D05,EuropePMC,"AUTH:""Garcia-Aguilar"" AND TITLE:""sphincterotomy""",2,2026-10-18,Garcia-Aguilar 开放vs闭合
+D05,EuropePMC,"AUTH:""Jonas M"" AND TITLE:""glyceryl trinitrate""",6,2026-10-18,Jonas GTN 远期
+D05,EuropePMC,"TITLE:""sphincterotomy"" AND TITLE:""incontinence"" AND TITLE:""long"" AND SRC:""Dis Colon Rectum""",0,2026-10-18,DCR 远期失禁
+D05,EuropePMC,"(acupuncture OR ""acupoint"" OR moxibustion) AND ""anal fissure""",115,2026-10-18,针灸与肛裂
+D05,EuropePMC,"""Chinese herbal"" AND ""anal fissure""",56,2026-10-18,中药与肛裂
+D05,EuropePMC,"(""sitz bath"" OR ""hip bath"") AND ""anal fissure"" AND (randomized OR trial)",65,2026-10-18,坐浴与肛裂 RCT
+D05,EuropePMC,"TITLE:""anal dilatation"" AND TITLE:""fissure""",13,2026-10-18,手法扩肛文献
+D05,EuropePMC,"TITLE:""anal fissure"" AND (CHANGQIANG OR acupoint)",2,2026-10-18,长强穴肛裂
+D05,EuropePMC,Rushen AND fissure,4,2026-10-18,止痛如神汤
+D05,EuropePMC,"TITLE:""anal fissure"" AND (ointment OR suppository OR sitz) AND AFF:""China"" AND PUB_YEAR:[2010 TO 2026]",6,2026-10-18,中国肛裂中药外用
+D05,EuropePMC,"""fissure-in-ano"" AND (CHINA[ad]) AND PUB_YEAR:[1980 TO 2000]",1,2026-10-18,1980-2000中国肛裂
+D05,WebSearch,钩肠痔 肛裂 《外科正宗》止痛如神汤 陈实功,3条结果,2026-10-18,中医古典线：止痛如神汤出自外科正宗1617
+D05,WebSearch,钩肠痔 出处 疮疡经验全书,3条结果,2026-10-18,钩肠痔病名首见《疮疡经验全书》卷七（wikibooks 中医条目释义转述）
+D05,WebSearch,中华中医药学会 肛裂 指南 共识,5条结果,2026-10-18,2012中医肛肠科常见病诊疗指南；2026河南中西医结合共识(medlive 39624)
+D05,EuropePMC,"TITLE:""Association of Coloproctology"" AND TITLE:""anal fissure""",2,2026-10-18,ACPGBI 2023 指南
+D05,EuropePMC,"AUTH:""Brillantino"" AND TITLE:""guidelines"" AND TITLE:""anal fissure""",2,2026-10-18,SIUCP 2023 指南
+D05,EuropePMC,EXT_ID:8348852 core,1,2026-10-18,Nielsen 1993 扩肛后内镜超声失禁
+D05,EuropePMC,EXT_ID:6432173 core,1,2026-10-18,Jensen 1984 LIS vs 扩肛 RCT
+D05,ClinicalTrials.gov,NCT01132391,1,2026-10-18,Perez-Legaz GTN给药途径RCT注册信息核对
+D05,PMC idconv,37833715,1,2026-10-18,SIUCP 指南 PMCID
+D05,EuropePMC,EXT_ID:7684992 core,1,2026-10-18,OKelly NO 机制摘要
+D05,EuropePMC,(combined OR sequential) AND botulinum AND (diltiazem OR nifedipine OR nitroglycerin) AND fissure AND PUB_YEAR:[2015 TO 2026],77,2026-10-18,联合策略
+D05,EuropePMC,"TITLE:""anal fissure"" AND (TITLE:""outpatient"" OR TITLE:""day-case"") AND TITLE:""sphincterotomy""",3,2026-10-18,日间化
+D05,EuropePMC,PMC10576345 fullTextXML,1,2026-10-18,SIUCP 指南全文（找检索截止日）
+D05,EuropePMC-citations,MED/7953427/citations,142,2026-10-18,被引追踪
+D05,EuropePMC-citations,MED/9435326/citations,205,2026-10-18,被引追踪
+D05,EuropePMC-citations,MED/8988115/citations,212,2026-10-18,被引追踪
+D05,EuropePMC-citations,MED/5548514/citations,72,2026-10-18,被引追踪
+D05,EuropePMC-citations,MED/14866486/citations,82,2026-10-18,被引追踪
+D05,EuropePMC-citations,MED/10528769/citations,161,2026-10-18,被引追踪
+D05,EuropePMC,EXT_ID:40009123 core,1,2026-10-18,BTX联合 vs 单用
+D05,EuropePMC,EXT_ID:42663187 core,1,2026-10-18,BTX vs GTN 网络meta 2026
+D05,EuropePMC,EXT_ID:1126267 core,1,2026-10-18,Rudd 1975 日间侧切
+D05,EuropePMC,EXT_ID:15325604 core,1,2026-10-18,题录补全
+D05,EuropePMC,EXT_ID:10517908 core,1,2026-10-18,题录补全
+D05,EuropePMC,EXT_ID:5803521 core,1,2026-10-18,题录补全
+D05,EuropePMC,EXT_ID:5679021 core,1,2026-10-18,题录补全
+D05,EuropePMC,EXT_ID:29525120 core,1,2026-10-18,题录补全
+D06,EuropePMC,"(TITLE:""perianal abscess"" OR TITLE:""anorectal abscess"") AND (TITLE:""systematic review"" OR TITLE:""meta-analysis"")",8,2026-10-18,entry-1
+D06,EuropePMC,"(TITLE:""anal abscess"" OR TITLE:""anorectal abscess"" OR TITLE:""perianal abscess"") AND (TITLE:""guideline"" OR TITLE:""practice parameters"" OR TITLE:""consensus"")",6,2026-10-18,entry-2 guidelines
+D06,EuropePMC,"TITLE:""fistula-in-ano"" AND TITLE:""guideline"" AND (AUTH:""Vogel"" OR ""American Society of Colon and Rectal Surgeons"")",1,2026-10-18,entry-3 ASCRS fistula guidelines
+D06,EuropePMC,"TITLE:""perianal abscess"" AND TITLE:""review""",9,2026-10-18,entry-4 narrative/recent reviews
+D06,EuropePMC,"AUTH:""Parks AG"" AND PUB_YEAR:1961 AND TITLE:""fistula-in-ano""",1,2026-10-18,origin Parks 1961
+D06,EuropePMC,"AUTH:""Eisenhammer"" AND TITLE:""anorectal""",7,2026-10-18,origin Eisenhammer
+D06,EuropePMC,"AUTH:""Ramanujam PS"" AND PUB_YEAR:1984",1,2026-10-18,origin Ramanujam 1984
+D06,PMC idconv,ids=13732880,1,2026-10-18,check PMCID for Parks 1961
+D06,EuropePMC fullText,PMC1953161 Parks 1961 full text XML,1,2026-10-18,downloaded full text
+D06,PMC article page,https://pmc.ncbi.nlm.nih.gov/articles/PMC1953161/,1,2026-10-18,Parks 1961 scanned pages list
+D06,PMC article page,PMC1953161 scan images,0,2026-10-18,"captcha page returned; per discipline stop, Parks 1961 stays L1 + secondary description"
+D06,EuropePMC,PMID:16317550 core record,1,2026-10-18,2006 drainage vs sphincter-cutting meta: authors/journal/abstract
+D06,EuropePMC,PMID:16317550,0,2026-10-18,"PMID: field not searchable, retry with EXT_ID"
+D06,EuropePMC,EXT_ID:16317550 / 6468199 / 13732880 core,3,2026-10-18,Quah 2006 meta + Ramanujam 1984 + Parks 1961 core records
+D06,EuropePMC,"(TITLE:""anorectal abscess"" OR TITLE:""perianal abscess"" OR TITLE:""anal abscess"" OR TITLE:""anal sepsis"") AND (TITLE:""randomized""/""randomised"")",23,2026-10-18,RCTs in abscess field
+D06,EuropePMC,"EXT_ID: 3554492,1991422,12548410,21730779,28822559,38701427,6397949 core",7,2026-10-18,"core RCT records: 1987 fistulotomy trial, 1991 fistulectomy trial, 2003 Oliver, 2011 antibiotics DCR, 2017 Surgery, 2024 DCR antibiotics, 1984 suture trial"
+D06,EuropePMC,"AUTH:""Tang CL"" AND (ABS:""abscess""/TITLE fistula)",1,2026-10-18,check Tang CL lead
+D06,EuropePMC,"AUTH:""Cirocco WC"" AND fistula/abscess",2,2026-10-18,Cirocco fistula incidence after drainage
+D06,EuropePMC,"AUTH:""Cirocco""",202,2026-10-18,Cirocco full author search
+D06,EuropePMC,fistula incidence after abscess drainage 1990-2015,0,2026-10-18,cohort fistula-rate studies
+D06,OpenAlex,search=Cirocco anorectal abscess fistula,41,2026-10-18,Cirocco lead check
+D06,EuropePMC,TITLE fistula after anorectal abscess / after abscess drainage,52980,2026-10-18,cohort fistula-rate papers
+D06,EuropePMC,"EXT_ID: 35732009,27824697,41397818,34628909,21730779 core",5,2026-10-18,"2022/2016 ASCRS guidelines, 2025 Chinese consensus, 2021 seton meta, Sozener full abstract"
+D06,EuropePMC,"TITLE:""perianal abscess"" AND children/infant/pediatric",31,2026-10-18,pediatric line
+D06,EuropePMC,"EXT_ID: 36894443,37023788,35647894,41367540 core",4,2026-10-18,"pediatric metas 2023/2024, non-surgical mgmt 2022, diabetes meta 2025"
+D06,OpenAlex,search=Quah anorectal abscess,74,2026-10-18,Quah lead check
+D06,EuropePMC,"TITLE:""horseshoe abscess"" / horseshoe anal",37,2026-10-18,horseshoe line
+D06,EuropePMC,anorectal/perianal abscess + prospective/incidence/outcome + fistula (title),10,2026-10-18,fistula-rate cohort papers
+D06,OpenAlex,search=Vasudevan anorectal abscess meta,27,2026-10-18,Vasudevan lead check
+D06,EuropePMC citations,MED/6468199/citations (Ramanujam 1984),114,2026-10-18,forward tracking
+D06,EuropePMC citations,MED/16317550/citations (Quah 2006 meta),43,2026-10-18,forward tracking of meta
+D06,EuropePMC,"EXT_ID: 38093036,38684322,36150906,34376025,32341739,36920266 core",6,2026-10-18,cohort + seton + setting studies
+D06,EuropePMC,"EXT_ID: 41035902,35929816,33447866,30151207,33394781,39895142 core",6,2026-10-18,"TRISDS RCT, PPAC2, needle aspiration, TCC, LIFT-at-drainage, 2025 antibiotic review"
+D06,EuropePMC,"TITLE:""anal fistula"" AND infants/children 1970-2005",4,2026-10-18,classic pediatric natural history
+D06,EuropePMC,"EXT_ID: 8308691,40585484,39332832,40833840 core",4,2026-10-18,"1993 infants fistula series, infants SR 2025, packing meta 2024, bacteriology SR 2025"
+D06,EuropePMC,"EXT_ID: 20015430,35282049 core",2,2026-10-18,Chinese tunnel thread-drawing RCT 2009; loose cutting seton RCT protocol 2022
+D06,WebSearch,曹吉勋 肛周脓肿 切开挂线 一次根治 中医肛肠,多个结果,2026-10-18,china_line: 曹吉勋一次性根治术; 找到陈琴2013挂线综述、WCJD手术进展综述、四川省中医院页
+D06,web_reader,https://www.wjgnet.com/1009-3079/full/v21/i1/82.htm,1,2026-10-18,"全文已读: 陈琴/王晓锋/李华山2013挂线综述, 曹吉勋50年代一次根治, 辽宁肛肠医院70年代切开挂线6000例, 胡伯虎1983挂线机理, 钱海华2004虚挂线, 黄家驷外科学42-65%成瘘率"
+D06,EuropePMC,EXT_ID: Eisenhammer 4篇 + WSES2021 + SICCR2020 + ACPGBI2018 core,7,2026-10-18,journal details for origin papers and guidelines
+D06,EuropePMC,"AUTH:""Cirocco WC""",85,2026-10-18,Cirocco exact author search
+D06,EuropePMC,"AUTH:""Cirocco WC"" 1985-2000",24,2026-10-18,Cirocco early works
+D06,medi-guide PDF,肛周脓肿临床诊治中国专家共识 PDF,1,2026-10-18,"中华胃肠外科杂志2018;21(4):456-457, DOI 10.3760/cma.j.issn.1671-0274.2018.04.018, 中国医师协会肛肠医师分会; 30-70%成瘘、1/3后期成瘘、Hanley 1965、抗生素不常规推荐(引Mulik Cochrane 2010)"
+D06,EuropePMC,abscess antibiotic drainage Cochrane/systematic review,3,2026-10-18,antibiotic SRs incl Cochrane Mulik
+D06,EuropePMC,TITLE perianal abscess antibiotic reviews,8,2026-10-18,find Cochrane Mulik 2010 and other antibiotic SRs
+D06,EuropePMC,AUTH:Mulik / title incision drainage perianal abscess with or without antibiotic,218,2026-10-18,Cochrane Mulik check
+D06,EuropePMC,"""perianal abscess with or without antibiotic"" exact phrase",0,2026-10-18,Cochrane Mulik title phrase
+D06,PubMed esearch,perianal abscess antibiotic cochrane,2,2026-10-18,find Mulik/Nelson Cochrane
+D06,PubMed efetch,"30773213,25531359",2,2026-10-18,Cochrane candidates
+D06,PubMed,CD006827[AID] + Mocanu 2019 abstract,2,2026-10-18,Cochrane CD006827 check + Mocanu results
+D06,EuropePMC,"EXT_ID: 36351727,38355562 core",2,2026-10-18,ATLAS protocol 2022 + PERIQxA protocol 2024
+D06,EuropePMC,ATLAS perianal abscess antibiotic,24,2026-10-18,ATLAS results check
+D06,EuropePMC fullText,PMC9644350 ATLAS protocol,1,2026-10-18,registration number extraction
+D06,EuropePMC,DOI goaf091 / znac225 PMCIDs,2,2026-10-18,get PMCIDs for registration check
+D06,ChiCTR,ChiCTR2000032941 (proj 52941 page),0,2026-10-18,TRISDS registration endpoint check
+D06,ChiCTR website,https://www.chictr.org.cn/showproj.html?proj=52941,0,2026-10-18,405 blocked; ChiCTR 注册终点无法独立核对，以原文报告为准
+D06,EuropePMC,"EXT_ID: 39649212,28620877,32251145 core",3,2026-10-18,"2024 new classification, cryptoglandular pathogenesis SR 2017, DCR 2020 operative I&D"
+D06,EuropePMC,"""three-cavity clearance""",6,2026-10-18,TCC RCT publication check
+D06,EuropePMC,anorectal/perianal/anal abscess + incidence/epidemiology (title),11,2026-10-18,epidemiology data paths
+D06,OpenAlex,search=three-cavity clearance perianal abscess randomized,219,2026-10-18,TCC RCT publication status
+D06,EuropePMC,"AUTH:""Hanley PH"" 1960-1980",25,2026-10-18,Hanley horseshoe original
+D06,EuropePMC,"AUTH:""Hanley PH"" suppuration/abscess/horseshoe titles",8,2026-10-18,Hanley 1965 original search
+D06,WebSearch,肛痈 中医 外科正宗 脏毒 挂线 古今医统大全 源流,多个结果,2026-10-18,L0二手: 脏毒/悬痈/坐马痈/跨马痈病名、《外科正宗》1617脏毒论、挂线出自《古今医统大全》、《诸病源候论》痔久不瘥变为漏
+D06,EuropePMC,one-stage/single-stage + perianal abscess (title),0,2026-10-18,one-stage radical series incl Chinese
+D06,EuropePMC,one-stage + perianal abscess title,0,2026-10-18,no hits; try ABS search
+D06,EuropePMC,ABS perianal abscess one-stage radical China,0,2026-10-18,Chinese one-stage radical series
+D06,EuropePMC,ABS perianal abscess radical internal opening,0,2026-10-18,radical approach w/ internal opening
+D06,EuropePMC,ABS perianal abscess internal opening primary fistulotomy,0,2026-10-18,one-stage with internal opening search
+D06,EuropePMC,ABS: syntax multi-term,0,2026-10-18,ABS: field syntax limited; switch to free text
+D06,EuropePMC,"""perianal abscess"" AND ""internal opening"" AND ""primary fistulotomy"" free text",16,2026-10-18,one-stage fistulotomy series
+D06,EuropePMC,"EXT_ID: 42154297,35601425 core",2,2026-10-18,2026 prospective I&D vs initial fistula mgmt; 2022 neonates fistulotomy
+D06,EuropePMC,"""perianal abscess"" AND ""diabetes"" outcomes/recurrence/management",102,2026-10-18,diabetes special population
+D06,EuropePMC,DOI atm-22-62 PMCID,1,2026-10-18,LCCS protocol PMCID
+D06,Crossref,10.11569/wcjd.v21.i1.82,1,2026-10-18,陈琴2013挂线综述题录核实
+D06,EuropePMC,anal/anorectal abscess incidence 2000-2020,1,2026-10-18,population incidence data
+D06,EuropePMC,"EXT_ID: 33358408,42132969 core",2,2026-10-18,Spain long-term cohort 2020; TCC real-world 2026
+D06,EuropePMC,"EXT_ID: 5830659,646483,964108 core",3,2026-10-18,Hanley 1965/1978/1976 volume/page details
+D06,EuropePMC fullText,PMC12479394 TRISDS XML,1,2026-10-18,注册号ChiCTR2000032941；单位江西中医药大学附属医院；2020-09至2023-09入组
+D06,EuropePMC fullText,PMC10364677 PPAC2 XML,1,2026-10-18,注册号ISRCTN93273484；注册主要终点（前10天平均最大疼痛VAS）与发表一致
+D07,Europe PMC,"TITLE:""Bowel disorders"" AND SRC:Gastroenterology AND PUB_YEAR:2016",0,2026-10-18,Rome IV Mearin bowel disorders
+D07,Europe PMC,"AUTH:""Drossman"" AND TITLE:""Rome IV"" AND PUB_YEAR:2016",3,2026-10-18,Drossman Rome IV
+D07,Europe PMC,"AUTH:""Mearin F"" AND TITLE:""Bowel Disorders""",3,2026-10-18,Mearin Rome IV bowel disorders chapter
+D07,Europe PMC,"AUTH:""Thompson WG"" AND TITLE:""Functional bowel disorders""",3,2026-10-18,Thompson 1989 first Rome working team report
+D07,OpenAlex,functional bowel disorders and functional abdominal pain 1989 Gastroenterology International,,2026-10-18,Thompson 1989 Gastroenterol Int pre-Rome working team
+D07,OpenAlex,"search: functional bowel disorders functional abdominal pain working team report, filter=publication_year:1989",2,2026-10-18,Thompson 1989 Gastroenterol Int working team report
+D07,Crossref,"query.bibliographic=Functional bowel disorders and functional abdominal pain Thompson, 1988-1992",69387,2026-10-18,Thompson 1989 Gastroenterol Int in Crossref?
+D07,Europe PMC,Manning criteria irritable bowel syndrome 1978,199,2026-10-18,pre-Rome criteria
+D07,Europe PMC,AUTH:Kruis AND TITLE:scoring,0,2026-10-18,pre-Rome criteria
+D07,Europe PMC,"AUTH:""Manning AP"" AND SRC:Lancet AND PUB_YEAR:1978",0,2026-10-18,Manning 1978 Lancet IBS criteria
+D07,Europe PMC,"AUTH:""Kruis"" AND TITLE:""Towards an improved diagnosis of irritable bowel syndrome""",0,2026-10-18,Kruis 1984 scoring system
+D07,Europe PMC,"AUTH:""Manning AP"" AND PUB_YEAR:1978",4,2026-10-18,Manning 1978
+D07,Europe PMC,"AUTH:""Kruis W"" AND SRC:Gastroenterology AND PUB_YEAR:1984",0,2026-10-18,5
+D07,Europe PMC,"TITLE:""idiopathic constipation"" AND TITLE:guideline AND PUB_YEAR:[2022 TO 2026]",3,2026-10-18,10
+D07,Europe PMC,"AUTH:""Ford AC"" AND TITLE:constipation AND TITLE:(guideline OR ""meta-analysis"") AND PUB_YEAR:[2022 TO 2026]",2,2026-10-18,10
+D07,Europe PMC,"AUTH:""Kruis W"" AND TITLE:""score"" AND PUB_YEAR:1984",1,2026-10-18,5
+D07,Europe PMC,"TITLE:""surgery for constipation"" AND AUTH:""Knowles""",7,2026-10-18,10
+D07,Europe PMC,"TITLE:""stapled transanal rectal resection"" AND (TITLE:registry OR TITLE:""systematic review"")",3,2026-10-18,10
+D07,Europe PMC,SRC:Cochrane Database Syst Rev AND TITLE:laxative,0,2026-10-18,5
+D07,Europe PMC,"TITLE:""Chinese herbal medicine"" AND TITLE:""functional constipation"" AND (TITLE:""systematic review"" OR TITLE:""meta-analysis"")",2,2026-10-18,15
+D07,Europe PMC,"TITLE:""melanosis coli"" AND TITLE:review",4,2026-10-18,15
+D07,Europe PMC,"AUTH:""Suares NC"" OR (AUTH:""Ford AC"" AND TITLE:""chronic idiopathic constipation"" AND TITLE:""systematic review"")",9,2026-10-18,10
+D07,Europe PMC,"AUTH:""Bartle"" AND TITLE:""melanosis""",0,2026-10-18,10
+D07,Europe PMC,"TITLE:""cathartic colon""",27,2026-10-18,10
+D07,Europe PMC,"AUTH:""Preston DM"" AND AUTH:""Lennard-Jones""",13,2026-10-18,10
+D07,Europe PMC,"AUTH:""Kamm MA"" AND PUB_YEAR:1988",5,2026-10-18,10
+D07,Europe PMC,"AUTH:""Wexner SD"" AND TITLE:constipation AND PUB_YEAR:[1989 TO 1996]",4,2026-10-18,10
+D07,OpenAlex,"search: colectomy chronic constipation Lane, 1900-1915",9,2026-10-18,Arbuthnot Lane colectomy for constipation
+D07,Europe PMC,"EXT_ID batch: 3949236,3396968,1914716,13537819,8949659 (resultType=core)",5,2026-10-18,"abstracts: Preston1986, Kamm1988, Wexner1991, Speare1958, Gut1996 cathartic colon"
+D07,Europe PMC,"AUTH:""DiPalma JA"" AND TITLE:""polyethylene glycol"" AND PUB_YEAR:[1980 TO 1995]",4,2026-10-18,10
+D07,Europe PMC,"AUTH:""Tack J"" AND TITLE:""prucalopride"" AND SRC:""New England Journal of Medicine""",0,2026-10-18,5
+D07,Europe PMC,"AUTH:""Lembo AJ"" AND TITLE:linaclotide",13,2026-10-18,10
+D07,Europe PMC,"AUTH:""Johanson JF"" AND TITLE:lubiprostone AND PUB_YEAR:[2004 TO 2008]",3,2026-10-18,10
+D07,Europe PMC,"AUTH:""Tack J"" AND TITLE:prucalopride AND PUB_YEAR:2009",2,2026-10-18,10
+D07,Europe PMC,"AUTH:""DiPalma JA"" AND TITLE:laxative AND PUB_YEAR:2000",1,2026-10-18,5
+D07,Europe PMC,TITLE:lactulose AND TITLE:constipation AND PUB_YEAR:[1965 TO 1985],10,2026-10-18,10
+D07,Europe PMC,"TITLE:""melanosis coli"" AND PUB_YEAR:[1920 TO 1970]",23,2026-10-18,15
+D07,Europe PMC,"TITLE:""Da Cheng Qi"" OR TITLE:""Dachengqi""",133,2026-10-18,15
+D07,Europe PMC,"AUTH:""Wu Xianzhong"" OR (AUTH:""Wu XZ"" AND TITLE:abdomen)",32,2026-10-18,10
+D07,OpenAlex,"search: melanosis coli, 1900-1960",42,2026-10-18,earliest melanosis coli records
+D07,OpenAlex,"search: melanosis colon pigment, 1920-1930",1,2026-10-18,Bartle 1925 check
+D07,Crossref,query.bibliographic=Bartle melanosis coli,207095,2026-10-18,Bartle 1925 JAMA?
+D07,Europe PMC,"EXT_ID batch: 10685748,4867936,18987031,21830967,17509103,17916109,19571694,28960923,37211380,27144627,19842218,21205879",12,2026-10-18,abstracts drug/STARR/guideline/CHM-SR nodes
+D07,Europe PMC,"TITLE:(""MaZiRen"" OR ""Ma Zi Ren"" OR ""Maren Wan"" OR ""Hemp seed pill"") AND TITLE:constipation",4,2026-10-18,15
+D07,Europe PMC,"TITLE:""Liuwei Anxiao"" OR TITLE:""Liu Wei An Xiao""",2,2026-10-18,15
+D07,Europe PMC,"TITLE:""Qirong Runchang"" OR TITLE:""QirongRunchang""",1,2026-10-18,10
+D07,Europe PMC,TITLE:Anxiao,8,2026-10-18,15
+D07,Europe PMC,"(TITLE:""Buzhong Yiqi"" OR TITLE:""BuzhongYiqi"") AND TITLE:constipation",3,2026-10-18,10
+D07,Europe PMC,"TITLE:(""Chinese herbal medicine"" OR ""traditional Chinese medicine"") AND TITLE:constipation AND TITLE:(randomized OR randomised) AND PUB_YEAR:[2015 TO 2026]",5,2026-10-18,20
+D07,Europe PMC,"EXT_ID batch3: 12 ids (TCM RCTs, melanosis review, senna safety, Ford NMA, STARR SR, Wexner score, Preston 1984)",12,2026-10-18,abstract batch 3
+D07,Europe PMC,"AUTH:""Wald A"" AND TITLE:constipation AND PUB_YEAR:[1988 TO 2005]",23,2026-10-18,10
+D07,Europe PMC,"AUTH:""Chiarioni G"" AND TITLE:""biofeedback"" AND SRC:Gastroenterology",0,2026-10-18,5
+D07,Europe PMC,"TITLE:""fecal microbiota transplantation"" AND TITLE:""slow-transit constipation""",11,2026-10-18,10
+D07,Europe PMC fullTextXML,PMC10193150 fullTextXML (melanosis review history section),1,2026-10-18,read history: Cruveilhier/Virchow/Bartle
+D07,WebSearch,吴咸中 通里攻下法 南开医院 急腹症 大承气汤 1960年代 中西医结合,多来源(中国网/天津图书馆/科学网/人民网),2026-10-18,吴咸中生平1964-1977任南开医院院长；通里攻下法核心；二手传记 L0
+D07,WebSearch,Thompson 1989 Gastroenterology International working team report functional bowel disorders Rome criteria history,多来源(ACG Magazine 2020/Drossman 2016转述),2026-10-18,Thompson WG et al. Irritable bowel syndrome: Guidelines for the diagnosis. Gastroenterol Int 1989;2:92-95；Roma 88会议起源
+D07,WebSearch,Longo 2004 STARR stapled transanal resection original publication obstructed defecation,多来源(Ripamonti 2022/WJG 2010/NICE HTG224),2026-10-18,Longo 2004 为14th Annual Tripartite Colorectal Meeting 会议文集章节，非期刊论文
+D07,Europe PMC,"AUTH:""Boccasanta P"" AND TITLE:""stapled""",7,2026-10-18,10
+D07,Europe PMC,"TITLE:STARR AND TITLE:(complications OR ""adverse events"" OR safety) AND PUB_YEAR:[2006 TO 2012]",4,2026-10-18,10
+D07,Europe PMC,"AUTH:""Chiarioni G"" AND TITLE:biofeedback AND PUB_YEAR:2006",2,2026-10-18,5
+D07,Europe PMC,"AUTH:""Sonneberg A"" AND TITLE:constipation AND PUB_YEAR:1989",0,2026-10-18,5
+D07,Europe PMC,"TITLE:""melanosis coli"" AND TITLE:laxative AND PUB_YEAR:[1960 TO 1995]",1,2026-10-18,10
+D07,Europe PMC,"TITLE:(""fecal microbiota"" OR ""microbiota transplantation"") AND TITLE:""slow-transit constipation"" AND PUB_YEAR:2017",2,2026-10-18,5
+D07,Europe PMC,"AUTH:""Sonnenberg A"" AND TITLE:""constipation"" AND PUB_YEAR:[1988 TO 1995]",7,2026-10-18,10
+D07,Europe PMC,TITLE:(linaclotide OR plecanatide OR prucalopride) AND TITLE:(versus OR compared) AND PUB_YEAR:[2021 TO 2026],12,2026-10-18,15
+D07,Europe PMC,"TITLE:""functional constipation"" AND TITLE:China AND TITLE:prevalence",3,2026-10-18,10
+D07,Europe PMC fullTextXML,PMC10542656 (AGA-ACG 2023 CIC guideline),1,2026-10-18,L3 read: search cutoff & recommendations
+D07,NCBI E-utilities efetch db=pmc,id=10542656 AGA-ACG 2023 CIC guideline full XML,1,2026-10-18,L3: locate search cutoff statement
+D07,PMC article page,PMC1433176 / PMC1433751 HTML page images,0,2026-10-18,PMC返回reCAPTCHA challenge页，按纪律不绕过；两文停留L2（摘要已读）
+D07,NCBI E-utilities efetch db=pmc,id=10542656 AGA-ACG 2023 guideline,1,2026-10-18,检索截止日：2021-05-15首查，2022-11-05更新（L3）
+D07,Europe PMC,"TITLE:""slow transit constipation"" AND TITLE:(microbiota OR metagenomic OR 16S) AND PUB_YEAR:[2021 TO 2026]",29,2026-10-18,15
+D07,Europe PMC,"TITLE:constipation AND TITLE:(syndrome differentiation OR ""TCM syndrome"")",640,2026-10-18,10
+D07,Europe PMC,EXT_ID:24180235 AND TITLE:protocol,1,2026-10-18,3
+D07,Europe PMC,"TITLE:""Tongli Gongxia"" OR (TITLE:purgative AND TITLE:""acute abdomen"" AND TITLE:China)",2,2026-10-18,10
+D07,Europe PMC,"TITLE:""functional constipation"" AND TITLE:""integrated"" AND TITLE:consensus AND PUB_YEAR:[2024 TO 2026]",0,2026-10-18,10
+D07,Europe PMC,"EXT_ID batch4: 15484341,16678561,24180235,8234435,34852831,39225513",6,2026-10-18,abstract batch 4
+D07,Europe PMC fullTextXML + ClinicalTrials.gov API v2,PMC3847006 (MZRW protocol) registration; NCT00730015 primary endpoint check,2,2026-10-18,RCT注册与发表终点一致性核对
+D07,Europe PMC core,EXT_ID 29654915/24180235 abstract tails for trial registration,2,2026-10-18,MZRW RCT注册号
+D07,PubMed E-utilities esearch,Irritable bowel syndrome: guidelines for the diagnosis[Title]; Thompson WG 1990-1992 functional bowel disorders[Title],0 / 0,2026-10-18,Thompson 1989 Gastroenterol Int 与 1992 working team 均未被 PubMed 收录，只能二手转述
+D07,WebSearch,中国慢性便秘专家共识意见 2019 广州 中华医学会消化病学分会 罗马Ⅳ,多来源(shsma全文页/中华全科医师杂志/Neurogastroenterol Motil英文版),2026-10-18,中华消化杂志2019;39(9):577-598；另有2024检查评估/微生态/STC外科共识
+D07,WebSearch,EMA senna anthranoid laxatives review 2021 safety melanosis coli electrolyte,EMA官网final assessment report revision 1 + Front Pharmacol 2023 + Chiba 2024可逆性,2026-10-18,HMPC 2021起安全观察；电解质紊乱警示
+D07,WebSearch,Rome I criteria 1992 Drossman Thompson working team 1994 Degnon book,多来源(Thompson 2006 The Road to Rome/Rome Foundation),2026-10-18,Rome I working team report 1992发表于Gastroenterology；1994 Degnon出书
+D07,WebSearch,NICE HTG224 stapled transanal rectal resection ODS guidance,NICE HTG224 evidence overview + INAHTA,2026-10-18,STARR国际监管/HTA节点
+D07,Europe PMC,"AUTH:""Thompson WG"" AND TITLE:""Road to Rome""",2,2026-10-18,5
+D07,Europe PMC,"TITLE:""Chinese expert consensus"" AND TITLE:constipation",5,2026-10-18,5
+D07,Europe PMC,"EXT_ID batch5: 16678568,16530506,42387275,36662303,28158276,21606976",6,2026-10-18,abstract batch 5
+D07,Europe PMC,TITLE:tegaserod AND TITLE:(withdraw* OR cardiovascular) AND PUB_YEAR:2007,1,2026-10-18,10
+D07,gastrojournal.org fulltext,Thompson WG. The road to rome. Gastroenterology 2006;130:1552-1556,1,2026-10-18,L3试读：1989/1992工作团队报告年份核对
+D07,WebSearch,郑显理 吴咸中 中西医结合急腹症 天津南开医院 通里攻下,多来源(科学网2015/科技日报2026/百度百科/天津大学),2026-10-18,1975天津市中西医结合急腹症研究所成立吴任所长；1972《中西医结合治疗急腹症》郑显理为主要编写者之一；通里攻下法应用与基础研究获2003年度国家奖；吴咸中1925-2026逝世；均L0二手
+D07,gastrojournal.org,Thompson 2006 The road to rome fulltext page,"stub页面(3664字符,正文不可及)",2026-10-18,Road to Rome 停留 L1 题录级
+D08,Europe PMC,"(TITLE:""rectal prolapse"") AND (TITLE:""clinical practice guideline"" OR TITLE:""practice parameters"") AND SRC:MED",1,2026-10-18,ASCRS rectal prolapse guideline Varma 2011 PMID21979176
+D08,Europe PMC,"(TITLE:""fecal incontinence"") AND (TITLE:""clinical practice guideline"" OR TITLE:""practice parameters"" OR TITLE:""guideline"") AND SRC:MED",5,2026-10-18,ASCRS FI guideline 2015 PMID26200676; ACG Rao 2004; SNM guideline Maeda 2011
+D08,Europe PMC,"(TITLE:""dyssynergic defecation"" OR TITLE:""dyssynergia"") AND SRC:MED AND PUB_YEAR:[2015 TO 2026] sorted CITED asc",148,2026-10-18,mostly irrelevant; need targeted review search
+D08,Europe PMC,"(TITLE:""obstructed defecation"" OR TITLE:""obstructive defecation"") AND (review/management/evaluation) 2018-2026",17,2026-10-18,IUGA 2026 opinion paper PMID41217465; Grimes 2019 AUGS systematic review PMID31256222; AUGS best practice 2018 PMID30365459
+D08,Europe PMC,(TITLE:rectocele) AND (review/management/surgery/repair) 2017-2026,44,2026-10-18,Fathy 2021 transperineal review PMID34621481; recent RCTs VMR vs transvaginal PMID40423835
+D08,Europe PMC,"(TITLE:""rectal prolapse"") AND (review/overview/narrative) 2019-2026",33,2026-10-18,Emile 2024 male prolapse SR PMID39538028; Kodia 2024 pediatric review PMID39091664; Yousefi-Koma 2025 QoL SR PMID40813512
+D08,Europe PMC,(TITLE:biofeedback) AND (constipation/dyssynergic/pelvic floor) AND (systematic review/meta-analysis) 2018-2026,17,2026-10-18,Moore&Young 2020 dyssynergic defaecation biofeedback SR PMID32372153; Tu 2026 RCT MA PMID42292261
+D08,Europe PMC,EXT_ID:31256222 OR EXT_ID:41217465 OR EXT_ID:32372153 OR EXT_ID:39538028 OR EXT_ID:42292261 (abstract fetch),5,2026-10-18,Got search cutoffs: Grimes cutoff 2018-04-04; Moore cutoff 2019-03; Emile cutoff 2024-02; Tu cutoff 2025-08-19
+D08,Europe PMC,"(TITLE:""fecal incontinence"") AND (practice parameters/clinical practice guideline/consensus) 2020-2026",3,2026-10-18,Mexican consensus 2023 PMID38097437; Baiona consensus 2024 PMID38242231; Chinese expert consensus FI 2022 PMID36562229 (china_line)
+D08,WebSearch,STARR stapled transanal rectal resection obstructed defecation controversy complications,~10 results,2026-10-18,no retraction surfaced directly; Andreoli 2024 Am J Surg 15y medico-legal; UK BNSSG policy restricts STARR/VMR
+D08,Europe PMC,"(STARR OR ""stapled transanal rectal resection"") AND RETRACTED_PUBLICATION:yes",0,2026-10-18,no retracted STARR via Europe PMC retracted field
+D08,WebSearch,Boccasanta retracted STARR trial Retraction Watch,~8 results,2026-10-18,no explicit Boccasanta STARR retraction surfaced; candidates: Boccasanta/Venturi 2004 DCR multicenter trial (not retracted per search)
+D08,PubMed esearch/efetch,"(""obstructed defecation""/""rectal prolapse""/rectocele/""fecal incontinence"") AND ""retracted publication""[pt]; 10.1007/s00404-026-08534-9[doi]",5+1,2026-10-18,retractions found: PMID35480080 Hindawi CMMI 2022 defecography/Wells retracted 2023; PMID35835920 LVR+sacral colpopexy RCT retracted 2026 (comment PMID42443552); PMID17021747 Gourgiotis rectal prolapse review retracted IJCD 2007
+D08,WebSearch,"retractionwatch.com STARR ""stapled transanal"" retracted colorectal",~5,2026-10-18,KEY FIND: Retraction Watch 2025-04-21: UK surgeon Tony Dixon suspended; 9 expressions of concern + withdrawal incl. his 2010 STARR medium-term results paper; struck off for falsifying mesh records
+D08,WebFetch retractionwatch.com,https://retractionwatch.com/2025/04/21/suspended-uk-surgeon-tony-dixon-expressions-of-concern-withdrawal,1 article,2026-10-18,"VERIFIED: 10 Colorectal Disease papers (Dixon) - 1 withdrawn 2017 LVR chronic pelvic pain; 9 EoC incl. STARR Medium-Term Results 2010, VMR external prolapse 2010/2014, VMR male 2014, SRUS VMR 2012, VMR consensus panel 2013; GMC/MPTS Jul 2024 6-month suspension; Spire review 544 pts, harm 259; Southmead inquiry 203 unnecessary ops; suspension extended Jan 2025"
+D08,Europe PMC,EXT_ID:23636143 OR (Altemeier perineal repair) OR (Preston anismus) OR (Bleijenberg biofeedback) OR (Sultan vaginal delivery 1993),10,2026-10-18,"VERIFIED: Preston&Lennard-Jones 1985 DDS 30:413-8 anismus PMID3987474; Bleijenberg&Kuijpers 1987 DCR 30:108-11 PMID3803114 (10 pts, 7 complete success); 1994 DCR RCT PMID8017359; van Tets 1996 negative PMID8797647; Kuijpers 1991 PMID1812414 (division fails); Altemeier 1964 ArchSurg PMID14148777 & 1971 AnnSurg PMID5578808; Sultan 1993 NEJM PMID8247054"
+D08,Europe PMC,"(AUTH:""Matzel KE"") AND faecal/fecal incontinence 1994-1996",3,2026-10-18,"VERIFIED Matzel 1995 Lancet 346:1124-7 PMID7475602 DOI 10.1016/s0140-6736(95)91799-3, 3 pts 2 full continence; also Chir Pract 1995 & Langenbecks 1995 stepping stones"
+D08,Europe PMC,(TITLE:rectal prolapse) AND (history/evolution/century),10,2026-10-18,Spivak&Hu 2025 History of Treatment of Rectal Prolapse PMID41040126; Cirocco 2014 Altemeier undulating outcomes PMID25082531; Kim 1999 DCR PMID10215045; Nathan 1990 19th century account PMID2198148; Mei&Wei 2025 Chinese review PMID41397821
+D08,OpenAlex,Thiersch rectal prolapse 1891,33,2026-10-18,Carl Thiersch biography DCR 1988 DOI 10.1007/bf02562653; Thiersch wiring still in use (Bio-Thiersch DCR 2017; Mersilene 2026); original 1891 German not in OA
+D08,Europe PMC,Shorvon/Halligan defecography 1988-1992; DHoore rectopexy 2003-2006,1+2,2026-10-18,"VERIFIED Shorvon 1989 Gut 30:1737-49 PMID2612988; DHoore 2004 BJS 91:1500-5 PMID15499644 (42 pts, 61mo FU) & 2006 SurgEndosc 109 pts PMID17031741 recurrence 3.66%"
+D08,OpenAlex,Delorme excision mucosa rectal prolapse 1900; Moschcowitz prolapse pathogenesis,29+42,2026-10-18,Delorme original not in OA (1900 Bull Mem Soc Chir Paris); Moschcowitz original in DCR 1983 Classic Articles reprint series; Kim 1997 BJS functional controversies useful
+D08,Europe PMC,rectal prolapse AND injection sclerotherapy AND China; TITLE:Moschcowitz; TITLE:perineal approaches to rectal prolapse,27+84+2,2026-10-18,Pescatori&Gagliardi 2008 STARR complications PMID18512007 VERIFIED; Madsen 2008 PMC2780197 & Barfield 2017 PMC5179277 open; Wang J 2021 Gant-Miwa-Thiersch+sclerosant PMID34090388
+D08,Europe PMC,"""Sur le traitement des prolapsus du rectum totaux"" (fulltext+REF)",1+5,2026-10-18,Délorme operation paper 1990 PMID2241059 PMC2499271 quotes French title; long-term Delorme recurrence PMC4689976
+D08,Europe PMC PMC4689976 fulltext,Delorme long-term recurrence PMC4689976 (fulltext read),1,2026-10-18,L3: Delorme 1900 citation string VERIFIED from ref list: Bull Mem Soc Chirurgiens de Paris 1900;26:499-518; Tou Cochrane CD001758 2008; Lechaux 1995 DCR modified Delorme PMID7882798
+D08,Europe PMC,Tou Cochrane rectal prolapse; Heymen/Rao biofeedback RCT 2006-2010,3+2,2026-10-18,Cochrane CD001758 cutoff 2008-01-10 (searched register+CENTRAL+PubMed 1950-2008+EMBASE); Heymen 2007 DCR 50:428-41 PMID17294322 (84 rand: BF30/diazepam30/placebo24); Heymen 2009 DCR 52:1730-7 FI biofeedback RCT PMID19966605
+D08,WebSearch,史兆岐 消痔灵注射 直肠脱垂 成人 历史 广安门医院,~6 results,2026-10-18,L0转述层: 广安门医院官网-史兆岐1970年代末据酸可收敛涩可固脱研制消痔灵+四步注射法(内痔); 学生李华山首创消痔灵固脱注射(双层4步/直肠周围8步/盆底13点)治成人完全性直肠脱垂; 李华山2006论文36例随机高低浓度双层4步注射
+D08,Europe PMC,(rectal prolapse) AND (children/child/pediatric) AND (injection/scleros*) 1960-1995,2,2026-10-18,Brazil 1981 Lanna PMID6974376; Uzbekistan 1980 Dekhkanov PMID7414844 - international parallel sclerosing injection; Chinese pediatric line not in PubMed
+D08,WebSearch,李华山 消痔灵 双层4步注射 完全性直肠脱垂 36例 2006,~5,2026-10-18,"李华山等,消痔灵双层4步注射治疗完全性直肠脱垂临床疗效评价,2006,27(6):789-791?,36例随机 A组20高浓度/B组16低浓度;需核对期刊卷页"
+D08,Europe PMC/期刊网页,李华山2006 首都医科大学学报 27(6):812-815 全摘要,1,2026-10-18,"L2/L3已读: 36例随机(高浓度20/低浓度16)双层4步注射(两侧骨盆直肠间隙+直肠后间隙+黏膜下层); A组19临床控制1有效, B组16全控; 3-36月随访复发7例(4例再注射控,1开腹肠切,1悬吊,1PPH); 未见肝肾损害; 结论:基层首选"
+D08,Europe PMC,"TITLE:""posterior tibial nerve stimulation"" AND randomized (FI/ODS)",18,2026-10-18,Ashoush 2025 bilateral PTNS vs biofeedback ODS RCT PMID41099902/40255795; CONFIdent design 2021 PMID33950027
+D08,PubMed,Tjandra[au] AND sacral AND randomized; CONFIdent,2 + too-broad,2026-10-18,"VERIFIED Tjandra 2008 DCR 51:494-502 PMID18278532: 120 rand SNS60/BSC60, 12mo"
+D08,Europe PMC,SNM RCT 2021-2026; Norton Cochrane biofeedback; dextranomer/bulking RCTs,14+3+6,2026-10-18,SUBSoNIC 2025 PMID41220094; SNM-slow transit constipation RCT Heemskerk 2024 PMID37991178; SANLARS 2024 PMID38084933; Emile SNM-constipation MA 2025 PMID40196977; Cochrane FI-BF 2012 PMID22786479 & CC-BF 2014 PMID24668156; Graf 2011 Solesta sham-RCT PMID21420555; Bharucha 2026 BF-vs-injection RCT PMID42838314
+D08,Europe PMC,EXT_ID:41220094 OR 37991178 OR 42838314 OR 38084933 OR TITLE:CONFIdent,616 (OR-broad),2026-10-18,"FIT study VERIFIED: Bharucha 2026 CGH DOI 10.1016/j.cgh.2026.09.040, NCT03811821, 5 US centers, 200 rand (101 injection/99 BF), 3mo >=75% reduction similar in both arms; CONFIdent keyword unusable in free search"
+D08,WebSearch,Kenefick 2002 Gut silicone biomaterial withdrawal reason,~5,2026-10-18,VERIFIED: withdrawn by senior authors after discovering significant errors while writing long-term follow-up of same cohort; notice PMC1856466 (Gut 2007;56:585 / PubMed comment Gut 2006;55(12):1824); original 6-patient series PMID12117884
+D08,Europe PMC + WebSearch,OASI care bundle; 便秘外科诊治指南 2008/2017/2025; Kim 1999; Pescatori 2008; Geng 2026,43 + ~8,2026-10-18,"Kim1999: 372例1976-94 经会阴比例22%->79%,女:男9:1; Pescatori2008: STARR/PPH特有并发症(直肠阴道瘘/慢性痛/直肠壁血肿/盆腔脓毒症),肠疝与anismus为禁忌; Geng2026天津MDC 68例MEBFT RCT; 中国便秘外科指南2008草案->2017->2025版,2022版成人慢性便秘外科指南"
+D08,Europe PMC + PubMed,EXT_ID:36515516/40581891/38084933/36562229; TITLE:Carl Thiersch; Gurol-Urganci OASI,12+11,2026-10-18,VERIFIED: Thiersch classic reprint DCR 1988;31:154-5 PMID3276468 DOI 10.1007/bf02562653; NOrectopexy Chandra 2023 DCR 29pts; SANLARS NCT02517853; 中国FI共识2022 中华胃肠外科25(12):1065-72; Schiano di Visconte 2025 VMR vs STARR 43 studies
+D08,PubMed,Gurol-Urganci OASI; OASI care bundle impact,11,2026-10-18,OASI2 protocol Implement Sci 2021;16:55 PMID34022926 (cluster rand hybrid); clinician qualitative BMJ Open 2020 PMID32907894 (16 units 101 clinicians); stepped-wedge impact report BJOG 2022 PMID34545987; OASI bundle: 4项(间歇手托会阴/指导减速/侧切评估/产后触诊分级)
+D08,PubMed efetch,4047220 (Kuijpers 1985 spastic pelvic floor); 33988784 OASI-CB commentary,1+1,2026-10-18,"Kuijpers&Bleijenberg 1985 Ned Tijdschr Geneeskd 129:1624-8 (spastic pelvic floor syndrome命名, L1无摘要); OASI-CB四要素: 产前讨论OASI/手托会阴保护/60度中侧切开/产后系统检查(含肛直肠), 16单位OASI1评价显示OASI率下降"
+D08,Europe PMC fullTextXML,PMC2780197 / PMC5179277 / PMC2499271 fullTextXML (Clin Colon Rectal Surg 2008/2017; DCR 1990 Delorme),0 usable,2026-10-18,全文XML不可用(500/空)， Clin Colon Rectal Surg 为扫描页；改走 PMC4689976 参考文献核实 Delorme 1900 题录
+D08,Europe PMC fullTextXML,PMC4689976 fullTextXML (Placer 2015 Delorme long-term),1,2026-10-18,L3：Delorme E. Bull Mem Soc Chirurgiens Paris 1900;26:499-518 题录核实；Placer 2015: 42例，中位随访85月，复发5(12%)，5年累积9.9%
+D08,Europe PMC fullTextXML,PMC1856466 fullTextXML (Gut withdrawal notice),500 error,2026-10-18,撤稿通知全文XML失败；撤稿事实与原因经 WebSearch+PubMed记录核证（作者发现原长期随访数据错误自行撤回）
+D08,PubMed esearch/efetch,"Tjandra[au] AND sacral[tiab]; efetch 15574154,18278532",2,2026-10-18,Matzel 1995 Lancet 346:1124-7 PMID7475602 (efetch 1994-96批量亦核实)；Tjandra 2008 DCR 51:494-502 PMID18278532: 120例随机 SNS60/BSC60
+D08,PubMed esearch/efetch,"rectocele[ti] AND randomized 1998-2006; efetch 15540292,15148646",3,2026-10-18,"Nieminen 2004 DCR 47:1636-42 PMID15540292 (30例随机 经阴道vs经肛, 12月改善93%vs73%,P=0.08, 复发4 vs 1?); Ellis 2004 前方括约肌切开vs内括约肌切断"
+D08,PubMed esearch/efetch,"Tjandra/anismus botulinum esummary 11 ids; efetch 2901570,19039596,18719924,25253964",11,2026-10-18,"Hallan 1988 Lancet 2:714-7 PMID2901570 (7例); Farid 2009 IJCD 24:327-34 PMID19039596 (30男 随机 BTX长期40% vs 耻骨直肠肌部分切除66.6%, 后者2例轻度失禁); Farid 2009 IJCD 24:115-20 PMID18719924 (48例 随机 BF 25%长期 vs BTX 33.3%); Zhang 2014 WJG 20:12602-7 PMID25253964 (31例 肉毒+生物反馈, 24例成功)"
+D08,PubMed esearch/efetch,Wasserman puborectalis; Kuijpers spastic pelvic floor; Rao obstructive defecation 1996-2000; efetch,3+9+6,2026-10-18,"Wasserman 1964 DCR 7:87-98 PMID14128302 耻骨直肠肌综合征命名(L1无摘要)；Kuijpers 1986 DCR 29:126-9 PMID3943422 SRUS排粪造影19例(5痉挛盆底/12内套叠)；Rao 1998 AJG 93:1042-50 PMID9672327 (25正常vs35便秘,18例梗阻性排便,正常20%亦呈不协调型)"
+D08,PubMed esearch/efetch,"retracted publication[pt] 批量: obstructed defecation/rectal prolapse/rectocele/fecal incontinence/stapled; efetch 35835920,35480080,17021747,38250554,12117884,23951180,42443552,17171815",~10条记录,2026-10-18,"撤稿核实：35480080(Contrast Media Mol Imaging 2022 排粪造影/Wells, 2023撤) ；35835920(Arch Gynecol Obstet 2022 LVR+SC随机, 2026撤, 撤稿号PMID42443552)；17021747(Gourgiotis IJCD 2007直肠脱垂综述, 2007撤)；12117884(Kenefick Gut 2002硅胶注射, 2006/07撤回, 通知PMID17171815)；STARR本身无PubMed撤稿记录"
+D08,PubMed esearch/efetch,Ripstein CB[au] 7 PMIDs; efetch,7,2026-10-18,Ripstein系列: 1952 Am J Surg 83:68-71 PMID14903331; 1963 Ann Surg 157:259-64 PMID13974042; 1965 DCR 8:34-38 PMID14255004; 1969 Postgrad Med; 1975 DCR 18:458-60 内套叠研讨PMID1181147; 1987 Am Surg Gore-Tex PMID3800163
+D08,PubMed esearch/efetch,"efetch 5912779 etc; esummary Gurol-Urganci 34022926/33988784/33475817/33279806; efetch 34426472,32907894",~9,2026-10-18,OASI线核实: OASI2 cluster-randomized protocol Implement Sci 2021;16:55 PMID34022926; 临床医生定性研究 BMJ Open 2020 PMID32907894 (16单位101人); 女性体验 Int Urogynecol J 2021 PMID33475817; 阶梯楔形评估报告 BJOG 2022 PMID34545987 (L1无摘要)
+D08,PubMed esearch/efetch,efetch 38042721 (STARR medico-legal),1,2026-10-18,"Andreoli 2024 Am J Surg 229:169-173: 2006-2021单中心1726例(1280 STARR+446 Longo), 法医学视角, L2"
+D08,PubMed esearch/efetch,efetch 26324336/2612988误配排查; esummary botulinum; efetch 5912779,noise,2026-10-18,"若干检索为排除误配(stapled peptides, Moschcowitz TTP等)；已剔除无关命中"
+D08,OpenAlex,works/pmid:5578808 (Altemeier 1971),1,2026-10-18,无摘要(仅题名+被引287)；Altemeier 1971保留L1题录层
+D08,WebFetch,retractionwatch.com Dixon文章全文; journal03.magtech PDF(PDF 403),1成功1失败,2026-10-18,Dixon细节L2；李华山PDF全文403，改用期刊网页摘要页(L2/L3)
+D08,Europe PMC,EXT_ID:18843623 摘要尾段 (Cochrane 2008结果),1,2026-10-18,12 RCT/380人; 腹vs会阴证据不足; 侧韧带切断减少复发但加重便秘; 腹腔镜并发症少住院短; 切除直肠固定便秘少; 结论:不可能确定或排除临床重要差异
+D08,Europe PMC,EXT_ID:26783557 OR 40423835 (Delorme长期复发; VMR vs TVR RCT),2,2026-10-18,Placer 2015: 42例12%复发(5年9.9%); Sanad 2025 Tech Coloproctol DOI 10.1007/s10151-025-03145-z: 40女 LVMR vs TVR 前突 结果相当
+D08,Europe PMC,Andreoli[au] AND STARR; STARR AND medico-legal (PubMed),1,2026-10-18,"Andreoli 2024 Am J Surg 229:169-173 PMID38042721 VERIFIED: 1726例(1280 STARR+446 Longo 2006-2021), 并发症法医学讨论"
+D09,Europe PMC,"TITLE:""post-hemorrhoidectomy pain"" OR TITLE:""posthaemorrhoidectomy pain"" OR TITLE:""pain after haemorrhoidectomy""",40,2026-10-18,入口检索；命中2022系统综述35334594、2021网络Meta 34417639、2021综述32250232等
+D09,Europe PMC,"(""sitz bath"" AND (haemorrhoidectomy OR hemorrhoidectomy OR anorectal surgery)) AND (""systematic review"" OR ""meta-analysis"")",86,2026-10-18,命中PROSPECT指南39917290(2023)、2025证据总结41158518、电针Meta 36550890
+D09,Europe PMC,"(""Cochrane"" AND TITLE:(haemorrhoidectomy OR hemorrhoidectomy OR haemorrhoids OR hemorrhoids))",110,2026-10-18,多为术式比较Meta(D01范畴)；未见Cochrane痔术后药物镇痛专篇，需换词
+D09,Europe PMC,"TITLE:""American Society of Colon and Rectal Surgeons"" AND TITLE:(hemorrhoids OR haemorrhoids)",4,2026-10-18,命中ASCRS 2024指南PMID38294832、2018指南29420423、JAMA Surg 2020述评32584937
+D09,Europe PMC,"(""Chinese herbal sitz bath"" OR ""Chinese medicine sitz bath"" OR ""herbal fumigation"" OR ""fumigation and washing"" OR ""TCM sitz bath"")",hitCount见note,2026-10-18,结果已存q05.json；下一步筛RCT与Meta
+D09,Europe PMC,"(""Chinese herbal sitz bath""...)宽泛检索",211,2026-10-18,命中2025微生物组研究39846370等；噪声大
+D09,Europe PMC,"(Jinxuan OR ""Xiaofan"" OR ""Zhi Ji Xi"" OR ""Xunxi"")",见q06.json,2026-10-18,中药熏洗剂专名检索
+D09,Europe PMC,(Jinxuan OR Xiaofan OR ...)精确短语,7232(噪声),2026-10-18,子串匹配过宽，弃用；改短语限定肛肠
+D09,Europe PMC,"""Chinese herbal sitz bath"" AND (hemorrhoid OR haemorrhoid OR anus OR anal)",见q07.json,2026-10-18,中药坐浴肛肠专项
+D09,Europe PMC,"""Chinese herbal sitz bath"" AND (hemorrhoid OR haemorrhoid OR anus OR anal)",2,2026-10-18,仅2篇；肛肠坐浴中文文献主要在中文期刊
+D09,Europe PMC,"(""sitz bath"" OR bidet OR ""warm sit"") AND TITLE:(hemorrhoid OR haemorrhoid OR anorectal OR anal)",见q08.json,2026-10-18,坐浴题名限定检索
+D09,Europe PMC,(sitz bath OR bidet OR warm sit) AND TITLE:(hemorrhoid...),119,2026-10-18,命中2025坐浴再思考40145962、 retract例子37564893、康复新液34539803
+D09,Europe PMC,"AUTHOR:""Naja Z"" AND (anus OR perianal OR haemorrhoid OR hemorrhoid)",见q09.json,2026-10-18,Naja肛周阻滞系列检索
+D09,Europe PMC,"AUTHOR:""Naja Z"" AND (anus OR perianal OR haemorrhoid...)",2(不相关),2026-10-18,Naja按作者+主题未命中，改题名检索
+D09,Europe PMC,"TITLE:""perianal block""",见q10.json,2026-10-18,肛周阻滞题名检索
+D09,Europe PMC,"EXT_ID batch core fetch: 15057585,18844245,17513664,32187663,19253794,19800430,17256435",7,2026-10-18,肛周阻滞/鞍麻线题录+摘要
+D09,Europe PMC,"AUTHOR:""Gabrielli F""",见q11.json,2026-10-18,调度者线索Gabrielli核实
+D09,Europe PMC,"(""pudendal"" AND TITLE:(hemorrhoid OR haemorrhoid OR anorectal OR proctologic OR anal))",见q12.json,2026-10-18,阴部神经阻滞肛肠线
+D09,OpenAlex,Gabrielli local anesthesia anorectal surgery,见q13.json,2026-10-18,核实Gabrielli线索
+D09,OpenAlex,Gabrielli haemorrhoidectomy,见q14.json,2026-10-18,核实Gabrielli线索2
+D09,OpenAlex,Gabrielli local anesthesia anorectal / haemorrhoidectomy,68/170 未命中目标,2026-10-18,Gabrielli线索未见肛肠局麻RCT，移入unverified_leads
+D09,PubMed esearch+esummary,Naja[Author] AND (perianal OR pudendal OR anorectal),见q15.json,2026-10-18,Naja线索核实
+D09,PubMed esearch+esummary,Naja[Author] AND (perianal OR pudendal OR anorectal),6,2026-10-18,确认Naja 2005 Can J Anaesth 15625258与2006 RCT 16738292；调度者写2004系年份误差
+D09,Europe PMC,"AUTHOR:""Nivatvongs S"" AND (local anesthesia OR proctologic OR anorectal surgery)",见q16.json,2026-10-18,Mayo局麻肛肠手术早期技术检索
+D09,Europe PMC,"AUTHOR:""Nivatvongs S"" AND (local anesthesia OR proctologic OR anorectal surgery)",14,2026-10-18,命中1982 Mayo局麻技术7067567、1997技术9293946
+D09,Europe PMC core fetch,"EXT_ID:7067567,15625258,16738292,38152300,9293946",5,2026-10-18,局麻/阴部阻滞关键题录摘要
+D09,Europe PMC,"(""enhanced recovery"" OR ERAS OR ""fast-track"") AND TITLE:(hemorrhoid OR haemorrhoid OR anorectal OR proctology OR proctologic OR ""day surgery"" OR ""ambulatory surgery"")",见q17.json,2026-10-18,ERAS/日间手术肛肠线
+D09,WebSearch,金玄痔科熏洗散 混合痔术后 Meta分析 随机对照,若干,2026-10-18,命中医药导报2011金玄痔科熏洗散治疗肛门疾病200例、2023中医杂志RCT 80例vs高锰酸钾、Hans 2024综述PDF；未见英文收录Meta
+D09,WebSearch,中药熏洗 坐浴 混合痔术后 Meta分析 疗效 疼痛,若干,2026-10-18,中文RCT多为CNKI层；命中Hans综述2篇
+D09,WebSearch,"""混合痔术后"" ""中药坐浴"" 温度 时间 山东医药",若干,2026-10-18,命中坐浴温度线：山东医药2014 54(16):81-82、环球中医药2008钟瑾、宁余音2004、郑德2012山东医药52(24):1-3
+D09,WebFetch(hanspub paperid=119378),胡浩贾后军2025综述参考文献,20条参考文献,2026-10-18,"《中医学》2025,14(7):3006-3010, doi:10.12677/tcm.2025.147442"
+D09,Europe PMC,"(fumigation OR ""herbal bath"" OR ""sitz bath"") AND (""mixed hemorrhoid"" OR ""mixed haemorrhoid"" OR ""hemorrhoid surgery"" OR ""haemorrhoid surgery"")",34,2026-10-18,命中中药护理Meta 38053898、电针Meta 36550890、康复新液34539803、意大利SICCR共识31993837
+D09,Europe PMC core fetch,"EXT_ID:40145962,41158518,38053898,41716317,38642473",5,2026-10-18,坐浴再思考/证据总结/中医护理Meta/ERAS综述/温水坐浴RCT摘要
+D09,Europe PMC,"TITLE:""sitz bath"" sort by citations",见q19.json,2026-10-18,坐浴题名全库检索按被引排序
+D09,Europe PMC core fetch,"EXT_ID:15981059,18380741,19337777,27820019,16916391,17534541",6,2026-10-18,坐浴证据学批判、负性RCT、JBI系统评价摘要
+D09,Europe PMC,"TITLE:""Ambulatory Anorectal Surgery"" AND ERAS",见q20.json,2026-10-18,从Joshi 2010被引列表定位2018 World J Surg ERAS RCT
+D09,Europe PMC core fetch,"EXT_ID:29318355,33288211",2,2026-10-18,ERAS日间肛肠RCT(2018 WJS)与美国阿片处方全国评估(2021 Surgery)摘要
+D09,Europe PMC,TITLE:(metronidazole) AND TITLE:(haemorrhoidectomy OR hemorrhoidectomy),17,2026-10-18,甲硝唑线全谱：Carapeti 1998 Lancet起点→Balfour 2002→Ala 2008→Lyons 2017 Meta→Xia 2022 DCR外用vs口服RCT→2025-2026三篇新Meta与通信
+D09,Europe PMC,"TITLE:(GTN OR ""glyceryl trinitrate"" OR diltiazem OR nitroglycerin) AND TITLE:(haemorrhoidectomy OR hemorrhoidectomy OR anorectal...)",21,2026-10-18,GTN线：Wasvary2001/Elton2001→Tan2006→Meta2010/2016→Cross2012阴性；地尔硫卓线Sugimoto2013→Huang2018Meta
+D09,Europe PMC,(diclofenac OR ketoprofen OR indomethacin OR NSAID) AND TITLE:(haemorrhoidectomy OR hemorrhoidectomy OR haemorrhoid OR hemorrhoid OR anorectal) sort CITED,见q23.json,2026-10-18,NSAIDs基础镇痛线
+D09,Europe PMC,(diclofenac/NSAID...) AND TITLE:(hemorrhoid...) sort CITED,70,2026-10-18,命中trimebutine 1997 BJS(Ho/Seow-Choen)、sucralfate 2013、EMLA vs双氯芬酸栓2012、利多卡因+双氯芬酸2018、括约肌痉挛靶向Meta 2023、布比卡因Meta 2023、疼痛前瞻研究2000、PPT预测2021
+D09,Europe PMC,TITLE:(sphincterotomy) AND (haemorrhoidectomy OR hemorrhoidectomy) AND (randomized...) sort CITED,见q24.json,2026-10-18,LIS辅助减压止痛线
+D09,Europe PMC,TITLE:(sphincterotomy) AND hemorrhoidectomy RCT sort CITED,19,2026-10-18,LIS线：Asfar1988→Mathai1996→Khubchandani2002阴性→Galizia2000/Kanellos2005阳性→Emile2016综述→Cheng2023化学括约肌切开Meta
+D09,PubMed esearch,"(""Chinese medicine"" OR herbal OR TCM) AND (fumigation OR ""sitz bath"" OR washing) AND (hemorrhoid OR haemorrhoid OR anal OR anorectal) AND (randomized OR randomised)",见q25.json,2026-10-18,中药熏洗RCT英文收录检索
+D09,WebSearch,"""金玄痔科熏洗散"" 系统评价 Meta 知网",若干,2026-10-18,确认医药导报2011 200例(96.5% vs 73.8% vs 高锰酸钾)、唐柔2026湖南中医杂志网状Meta、2023中医杂志RCT 80例；金玄痔科熏洗散专项Meta未在公开网检索到
+D09,WebSearch,硝矾洗剂 肛肠术后 熏洗 起源,若干,2026-10-18,硝矾洗剂=芒硝+白矾；李华山2013 WJG肛周湿疹熏洗综述全文开放；五十二病方溯源线L0
+D09,Europe PMC,"TITLE:""urinary retention"" AND TITLE:(haemorrhoidectomy OR hemorrhoidectomy OR anorectal OR ""anal surgery"") sort CITED",见q26.json,2026-10-18,术后尿潴留线
+D09,Europe PMC,"TITLE:""urinary retention"" AND TITLE:(hemorrhoidectomy/anorectal) sort CITED",45,2026-10-18,尿潴留线：Salvati1957→Bailey&Ferguson1976限液→Petros1990→Zaheer1998(Mayo)→Toyonaga2006(115被引)→Hoff1994日间 Solution→Shafik1993温水浴促排尿
+D09,Europe PMC,TITLE:(day-case OR ambulatory OR outpatient) AND TITLE:(haemorrhoidectomy OR hemorrhoidectomy) sort CITED,见q27.json,2026-10-18,日间痔手术史
+D09,ClinicalTrials.gov API v2,"query.intr=sitz bath, query.cond=hemorrhoid",5,2026-10-18,"NCT04535765(早期温水坐浴,对应Liao 2024 IJNS)、NCT02353156(电子马桶vs坐浴)、NCT07843563(冰敷vs温水坐浴,对应40145987)"
+D09,ClinicalTrials.gov API v2,NCT04535765/NCT02353156 注册终点核对,2,2026-10-18,NCT04535765注册主要终点=尿潴留(膀胱扫描仪)，与Liao 2024发表一致(尿潴留+疼痛双结局)；NCT02353156注册终点=疼痛评分，对应2025 bidet RCT
+D09,Europe PMC core fetch,节点批量题录摘要 28篇,28,2026-10-18,存node_batch1.txt，含OA标记
+D09,ClinicalTrials.gov API v2,NCT03405922 (PERCEPT),1,2026-10-18,核对PERCEPT注册终点
+D09,WebFetch(yydbzz),金玄痔科熏洗散治疗肛门疾病200例 期刊页,1,2026-10-18,"题录齐：王敏英等,医药导报2011,30(4):483-484, doi 10.3870/yydb.2011.04.027；摘要正文未加载，疗效数字来自检索快照(96.5% vs 73.8%)标L2快照层"
+D09,WebFetch(tcmjc),混合痔术后应用金玄痔科熏洗散临床观察 2023,0(模板未加载),2026-10-18,作者未核出→unverified_leads
+D09,Europe PMC citations,MED/39917290/citations (PROSPECT 2023),见输出,2026-10-18,向前追踪
+D09,Europe PMC core fetch,"EXT_ID:41586878,41319118,40055703,41764108 甲硝唑新Meta与通信",4,2026-10-18,2025-2026甲硝唑Meta争议
+D09,Europe PMC core fetch,"EXT_ID:36357803,39132089,40944330,40192825,35419404,39846370,39921339,42392852,36550890,37856804,42245301",11,2026-10-18,近五年主题代表文献摘要批次
+D09,WebSearch,硝矾洗剂 出处 组成,若干,2026-10-18,"硝矾洗剂=芒硝/月石/明矾,见专利CN1044443C引用《中国肛肠病》报道;吕萍2000药学服务与研究100例炎性外痔PDF;曹吉勋=腰俞穴麻醉(独立 anesthesia贡献)"
+D09,WebSearch,国卫医函2016 306号 日间手术试点 病种目录 混合痔,政策文件页,2026-10-18,2016试点目录含混合痔;2019 904号扩展434项;2022推荐目录nhc.gov.cn页可核
+D09,WebSearch,五十二病方 熏痔 外科正宗 熏洗 源流,若干,2026-10-18,"《五十二病方》""以熏痔,药寒而休,日三熏""为痔熏洗最早文字源(二手转述L0/L1);金匮苦参汤;外科正宗外治;尚德俊熏洗疗法心得录"
+D09,Europe PMC,(hemorrhoid OR haemorrhoid OR anorectal) AND SRC:CDSR (Cochrane库),见q32.json,2026-10-18,查Cochrane痔术后镇痛专篇是否存在
+D09,Europe PMC,SRC:CDSR AND hemorrhoid (无效); SRC:COCHRANE_DS AND (haemorrhoid OR hemorrhoid),见q33.json,2026-10-18,Cochrane专题检索
+D09,WebSearch,Cochrane haemorrhoidectomy pain topical medication,若干,2026-10-18,"线索:Cochrane CD010224(Naldo,2020,topical medication for postop analgesia);Simillis 2015 BJS为术式NMA非药物;需Europe PMC核实"
+D09,Europe PMC,"AUTHOR:""Naldo J"" / AUTHOR:""Simillis C"" AND haemorrhoidectomy / TITLE:""network meta-analysis"" AND hemorrhoidectomy",Naldo命中为足外科同名;Simillis=术式NMA 26420725;题名NMA检索见q34.json,2026-10-18,Cochrane CD010224与药物NMA待核
+D09,PubMed esearch,"cochrane[sb] AND hemorrhoidectomy pain — 0; (hemorrhoid) AND ""Cochrane Database of Systematic Reviews""[Journal]",见q36.json,2026-10-18,确定Cochrane痔相关综述清单
+D09,PubMed esearch,"""Cochrane Database Syst Rev""[Journal] AND (hemorrhoid OR haemorrhoid)",77(逐条扫描),2026-10-18,"结论:无痔术后镇痛Cochrane专篇;痔相关仅RAE2024与Phlebotonics(2012/2022更新);调度者""Cochrane痔术后药物镇痛2015?""未获证实→unverified_leads"
+D09,Europe PMC,EXT_ID:36609578 + MED/15981059/citations,1+25,2026-10-18,Yang 2023镇痛策略NMA;Tejirian坐浴批判被引追踪
+D09,WebSearch,痔术后 中医 专家共识 熏洗 中华中医药学会肛肠分会,若干,2026-10-18,"命中《中医肛肠科常见病诊疗指南》(中国中医药出版社)、浮针多中心观察(亚太传统医药2021)、止痛如神汤外洗(山东中医药大学学报2023,方出外科正宗)"
+D09,WebSearch,ChiCTR 金玄痔科熏洗散/痔疾洗液/中药熏洗 注册,若干,2026-10-18,"金玄痔科熏洗散上市前为835例双盲双模拟多中心阳性药对照(复方荆芥洗剂,马应龙,据百度百科转述L0);ChiCTR-IIR-16007736中药白及痔术后止痛RCT;GBI268局部注射镇痛注册;未见熏洗剂前瞻注册RCT"
+D09,ChiCTR站内API,api/trial/search 熏洗痔,404,2026-10-18,"ChiCTR接口不可直连,经WebSearch间接查"
+D09,Europe PMC fullTextXML,PMC8955987 (Medicina 2022综述全文) / PMC10694313 (Heliyon 2023 TCM护理Meta全文),2,2026-10-18,L3精读:四分类框架、口服甲硝唑句、TCM护理项目无统一标准致异质性
+D10,EuropePMC,"title:""wound healing"" AND title:(anorectal OR hemorrhoid OR ""anal fistula"")",45,2026-10-18,entry: anorectal wound healing title search
+D10,EuropePMC,"""wound healing"" AND (hemorrhoidectomy OR ""haemorrhoidectomy"") AND (systematic review OR meta-analysis)",178,2026-10-18,entry: hemorrhoidectomy wound healing SR/MA
+D10,EuropePMC,"(platelet-rich plasma OR platelet-rich fibrin) AND (anal fistula OR fistula-in-ano) AND (randomized OR ""randomised"")",577,2026-10-18,entry: PRP/PRF anal fistula RCT
+D10,EuropePMC,Kangfuxin AND (anal OR anorectal OR hemorrhoid),35,2026-10-18,entry: Kangfuxin liquid anorectal
+D10,EuropePMC,"(""Shengji Hongao"" OR ""Sheng Ji Hong"" OR ""Yuhong ointment"" OR ""Shengji Yuhong"") AND (wound OR anal OR anorectal)",27,2026-10-18,entry: Shengji Yuhong ointment
+D10,EuropePMC,"(""moist exposed burn ointment"" OR MEBO) AND (anal OR anorectal OR hemorrhoid OR fistula)",24,2026-10-18,entry: MEBO anorectal
+D10,EuropePMC,EXT_ID:42822092 detail,1,2026-10-18,entry: moist wound healing hemorrhoidectomy narrative review abstract
+D10,EuropePMC,"AUTH:""Winter G"" AND PUB_YEAR:1962 AND (scab OR epithelization OR epithelialisation)",1,2026-10-18,foundational: Winter 1962 moist wound healing
+D10,EuropePMC,EXT_ID:37679994;39127896 details,2,2026-10-18,entry: TCM review anal fistula wound + PRP meta abstracts
+D10,EuropePMC,"(consensus OR guideline) AND (""anal fistula"" OR hemorrhoid OR anorectal) AND (wound OR dressing OR ""wound care"") AND PUB_YEAR:[2018 TO 2026]",1177,2026-10-18,entry: anorectal wound care guideline/consensus
+D10,EuropePMC,Mayinglong AND (hemorrhoid OR ointment),30,2026-10-18,china line: Mayinglong ointment
+D10,EuropePMC,"(""Jiuhua ointment"" OR ""Jiu Hua ointment"" OR ""Jiuhua gao"") AND (anal OR hemorrhoid OR wound)",3,2026-10-18,china line: Jiuhua ointment
+D10,EuropePMC,"AUTH:""Hinman CD"" AND PUB_YEAR:1963",1,2026-10-18,foundational: Hinman 1963 human occlusion
+D10,EuropePMC,"(hydrocolloid OR ""occlusive dressing"" OR film) AND hemorrhoidect* AND (randomized OR trial)",44,2026-10-18,intl: hydrocolloid/occlusive dressing hemorrhoidectomy
+D10,EuropePMC,"(""Hong Sheng Dan"" OR Hongshengdan OR ""red elevated dan"" OR ""Hongsheng"") AND (mercury OR wound OR ulcer)",335,2026-10-18,china line: Hongshengdan mercury
+D10,EuropePMC,EXT_ID:41350634;41043664;35722161 details,3,2026-10-18,"details: silver RCT, Hongsheng Dan, Mayinglong RCT"
+D10,EuropePMC,"(alginate OR ""calcium alginate"") AND (anal OR anorectal OR ""anal fistula"" OR hemorrhoid) AND (dressing OR pack)",281,2026-10-18,intl: alginate dressing anorectal
+D10,EuropePMC,EXT_ID:35639947;37387909 details,2,2026-10-18,details: tamponade RCT + Mayinglong retraction notice
+D10,EuropePMC,"(""Kangfuxin"" OR ""rehabilitation new liquid"" OR ""Periplaneta americana"") AND (hemorrhoid OR anal OR anorectal) AND (meta-analysis OR ""systematic review"")",34,2026-10-18,china: Kangfuxin meta-analysis
+D10,EuropePMC,"(Xu Rongxiang OR ""moist exposed burn"" OR MEBO) AND (burn OR wound) AND (history OR controversy OR debate OR ""in vitro"" OR cloning)",44318,2026-10-18,china/controversy: Xu Rongxiang MEBO history
+D10,EuropePMC,"(fibroblast growth factor OR ""epidermal growth factor"") AND (hemorrhoid OR ""anal fistula"" OR anorectal) AND (wound OR healing) AND (randomized OR trial OR patients)",563,2026-10-18,growth factor topical anorectal wound
+D10,EuropePMC,EXT_ID:38707497 detail,1,2026-10-18,tribute/regeneration TCM (Xu Rongxiang related?)
+D10,EuropePMC,"""Shengji Yuhong ointment"" AND (anal fistula OR wound) AND (rat OR mice OR animal)",3,2026-10-18,Shengji Yuhong animal studies
+D10,EuropePMC,"TITLE:""Shengji Yuhong"" ",4,2026-10-18,Shengji Yuhong title search (published versions)
+D10,PMC idconv,14007593 PMCID lookup,1,2026-10-18,Winter 1962 PMC availability
+D10,上海中医药杂志官网,徐强2022生肌再认识PDF全文下载,1,2026-10-18,L4全文已读：李竞腐祛肌生、姚昶2001红升丹、付小兵2000生长因子悖论
+D10,EuropePMC,moist exposed burn criticism/controversy,10,2026-10-18,MEBO controversy
+D10,EuropePMC,moist exposed burn ointment all,157,2026-10-18,MEBO evidence base incl. Burns journal
+D10,OpenAlex,doi:10.1038/193293a0 cited_by_count,2254,2026-10-18,Winter 1962 citation footprint
+D10,EuropePMC fullTextXML,PMC12784539 silver RCT fulltext,1,2026-10-18,L3: check registration + endpoints
+D10,EuropePMC,EXT_ID:38701430;35708389 details,2,2026-10-18,PRP adv flap negative RCT + fibrin glue vs PRF RCT
+D10,EuropePMC,"(dressing OR ""wound care"") AND (hemorrhoidect* OR ""anal fistula"" OR anorectal) AND (Cochrane OR ""systematic review"") AND PUB_YEAR:[2010 TO 2026]",326,2026-10-18,intl: SR of dressings/wound care anorectal
+D10,EuropePMC,"(ozone OR ""oxygen therapy"" OR photobiomodulation OR ""low-level laser"" OR ""red light"") AND (hemorrhoid OR ""anal fistula"" OR anorectal) AND (wound OR healing) AND PUB_YEAR:[2015 TO 2026]",256,2026-10-18,physical therapies ozone/light anorectal wound
+D10,EuropePMC,"""sitz bath"" AND (hemorrhoidect* OR hemorrhoid OR anorectal OR ""anal fistula"") AND (meta-analysis OR ""systematic review"")",55,2026-10-18,cross D09: sitz bath meta
+D10,EuropePMC,"""platelet-rich plasma"" AND ""anal fistula"" AND (randomized OR ""randomised"" OR ""randomized controlled trial"") AND PUB_YEAR:[2022 TO 2026]",60,2026-10-18,PRP fistula prospective RCT 2022-2026
+D10,EuropePMC,EXT_ID:35486027;37767316 details,2,2026-10-18,PRP vs advancement flap; PRP/PRF prospective
+D10,OpenAlex,search Xu Rongxiang burn,149,2026-10-18,Xu Rongxiang works
+D10,EuropePMC,"AUTH:""Atiyeh BS"" AND (moist OR MEBO OR ""burn ointment"")",12,2026-10-18,Atiyeh MEBO international appraisal
+D10,EuropePMC,EXT_ID:41754868;38443498;33777160 details,3,2026-10-18,rh-aFGF consensus + ozonide VAAFT + P.americana anal
+D10,EuropePMC,"(""compound Huangbai"" OR ""Huangbai liquid"" OR ""Fufang Huangbai"") AND (hemorrhoid OR anal OR wound)",13,2026-10-18,compound Huangbai liquid anorectal
+D10,EuropePMC,"(""healing time"" OR ""time to healing"" OR ""complete epithelialization"" OR ""wound score"") AND (hemorrhoidect* OR ""anal fistula"" OR anorectal) AND (outcome OR endpoint OR definition OR assessment) AND PUB_YEAR:[2015 TO 2026]",450,2026-10-18,healing time endpoint methodology
+D10,OpenAlex,occlusive dressing hemorrhoidectomy 1980-2010,102898018,2026-10-18,early occlusive dressing in anorectal
+D10,EuropePMC,EXT_ID:34539803;38125119;42245301,3,2026-10-18,Kangfuxin PPH retracted RCT + TCM fumigation 2026
+D10,OpenAlex,occlusive dressing haemorrhoidectomy,41,2026-10-18,retry early occlusive dressing
+D10,PMC,42245301 PMCID,1,2026-10-18,TCM fumigation fulltext attempt
+D10,EuropePMC fullTextXML,PMC13231432 fulltext,1,2026-10-18,TCM fumigation trial L3: registration+results
+D10,EuropePMC,EXT_ID:11910244;38563064 details,2,2026-10-18,Atiyeh MEBO pilot + abscess packing SR
+D10,EuropePMC,(hyaluronic acid) AND hemorrhoidect* AND (randomized OR trial OR healing),46,2026-10-18,hyaluronic acid hemorrhoidectomy
+D10,EuropePMC,EXT_ID:35049123;36905475 details,2,2026-10-18,two PRP anal fistula meta-analyses
+D10,EuropePMC,"""low-level laser"" AND (proctolog* OR ""open wound"") AND (postoperative OR perianal)",31,2026-10-18,LLLT open proctological wounds
+D10,Crossref,10.1055/s-0045-1808880,1,2026-10-18,LLLT open proctological wounds verify
+D10,EuropePMC,"""fumigation"" AND (hemorrhoid OR anorectal OR ""anal"") AND (meta-analysis OR ""systematic review"")",67,2026-10-18,fumigation therapy meta anorectal
+D10,EuropePMC,"AUTH:""Fu X"" AND PUB_YEAR:2000 AND (bFGF OR ""growth factor"") AND (ulcer OR scar OR wound)",5,2026-10-18,Fu Xiaobing 2000 growth factor paradox
+D10,EuropePMC,EXT_ID:33963945;32899088;12516473,3,2026-10-18,outcome heterogeneity + fumigation protocol + Fu XB 2000
+D10,EuropePMC,(DuoDERM OR hydrocolloid) AND (perianal OR anal OR hemorrhoid) AND (wound OR healing OR dressing),156,2026-10-18,hydrocolloid perianal wound
+D10,EuropePMC,EXT_ID:33627111;42780400;40307709;41528408;40686138,5,2026-10-18,MEBO fissure RCT + ML model + active dressing + Bletilla + Hongshengdan process
+D10,WebSearch,生肌玉红膏 外科正宗 陈实功 1617 祛腐生肌 出处,3+,2026-10-18,china origin: Shengji Yuhong provenance
+D10,WebSearch,马应龙药业 历史 武汉 第三制药厂 麝香痔疮膏 上市 400年,4,2026-10-18,Mayinglong corporate history (wiki/IPO)
+D10,WebSearch,康复新液 美洲大蠊 研制历史 好医生药业 上市年份 国药准字,4,2026-10-18,Kangfuxin history L0
+D10,WebSearch,祛腐生肌 医宗金鉴 外科心法 腐去肌生 外科启玄 源流考证,6,2026-10-18,qufu shengji theory provenance; found Xu Qiang 2021 PDF
+D10,WebSearch,九华膏 肛肠科 术后 出处 中药 组成 历史,5,2026-10-18,"Jiuhua gao = empirical formula (baike), NOT 史兆岐"
+D10,WebSearch,姚昶 许芝银 红升丹 提毒去腐机理 实验研究 南京中医药大学学报 2001,2,2026-10-18,Yao Chang 2001 verified via CNKI citations
+D10,WebSearch,徐荣祥 1988 湿润烧伤膏 烧伤创疡杂志 发明 专利 原位再生 争议,6,2026-10-18,MEBO 1988 new drug cert; controversy sources
+D10,WebSearch,中医药学会肛肠分会 痔瘘术后创面 中药换药 生肌 专家共识,4,2026-10-18,found 2019 consensus (实用临床医药杂志 2020;24(4):1-4)
+D10,WebSearch,肛肠术后创面修复管理规范 专家共识 实用临床医药杂志 2020 24,2,2026-10-18,consensus citation verified via journal TOC (DOI 10.7619/jcmp.202004001)
+D11,EuropePMC,"TITLE:""anorectal manometry"" AND PUB_YEAR:[2020 TO 2026] AND SRC:MED",151,2026-10-18,
+D11,EuropePMC,TITLE:defecography AND PUB_YEAR:[2018 TO 2026],87,2026-10-18,
+D11,EuropePMC,"TITLE:""London Classification"" AND TITLE:""anorectal""",10,2026-10-18,
+D11,EuropePMC,"TITLE:""fistula"" AND TITLE:""MRI"" AND (TITLE:classification OR TITLE:grading) AND PUB_YEAR:[1998 TO 2026]",3,2026-10-18,
+D11,EuropePMC,"AUTH:""Spencer JA"" AND TITLE:""fistula""",5,2026-10-18,
+D11,EuropePMC,"TITLE:""endoanal"" AND TITLE:ultrasound AND PUB_YEAR:[1985 TO 2005]",26,2026-10-18,
+D11,EuropePMC,"AUTH:""Morris J"" AND TITLE:""perianal fistula""",0,2026-10-18,
+D11,EuropePMC,"AUTH:""Law PJ"" AND PUB_YEAR:[1988 TO 1993]",8,2026-10-18,
+D11,EuropePMC,"TITLE:""classification of perianal fistulas"" OR TITLE:""classification of fistula-in-ano""",3,2026-10-18,
+D11,EuropePMC,"AUTH:""Shorvon PJ""",37,2026-10-18,
+D11,EuropePMC,"TITLE:""Defecography in normal volunteers""",1,2026-10-18,
+D11,EuropePMC,"AUTH:""Mahieu P"" AND PUB_YEAR:[1983 TO 1985]",37,2026-10-18,
+D11,EuropePMC,TITLE:defecography AND PUB_YEAR:[1980 TO 1990],24,2026-10-18,
+D11,OpenAlex,Mahieu Pringot Bodart defecography,81,2026-10-18,
+D11,EuropePMC,"AUTH:""Schuster MM"" AND PUB_YEAR:[1960 TO 1975]",38,2026-10-18,
+D11,EuropePMC,"AUTH:""Sultan AH"" AND PUB_YEAR:[1991 TO 1996] AND TITLE:""anal""",12,2026-10-18,
+D11,EuropePMC,"AUTH:""Schuster MM"" AND PUB_YEAR:[1964 TO 1966]",8,2026-10-18,
+D11,EuropePMC,"AUTH:""Lunniss PJ"" AND TITLE:""magnetic resonance""",3,2026-10-18,
+D11,EuropePMC,"AUTH:""Buchanan GN"" AND TITLE:""fistula""",12,2026-10-18,
+D11,EuropePMC,"AUTH:""Jorge JMN"" OR (AUTH:""Wexner SD"" AND TITLE:""incontinence"" AND PUB_YEAR:1993)",3,2026-10-18,
+D11,EuropePMC,"TITLE:""balloon expulsion"" AND PUB_YEAR:[1980 TO 1995]",4,2026-10-18,
+D11,EuropePMC,"TITLE:""defecography"" AND TITLE:""magnetic resonance"" AND PUB_YEAR:[1995 TO 2005]",1,2026-10-18,
+D11,EuropePMC,"AUTH:""Schoenenberger"" AND TITLE:""defecography""",2,2026-10-18,
+D11,EuropePMC,"AUTH:""Healy JC"" AND TITLE:""proctography""",1,2026-10-18,
+D11,EuropePMC,"TITLE:""Minimum standards of anorectal manometry""",1,2026-10-18,
+D11,EuropePMC,"TITLE:""high-resolution anorectal manometry"" AND TITLE:""normal"" AND PUB_YEAR:[2011 TO 2015]",8,2026-10-18,
+D11,EuropePMC,"(TITLE:""high resolution anal manometry"" OR TITLE:""high-resolution anal manometry"" OR TITLE:""high-definition anorectal manometry"") AND PUB_YEAR:[2006 TO 2012]",0,2026-10-18,
+D11,EuropePMC,"AUTH:""Brodén"" OR (TITLE:""procidentia"" AND TITLE:""cineradiography"")",133,2026-10-18,
+D11,EuropePMC,"AUTH:""Snellman B"" AND TITLE:""rectum""",5,2026-10-18,
+D11,EuropePMC,"TITLE:""anorectal"" AND TITLE:""manometry"" AND TITLE:""history"" OR (TITLE:""manometry"" AND TITLE:""milestones"")",493,2026-10-18,
+D11,EuropePMC,"TITLE:""defecography should be a first-line diagnostic modality""",1,2026-10-18,
+D11,EuropePMC,"(TITLE:""fistula-in-ano"" OR TITLE:""fistula in ano"") AND TITLE:""imaging"" AND PUB_YEAR:[2015 TO 2026]",6,2026-10-18,
+D11,EuropePMC,"TITLE:""anorectal manometry"" AND (TITLE:guideline OR TITLE:guidelines OR TITLE:consensus OR TITLE:recommendations) AND PUB_YEAR:[2018 TO 2026]",3,2026-10-18,
+D11,OpenAlex,history of anorectal manometry,4077,2026-10-18,
+D11,PMC-web,pmc.ncbi.nlm.nih.gov/articles/PMC1434461 (Shorvon 1989 Gut),blocked,2026-10-18,"reCAPTCHA challenge page, not bypassed per discipline; abstract via Europe PMC instead"
+D11,OpenAlex,Wallden defecation block deep rectogenital pouch,14,2026-10-18,
+D11,EuropePMC,"AUTH:""Altomare DF"" AND TITLE:""obstructed defaecation""",3,2026-10-18,
+D11,EuropePMC,"AUTH:""Gold DM"" AND TITLE:""endoanal""",1,2026-10-18,
+D11,OpenAlex,Denny-Brown Robertson investigation nervous control of defaecation 1933,14,2026-10-18,
+D11,EuropePMC,"TITLE:""Manometric tests of anorectal function in healthy adults""",1,2026-10-18,
+D11,EuropePMC,"TITLE:""Anorectal physiology measurement: report of a working party""",1,2026-10-18,
+D11,EuropePMC,"TITLE:""high-resolution"" AND TITLE:manometry AND (TITLE:anal OR TITLE:anorectal) AND PUB_YEAR:[2007 TO 2010]",2,2026-10-18,
+D11,EuropePMC,"TITLE:""rectoanal pressure gradient""",1,2026-10-18,
+D11,EuropePMC,"ABSTRACT:""Normal values and pressure morphology for three-dimensional high-resolution anorectal manometry""",1,2026-10-18,
+D11,EuropePMC,EXT_ID:23657401,1,2026-10-18,
+D11,EuropePMC,"(CHN OR China[AD]) AND TITLE:""anorectal manometry"" AND (TITLE:""normal"" OR TITLE:""normative"")",0,2026-10-18,
+D11,EuropePMC,"TITLE:""fistula"" AND TITLE:""consensus"" AND (CHN OR China[AD])",0,2026-10-18,
+D11,EuropePMC,"AFF:""China"" AND TITLE:""anorectal manometry"" AND PUB_YEAR:[2012 TO 2026]",24,2026-10-18,
+D11,EuropePMC,"AFF:""China"" AND TITLE:""defecography""",20,2026-10-18,
+D11,WebSearch,卢任华 排粪造影 中华放射学杂志 长海医院 1980年代,hits: several (web_search_prime summary),2026-10-18,确认卢任华1990《排粪造影的检查方法和正常测量》(维普题录)、1997《排粪造影的进展》(CNKI题录)、国内1985年起开展
+D11,WebSearch,张东铭 大肠肛门局部解剖与手术学 第二军医大学,hits: several,2026-10-18,确认张东铭1929年生、二军大解剖学教研室教授、主编该书及《结直肠盆底外科解剖与手术学》(安徽科技出版社)
+D11,EuropePMC,"(TITLE:""perianal fistula"" OR TITLE:""fistula-in-ano"" OR TITLE:""anal fistula"") AND (TITLE:""consensus"" OR TITLE:""guideline"") AND AFF:""China""",1,2026-10-18,
+D11,EuropePMC,"(TITLE:""traditional Chinese medicine"" OR TITLE:""TCM"" OR TITLE:""syndrome"") AND TITLE:""manometry""",46,2026-10-18,
+D11,EuropePMC,"TITLE:""functional constipation"" AND TITLE:""syndrome differentiation"" AND (TITLE:""pressure"" OR TITLE:""manometry"")",0,2026-10-18,
+D11,EuropePMC,EXT_ID:6468862 OR EXT_ID:6468863 OR EXT_ID:2612988 OR EXT_ID:2670055 OR EXT_ID:2680741 OR EXT_ID:8247054 OR EXT_ID:8173933 OR EXT_ID:1353557 OR EXT_ID:10835116 OR EXT_ID:12457791,10,2026-10-18,"batch abstract fetch PMIDs=6468862,6468863,2612988,2670055,2680741,8247054,8173933,1353557,10835116,12457791"
+D11,EuropePMC,EXT_ID:14261147 OR EXT_ID:2720345 OR EXT_ID:12358684 OR EXT_ID:17397410 OR EXT_ID:22986439 OR EXT_ID:24628873 OR EXT_ID:8416784 OR EXT_ID:4054703 OR EXT_ID:17441968 OR EXT_ID:28789489,10,2026-10-18,"batch abstract fetch PMIDs=14261147,2720345,12358684,17397410,22986439,24628873,8416784,4054703,17441968,28789489"
+D11,EuropePMC,EXT_ID:9275895 OR EXT_ID:9494480 OR EXT_ID:11496081 OR EXT_ID:15498901 OR EXT_ID:12854117 OR EXT_ID:15208127 OR EXT_ID:12790988 OR EXT_ID:9694464,8,2026-10-18,"batch abstract fetch PMIDs=9275895,9494480,11496081,15498901,12854117,15208127,12790988,9694464"
+D11,EuropePMC-citations,MED/2612988/citations,429,2026-10-18,citations of Shorvon1989
+D11,EuropePMC-citations,MED/6468862/citations,208,2026-10-18,citations of Mahieu1984
+D11,EuropePMC-citations,MED/8416784/citations,1988,2026-10-18,citations of JorgeWexner1993
+D11,EuropePMC,EXT_ID:42768194 OR EXT_ID:42826007 OR EXT_ID:41589715 OR EXT_ID:42231615 OR EXT_ID:42613978 OR EXT_ID:40569575 OR EXT_ID:40787901 OR EXT_ID:38642332 OR EXT_ID:38555600 OR EXT_ID:41185085,10,2026-10-18,"batch abstract fetch PMIDs=42768194,42826007,41589715,42231615,42613978,40569575,40787901,38642332,38555600,41185085"
+D11,EuropePMC,TITLE:fecobionics AND PUB_YEAR:[2018 TO 2026],16,2026-10-18,
+D11,EuropePMC,"TITLE:""ESR Essentials"" AND TITLE:""pelvic floor""",1,2026-10-18,
+D11,EuropePMC,"TITLE:""normative"" AND TITLE:""anorectal manometry"" AND PUB_YEAR:[2021 TO 2026]",0,2026-10-18,
+D11,EuropePMC,"TITLE:""normal values"" AND TITLE:""anorectal manometry"" AND PUB_YEAR:[2015 TO 2026]",5,2026-10-18,
+D11,EuropePMC,"(TITLE:""machine learning"" OR TITLE:""artificial intelligence"" OR TITLE:""deep learning"") AND (TITLE:""defecography"" OR TITLE:""defaecography"") AND PUB_YEAR:[2020 TO 2026]",0,2026-10-18,
+D11,EuropePMC,"(TITLE:""deep learning"" OR TITLE:""automated"" OR TITLE:""automatic"" OR TITLE:""machine learning"") AND (TITLE:""pelvic floor"" OR TITLE:""defecation"" OR TITLE:""dyssynergia"") AND PUB_YEAR:[2021 TO 2026]",26,2026-10-18,
+D11,EuropePMC,"AUTH:""Ratuapli"" AND PUB_YEAR:[2012 TO 2014]",14,2026-10-18,
+D11,EuropePMC,"AFF:""China"" AND TITLE:""constipation"" AND (TITLE:""consensus"" OR TITLE:""expert"") AND PUB_YEAR:[2023 TO 2026]",1,2026-10-18,
+D11,EuropePMC,EXT_ID:23142135 OR EXT_ID:30417419 OR EXT_ID:40706732 OR EXT_ID:27154577 OR EXT_ID:27720913 OR EXT_ID:24674941,6,2026-10-18,"batch abstract fetch PMIDs=23142135,30417419,40706732,27154577,27720913,24674941"
+D11,EuropePMC,TITLE:echodefecography,8,2026-10-18,
+D11,WebSearch,慢性便秘检查与评估中国专家共识 2024版,hits: found full-text page (coboo.com),2026-10-18,确认存在该共识；2024版；含测压/球囊逼出/排粪造影推荐
+D11,EuropePMC,"TITLE:echodefecography OR TITLE:""dynamic anal ultrasonography""",9,2026-10-18,
+D11,EuropePMC,"TITLE:""chronic constipation"" AND TITLE:""examination and evaluation"" AND AFF:""China""",0,2026-10-18,
+D11,EuropePMC,"SRC:MED AND JOURNAL:""Zhonghua wei chang wai ke za zhi"" AND TITLE:constipation AND PUB_YEAR:2024",7,2026-10-18,
+D11,EuropePMC,"TITLE:""magnetic resonance defecography"" AND (TITLE:""X-ray"" OR TITLE:""conventional"" OR TITLE:""fluoroscopic"") AND (TITLE:""versus"" OR TITLE:""comparison"" OR TITLE:""compared"")",0,2026-10-18,
+D11,EuropePMC,"TITLE:""fistula"" AND TITLE:""magnetic resonance"" AND (TITLE:""accuracy"" OR TITLE:""meta-analysis"" OR TITLE:""systematic review"") AND PUB_YEAR:[2014 TO 2026]",3,2026-10-18,
+D11,EuropePMC,"TITLE:defecography AND (TITLE:""systematic review"" OR TITLE:""meta-analysis"")",3,2026-10-18,
+D11,EuropePMC,"(TITLE:""anorectal manometry"" OR TITLE:""high-resolution anorectal manometry"") AND (TITLE:""trends"" OR TITLE:""utilization"" OR TITLE:""practice"" OR TITLE:""survey"")",7,2026-10-18,
+D11,EuropePMC,EXT_ID:19093206 OR EXT_ID:29094218 OR EXT_ID:28101937 OR EXT_ID:39710444,4,2026-10-18,"batch abstract fetch PMIDs=19093206,29094218,28101937,39710444"
+D11,WebSearch,便秘 中医证型 肛管直肠压力测定 客观化,hits: 找到2017中西医结合共识PDF与多篇综述；未找到1990s原始研究题录,2026-10-18,早期证型测压研究仅见于转述，列入unverified_leads
+D11,EuropePMC,EXT_ID:23657401 (core record fetch),1,2026-10-18,取Li 2013机构与摘要：天津南开大学附属医院，110例
+D11,EuropePMC,EXT_ID:38110269 (core record fetch),1,2026-10-18,取2023中国测压共识机构与摘要
+D11,WebFetch,coboo.com 慢性便秘检查与评估中国专家共识(2024版)全文页,1,2026-10-18,读到分级推荐：X线排粪造影A级首选OOC；MRD B；HRM B；BET C
+D11,WebFetch,cqvip.com 卢任华1990排粪造影页,0 (重定向首页),2026-10-18,题录细节未取得，期刊名待核
+D11,EuropePMC-fulltext,PMCID: PMC6923590/PMC7431441/PMC7497505/PMC11986657/PMC13071418/PMC12263552 fullTextXML,6,2026-10-18,全文抓取；PMC1434461等老扫描件被验证码挡（未绕过）
+D12,EuropePMC,"acupuncture AND ""postoperative pain"" AND (hemorrhoid OR colorectal OR anorectal):ab and SRC:MED and REVIEW",44,2026-10-18,
+D12,EuropePMC,"acupuncture AND ""postoperative pain"" AND (hemorrhoid OR colorectal OR anorectal) and SRC:MED and REVIEW",294,2026-10-18,
+D12,EuropePMC,"electroacupuncture AND ""urinary retention"" AND meta-analysis",157,2026-10-18,
+D12,EuropePMC,"acupuncture AND ""functional constipation"" AND systematic review",273,2026-10-18,
+D12,EuropePMC,acupoint catgut embedding AND constipation AND meta-analysis,87,2026-10-18,
+D12,EuropePMC,acupuncture AND constipation AND Cochrane,1648,2026-10-18,
+D12,EuropePMC,"""auricular acupressure"" OR ""auricular acupuncture"" AND postoperative AND pain AND meta-analysis",265,2026-10-18,
+D12,EuropePMC,"SRC:CDSR AND acupuncture AND (constipation OR ""urinary retention"")",0,2026-10-18,
+D12,EuropePMC,"""acupuncture anesthesia"" AND history AND review",77,2026-10-18,
+D12,EuropePMC,Han AND electroacupuncture AND endorphin AND analgesia,131,2026-10-18,
+D12,EuropePMC,acupuncture AND constipation AND protocol AND Cochrane,1049,2026-10-18,
+D12,EuropePMC,"(hemorrhoid OR haemorrhoid OR anorectal OR ""anal fissure"" OR ""anal fistula"") AND acupuncture AND randomised",120,2026-10-18,
+D12,EuropePMC,"Han JS AND ""acupuncture and endorphins""",7,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:36930380,1,2026-10-18,Cochrane acupuncture chronic constipation lookup by guessing PMID range
+D12,EuropePMC-fetch,PMCID:PMC10115435,1,2026-10-18,Cochrane acupuncture chronic constipation
+D12,EuropePMC-fetch,PMCID:PMC10115435,1,2026-10-18,Cochrane acupuncture chronic constipation
+D12,Crossref,Acupuncture for chronic constipation Cochrane,5,2026-10-18,
+D12,Crossref-fetch,10.1002/14651858.cd004117.pub4 + pub3,2,2026-10-18,Cochrane CD004117 versions
+D12,EuropePMC-fulltext,PMC10115435 fullTextXML,1,2026-10-18,Cochrane CD00417 pub4 full text
+D12,PubMed,Acupuncture+for+chronic+constipation+Cochrane,0,2026-10-18,
+D12,PubMed,Acupuncture+chronic+constipation+AND+Cochrane+Database+Syst+Rev%5Bjour%5D,30492,2026-10-18,
+D12,PubMed,%22Acupuncture%20for%20chronic%20constipation%22,11,2026-10-18,
+D12,PubMed,"""Acupuncture for chronic constipation""[Title]",0,2026-10-18,
+D12,PubMed,Acupuncture for chronic constipation and Cochrane Database Syst Rev[Journal],2,2026-10-18,
+D12,PubMed,"""Acupuncture for chronic constipation""[ti]",0,2026-10-18,
+D12,PubMed,Cao H[Author] AND acupuncture AND constipation,1,2026-10-18,
+D12,PubMed,CD004117,2,2026-10-18,
+D12,PubMed,Acupuncture[ti] and constipation[ti] and 2012[dp],0,2026-10-18,
+D12,OpenAlex,doi:10.1002/14651858.CD004117.pub4,1,2026-10-18,abstract via inverted index
+D12,OpenAlex,doi:10.1002/14651858.CD004117.pub3,1,2026-10-18,
+D12,OpenAlex,doi:10.1002/14651858.CD004117,1,2026-10-18,
+D12,NCBI-BioC,pmcoa.cgi BioC_JSON PMC10115435,1,2026-10-18,Cochrane pub4 full text
+D12,EuropePMC,"AUTH:""Han Jisheng"" AND ""Terenius"" AND acupuncture analgesia",0,2026-10-18,
+D12,EuropePMC,"Vickers AND acupuncture AND ""right questions""",3,2026-10-18,
+D12,EuropePMC,EXT_ID:9551280,1,2026-10-18,
+D12,EuropePMC,"AUTH:""Tang JL"" AND ""Ernst E"" AND ""traditional Chinese medicine"" AND BMJ",1,2026-10-18,
+D12,EuropePMC,"TITLE:""Neurochemical basis of acupuncture analgesia""",1,2026-10-18,
+D12,EuropePMC-fulltext,PMC28166 fullTextXML,1,2026-10-18,Tang-Ernst BMJ 1999
+D12,EuropePMC-fulltext,PMC28166 fullTextXML retry,1,2026-10-18,Tang-Ernst BMJ 1999
+D12,OpenAlex,doi:10.1136/bmj.319.7203.160,1,2026-10-18,
+D12,OpenAlex,doi:10.1016/s0197-2456(97)00150-5,1,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:10406751,1,2026-10-18,Tang-Ernst BMJ abstract
+D12,EuropePMC-fetch,EXT_ID:9551280,1,2026-10-18,Vickers abstract
+D12,EuropePMC,NIH consensus conference AND acupuncture AND JAMA,120,2026-10-18,
+D12,EuropePMC,"acupuncture AND JAMA AND 1998 AND ""consensus development conference""",7,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:9809733,1,2026-10-18,NIH consensus acupuncture JAMA
+D12,EuropePMC,acupuncture AND postoperative urinary retention AND randomized AND (hemorrhoid OR anorectal OR colorectal),273,2026-10-18,
+D12,PubMed,"urinary retention[ti] AND acupuncture AND (hemorrhoid*[tiab] OR anorectal[tiab] OR proctolog*[tiab] OR ""anal surgery""[tiab])",7,2026-10-18,
+D12,EuropePMC,TITLE:acupuncture AND TITLE:(urinary retention),39,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:31286731,1,2026-10-18,中国针灸2019 acu+moxa POUR anorectal RCT
+D12,EuropePMC-fetch,EXT_ID:31397125,1,2026-10-18,中国针灸2019 EA preconditioning POUR
+D12,PubMed,acupoint[ti] AND hemorrhoid*[ti] ,9,2026-10-18,
+D12,PubMed,hemorrhoid*[ti] AND (acupuncture OR acupressure OR moxibustion OR electroacupuncture OR transcutaneous)[ti],48,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:37074488,1,2026-10-18,EA Baliao PPH pain Int J Colorectal Dis
+D12,EuropePMC-fetch,EXT_ID:35419404,1,2026-10-18,Front Surg SR acupuncture hemorrhoidectomy pain
+D12,EuropePMC-fetch,EXT_ID:36550890,1,2026-10-18,EA mixed hemorrhoids meta
+D12,EuropePMC-fetch,EXT_ID:21942184,1,2026-10-18,2011 catgut embedding preop hemorrhoid pain
+D12,EuropePMC,"(electroacupuncture OR acupuncture) AND TITLE:""functional constipation"" AND TITLE:randomized",39,2026-10-18,
+D12,EuropePMC,"acupuncture AND ""slow transit constipation"" AND randomized",105,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:30733966,1,2026-10-18,EA women chronic severe FC subgroup - find parent trial
+D12,EuropePMC,"AUTH:""Zhong L LD"" AND constipation AND acupuncture",0,2026-10-18,
+D12,EuropePMC,"electroacupuncture AND ""chronic severe functional constipation"" AND sham AND multicenter",14,2026-10-18,
+D12,EuropePMC,TITLE:constipation AND TITLE:electroacupuncture AND TITLE:trial,18,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:27618593,1,2026-10-18,Annals 2016 acupuncture chronic severe FC RCT
+D12,EuropePMC-fetch,EXT_ID:33273258,1,2026-10-18,AJG 2021 EA vs prucalopride noninferiority
+D12,EuropePMC,"AUTH:""Han J S"" AND TITLE:acupuncture AND (endorphin OR enkephalin OR dynorphin)",3,2026-10-18,
+D12,EuropePMC,"""acupuncture anesthesia"" AND (history OR historical OR review) AND (1958 OR China)",176,2026-10-18,
+D12,EuropePMC-fulltext,PMC10285535 fullTextXML,1,2026-10-18,acupuncture anesthesia bibliometric 1992-2022
+D12,EuropePMC,"hemorrhoid* AND acupoint* AND (ancient OR classical OR ""classics"" OR ""ancient books"" OR ""data mining"") AND (prescription OR selection)",22,2026-10-18,
+D12,EuropePMC,TITLE:hemorrhoid AND TITLE:acupoint* AND TITLE:selection,0,2026-10-18,
+D12,EuropePMC,"(hemorrhoid OR hemorrhoidal OR ""perianal"" OR anorectal) AND (prescription OR acupoint) AND SRC:""Zhongguo zhen jiu"" ",0,2026-10-18,
+D12,EuropePMC,"auricular AND (hemorrhoid OR anorectal OR ""anal"") AND postoperative AND (Chinese OR China)",256,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:40059790,1,2026-10-18,taVNS perianal surgery RCT
+D12,EuropePMC-fetch,EXT_ID:37589632,1,2026-10-18,moxibustion POUR MA
+D12,EuropePMC-fetch,EXT_ID:40988894,1,2026-10-18,WAA hemorrhoidectomy RCT 2025
+D12,EuropePMC-fetch,EXT_ID:42602644,1,2026-10-18,WAA preemptive three-arm RCT 2026
+D12,EuropePMC,"AUTH:""Chen J D Z"" AND (constipation OR ""gastrointestinal motility"") AND (electroacupuncture OR neuromodulation)",10,2026-10-18,
+D12,EuropePMC,acupuncture AND constipation AND (Germany OR German) AND sham AND randomized,355,2026-10-18,
+D12,ClinicalTrials.gov,NCT01726504,1,2026-10-18,Annals 2016 trial registration check
+D12,ChiCTR-API,chictr.org.cn api ChiCTR2400084402 (两个端点),0,2026-10-18,404，公开检索需网页交互
+D12,EuropePMC-fetch,EXT_ID:34630605,1,2026-10-18,eCAM 2021 acupuncture urinary retention meta
+D12,EuropePMC-fetch,EXT_ID:38169833,1,2026-10-18,Heliyon TEAS POUR SR
+D12,EuropePMC,TITLE:Baliao AND (anatomy OR sacral),9,2026-10-18,
+D12,EuropePMC,acupoint AND (sacral nerve OR pudendal nerve) AND anatomy AND (Changqiang OR Chengshan OR Huiyang),6,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:24843976,1,2026-10-18,Wang Lingling deep Baliao 2014
+D12,EuropePMC-fetch,EXT_ID:29318863,1,2026-10-18,Baliao 3D CT angle depth 2017
+D12,EuropePMC,"""anal fissure"" AND (acupuncture OR acupressure OR moxibustion)",115,2026-10-18,
+D12,EuropePMC,"proctalgia AND (acupuncture OR ""acupoint"")",33,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:37933076,1,2026-10-18,catgut embedding functional anorectal pain RCT
+D12,EuropePMC-fetch,EXT_ID:38454239,1,2026-10-18,Acupuncture vs biofeedback FARP Turkey
+D12,EuropePMC-fulltext,PMC8995644 fullTextXML,1,2026-10-18,Front Surg 2022 SR included studies
+D12,PubMed,Wu AND Effect of acupuncture on post-hemorrhoidectomy pain,1,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:30122979,1,2026-10-18,Wu 2018 J Pain Res EA vs sham hemorrhoidectomy - Lao Lixing Maryland
+D12,OpenAlex,"acupuncture urinary retention postoperative, sorted oldest first",1147,2026-10-18,找最早记录
+D12,Crossref-fetch,10.1007/bf03006815 + 10.3862/jcoloproctology.31.479,2,2026-10-18,早期针灸尿潴留记录
+D12,WebSearch,《针灸甲乙经》痔 承山 长强 二白 玉龙歌 针灸大成,多结果,2026-10-18,古典穴位线：甲乙经载长强承山治痔；玉龙赋二白医痔漏；百症赋刺长强于承山；大成九般痔漏承山长强（均为转述层L0）
+D12,WebFetch,痔中西医结合诊疗指南(2025版) chinagp.net 页面,1,2026-10-18,可见推荐意见未含针灸条目；术后疼痛仅多模式镇痛——支持指南对针灸保守的叙述
+D12,EuropePMC-fetch,EXT_ID:39652211,1,2026-10-18,CORRECT trial EA colorectal surgery
+D12,EuropePMC-fetch,EXT_ID:37068819,1,2026-10-18,EA different time points urination mixed hemorrhoids 2023
+D12,PubMed,acupuncture[ti] AND (urinary retention[ti] OR bladder[ti] OR urination[ti]) AND 1960:1990[dp],7,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:13927419,1,2026-10-18,1961 中华外科杂志 bladder acupuncture model
+D12,OpenAlex,acupuncture hemorrhoid oldest first,788,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:38241273,1,2026-10-18,pyonex perianal surgery MA 2024
+D12,EuropePMC,"""acupoint injection"" AND (hemorrhoid OR anorectal OR ""anal"")",32,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:24386005,1,2026-10-18,2013 moxibustion CV4 PPH dysuria RCT
+D12,EuropePMC-fetch,EXT_ID:20862941,1,2026-10-18,2010 suspended moxibustion hemorrhoid fistula POUR
+D12,EuropePMC-fetch,EXT_ID:38361038,1,2026-10-18,sham EA placebo response constipation secondary analysis
+D12,EuropePMC-fetch,EXT_ID:39741763,1,2026-10-18,Med Acupunct hemorrhoid case study 2024
+D12,WebSearch,针刺麻醉在肛肠手术中的应用研究进展 acumoxj.com PDF,1,2026-10-18,下载中文综述PDF
+D12,EuropePMC,"""Unforgettable ups and downs of acupuncture anesthesia""",1,2026-10-18,
+D12,WebSearch+PDF,上海针灸杂志42(11):1228-1234 全文PDF 已读L4,1,2026-10-18,尹相宜/王振宜 肛肠针麻综述；内含葛茂军真实世界研究、龙庆频率研究、韩济生参数等
+D12,EuropePMC-fetch,EXT_ID:28214637,1,2026-10-18,World Neurosurg acupuncture anesthesia history
+D12,PubMed,"Shen AND 针刺 AND ""Acupuncture Research""[Journal] AND 2016 AND 针麻镇痛",0,2026-10-18,
+D12,PubMed,"Han[au] AND 2016[dp] AND ""Zhen Ci Yan Jiu""[Journal]",3,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:29071939,1,2026-10-18,Han JS 针麻镇痛研究 2016
+D12,EuropePMC-fetch,EXT_ID:31099217,1,2026-10-18,龙庆2019 EA frequencies preoperative M-M hemorrhoidectomy
+D12,EuropePMC-fetch,EXT_ID:40909448,1,2026-10-18,catgut embedding FC MA 2025
+D12,EuropePMC-fetch,EXT_ID:36811861,1,2026-10-18,JAMA Netw Open EA OIC 2023
+D12,ClinicalTrials.gov,NCT03797586,1,2026-10-18,JAMA OIC trial registration check
+D12,EuropePMC,"TITLE:""STRICTA"" AND MacPherson AND ""PLoS Med""",1,2026-10-18,
+D12,PubMed,MacPherson[au] AND STRICTA AND 2010[dp],5,2026-10-18,
+D12,EuropePMC,"TITLE:""Changqiang"" OR TITLE:""长强"" AND (hemorrhoid OR anorectal OR urinary)",0,2026-10-18,
+D12,EuropePMC,"(hemorrhoid* OR anorectal) AND ""auricular"" AND RCT AND China AND postoperative",66,2026-10-18,
+D12,EuropePMC-fetch,EXT_ID:42392852,1,2026-10-18,Ann Coloproctol POUR risk factors benign anorectal
+D12,EuropePMC-citations,MED/27618593 citations,12,2026-10-18,
+D12,EuropePMC-citations,MED/37074488 citations,12,2026-10-18,
+D12,EuropePMC,"TITLE:""Refractory Constipation"" AND ""AGA Clinical Practice Update""",1,2026-10-18,
+X01,Europe PMC,"TITLE:""history"" AND (TITLE:""proctology"" OR TITLE:""coloproctology"" OR TITLE:""anorectal surgery"")",11,2026-10-18,entry search: history of proctology; 命中ESCP史2020、日本学会史1997等
+X01,Europe PMC,"(TITLE:""history"" OR TITLE:""historical"") AND (TITLE:""hemorrhoid"" OR TITLE:""haemorrhoid"")",1,2026-10-18,"仅1971法文题录,弱"
+X01,Europe PMC,"""Xiaozhiling"" OR ""xiao zhi ling"" OR ""Xiao-Zhi-Ling""",53,2026-10-18,消痔灵全部题录; 含1983/1999/2014/2022/2025/2026关键记录
+X01,Europe PMC,EXT_ID:34990420,1,2026-10-18,"DCR 2022 社论 Xiaozhiling in the 21st Century, 无摘要(社论)"
+X01,Europe PMC,EXT_ID:24972583,1,2026-10-18,Shaobei vs Xiaozhiling CJIM 2014 队列1520例
+X01,Crossref,works/10.1007/bf02934821,1,2026-10-18,史兆祺1997四步注射英文版 CJITWM 3(4):246-9
+X01,PubMed esearch,An AY[Author] AND (shaobei OR hemorrhoid OR anal OR anorectal),1,2026-10-18,An Ayue 作者档仅命中2014年1篇
+X01,PubMed esearch+esummary,An AY[Author] ids esummary,1,2026-10-18,Chin J Integr Med 2014;20:555-60
+X01,PubMed efetch,PMID 42756171,1,2026-10-18,"复核弹药: Front Surg 2026 芍药苷RCT, 末位作者An Ayue"
+X01,Europe PMC,"""aluminum potassium sulfate and tannic acid"" AND hemorrhoids AND (Japan OR Japanese) AND (history OR Miwa)",37,2026-10-18,ALTA日本文献群
+X01,Europe PMC,EXT_ID:9378015,1,2026-10-18,"日本肛肠学会史: 1940创立,1967改名Japan Society of Coloproctology"
+X01,Europe PMC,"Miwa AND ""aluminum potassium sulfate"" AND hemorrhoid",0,2026-10-18,Miwa个人检索无果
+X01,Europe PMC,"""Zione"" AND hemorrhoid",11,2026-10-18,Zione=ALTA商品名文献群
+X01,Europe PMC,EXT_ID:22606645,1,2026-10-18,韩2012 ALTA综述摘要
+X01,Europe PMC,"ALTA AND hemorrhoid AND (Xiaozhiling OR ""xiao zhi ling"" OR China)",24,2026-10-18,ALTA与中国源头关联检索
+X01,Europe PMC,EXT_ID:36743466,1,2026-10-18,JARC 2023 Miyamoto: ALTA developed in Japan
+X01,Europe PMC,EXT_ID:38261136,1,2026-10-18,Tech Coloproctol 2024硬化剂SR 44研究9729例
+X01,Europe PMC,"""St Mark"" AND hospital AND (history OR Salmon) AND proctolog*",7,2026-10-18,St Mark's史: 1935百年纪念文等
+X01,Crossref,works/10.1016/s0140-6736(00)88465-2,1,2026-10-18,Milligan-Morgan 1937 Lancet 230:1119-24 复核
+X01,Crossref,works/10.1136/bmj.1.5224.463,1,2026-10-18,Parks 1961 BMJ 1:463 复核
+X01,Europe PMC,EXT_ID:20319949,1,2026-10-18,St Mark's百年纪念1935题录(PMC1561246)
+X01,Europe PMC,EXT_ID:34527700,1,2026-10-18,Front Surg 2021痔外科史综述(入口文献)
+X01,Europe PMC,EXT_ID:33463013,1,2026-10-18,ESCP史2020(入口文献)
+X01,Europe PMC fullTextXML,PMC1561246 fullTextXML,0,2026-10-18,"服务端500错误,未取得全文"
+X01,Europe PMC fullTextXML,PMC7756689 fullTextXML + grep StMark/1835/ECCP,1,2026-10-18,"ESCP史全文: ECCP 1984成立,1980斯特拉斯堡先导会议"
+X01,Europe PMC fullTextXML,PMC8435716 fullTextXML + grep StMark/Longo/Milligan/China,1,2026-10-18,FrontSurg2021全文: Salmon 1835创立→St Mark's; Milligan&Morgan 1937; Longo 1998; 无中国内容
+X01,PubMed esearch+esummary db=nlmcatalog,1000-1174[ISSN],1,2026-10-18,"中国肛肠病杂志NLM 9426412: 1981?,济南,中华全国中医学会肛肠分会+山东分会"
+X01,Wikisource,外科正宗 zh.wikisource.org,1,2026-10-18,L0全文: 枯痔散流程/砒矾插药线条/挂线提及 复核
+X01,Europe PMC,(hemorrhoid) AND (arsenic) AND (injection OR necrosis) AND (China) AND 1940:1990[PDAT],0,2026-10-18,1950s砒枯痔英文记录无
+X01,Europe PMC,"""ku zhi"" OR ""kuzhi"" OR ""ku-shih""",144,2026-10-18,"噪声(子串匹配critic等),无相关"
+X01,Europe PMC,EXT_ID:10355514,1,2026-10-18,Nishida 1999: XZL=五倍子+明矾收敛性硬化剂 摘要
+X01,Europe PMC,hemorrhoids AND (traditional Chinese medicine) AND 1950:1985[PDAT] AND China,0,2026-10-18,老中文英文记录无
+X01,PubMed esearch,(hemorrhoids OR haemorrhoids OR fistula)[Title] AND (China OR Chinese)[AD] AND 1945:1985[PDAT],1,2026-10-18,仅命中1983 Xiu-Zhang——PubMed最早中国肛肠英文临床系列
+X01,WebSearch,枯痔散 砒 中毒 枯痔钉 改革 肛肠 学科史,见结果,2026-10-18,命中中国中医药报2017陈民藩文; 枯痔散最早见南宋魏氏家藏方
+X01,WebFetch,cntcm.com.cn 中国中医药报2017-03-03 陈民藩谈枯痔疗法,1,2026-10-18,枯痔钉五六十年代盛行;砒中毒报告;无砒枯痔钉/枯痔液;1978全国科技大会奖
+X01,WebSearch,史兆岐 消痔灵 广安门医院 研制 1977 国家发明奖,见结果,2026-10-18,广安门官网+搜狐; 发明奖年份未定
+X01,WebFetch,gamyy.cn 消痔灵四步注射技术页,1,2026-10-18,70年代末研制;1980卫生部甲级奖;1985国家科技进步二等奖;1986国际发明展;1991国家推广;2006日本引进名痔稳
+X01,WebFetch,njszyy.cn 南京市中医院肛肠中心页,1,2026-10-18,1956丁泽民创建;1994全国中医肛肠专科医疗中心;丁氏痔科国家级非遗;2018国家区域诊疗中心
+X01,WebSearch,中华中医药学会肛肠分会 成立 1980 历程,见结果,2026-10-18,前身1960s协作组;1980正式成立;2010三十周年会议互证
+X01,WebSearch,中国中西医结合学会大肠肛门病专业委员会 成立年,见结果,2026-10-18,1981年11月(百科单源L3);第27次年会2026济南
+X01,WebSearch,张庆荣 肛门直肠结肠外科 天津 结直肠外科 奠基,见结果,2026-10-18,1954天津市滨江医院创建我国第一个西医肛肠外科(转述)
+X01,WebSearch,张庆荣 肛门直肠结肠外科 人民卫生出版社 出版年,见结果,2026-10-18,1980年3月人卫版(馆藏记录转述)
+X01,WebSearch,黄乃健 中国肛肠病学 山东科学技术出版社 1996,见结果,2026-10-18,"1996年6月第1版,1668页(百科+馆藏)"
+X01,WebSearch,中华医学会 外科学分会 结直肠肛门病学组 成立 沿革,见结果,2026-10-18,成立年无权威记载→unverified; 2008年已有学组名义会议
+X01,PubMed esearch+esummary db=nlmcatalog,"""Diseases of the colon and rectum""[Title]",4,2026-10-18,"DCR: NlmUniqueID 0372764, v.1- 1958- 复核"
+X01,WebSearch,曹吉勋 成都肛肠专科医院 直肠脱垂 中医肛肠 学术流派,见结果,2026-10-18,成都中医药大学附属医院肛肠科1957年创建(省中医药管理局); 黄济川1884/1851线
+X01,PubMed esearch+esummary db=nlmcatalog,"""Zhonghua wei chang wai ke za zhi""[Title]",0,2026-10-18,"精确题名0,改泛检索"
+X01,PubMed esearch+esummary db=nlmcatalog,zhonghua wei chang wai ke za zhi,1,2026-10-18,"中华胃肠外科杂志 NLM 101177990: 1998年创刊,广州,ISSN1671-0274"
+X01,Europe PMC,"""tissue-selecting therapy"" AND hemorrhoid",17,2026-10-18,TST题录群: 2013对比PPH/2025/2026等
+X01,WebSearch,痔临床诊治指南 2006 中华医学会外科学分会 结直肠肛门外科学组 修订 2020,见结果,2026-10-18,三会联合2006版;中国痔病诊疗指南2020;痔中西医结合诊疗指南2025
+X01,medi-guide PDF,痔临床诊治指南(2006版) PDF 第1页,1,2026-10-18,L3: 三会联合修订文字已读; 刊于中华胃肠外科杂志
+X01,Europe PMC,EXT_ID:41357636,1,2026-10-18,WJGS 2025 中医挂线整合手术回顾队列70vs62例
+X01,Europe PMC,EXT_ID:41809360,1,2026-10-18,WJGS 2026 评论信: TCM in anal fistula surgery
+X01,Europe PMC,EXT_ID:34711720,1,2026-10-18,"CMJ 2021 CAES专家建议(中国Gut会议,CAES-LPRA组)"
+X01,Europe PMC,EXT_ID:40291892,1,2026-10-18,WJGS 2025 单核测序+空间转录组消痔灵机制
+X01,PubMed efetch,"9551280,10406751,11475740",3,2026-10-18,Vickers1998/Tang1999复核+消痔灵四步1998中文题录(2001;18:201-3)
+X01,WebSearch,沈阳市肛肠医院 建院 历史,见结果,2026-10-18,"1957年始建,前身沈河区痔瘘门诊(教学医院页)"
+X01,WebSearch,"""结直肠肛门外科"" 杂志 1995年 创刊",见结果,2026-10-18,"1995创刊原大肠肛门病外科杂志,2006更名(编辑部页+百科)"
+X01,Europe PMC,EXT_ID:41906143,1,2026-10-18,BMC Surg 2026 Ruiyun vs TST 192例回顾
+X01,Europe PMC,EXT_ID:41809221,1,2026-10-18,WJGPT 2026 消痔灵肛周血流机制
+X01,WebFetch,zryhyy.com.cn 中日友好医院肛肠科页,1,2026-10-18,页面未具名安阿玥; 载虚实结合挂线法/卫生部2004推广技术/1994-2018办班100场
+X01,Europe PMC citations,MED/22557383/citations,0,2026-10-18,1983论文被引0——技术传播不经引用链
+X01,OpenAlex,works/pmid:22557383,1,2026-10-18,cited_by_count=1
+X01,PubMed esearch,"""Zhongguo gang chang bing za zhi""[Journal]",0,2026-10-18,负结果: 该刊无PubMed题录
+X01,WebSearch,姚礼庆 PPH 吻合器痔上黏膜环切术 国内首例 2000 中山医院,见结果,2026-10-18,2000年6-7月国内首例PPH(二手多源L3); 2004年226例论文(世界华人消化杂志)
+X01,Europe PMC,"Yao AND ""Procedure for prolapse and hemorrhoids"" AND 226",0,2026-10-18,WJG检0(实为世界华人消化杂志1009-3079)
+X01,Europe PMC,(systematic review OR meta-analysis) AND (traditional Chinese medicine OR herbal) AND hemorrhoids,429,2026-10-18,泛检噪声大
+X01,wjgnet,1009-3079/full/v12/i4/917.htm,0,2026-10-18,"Azure WAF挑战页,未绕过"
+X01,PubMed esearch+efetch,Yao[Author] AND stapled AND hemorrhoids AND 2004[PDAT] AND World J Gastroenterol[Journal],0,2026-10-18,WJG无此篇(刊名误)
+X01,WebSearch,中国中医科学院广安门医院 肛肠科 1956年创建,见结果,2026-10-18,"cacms.ac.cn+gamyy.cn双官方源: 1956年创建,最早中医肛肠专科; 谱系周济民-史兆岐-李国栋-李华山"
+X01,curl+GBK decode,caca.org.cn 成都肛肠专科医院页,1,2026-10-18,1851龚心裕源/1884黄济川创办/1956全国首家公立肛肠专科医院/1998更名/PPH培训中心TST培训基地
+X01,Europe PMC,"(TITLE:""TROPIS"" OR ""transanal opening of the intersphincteric space"")",62,2026-10-18,TROPIS题录群; 含2026中国LoSet-TROPlS杂交术
+X01,Europe PMC,"""Tai ping sheng hui fang"" OR ""Taiping Shenghuifang""",49,2026-10-18,无枯痔专条英文题录; 含太平圣惠方他病研究
+X01,Europe PMC,"""Wei shi jia cang fang""",5,2026-10-18,命中中华医史杂志2013《五痔方》考证(PMID24429040)
+X01,PubMed efetch,"1267867,964106",2,2026-10-18,Parks 1976分类(BJS 63:1-12)+高位肛瘘(DCR 19:487-99)复核
+X01,Europe PMC,EXT_ID:24429040,1,2026-10-18,中华医史杂志2013: 魏氏家藏方五痔方源自李永和系; 明秘传外科方收李防御五痔方
+X01,Europe PMC fullTextXML,PMC28166 (Tang1999) fullTextXML,0,2026-10-18,"服务端错误,全文未取"
+X01,bmj.com,content/319/7203/160,0,2026-10-18,"返回非正文页(反爬),未绕过; Tang1999负性断言沿用弹药全文核查结论"
+X01,WebSearch,任东林 中山大学附属第六医院 肛肠 学术任职,见结果,2026-10-18,中山六院肛肠外科主任;结直肠肛门外科杂志主编(官网L3)
+X01,Europe PMC,EXT_ID:26152674; EXT_ID:26143596,2,2026-10-18,seton历史综述+Hippocrates源头复核(弹药条目)

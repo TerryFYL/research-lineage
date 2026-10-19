@@ -1,0 +1,757 @@
+{
+ "D01": {
+  "research_nodes": 17,
+  "entry_sources": 8,
+  "search_log_entries": 69,
+  "search_sources": {
+   "Europe PMC": 34,
+   "WebSearch": 11,
+   "OpenAlex": 8,
+   "Europe PMC fulltext": 5,
+   "NCBI idconv": 4,
+   "WebFetch": 3,
+   "Crossref": 2,
+   "PMC article page": 1
+  },
+  "exclusions": 8,
+  "unverified_leads": 9,
+  "verify_node_verdicts": {
+   "通过": 11,
+   "修正": 6
+  },
+  "verify_recent_verdicts": {
+   "通过": 12,
+   "修正": 4
+  },
+  "verify_origin_verdicts": {
+   "通过": 9
+  },
+  "missing_candidates": 4,
+  "critic_issues": {
+   "一般": 8
+  },
+  "critic_supplements": 5,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "部分回答",
+   "how_branched": "已回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "起源追溯完整：Whitehead 1882（L4 原文两页）、Milligan-Morgan 1937（题录+576被引）、Parks 1956（题录核实，并更正期刊归属）、Ferguson 1959（题录）、Thomson 1975（摘要）与 Stelzner 1962/1964 前驱（题录）均本轮实查；Longo 1998 仅会议论文集层级（已如实标注）",
+   "key_turns": "五个转折均有节点与反证：1937 金标准确立→1956/1959 开放/闭合分化→1975 肛垫学说→1998-2004 PPH 创立/规范/验证→2007-2016 长期复发反证与 eTHoS 裁决；两说并存处（Ganio vs Jayaraman）已保留双源",
+   "recent": "近五年五主题：远期复发再清算（3 代表研究含 2026 TSA）、国产器械与经济学（4 代表，含注册 RCT）、日间手术（3 代表）、方法学反思（3 代表）、新器械格局（3 代表，与 D02 交叉点到）；均标成熟度",
+   "china_line": "中国线为七段接力链：古典枯痔/结扎（L0 转述）→史兆岐消痔灵 1977/1983（L0+PMID 22557383）→丁泽民分段齿形结扎 1982（L0-L1）→姚礼庆/傅传刚引入 PPH 2000-2003（L0-L1+PMID 14703454/16167251）→TST 国产化 2010-2013（题录+PMID 23888447）→注册 RCT 化（ChiCTR1800015928, L3）→指南体系 2006/2010/2020/2025；每段标注层级与出处",
+   "overall_note": "全报告 17 个节点、8 个入口来源、9 条 origin_claims、5 条争议、4 条失败/负性路线、5 个近五年主题；检索 68 次逐条入 log；所有 PMID/DOI 均为本轮实查；中文一手文献缺失与 Longo 原文缺失两处检索缺口如实声明；未使用任何浏览器工具、未登录付费库"
+  },
+  "final_coverage": {
+   "origins": "完整：Whitehead 1882（L4扫描页，本轮未逐页复核已标注）、Milligan-Morgan 1937（期号修正5959）、Parks 1956（期号修正180）、Ferguson 1959、Thomson 1975（摘要级，前驱Stelzner 1962/1964两说并存）均本轮实查；Longo 1998仅会议论文集层级并如实标注",
+   "key_turns": "完整：七个转折（环切被弃→金标准与开放/闭合分化→肛垫学说→PPH创立/首代RCT/规范/美国验证→2007-2009复发清算两说并存→eTHoS裁决与指南转向→中国线平行分化）；批评者指出的2000年首代RCT空档已用Mehigan/Rowsell补齐",
+   "recent": "基本完整：近五年五主题均有2024-2026代表研究（复发清算RR 1.56、国产器械与经济学、日间化、方法学反思、新器械格局）；主题二窗口内无中国器械前瞻大样本RCT已作为缺口明示，Zhang 2020降为背景锚点",
+   "china_line": "基本完整但有标注缺口：七段接力链（枯痔/结扎L0→消痔灵1977/1983→丁泽民1982分段齿形结扎→PPH入华一手可核最早2003→TST国产化2010-2013→注册RCT化2022→双指南体系2006/2010/2020/2025）逐段标注层级；TST器械研制与丁泽民原始论文仅L0转述（存疑线索），消痔灵负性面（狭窄/坏死个案+DCR 2022评论）已对称补入",
+   "overall": "基本完整但有标注缺口",
+   "note": "核查17节点全部通过/修正（修正6处已采用：MM期号5959、Parks期号180、Hancock PMID 892612、Zhong 2005为8(4):319-321且系titanoreine术后用药RCT、Senagore第7作者Nivatvongs、Giordano补入摘要OR 5.5/1.9）；入口修正4处（台湾共识40(1):224、意大利指南40(4):287-320、ASCRS 67(5)、Chen改引2025;48(1):1-20）；新增节点5个（N18 Mehigan、N19 Rowsell、N20 Shao、N21 Pescatori、N22 FDA），均出自核查员missing_candidates与批评者补充且带PMID/DOI/URL；批评者8条一般级意见全部处理：eTHoS资助方改为NIHR HTA（08/24/02）、FDA监管节点补入、消痔灵负性面对称、TST传承边降为存疑线索、one_line中国起点改为2000年代初（一手可核2003）、主题二窗口边界注明、中国分流机制正面补写（第6节(8)）；无删除项；CNKI/万方不可得影响已在第8节声明"
+  },
+  "final_nodes": 22,
+  "final_evidence_rows": 43
+ },
+ "D02": {
+  "research_nodes": 16,
+  "entry_sources": 8,
+  "search_log_entries": 105,
+  "search_sources": {
+   "PubMed esearch": 34,
+   "PubMed esummary": 23,
+   "PubMed efetch": 12,
+   "EuropePMC": 9,
+   "EuropePMC citations": 6,
+   "WebSearch": 5,
+   "EuropePMC fullTextXML": 4,
+   "Crossref": 2
+  },
+  "exclusions": 8,
+  "unverified_leads": 10,
+  "verify_node_verdicts": {
+   "修正": 1,
+   "通过": 15
+  },
+  "verify_recent_verdicts": {
+   "通过": 21
+  },
+  "verify_origin_verdicts": {
+   "通过": 8,
+   "修正": 1
+  },
+  "missing_candidates": 5,
+  "critic_issues": {
+   "严重": 1,
+   "一般": 4
+  },
+  "critic_supplements": 4,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "已回答",
+   "what_now": "部分回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "起源已追至：硬化注射 1869 Morgan（转述层）→1879 Andrews 3,000 例（题录+转述）；套扎 1958 Blaisdell→1963 Barron；IRC 1977 Neiger（转述）→1981 Leicester RCT；消痔灵 1970s 史兆岐（L0）→1983 英文 1,205 例（L1）；DG-HAL 1995 Morinaga（L2）；ALTA 2006 Takano（L2）。19 世纪原刊不在任何可获取开放库，均以'目前最早找到的文献/转述'标注。",
+   "key_turns": "四个关键转折均有节点承担：①1992→1995 的证据修正链确立 RBL 一线（N06→N07）；②1995 Morinaga 开辟结扎分支并经 2012 盲法 RCT 拆解（N08→N15）；③1983–2014 消痔灵-芍倍的中国线迭代及其安全性量化（N05→N09→N16）；④2006 ALTA 确证与 2022 长期复发的边界修正（N13→recent T4）。",
+   "recent": "近五年六个主题（2021-10 至 2026-10）：III 度门诊 vs 手术与卫生经济学（HOLLAND）、泡沫聚桂醇/Sclerobanding、内镜下门诊治疗、ALTA 长期复发与出境、痔动脉栓塞（早期线索）、MPFF 药物线更新；每个主题 2–4 个代表研究均已核实（摘要或题录层），检索截止后的新证据（2026 年多篇）已补入。",
+   "china_line": "枯痔散（南宋《魏氏家藏方》，L0）→枯痔钉三支线（丁泽民/陆琦/陈民藩，1956，L0）→史兆岐消痔灵（1970s 末，官网 L0+1983 英文 L1+1997 四步 L1）→安阿玥芍倍（2014 头对头 L2、2019 补充指南 L1、2020 经济学比较 L1）→组学与内镜化延伸（2025–2026，L1）；西医主流技术的国际源流单列于 international_line。",
+   "overall_note": "本报告以 16 节点+12 边+6 近期主题覆盖 D02 全域；全部 16 节点的题录在 PubMed/Crossref 本轮核实，12 节点读至摘要层（L2）或以上，1983 消痔灵系列与 1958/1963 套扎原文未能读正文（已如实降级为 L1 并写明原因）；检索共 106 次并逐条记录 search_log。最大缺口：中国线关键中文全文（CNKI）不可得、1983 正文 PDF-only、RAE 缺 RCT。"
+  },
+  "final_coverage": {
+   "origins": "完整：1869 Morgan注射（L0转述，公开库最早可定位）→1879 Andrews大系列（本轮核查读原始扫描页升L4，样本数按原文修正为3,300例，死亡/并发症数字改标二手转述）→1958 Blaisdell/1963 Barron套扎（L1）→1977 Neiger（转述）/1981 Leicester IRC（L2）→1970s末消痔灵（L0）+1983英文1,205例（L1）→1995 Morinaga DG-HAL（L2）→2006 Takano ALTA（L2）；四类起点标注齐备",
+   "key_turns": "完整：七个转折（1879剂型修正→1992/1995证据修正链确立套扎一线→消痔灵1983-1997-1999-2014中国线接力与自我否定→ALTA 2006确证与长期边界修正→HAL 1995-2010-2012兴起与多普勒拆解→药物2000-2025证据化与复发上界→III度2025重新谈判与LHP入场）；12条原始边+新增推断边全部保留关系类型标注",
+   "recent": "基本完整：近五年七主题（HOLLAND III度谈判与经济学、泡沫/Sclerobanding、内镜化、ALTA长期复发、LHP激光线、RAE、MPFF）均有2022-2026代表研究；LHP主题为处理覆盖缺口的必须补入项（DCR 2026五年双盲RCT随访新增为节点N17）；Misra 2000已按意见移出窗口主题、HOLLAND两条报告显式互标同队列",
+   "china_line": "基本完整但有标注缺口：枯痔散（南宋，L0）→枯痔钉三支线（丁泽民/陆琦/陈民藩1956，L0）→史兆岐消痔灵（1983 L1/1997四步L1/1999独立实验L2）→安阿玥芍倍（2014头对头L2、2019补充指南L1、2020经济学L1）→组学与内镜化延伸（2025-2026，L1）；获奖口径'国家发明奖vs 1985国家科技进步二等奖'两说并存（新增中山市中医院彭林页为第二L0出处），'2006日本引进痔稳'存疑；消痔灵狭窄3.5%与致命个案对称写入",
+   "overall": "基本完整但有标注缺口",
+   "note": "核查16节点15通过、1修正（N01 Andrews 3,300例，正文与证据表已用修正值并升L4）；无删除项、无存疑判定；批评者1项严重问题已处理（LHP线补入：新增节点D02-N17=PMID 42478482五年随访L2，另收ANZ J Surg 2025综述PMID 40586452等，one_line与分支图同步提及）；4项一般问题全部处理（search_log矛盾以核查实测层级为准、Cochrane 2005二十年未更新写入N12与第5节、Misra 2000降为背景、HAL线缺直接批评锚点如实写入缺口不虚构引语）；核查员5条补充文献全部采用（sclerobanding原始论文35011962、Fernandes泡沫奠基31192285、比利时指南33639701、改良sclerobanding 41047429、ALTA mainstay 2011综述21626327）；N11按核查修正值补全安慰剂38%与防复发数据；未新增三份材料之外的任何文献或数字"
+  },
+  "final_nodes": 17,
+  "final_evidence_rows": 58
+ },
+ "D03": {
+  "research_nodes": 16,
+  "entry_sources": 8,
+  "search_log_entries": 65,
+  "search_sources": {
+   "Europe PMC": 35,
+   "WebSearch": 8,
+   "PubMed efetch": 5,
+   "PubMed esearch": 3,
+   "ClinicalTrials.gov API": 3,
+   "PubMed esummary": 2,
+   "WebFetch": 2,
+   "Crossref": 2
+  },
+  "exclusions": 8,
+  "unverified_leads": 10,
+  "verify_node_verdicts": {
+   "通过": 16
+  },
+  "verify_recent_verdicts": {
+   "通过": 28,
+   "修正": 2
+  },
+  "verify_origin_verdicts": {
+   "通过": 5,
+   "修正": 1
+  },
+  "missing_candidates": 3,
+  "critic_issues": {
+   "一般": 7
+  },
+  "critic_supplements": 1,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "已回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "三条源头全部落点：希波克拉底《论瘘》（L3 全文）；中医《永类钤方》→《古今医统大全》1556（L0 转述，两说并存已标注）；腺源学说 Parks 1961（L1，通行 Eisenhammer 1946/1958 首创说已按实查更正为 1953/1956）；Kshara sutra 现代起点 Deshpande 1973/1976（L1 题录）。",
+   "key_turns": "16 节点覆盖：1976 西方规范化（Parks & Stitz）→1984–1991 四型分化→1995–1997 负性证据（两期与切割挂线受质疑）→1991 ICMR 药线验证（印度线）→2003 改良切割挂线 RCT→2004 松挂边界→2009 失禁汇总→2022–2024 中国 DADS/NMA/COIS RCT 化。",
+   "recent": "近五年 5 个主题：去挂线化（SETON 试验 NL-010338）、中国挂线 RCT 化与紧线优化、Kshara sutra 再评价（IFTAK/MIKST/Cureus 2025）、TROPIS 挑战（含 2025–2026 letter 争鸣）、挂线材料与 PRO；并补查 2024–2026 新证据（LCCS 2026 队列、撤稿事件、BMJ Open 2026 协议）。",
+   "china_line": "接力链写到单位与人：古典文本→1960s 药线改橡皮线→广安门（史兆岐等，1978 前后成果鉴定，L0）→成都曹吉勋（切缝挂线/虚实结合）→南京丁氏（丁泽民-丁义江-丁曙晴，2024 国家级非遗公示；该单位 2024 JACS RCT）→北京中医医院王嘉麟→中日友好（郑丽华团队 DADS/LCCS RCT+队列）→长春中医药大学 NMA；断层已明示：1970s–80s 原始论文不可得（CNKI），全部 L0。",
+   "overall_note": "共执行 65 次检索并逐条记录（Europe PMC 32、PubMed efetch/esearch/esummary 17、WebSearch 10、ClinicalTrials.gov API 2、OpenAlex 1、Crossref 2、PMC idconv/页面 2、MIT Classics/WebFetch 4、Europe PMC 引文追踪 1 等）；核实题录 60+ 条，节点 16 个（L3×1、L2×10、L1×4、L0×1）；RCT 注册核对 2 项（NCT05087407 终点漂移已记、ChiCTR2100045450 待核）。最大缺口：中文古籍与 1970s–80s 原始文献不可及、Parks 1961 扫描页受 reCAPTCHA 阻断、挂线 vs 括约肌保留术式缺头对头 RCT。"
+  },
+  "final_coverage": {
+   "origins": "三条源头全部落点：希波克拉底《论瘘》（L3 全文）；中医《永类钤方》→《古今医统大全》1556（L0 转述，二十四字诀归属两说并存）；腺源/肌间学说 Parks 1961（L1）与 Eisenhammer 1953/1956（1958 专文补入，1946 首创说证伪）；印度 Deshpande 1973/1976（L1）；中国现代切开挂线按核查降为医史转述层奠基叙事（L0）。",
+   "key_turns": "19 节点覆盖：1976 西方规范化（Parks & Stitz）→1984 Kuypers 缺环→1991 四型分化与 ICMR 药线 RCT→1995–1998 负性证据链（Van Tets/Graf/Hämäläinen/García-Aguilar 零结果）→2003 改道 RCT→2004 松挂边界→2009 失禁汇总→2022–2024 中国 DADS/网络 Meta/COIS RCT 化。",
+   "recent": "近五年 5 主题：去挂线化（荷兰 SETON 试验 277 例方案）、中国挂线 RCT 化与紧线剂量四臂 RCT（含 LCCS Meta 2025 撤稿事件）、Kshara sutra 再评价与微创化（IFTAK/MIKST/Sachar 2025）、TROPIS 挑战与 Fuschillo NMA 反证（含 2025–2026 letter 争鸣）、挂线材料与 PRO（Kristo 2016 修正后作历史对照）。",
+   "china_line": "接力链写到单位与人：古典文本→1960s 药线改橡皮线（通史页可证）→'低位切开高位挂线'成形（1978 鉴定/获奖仅百度百科 L0，不作确证）→成都曹吉勋虚实结合→南京丁氏（丁泽民-丁义江-丁曙晴，2024 JACS RCT）→北京中医医院王嘉麟→中日友好郑丽华团队 DADS/LCCS→石家庄紧线四臂→长春网络 Meta；断层已明示：1970s–80s 原始论文不可得（CNKI），全部 L0。",
+   "overall": "基本完整但有标注缺口",
+   "note": "核查员 16 节点全通过（6 处修正值全部采纳）、无删除/存疑判项；批评者 7 条一般问题、无严重问题，全部逐条处理；新增节点 N17/N18/N19 均出自核查遗漏候选与批评者补充且附 PMID/DOI；三份材料之外未新增任何文献、数字或因果。最大缺口：中文古籍原文与 1970s–80s 原始论文不可及（CNKI/万方未检索）、Parks 1961 受人机验证阻断 L1 封顶、挂线 vs 保留括约肌术式无头对头 RCT。"
+  },
+  "final_nodes": 19,
+  "final_evidence_rows": 51
+ },
+ "D04": {
+  "research_nodes": 16,
+  "entry_sources": 8,
+  "search_log_entries": 207,
+  "search_sources": {
+   "EuropePMC": 97,
+   "EuropePMC-core EXT_ID fetch": 58,
+   "PubMed-esearch": 11,
+   "OpenAlex": 9,
+   "EuropePMC-fullTextXML": 7,
+   "WebSearch": 5,
+   "ClinicalTrials.gov": 4,
+   "WebFetch": 4
+  },
+  "exclusions": 9,
+  "unverified_leads": 12,
+  "verify_node_verdicts": {
+   "通过": 14,
+   "修正": 2
+  },
+  "verify_recent_verdicts": {
+   "通过": 20
+  },
+  "verify_origin_verdicts": {
+   "通过": 7,
+   "修正": 1
+  },
+  "missing_candidates": 3,
+  "critic_issues": {
+   "严重": 1,
+   "一般": 7
+  },
+  "critic_supplements": 7,
+  "critic_six_questions": {
+   "from_where": "部分回答",
+   "why_changed": "已回答",
+   "how_branched": "已回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "部分回答"
+  },
+  "research_coverage": {
+   "origins": "两条谱系起点均已核实：推移瓣（Elting 1912 先例→Parks & Stitz 1976 体系→Aguilar 1985 的 189 例系列）与材料封闭（Abel 1993 自体胶→Johnson 2006 可缝合栓）；1912/1961 两个最老文献停在转述层（原文不可得），其余到摘要层",
+   "key_turns": "2007 LIFT 首报（泰国，94.4%）→2009 Ortiz RCT 反驳栓→2011 VAAFT 器械化→2012 明尼苏达 LIFT 失败→2014 FiLaC→2015 Sirany 口径批判（47%-95%）→2016 中国 LIFT-Plug 多中心 RCT→2017 TROPIS 开放路线分化→2020 干细胞隐窝腺 RCT 短阴长阳",
+   "recent": "2021-2026 五个主题：激光证据成熟化（SR/Delphi/双盲 RCT，含回溯注册问题）、TROPIS 引流路线之争（2025 Meta+评论战）、干细胞与 PRP 再生注射（Meta 与阴性 RCT 并存）、夹闭器械（AFC RCT+2025 汇总 67.7%）、序贯策略与网状 Meta 收敛（3 篇 NMA：各术式治愈率无显著差、栓/胶/PRP 高失败一致）",
+   "china_line": "中医拖线线（顾氏外科→陆金根，L0 起点转述+2006/2008/2011 英文文献）、西医 ADM→LIFT-Plug 线（王振军/韩举刚，2009 动物→2016 Ann Surg 235 例 RCT）、自研夹具（南京 AFC）、新瓣术式（中山六院 FOISF）、2020 版共识收口；安氏疗法仅到 L0",
+   "overall_note": "16 个节点全部为原始研究且题录经 Europe PMC/PubMed/Crossref 核实；13 篇读到摘要（L2）、3 篇开放全文读到方法与结果（L3：Meinero 2011、FOISF 2025、AFC 夹 RCT 2022）；8 篇入口（综述/指南/共识/趋势研究）。3 项试验注册库核对（NCT01478139/NCT01803347/NCT06212739）发现终点漂移与回溯注册；4 项撤稿记录写入争议。最大缺口：1912/1961 老文献原文层与非 MEDLINE 中文文献层"
+  },
+  "final_coverage": {
+   "origins": "完整：推移瓣（Elting 1912 转述层→Parks & Stitz 1976→Aguilar 1985）、材料封闭（Abel 1993→Johnson 2006，含 Gore BIO-A 第二支）、LIFT（2007）、VAAFT（2011）、FiLaC（经复核修正为 Wilhelm 2011 先导→Giamundo 2014 系列）、TROPIS（2017）起点均落位",
+   "key_turns": "完整：七个转折（瓣的代价、胶/栓两起两落、LIFT 口径混乱 47%-95%、器械化三支、中国 ADM/LIFT-Plug 合流、TROPIS 开放路线分叉、干细胞短阴长阳）均带数字与节点引用，保留负性结果",
+   "recent": "完整：2021-2026 五主题（激光成熟化、TROPIS 之争、干细胞/PRP、夹具、序贯+网状 Meta 收敛）含 2024-2026 文献；3 项注册库漂移与 4 项撤稿如实入章",
+   "china_line": "基本完整：中医拖线线（顾氏外科→陆金根）与西医 ADM/LIFT-Plug 线、南京 AFC 夹、中山六院 FOISF、华西改良栓、2020 共识均入章；但拖线'首创'年代与安氏线仅 L0 转述，CNKI 层不可得",
+   "overall": "基本完整但有标注缺口",
+   "note": "19 节点全部经独立复核（2 处修正：N12 FiLaC 起点定位、N14 卷期 264(6)）；批评者严重问题（Wilhelm 2011 漏检）已处理——新增 N17 节点并补 Biolitec 器械产业层；一般问题按建议处理（BIO-A 支系、Ortiz 2000 中段、42min 删除、N14 补组别、拖线/安氏降级转述层、撤稿密度对比删除、德国 S3 2017 补入）"
+  },
+  "final_nodes": 19,
+  "final_evidence_rows": 44
+ },
+ "D05": {
+  "research_nodes": 20,
+  "entry_sources": 8,
+  "search_log_entries": 96,
+  "search_sources": {
+   "EuropePMC": 71,
+   "PubMed": 12,
+   "EuropePMC-citations": 6,
+   "WebSearch": 3,
+   "OpenAlex": 2,
+   "ClinicalTrials.gov": 1,
+   "PMC idconv": 1
+  },
+  "exclusions": 10,
+  "unverified_leads": 11,
+  "verify_node_verdicts": {
+   "通过": 12,
+   "修正": 8
+  },
+  "verify_recent_verdicts": {
+   "通过": 19,
+   "修正": 8
+  },
+  "verify_origin_verdicts": {
+   "通过": 5,
+   "修正": 3,
+   "存疑": 1
+  },
+  "missing_candidates": 4,
+  "critic_issues": {
+   "严重": 1,
+   "一般": 4
+  },
+  "critic_supplements": 4,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "已回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "向后追溯到 19 世纪切开与扩张两条源头（Boyer 1826/Dupuytren 1832/Recamier 1829/1838，均转述层 L0/L4）与现代起点 Eisenhammer 1951（题录核实）+侧位皮下 Notaras 1969/1971（题录核实）；机制线追至 Hancock 1977（L2）、Klosterhalfen 1989（L2）、O'Kelly 1993（L2）。",
+   "key_turns": "四个转折各有原文级支撑：1969-1971 侧位皮下 LIS 定型；1993 内镜超声宣判盲目扩张（Nielsen，L2）；1994-1997 GTN 化学括约肌切开起步（Loder L2→Lund RCT L2）；1998-2000 BTX 双盲 RCT 与 CCB 分支（Maria/Antropoli/Carapeti 均 L2）；远期代价双向暴露（Nyam 45% 失禁、Cochrane 药物复发 50%，均 L2）。",
+   "recent": "2021-2026 六个主题：药物头对头/途径优化（成熟）、BTX 剂量-技术-联合（发展中）、LIS 标准化与失禁（争议持续）、保括约肌新分支（早期线索）、国际快照审计（发展中）、指南更新（ACPGBI 2023/SIUCP 2023/Gastroenterology 2026，成熟）；所有 representative 均为本轮实际检索命中的 PMID。",
+   "china_line": "钩肠痔病名（《疮疡经验全书》，L0）→止痛如神汤（《外科正宗》1617，L0）→2012 中华中医药学会指南（L0）→华西医院针灸 RCT 2013（L2）→湖南中医药大学埋线 RCT 2017（L2）→北京朝阳医院 7 中心 GTN RCT 2013（L2）→2026 河南中西医结合共识（L0）；扩肛与中药外治的中文原始文献缺口已如实标注。",
+   "overall_note": "共 20 个节点（含 1 个中国节点）、18 条边、8 篇入口（1 篇 L4、1 篇 L3、其余 L2/L1）、91 条检索日志；九条'首次/起点'声明全部标注了分类与限定语；撤稿与重复发表按事实分层写入（唯一核实撤稿=Arroyo 组 2012 RCT；Maria 系列传闻未证实并保留在 unverified_leads）；最大缺口是 19 世纪原始文献与中文非 MEDLINE 文献两条史料链。"
+  },
+  "final_coverage": {
+   "origins": "完整",
+   "key_turns": "完整",
+   "recent": "完整",
+   "china_line": "基本完整但有标注缺口",
+   "overall": "基本完整但有标注缺口",
+   "note": "22 节点（Bennett 1962 与 Lord 1968 经 PMC 扫描全文读图升至 L4）、9 篇入口（含核查环节补充的 ASCRS 2023）、67 行证据；四大转折与负性结果均有节点。缺口：19 世纪法文原文仅转述层；CNKI/万方不可得致中国门诊扩肛/中药外治实践史无法核实；钩肠痔病名判存疑。"
+  },
+  "final_nodes": 22,
+  "final_evidence_rows": 67
+ },
+ "D06": {
+  "research_nodes": 17,
+  "entry_sources": 8,
+  "search_log_entries": 78,
+  "search_sources": {
+   "EuropePMC": 55,
+   "EuropePMC fullText": 4,
+   "OpenAlex": 4,
+   "PMC article page": 2,
+   "EuropePMC citations": 2,
+   "WebSearch": 2,
+   "PMC idconv": 1,
+   "web_reader": 1
+  },
+  "exclusions": 8,
+  "unverified_leads": 7,
+  "verify_node_verdicts": {
+   "通过": 16,
+   "修正": 1
+  },
+  "verify_recent_verdicts": {
+   "通过": 23,
+   "修正": 1
+  },
+  "verify_origin_verdicts": {
+   "通过": 4
+  },
+  "missing_candidates": 4,
+  "critic_issues": {
+   "一般": 5
+  },
+  "critic_supplements": 1,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "已回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "奠基工作已核至1950s-1960s：Eisenhammer 1956/1958（肌间脓肿与同期根治思路，L1题录+二手转述）、Parks 1961（隐窝腺学说，L1，PMC扫描件被验证码阻挡未读原文）、Hanley 1965（马蹄形保守手术，L1，\"首次介绍\"由2018中国共识原文背书）；更早文献未系统追溯，已在unverified_leads注明。成瘘率叙事骨架：Ramanujam 1984（34.7%术中内口检出）→ Cochrane 2010背景（1/3）→ 2018中国共识（30%~70%、1/3后期成瘘）→ 现代队列（丹麦33.7%、西班牙40.3%、巴林33.9%、Blondin 65.6%）与小儿自然史（Poenaru 42%）",
+   "key_turns": "1984 Ramanujam大系列确立分型与一期切开流程 → 1987/1991 RCT引入随机证据（反对常规一期/揭示功能代价）→ 2003 Oliver划定\"低位可、高位勿切\"边界 → 2006 Quah Meta与2010 Cochrane收束为\"选择性一次根治\"（RR 0.13-0.17 vs 失禁不显著）→ 2011-2024抗生素问题三RCT反复 → 2020s去填塞（PPAC2）、挂线/LIFT同期处理的注册RCT化（TRISDS）与风险预测模型化",
+   "recent": "近五年（2021-10至2026-10）六个主题均有本轮核实的一手文献：抗生素未决（Nasasra 2024/Blondin 2025/ATLAS/PERIQxA）、同期确定性处理新形态（TRISDS 2025/Rojanasakul 2021/Gaddam 2026）、去习惯化（PPAC2 2022/填塞Meta 2024/针吸RCT 2021）、风险预测（丹麦2023/新分类2024/ML 2025）、小儿三方拉锯与克罗恩预警（两Meta冲突+2026多中心）、菌群与糖尿病（2025两篇Meta/SR）。ATLAS与PERIQxA结果未发表是最大悬置",
+   "china_line": "从《外科正宗》脏毒论与《古今医统大全》挂线（L0二手）→ 胡伯虎等1983犬挂线机制实验（转述）→ 曹吉勋1950s一次根治与辽宁肛肠医院70年代6000例切开挂线系列（转述，原始文献未获）→ 钱海华2004虚挂线（转述）→ 循证化接力：2009隧道拖线RCT、2018 TCC病例对照、2020 TCC多中心RCT预印本、2022 LCCS协议（ChiCTR2100049198）、2025 TRISDS注册RCT（ChiCTR2000032941）、2026 TCC真实世界研究 → 2018/2025中国医师协会肛肠医师分会共识。中国线的独特处：把国际因失禁顾虑而退却的\"脓肿期同期确定性处理\"以松挂线/拖线形态RCT化并发表于国际期刊；中医分期辨证（初期消、成脓托、溃后补）在脓肿的表述本轮仅在二手综述层面提及，未立节点",
+   "overall_note": "本报告共核验节点17个（其中RCT类11个、Meta/Cochrane类1个、奠基/分型类5个），检索76次并逐条记录于search_log.jsonl；所有PMID/DOI/卷页均在本轮实际查到。三条主要证据矛盾已保留两说：抗生素RCT阴-阳-阴、小儿Meta两极、引流场所之争。最大缺口：①一次根治核心命题的Cochrane级证据止于2010；②ATLAS/PERIQxA未揭榜；③中国一次根治的奠基性原始文献（曹吉勋等）只能在转述层（L0）引用"
+  },
+  "final_coverage": {
+   "origins": "完整（含限定）：隐窝腺学说解剖源头前溯至 Chiari 1878/Herrmann & Desfosses 1880（据 ANZ J Surg 2025 与 Włodarczyk 2021 综述转述，L0）；外科化起点 Eisenhammer 1951/1953 前导与 1956 专文、Parks 1961 定型（均 L1+二手转述，原文无 OA/验证码阻断）、Courtney 1949→Hanley 1965 马蹄形保守手术（'首次介绍'限定为术式）、Ramanujam 1984 大系列分型（34.7% 内口检出）",
+   "key_turns": "完整：1987/1991 随机反证与功能代价→2003 Oliver 高低位边界→2006/2010 两轮 Meta 阶段性收束为'选择性一次根治'（复发 RR 0.13-0.17 vs 1 年失禁 RR 3.06 不显著但 CI 极宽，收束于 2010 年前证据之上）→2011-2024 抗生素阴-阳-阴→2020s 去填塞/松挂线 RCT 化/风险预测；被核查降级的边依据已按推断标注",
+   "recent": "基本完整：六个近五年主题均有一手代表研究（抗生素未决：Nasasra 2024 阴、Blondin 2025 阳、Alabbad 2025 阴，荷兰 ATLAS 298 例/西班牙 PERIQxA 286 例在跑；TRISDS 2025 等同期确定性处理新形态；PPAC2 去填塞；风险预测三路线；小儿三方拉锯含 Chen 2025 第三篇 SR；菌群与糖尿病）；ATLAS/PERIQxA 结果未发表为最大悬置",
+   "china_line": "基本完整但 1950s-2004 为单源转述链（陈琴 2013 综述），正文已显式声明并给辽宁 6000 例三个结果数字加'未经原始文献核对'限定；循证化接力（林晖 2009、TCC 2018/2026、LCCS 2022 协议、放射切口拖线 2024、TRISDS 2025）与 2018/2025 共识均已核实",
+   "overall": "基本完整但有标注缺口",
+   "note": "17 节点（8 RCT+4 Meta/Cochrane+5 奠基/分型/系列）全部经独立核查：16 通过、1 修正（Lin 2023 小儿 Meta 口径）；题录级修正 4 处（Roskam 作者拼写、ATLAS 荷兰非英国、2018 共识诊断准确率 91%/87%/91%、共识所引 Cochrane 版本）；无删除、无存疑。批评者 5 条一般问题全部处理：失禁 RR 3.06 已入一句话判断与 N10 表述并改'阶段性收束'、证据计数统一为 8/4/5、传承链标单源转述、Mocanu 因果弱化为'前后相继'、Alabbad 2025 已补入并改写抗生素线分歧格局。正文约 2.5 万字符（上限 3.5 万内），主文不含第 9 节约 2.0 万字符"
+  },
+  "final_nodes": 17,
+  "final_evidence_rows": 57
+ },
+ "D07": {
+  "research_nodes": 16,
+  "entry_sources": 8,
+  "search_log_entries": 90,
+  "search_sources": {
+   "Europe PMC": 65,
+   "WebSearch": 8,
+   "OpenAlex": 5,
+   "Crossref": 2,
+   "Europe PMC fullTextXML": 2,
+   "NCBI E-utilities efetch db=pmc": 2,
+   "PMC article page": 1,
+   "Europe PMC fullTextXML + Clini": 1
+  },
+  "exclusions": 8,
+  "unverified_leads": 8,
+  "verify_node_verdicts": {
+   "修正": 7,
+   "通过": 9
+  },
+  "verify_recent_verdicts": {
+   "修正": 5,
+   "通过": 16
+  },
+  "verify_origin_verdicts": {
+   "修正": 2,
+   "通过": 6
+  },
+  "missing_candidates": 4,
+  "critic_issues": {
+   "严重": 2,
+   "一般": 5
+  },
+  "critic_supplements": 7,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "已回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "部分回答"
+  },
+  "research_coverage": {
+   "origins": "外科起点（Lane 1908，OpenAlex 最早记录）与表型起点（Preston 1986 STC 定义，均经原始题录/摘要核实）；黑变病最早描述（Billiard 1825/Cruveilhier 1829/Virchow 1857，据 Zhang 2023 L3 转述）；泻剂药理源头（乳果糖 1968 双盲、PEG 2000）；中医线源流（《伤寒论》承气类方，古典公认转述）。",
+   "key_turns": "1986 STC 定义→1988/1991 手术筛选与教训→1996 量表→Rome II/III/IV 入组规范（1999/2006/2016）→2000 PEG 一线化→2004 STARR 分支→2007 tegaserod 退市→2008-2011 促分泌剂 III 期（鲁比前列酮/利那洛肽/普芦卡必利）→2011-2019 中成药 GCP 化（麻仁丸两部曲+三臂）→2017 FMT 分支→2017 Knowles SR 收紧手术适应证→2023 AGA-ACG GRADE 指南。",
+   "recent": "六个近五年主题（促分泌/促动力头对头与实用试验、菌群与 FMT/宏基因组、中成药 RCT 质量升级与机制再入、蒽醌安全线重估与监管、STARR 长期随访与 HTA、电针/神经调控），代表文献 14 篇全部本轮核实（其中 3 篇为窗口前基线）。",
+   "china_line": "《伤寒论》承气方源流→吴咸中/郑显理南开医院急腹症学派（1960s-70s，L0 传记层）→通里攻下向便秘延伸的中成药证据链（麻仁丸 AJG 2011/CGH 2019、消积导滞 2021、补中益气 Meta 2018、六味安消 CNKI 层）→大承气汤/大黄的菌群时代机制研究（2024-2026）→2019 中国慢性便秘共识与 2021-2024 肛肠医师分会共识系列。西医主流技术国际源流另列 international_line。",
+   "overall_note": "检索约 90 次（search_log 逐条记录，含 Europe PMC/PubMed E-utilities/OpenAlex/Crossref/ClinicalTrials.gov API/PMC全文/WebSearch）；16 个节点全部题录级核实（L1）以上，其中 14 个 L2（摘要已读）、AGA-ACG 2023 指南与 3 篇开放全文达 L3；Preston 1986/Kamm 1988 因 PMC 扫描件验证码止步 L2（已注明原因）。每个 PMID/DOI/题名均为本轮实际查得；凭记忆无法核实者全部进 unverified_leads（8 条）。最大缺口：吴咸中通里攻下线 1960s-70s 原始中文文献不可及（L0），罗马标准 1989/1992 两环仅有二手转述。"
+  },
+  "final_coverage": {
+   "origins": "外科起点（Lane 1904-1908 系列，经核查把起点年份由 1908 修正为 1904）；表型起点（Preston 1986 STC 定义）；黑变病历史（Billiard 1825/Cruveilhier 1829/Virchow 1857，据 Zhang 2023 L3 转述）；泻剂结肠概念起点补为 Heilbrun 1943 Radiology；泻剂药理线起点乳果糖 1968 双盲（作者/PMID 回填）；中医线源流《伤寒论》承气类方（公认转述 L0）。",
+   "key_turns": "1986 STC 定义→1988 手术降温→1991 生理筛选→1996 量表→Rome II/III/IV 入组规范→2000 PEG 一线化→2004 STARR 分支→2006 生物反馈划界→2007 tegaserod 退市（2019 受限复市已补全）→2008-2011 促分泌剂/促动力药 III 期→2011-2019 麻仁丸 GCP 三部曲→2017 FMT RCT 与 Knowles SR 收紧手术→2023 AGA-ACG GRADE 指南。Rome IV 已设节点 D07-N17，修复原图层把 Rome IV 误挂到 N07（PEG 试验）的结构错误。",
+   "recent": "六个近五年主题全部保留：二线药物头对头（Goyal 2026 结果按核查修正为 55.6% vs 33.9%，P=0.024）、菌群与 FMT/宏基因组、中成药 RCT 质量升级与机制再入、蒽醌安全线重估（EMA 文号修正为 EMA/HMPC/228759/2016）、STARR 长期随访与 HTA（Andreoli 2024 题录补全）、电针/神经调控（已改以 AJG 2021 主试验为节点，两篇亚组挂靠不单独计数）。",
+   "china_line": "《伤寒论》承气方源流→吴咸中/郑显理南开医院急腹症学派（1960s-70s，L0 传记层，已写明检索式与同名者碰撞结论）→实验室锚点陈海/吴咸中 2000 MODS 大鼠（新增节点 D07-N18，通里攻下实验室线抬至 L2，注明大连医科大学与非便秘适应证）→中成药临床证据链（芪蓉润肠 2002、麻仁丸三部曲、儿童消积导滞 2021、补中益气 Meta 2018、六味安消 CNKI 题录层）→机制再入（大承气汤/大黄/济川煎等 2024-2026）→2019 中国慢性便秘共识与肛肠医师分会系列共识、肠外肠内营养学分会微生态共识 2024（署名经核查修正）。",
+   "overall": "基本完整但有标注缺口",
+   "note": "21 个节点全部题录核实以上（L2×17、L1×4），16 个原始节点与 8 条入口文献经独立核查（7 节点修正级改动已按修正值吸收，无删除、无存疑）；批评者 2 项严重问题均处理（Rome IV 节点化修复边图；通里攻下线以 PMID 11783313 抬至 L2 并把吴咸中线缺口写明具体检索结论）。最大遗留缺口：吴咸中线 1960s-70s 原始论文开放层不可及、CNKI/万方不可得、罗马 1989/1992 两环 L0。"
+  },
+  "final_nodes": 21,
+  "final_evidence_rows": 65
+ },
+ "D08": {
+  "research_nodes": 16,
+  "entry_sources": 8,
+  "search_log_entries": 55,
+  "search_sources": {
+   "Europe PMC": 25,
+   "PubMed esearch": 10,
+   "WebSearch": 6,
+   "OpenAlex": 3,
+   "Europe PMC fullTextXML": 3,
+   "PubMed": 2,
+   "WebFetch retractionwatch.com": 1,
+   "Europe PMC PMC4689976 fulltext": 1
+  },
+  "exclusions": 8,
+  "unverified_leads": 7,
+  "verify_node_verdicts": {
+   "修正": 4,
+   "通过": 12
+  },
+  "verify_recent_verdicts": {
+   "通过": 12,
+   "修正": 5
+  },
+  "verify_origin_verdicts": {
+   "通过": 13
+  },
+  "missing_candidates": 4,
+  "critic_issues": {},
+  "critic_supplements": 0,
+  "critic_six_questions": {},
+  "research_coverage": {
+   "origins": "已追溯到本轮可核的最早源头：Thiersch 1891环扎（重印本题录）、Delorme 1900黏膜切除（引用题录核实）、Ripstein 1952悬吊固定、Wasserman 1964耻骨直肠肌综合征命名、Altemeier 1964/1971经会阴切除；功能性线的更早源（排便生理、针灸盆底线）未系统展开。中国注射线只能核到2006年李华山RCT，1970-80s源头停在L0转述。",
+   "key_turns": "四次转向均有节点支撑：解剖修复→功能定义（Preston 1985/Rao 1998）；手术削弱肌肉→生物反馈与肉毒毒素（Bleijenberg 1987/Hallan 1988, Kuijpers 1991反面证词）；后路固定→腹侧网片（D'Hoore 2004）；结构修补→神经调控（Matzel 1995→Tjandra 2008 RCT→SUBSoNIC 2025拷问）。内脱垂获得分级与自然史框架（Wijffels 2010）。",
+   "recent": "近五年（2021-10至2026-10）覆盖5个主题：SNM适应证扩展与首个假对照试验（SUBSoNIC/No.2-Trial/SANLARS）、生物反馈再评价与表型驱动（FIT 2026、Tu 2026、Geng 2026）、腔内/器械化经肛脱垂手术（NOrectopexy 2023）、ODS手术证据整合与诚信危机（VMR vs STARR、Dixon事件2025、IUGA 2026意见书）、OASI预防路径（OASI1/2、2021-2025系列）。入口综述的检索截止日之后的新证据（2025-08至2026年）已补查（FIT、Sanad、Geng、IUGA等）。",
+   "china_line": "中医肛肠线以消痔灵注射固化为主线：史兆岐（1970s, L0）→李华山双层4步注射RCT（2006, L2/L3）→直肠周围8步/盆底13点（L0）→与日本Gant-Miwa/Thiersch融合（2021, L1）→天津表型驱动磁电生物反馈（2026, L2）；指南线（便秘外科指南2008/2017/2025、失禁共识2022）已列；小儿明矾注射线与国际线（巴西/乌兹别克1980s）并列但中国原始文献未核证。",
+   "overall_note": "共16个节点（1891-2010）、8篇入口文献（均有检索截止日或如实标注未说明）、13条origin_claims、12条edges、5个近期主题、6条争议、8条负性/失败路线。所有PMID/DOI/题名/年份均为本轮实际检索所得；reading_level按最低层级标注；14次撤稿/撤回/关注相关检索记录在案。最大缺口：中国1970-80s注射线原始文献不可达（L0），以及SNM假对照证据的领域级空白。检索约60-70次HTTP请求（Europe PMC/PubMed/OpenAlex/WebSearch/WebFetch），search_log逐条记录54条（含批量efetch/esummary明细与误配排查）。"
+  },
+  "final_coverage": {
+   "origins": "直肠脱垂四大原型齐备并均经核查：Thiersch 1891 环扎（重印本题名按核查补传记前缀 Carl Thiersch 1822-1895，L1）、Delorme 1900 黏膜切除（题录经开放全文参考文献核实，法文原文未获）、Ripstein 1952-65 悬吊固定（1963 篇补合著者 Lanter B，L1）、Altemeier 1964/1971 经会阴切除（卷期按核查改正为 89:6-16 与 173(6)，L1）；核查员补环 Wells 1959 Ivalon 后路固定收为新增节点 D08-N17（PMID 13843894，L1）；Moschcowitz 1912 滑疝说（1983 重印 PMID 6347568）与 Frykman-Goldberg 平行起源线索（仅到命名综述 PMID 3376679，入第 8 节待核）一并补齐。功能线：Wasserman 1964 命名（L1）→Preston 1985 anismus 客观定义（L2），概念先声补 1981 年 Gastroenterology 评论（PMID 7202972）。失禁病因线：Snooks 1984（PMID 6512547，据核查由未核线索升级为 L1 题录）→Sultan 1993（L2）；测量工具补 Jorge & Wexner 1993（PMID 8416784）。中国注射线：史兆岐 1970s 段维持 L0 转述，可核锚点为李华山 2006（L2）。",
+   "key_turns": "八次转折全部有节点支撑：①脱垂手术从缩窄/去组织到固定再到少游离（N01/N02/N03/N05/N17→N13，Cochrane 2008 12 RCT/380 人定调无定论）；②出口梗阻从命名到表型再到多机制谱系（N04→N06→N11，含健康人 20% 不协调型假阳性警示）；③\"肌肉\"三支线分化与切开术边缘化（N07/N08、Kuijpers 1991、van Tets 1996、Farid 2009 两项）；④产伤改写失禁病因并 bundle 化（N09→OASI-CB/OASI2，DOI 按核查修正）；⑤失禁从修补结构到神经调控（N10→Matzel 2004→Tjandra 2008→SUBSoNIC 2025 假对照 P=0.06）；⑥前突入路随机化与两学科收敛错位（N12→Balata/Sanad→IUGA 2026）；⑦内脱垂自然史框架（Ripstein 1975→Wijffels 2010 ORPG）；⑧中国注射固脱线首个 RCT（N14）与注射+环扎融合（Wang 2021，复发 23.8% 经核查核实）。STARR 线按分工只点 N15 并发症与 Dixon 诚信事件（1 撤回+9 关注）。",
+   "recent": "五个近五年主题全部保留：SNM 适应证扩展与首个假对照拷问（SUBSoNIC/No.2-Trial/SANLARS/Emile Meta，SANLARS 期号改 67(3)、Emile Meta 补 Neuromodulation 28(5):737-745）；生物反馈再评价（FIT 200 例头对头、Tu 2026 19 RCT RR 1.23、Geng 2026 磁电表型驱动、PTNS RCT）；器械化经肛脱垂手术（NOrectopexy 29 例、HRQoL 终点综述、机器人综述补 Cureus 17(11):e96696）；ODS 手术证据整合与诚信重估（VMR vs STARR 43 研究、Sanad 2025、Dixon 事件、IUGA 2026）；OASI 预防路径（OASI2、QIP 总结、定性研究期号改 10(9)、阶梯楔形 BJOG 2022）。",
+   "china_line": "史兆岐消痔灵源流（L0，官网转述，1980s 原始论文未核）→李华山双层 4 步注射 36 例 RCT（2006，L2，近期控制 36/36、复发 7/36）→直肠周围 8 步/盆底 13 点（L0）→小儿明矾注射线（中国原始文献不可达，国际平行巴西 1981/乌兹别克 1980 均 L1）→与 Gant-Miwa/Thiersch 融合（Wang 2021）→指南化（便秘外科指南 2008/2017/2025、2022 成人慢性便秘外科指南、2022 失禁共识 PMID 36562229）→天津表型驱动磁电生物反馈（Geng 2026，L2）。学派谱系（Thiersch/Delorme/Ripstein/Altemeier/St Mark's/Nijmegen/Erlangen/Iowa/鲁汶/Oxford/Gant-Miwa）已在第 6 节列明。",
+   "overall": "基本完整但有标注缺口",
+   "note": "17 个节点（L2×11、L1×6）中 13 通过、4 修正级改动按修正值吸收、1 个新增（N17，核查员已核题录）；无删除级、无存疑级节点。8 篇入口文献 5 通过、3 修正（E02 刊名卷期、E03/E06 期号），另补 E07 DOI。证据表 70 行（关键节点 40、近期代表研究 21、入口综述 9；通过 56/修正 12/存疑 2——存疑仅 Maher 2006 与 FIGO 2020 两条本轮未经独立复核的调研层条目，正文已注明）。重要说明：D08 的批评审读材料（D08_critic.json）在本轮管线中未生成，'批评者问题逐条处理'无对象，该缺位已在第 8 节以非角色措辞披露，质量保障以核查修正为限。最大遗留缺口：中国 1970-80s 注射线原始文献不可达（L0）、SNM 假对照证据断层、脱垂术式 RCT 空白、1880s-1970s 经典原文多不可达（维持 L1）。"
+  },
+  "final_nodes": 17,
+  "final_evidence_rows": 70
+ },
+ "D09": {
+  "research_nodes": 17,
+  "entry_sources": 8,
+  "search_log_entries": 72,
+  "search_sources": {
+   "Europe PMC": 37,
+   "WebSearch": 11,
+   "Europe PMC core fetch": 7,
+   "OpenAlex": 3,
+   "PubMed esearch": 3,
+   "ClinicalTrials.gov API v2": 3,
+   "PubMed esearch+esummary": 2,
+   "WebFetch(hanspub paperid=11937": 1
+  },
+  "exclusions": 6,
+  "unverified_leads": 10,
+  "verify_node_verdicts": {
+   "通过": 14,
+   "修正": 3
+  },
+  "verify_recent_verdicts": {
+   "通过": 13,
+   "修正": 1
+  },
+  "verify_origin_verdicts": {
+   "通过": 4,
+   "修正": 2
+  },
+  "missing_candidates": 4,
+  "critic_issues": {
+   "一般": 5
+  },
+  "critic_supplements": 3,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "部分回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "已追溯至：马王堆《五十二病方》熏痔记载（L0转述层）；1957 Salvati尿潴留专文；1982 Nivatvongs局麻技术；1994 O'Donovan酮洛酸与日间化；1996-2002 LIS两项阴性RCT；1998 Carapeti甲硝唑。各『最早』均有限定语与检索库说明。",
+   "key_turns": "四个转折已立节点：①NSAID替代阿片+局麻组合使当日出院可行（1994-2010）；②坐浴被循证审查、后期绑定尿潴留并遭遇冰敷挑战（2005-2025）；③甲硝唑从口服转向外用、肛周浸润推荐被推翻（2021-2023）；④ERAS打包要素移植到肛门日间手术（2018-2026）。",
+   "recent": "2021-10至2026-10六个主题：超声阴部阻滞、甲硝唑途径Meta战、坐浴冷转向与微生物组机制、ERAS正式化与中国日间体系、阿片处方流行病学、中医外治Bundle Meta；代表文献均本轮实际查到（PMID/DOI见各条）。",
+   "china_line": "已按『古典（五十二病方→金匮→外科正宗止痛如神汤）→流派人物（曹吉勋腰俞穴麻醉、陆金根顾氏外科、尚德俊熏洗整理）→成药与院内制剂（金玄/痔疾洗液/硝矾洗剂/康复新液）→标准与政策（中医肛肠诊疗指南、2016日间试点目录、2024中医外治价格立项）→当代注册与网状Meta』写成带年份与单位层级之链；层位如实标注（多为L0-L2）。",
+   "overall_note": "共17节点（1982-2024）、12条边、6个近年主题、5项争议、5条负性路线；72条检索记录全部入search_log。最大缺口：中药熏洗线的高质量注册RCT与国际证据池融入；次缺口：CNKI层文献只到题录（已如实标层）。所有注册号（ISRCTN19930199、NCT03405922、NCT04535765、ACTRN12619000492156等）均已核对注册终点与发表终点，发现POHM试验终点漂移一例（写入controversies）。"
+  },
+  "final_coverage": {
+   "origins": "完整：古典端《五十二病方》熏痔（L0转述，句读出入已标注）、Nivatvongs 1982局麻条目化（加1950s更早文献限定）、Salvati 1957尿潴留、O'Donovan 1994酮咯酸、Naja 2005阴部阻滞、Tejirian 2005坐浴审查（补2000年妇产科跨病种前史）、金玄痔科熏洗散2011（修正为360例、最早对照报告、补2008-2010更早题录）",
+   "key_turns": "完整：七个转折（NSAID+局麻日间化1994-2010；LIS假说否定1996-2002；甲硝唑途径翻转1998-2026；阴部/肛周阻滞冲突2004-2023；坐浴审查到冰敷转向2005-2025；尿潴留路径与ERAS打包2006-2026；中医熏洗高锰酸钾范式2011-至今），保留两说与负性结果",
+   "recent": "完整：2021-10至2026-10六个主题（阴部阻滞超声化与促排尿、甲硝唑三篇Meta互搏、坐浴冷转向与16S机制、ERAS与中国日间体系、阿片处方流行病学、中医外治Bundle Meta与拆分），14项近期代表研究全部经核查",
+   "china_line": "基本完整：古典源流→流派人物（曹吉勋/尚德俊/陆金根/李华山，多为L0-L1转述）→成药谱系（金玄/痔疾洗液/硝矾洗剂/康复新液撤稿）→标准与政策（中医肛肠指南、2016/2019日间目录、2024中医外治价格立项）→当代注册与网状Meta；国际指南'未纳入熏洗'断言按外审意见限定为仅PROSPECT有据，其余改写为推断",
+   "overall": "基本完整但有标注缺口",
+   "note": "17个原节点全部保留（0删除0存疑），4处修正采纳（N08回顾期、N11样本量360且降L1、N16卷页2(3):e0023与作者列、N17关键结果写反——尿潴留阴性仅疼痛阳性）；另补3节点（Sammour 2017、Nicholson 2004、GTN阴性RCT 2012）回应外审'外用药支线薄弱'与核查'PROSPECT谱系缺环'；CNKI/万方全文不可得与ChiCTR API不可达如实入缺口"
+  },
+  "final_nodes": 20,
+  "final_evidence_rows": 42
+ },
+ "D10": {
+  "research_nodes": 16,
+  "entry_sources": 7,
+  "search_log_entries": 65,
+  "search_sources": {
+   "EuropePMC": 46,
+   "WebSearch": 9,
+   "OpenAlex": 4,
+   "EuropePMC fullTextXML": 2,
+   "PMC idconv": 1,
+   "上海中医药杂志官网": 1,
+   "PMC": 1,
+   "Crossref": 1
+  },
+  "exclusions": 10,
+  "unverified_leads": 11,
+  "verify_node_verdicts": {
+   "通过": 10,
+   "修正": 6
+  },
+  "verify_recent_verdicts": {
+   "通过": 11,
+   "修正": 7
+  },
+  "verify_origin_verdicts": {
+   "通过": 5,
+   "修正": 1
+  },
+  "missing_candidates": 3,
+  "critic_issues": {
+   "严重": 1,
+   "一般": 6
+  },
+  "critic_supplements": 3,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "已回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "双向源头均到最早可核实点：中医线至1617《外科正宗》生肌玉红膏（更早的《外科启玄》1604“偎脓长肉”到L0/L1转述层）与1742《医宗金鉴》时序条则；国际线至1962 Winter（Nature 193:293-294）及其1963年人体验证。所有“首次”均加限定语（古籍善本与付费墙原文未读）。",
+   "key_turns": "四个转折：(1) 1742年“何时生肌”条文化→现代疮面床准备理念的中医对应；(2) 1962湿性愈合颠覆干燥惯例（OpenAlex被引2254），经Hinman 1963人体化后进入敷料产业；(3) 1988年MEBO建制化与2000年生长因子悖论：前者提供制剂供给线但埋下证据结构问题，后者改写“补因子”模型；(4) 2021-2026：结局方法学批评（155研究仅25%高质量）+英文撤稿潮 vs 注册双中心RCT（ChiCTR2000039169）与机制化RCT并起。",
+   "recent": "近五年（2021-10至2026-10）五主题：PRP/PRF/CGF（发展中：MA改善OR 1.35 vs 阴性队列，边界<4mm）；现代敷料与少干预（国际较成熟、成本效果空白）；中药外治机制化RCT与组学（临床证据质量低于机制热度）；祛腐丹药毒效收敛与工艺传承（毒理发展中、临床早期）；ML风险预测与结局标准化（早期线索）。代表研究均已实查PMID/DOI。",
+   "china_line": "传承链完整可述：陈实功1617→医宗金鉴1742→明清丹药系统→南京中医药大学许芝银/姚昶2001红升丹机理→天津李竞“腐祛肌生”（1998）→张朝晖/徐强“可视之肌/微观之肌”（2021，L4已读）→制剂产业化（马应龙1981-82、MEBO 1988、康复新液约2000，均L0企业/媒体叙事）→《肛肠术后创面修复管理规范专家共识(2019版)》（2020发表，L1）→注册RCT（2025银敷料，L3）与机制化RCT（2026，L3，无注册号）。负资产：2021-2023撤稿潮。",
+   "overall_note": "D10是中医优势线与国际材料线真正交汇的方向：祛腐生肌在动物机制层（VEGF/IL-6/TNF通路）与湿性愈合在生物学上同向，但两条线都卡在同一瓶颈——肛肠创面结局定义不统一、注册与盲法稀缺、成本效果空白。本轮65次检索，16节点中4个读到全文（L3），其余L0-L2；中文期刊深度文献受MEDLINE收录限制为最大检索缺口。"
+  },
+  "final_coverage": {
+   "origins": "双向源头到可核实点：中医线1617《外科正宗》生肌玉红膏（题录L1/内容L0，两条独立佐证）与1742《医宗金鉴》生肌时序条则（条文转录经L4全文逐字核对，原籍L1），更早1604《外科启玄》'偎脓长肉'到转述层；国际线1962 Winter（L1，被引2254实查）+1963 Hinman（L1）；'存在争议的首次'MEBO 1988获批（L0多源转述、批件未核）；马应龙/康复新液产业化为企业叙事（L0，康复新液上市年份两说并存、补李树楠研制源流）。",
+   "key_turns": "七个转折：①1617→1742祛腐/生肌时序条文化；②1962/63湿性愈合颠覆干燥惯例→2003/04疮面床准备与TIME框架（新增节点N18，补概念层断档）→JTV 2026落到痔术后；③1988 MEBO建制化→2002 Atiyeh多国试点国际独立评价（作者列经修正）+2000生长因子悖论；④2001红升丹机理→2026毒效定量（明确为动物层呼应而非验证）；⑤2021结局异质性SR（155研究仅25%高质量）→2023 AFCOS核心结局集落地（新增节点N17）；⑥2021-23撤稿潮vs注册双中心RCT（银敷料22 vs 29天）+德国754例'少干预'反证（补2006年Dinah填塞质疑先声）；⑦2022-26 PRP边界收窄（MA改善OR 1.35 vs 荷兰219例阴性队列）与中药四臂RCT无注册号、5-7天愈合量级异常及主终点自相矛盾。",
+   "recent": "近五年五主题（计数底账已给出：RCT/对照试验约六项、注册号可核者仅一项，不用'井喷'）：PRP/PRF/CGF（MA改善信号vs阴性队列，边界管径<4mm）；现代敷料与少干预（银敷料RCT、tamponade RCT、packing Meta、活性敷料与加压对照；成本效果空白）；中药外治机制化RCT与组学（无注册号+量级异常vs复方黄柏液40天量级正常对照）；祛腐丹药毒效收敛与工艺标准化（肾汞蓄积AAS定量；文火/武火/尾火参数）；ML风险预测与结局标准化（AUC 0.877-0.897、AFCOS、CCFQ-20、Meta方案）。",
+   "china_line": "据天津中医药大学第二附属医院疮疡科团队自我谱系叙述可述（正文明示该链主要经徐强2021一篇L4文献及其引文支撑，尚缺独立来源交叉）：1617生肌玉红膏→1742医宗金鉴条则→明清丹药系统→李竞1998'腐祛肌生'→张朝晖/徐强2021'可视之肌/微观之肌'（L4已读）→许芝银/姚昶2001红升丹机理（结果转述层）→付小兵2000生长因子悖论→制剂产业化（马应龙/MEBO/康复新液，均L0企业叙事；九华膏验方，史兆岐关联未证实）→2019版共识（2020发表，内容转述层）→注册RCT（2025-26银敷料L3）与机制化RCT（2026 L3无注册号）；负资产：2021-2023撤稿潮。九华膏-史兆岐线索明确排除。",
+   "overall": "基本完整但有标注缺口",
+   "note": "16个原始节点全查（10通过/6修正/0删除），修正全部采纳（4处卷期、Atiyeh作者列、红升丹毒性表述、康复新液两说、N16卷号+样本量矛盾新发现、银敷料卷期与'据论文声明'限定）；新增节点2个（N17 AFCOS、N18 Schultz 2003/2004），均出自核查遗漏候选与补充材料且附PMID/DOI。严重问题已处理：N02→N06、N06→N15边降级为'机制解释/动物层呼应'并改虚线，'生物学同向'表述删除，正文明确'动物实验不能验证古籍条则、两线临床层从未交汇、祛腐生肌无临床RCT'。一般问题逐条处理：疮面床准备/TIME补出处并立节点、packing反证补2006先声、银敷料对立Meta降级为'试验引言转述的既往评价'且写入检索缺口、RCT计数给出底账、传承链标注单一来源依赖、N13缺研究数在limitations说明。三份材料之外未新增任何文献、数字或因果；JMAS 2022等无可定位来源的数字移入第8节待核线索。正文（不含第9节）约2.1万字符，与兄弟章节同量级。"
+  },
+  "final_nodes": 18,
+  "final_evidence_rows": 50
+ },
+ "D11": {
+  "research_nodes": 18,
+  "entry_sources": 8,
+  "search_log_entries": 86,
+  "search_sources": {
+   "EuropePMC": 71,
+   "OpenAlex": 4,
+   "WebSearch": 4,
+   "EuropePMC-citations": 3,
+   "WebFetch": 2,
+   "PMC-web": 1,
+   "EuropePMC-fulltext": 1
+  },
+  "exclusions": 10,
+  "unverified_leads": 9,
+  "verify_node_verdicts": {
+   "修正": 2,
+   "通过": 16
+  },
+  "verify_recent_verdicts": {
+   "通过": 14
+  },
+  "verify_origin_verdicts": {
+   "修正": 1,
+   "通过": 9,
+   "存疑": 1
+  },
+  "missing_candidates": 4,
+  "critic_issues": {
+   "一般": 6
+  },
+  "critic_supplements": 5,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "部分回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "已核实最早源头：测压=Schuster 1965（Bull Johns Hopkins Hosp）；动态排便摄影=Brodén & Snellman 1968（Dis Colon Rectum），更早仅到 Walldén 1953（OpenAlex 题录）与 Denny-Brown 1933（转述）；腔内超声=Law & Bartram 1989；肛瘘 MRI=Lunniss 1992；BET=Barnes 1985；量表=Jorge & Wexner 1993。调度者线索中的 4 处归属/期刊错误已逐一纠正（Mahieu 而非 Phillips；Gut 而非 Br J Radiol；St James's 分级出自 Morris 2000 而非 Buchanan 2002；HRM 首报为 Jones 2007 自称）。",
+   "key_turns": "1984 方法标准化（Mahieu）→1989 志愿者正常值（Shorvon）与腔内超声（Law）→1992-2004 肛瘘 MRI 及其结局验证（Lunniss→Morris→Buchanan）→1993 腔内超声改写失禁病因（Sultan）→2002/2007 测压标准化与硬件换代（Rao→Jones）→2012-2017 梯度反证与表型化（Noelting→Ratuapli→Prichard）→2020 伦敦分类（IAPWG）→2024-2026 报告标准化与中国共识。",
+   "recent": "2021-10 至 2026-10 六个主题：AI/ML 判读（多中心验证 1214 例）、正常值人群化重建与执行落差调查、测压/逼出/造影整合与「检查必要性」重估、儿科参考范围、Fecobionics 集成设备、肛瘘分类的克罗恩病化（TOpCLASS）。",
+   "china_line": "张东铭解剖学基座（L0）→卢任华/长海排粪造影引入与国人正常值（1985-1997，题录/转述层）→龚水根 1993 国人排粪造影正常表现（题录）→证型-测压客观化线（不可核，列 unverified）→3D-HRM 正常值中国簇（Li 2013→Xu/Geng/Chu）→中国双共识（2023 测压、2024 检查与评估）→中国肛瘘指南进入国际指南图谱（2019/2020，据 Lu 2025）。",
+   "overall_note": "共 18 个节点、15 条边、8 个入口、5 个近年主题、6 项争议、5 条失败/负性路线；所有 PMID/DOI/题名/年份均来自本轮 Europe PMC/PubMed/OpenAlex 实查（约 88 次检索，日志原样并入）；中文一手文献只能到题录/转述层，已逐条标注阅读层级；未使用任何浏览器类工具，未登录/付费/绕过验证码（PMC 老扫描件被 reCAPTCHA 拦截处已如实记录）。"
+  },
+  "final_coverage": {
+   "origins": "完整：五条技术线源头均到题录/摘要级并按四类标注（测压两步化 1963 JCI→1965 同步记录；动态排便摄影 1968；排粪造影标准化 1984；腔内超声 1989；肛瘘 MRI 1992；BET 1985；量表 1993；HRM 2007 作者自称首报）；更早追溯留白已声明并列入待核线索",
+   "key_turns": "完整：九个转折（测压/逼出起点→造影标准化→志愿者正常值→失禁病因改写→肛瘘影像结局验证→测压标准化三代→梯度判据推翻→中国行业标准化→量表竞争）均绑定已核证据与节点编号",
+   "recent": "完整：2021-10 至 2026-10 六个主题（AI/ML 判读、正常值人群化与执行落差、三检查整合与必要性重估、儿科参考范围、Fecobionics、肛瘘影像克罗恩化），代表研究均带数字与 PMID，检索截止 2026-10-18",
+   "china_line": "基本完整但有标注缺口：张东铭降为常引参考书（转述层，不作影响断言）；卢任华排粪造影引入为转述层、1990 题录未核；龚水根 1993 标存疑；证型-测压客观化线不可核存目；可核段（Li 2013→天津系列→Wang 2017→2023/2024 双共识）完整",
+   "overall": "基本完整但有标注缺口",
+   "note": "节点 20 个（原 18 个全部保留，含 2 处修正；按批评意见新增 PNTML 兴衰线 N19 与量表竞争线 N20）；证据表 41 行（节点 20/入口 9/近期代表 12）；无核查删除项；中文一手题录层为最大缺口（CNKI/万方未检索的影响已写入第 8 节）"
+  },
+  "final_nodes": 20,
+  "final_evidence_rows": 41
+ },
+ "D12": {
+  "research_nodes": 12,
+  "entry_sources": 8,
+  "search_log_entries": 127,
+  "search_sources": {
+   "EuropePMC": 45,
+   "EuropePMC-fetch": 40,
+   "PubMed": 17,
+   "OpenAlex": 7,
+   "EuropePMC-fulltext": 5,
+   "Crossref-fetch": 2,
+   "ClinicalTrials.gov": 2,
+   "WebSearch": 2
+  },
+  "exclusions": 7,
+  "unverified_leads": 8,
+  "verify_node_verdicts": {
+   "通过": 10,
+   "修正": 2
+  },
+  "verify_recent_verdicts": {
+   "通过": 17
+  },
+  "verify_origin_verdicts": {
+   "通过": 6
+  },
+  "missing_candidates": 3,
+  "critic_issues": {
+   "一般": 5
+  },
+  "critic_supplements": 2,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "已回答",
+   "what_now": "已回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "三条源流已追溯：①古典经穴（《针灸甲乙经》-《针灸大成》脉胳的承山/长强/二白治痔，L0转述层）；②1958年针刺麻醉（上海/西安起点、1965推广、1970s高峰、1980s衰退，韩济生2016+Jin 2017两级叙述核实）；③机制线（韩济生1982 Annu Rev至2004 Neurosci Lett，题录核实）。最早PubMed题录层文献：1961中华外科杂志针刺膀胱模型（PMID 13927419）、1985 J Tradit Chin Med产后尿潴留49例（PMID 3849626）。",
+   "key_turns": "四个公认转折：NIH 1997共识（国际边界划定+假针方法学要求，JAMA 1998）；Vickers 1998/Tang-Ernst 1999（跨病种国际方法学批评背景）；八髎深刺解剖参数化（南京王玲玲团队2014-2017，沟通古典穴与现代骶神经解剖）；Ann Intern Med 2016大样本假针对照RCT（便秘线国际化，注册终点核对一致）与AJG 2021非劣效RCT（与药物对照）。肛肠特异方向的关键本地转折为2018年Wu（Lao合作）假针RCT与2023年Int J Colorectal Dis八髎电针PPH RCT（国际结直肠期刊载体）。",
+   "recent": "近五年（2021-10至2026-10）五个活跃主题：腕踝针三臂时机试验（2025-2026，含Letter交锋）、ERAS整合（CORRECT NCT06128785等多中心方案+taVNS Ann Med 2025）、机制动物模型（承山mAChRs通路/P2X7-ERK/TRPV1纤维）、埋线大样本Meta（23RCT/1794例）与POUR防治Meta更新（TEAS RR 0.44；灸法34RCT RR 2.53）。入口综述检索截止日（2021-09-30/2021-10-01/2022-06-15/2024-11）之后的新证据已补查并写入recent_themes。",
+   "china_line": "接力链已建成：古典经穴（L0）→1958针麻（上海/西安）→韩济生机制（北京大学）→术后尿潴留灸/针RCT（中国针灸2010/2013/2019/2023多单位）→八髎解剖参数化（南京中医药大学王玲玲团队CT三维）→大样本RCT（中国中医科学院广安门医院NCT01726504/AJG 2021）→肛肠针麻-ERAS（上海岳阳周嘉/王振宜团队，上海针灸杂志2023综述L4）→功能病线（南京市中医院FARP针刺vs生物反馈）；指南层（痔中西医结合指南2025版）未纳入针灸条目为当前张力。",
+   "overall_note": "本轮共127条检索记录（Europe PMC/PubMed/OpenAlex/Crossref/ClinicalTrials.gov/中文期刊PDF全文），全部逐条落入search_log。12个节点中11项达L2（摘要已读）、1项叙述基础为L4（上海针灸杂志综述PDF全文7页）；关键RCT注册号已核（NCT端点与发表终点一致；ChiCTR端点因网页交互无法核对，如实标注）。最大缺口：非中国团队独立验证为零、Cochrane评价20年未完成（完成状态存疑）、中文期刊原始试验止于题录层、1950s-70s肛肠针麻原始报告未数字化。负面/失败路线（针麻纯替代衰退、手针vs药物不一致、高频连续波耐受、Cochrane未完成）与争议（阳性偏倚、发生率口径、注册一致性、Meta内部数字矛盾）均已保留并注明出处。"
+  },
+  "final_coverage": {
+   "origins": "完整：古典经穴线（《甲乙经》教材共识L0＋《针灸大成》玉龙歌ctext原典文本已核＋二白L0）、1958针刺麻醉（韩济生2016/Jin 2017两级叙述L2，首例细节官方文章L0并有西安1958-12另说）、韩济生机制线（1982/1984题录L1＋2004摘要L2一手确证频率-肽谱）、最早PubMed题录（1961针刺膀胱模型PMID 13927419经1950-1961全库检索确证）与便秘线奠基（Annals 2016）均按四类标注",
+   "key_turns": "完整：八个转折＋一个补充分支（针麻兴衰负性线、机制参数化、NIH1997/Vickers1998国际边界、灸法尿潴留RCT起点、八髎CT参数化、便秘线假针RCT→非劣效、术后疼痛假针化与国际载体、FARP功能病分化、TEA便秘分支），每个判断带节点编号，负性路线保留",
+   "recent": "完整：2021-10至2026-10六个主题（腕踝针时机三臂含Letter交锋、ERAS整合CORRECT/BMJ Open/taVNS、承山-背根节动物机制、埋线Meta 23RCT/1794例、POUR三层汇总与风险分层、TEA分支与Cochrane确证），代表研究均带数字与PMID，检索截止2026-10-18",
+   "china_line": "基本完整但有标注缺口：古典经穴与1958首例为L0转述（已统一标注\"教材共识而非本轮检索结论\"）；葛茂军2021真实世界研究与Liu F 2019（内部数字矛盾60 vs 62）存疑保留；萧华文2015/戴君妹2018止于题录转述；指南层《痔中西医结合诊疗指南（2025版）》无针灸条目已核，《中国痔病诊疗指南（2020）》无可核题录列入待核线索",
+   "overall": "基本完整但有标注缺口",
+   "note": "合并以调研12节点为骨架、全数保留并加TEA分支成13节点；核查2处修正（N04 Vickers\"359篇\"改标正文、N12 Medicine期号24→44）全部落实，无删除项；E03由存疑升级为确证protocol；批评者5条一般问题逐条处理；46行证据表含13节点+8入口综述+25近期代表研究；正文（不含速查表）约1.9万字符，全文2.3万字符"
+  },
+  "final_nodes": 13,
+  "final_evidence_rows": 46
+ },
+ "X01": {
+  "research_nodes": 15,
+  "entry_sources": 6,
+  "search_log_entries": 80,
+  "search_sources": {
+   "Europe PMC": 35,
+   "WebSearch": 15,
+   "Europe PMC fullTextXML": 4,
+   "PubMed esearch+esummary db=nlm": 4,
+   "WebFetch": 4,
+   "Crossref": 3,
+   "PubMed esearch": 3,
+   "PubMed efetch": 3
+  },
+  "exclusions": 5,
+  "unverified_leads": 11,
+  "verify_node_verdicts": {
+   "修正": 3,
+   "通过": 12
+  },
+  "verify_recent_verdicts": {
+   "通过": 22,
+   "修正": 1
+  },
+  "verify_origin_verdicts": {
+   "通过": 5,
+   "修正": 2
+  },
+  "missing_candidates": 4,
+  "critic_issues": {
+   "严重": 1,
+   "一般": 5
+  },
+  "critic_supplements": 4,
+  "critic_six_questions": {
+   "from_where": "已回答",
+   "why_changed": "已回答",
+   "how_branched": "已回答",
+   "what_now": "部分回答",
+   "what_data": "已回答",
+   "unknowns": "已回答"
+  },
+  "research_coverage": {
+   "origins": "枯痔/挂线源头两说并立（太平圣惠方992 L3 vs 魏氏家藏方 L2+考据侧证），1617《外科正宗》L0全文定位为系统记载节点；西方线St Mark's 1835（L3全文转述+1935纪念题录）与Milligan-Morgan 1937（DOI复核）构成对照起点。",
+   "key_turns": "1950s无砒改革与四地建科（1954天津/1956南京与北京/1957成都与沈阳）→1961 Parks学说（国际理论锚）→约1977消痔灵研制+1983英文系列+1985国家奖→1980/1981学会+期刊→1994国家级中心→1998 Longo/2000中国引入PPH→2006三会联合指南。",
+   "recent": "2021-2026五个主题：CAES规范化、消痔灵机制组学与国际对话、国产吻合器比较研究、中医挂线国际化、痔外科比较有效性证据升级；各主题2-3个代表研究均已核实到题录/摘要层。",
+   "china_line": "完整接力链：古籍（魏氏家藏方/外科正宗）→1950s无砒改革（陈民藩）→四地建科（张庆荣/丁泽民/周济民-史兆岐/曹吉勋/黄济川线）→学会期刊（1980/1981）→消痔灵产业（史兆岐）与芍倍迭代（安阿玥）→国家级中心（1994南京）→专著（张庆荣1980/黄乃健1996）→三会指南（2006/2020/2025）→当代（任东林/CAES/组学）。",
+   "overall_note": "共15个节点、11条边、7条origin claims、5个近五年主题、5条负性/停滞记录、79条检索日志（全部本轮实际执行并留档于 _cache/scratch/X01/search_log.jsonl 与中间文件）。最大缺口：1950s改革与消痔灵研制期的一手中文文献（付费库不可达），及中文期刊不入国际索引造成的可见性结构缺陷。人物仅写学术任职与文献，生卒/头衔均为L3转述并已标注。"
+  },
+  "final_coverage": {
+   "origins": "完整（古籍两说并立+考据侧证；1617系统记载节点经公开转写本逐字核对，断代仅转述层；一手古籍校勘本不可得）",
+   "key_turns": "完整（含砒→无砒→消痔灵、MM→肛垫学说→PPH→国际监管负性事件、注射线迭代与内镜化、四线建制，各转折均有题录/摘要/全文层出处）",
+   "recent": "完整（五个主题均到题录或摘要层；机制组学与挂线国际发表为2025-2026新证据）",
+   "china_line": "基本完整（谱系为机构自述拼接，多处单源与'1956最早'两说已标注；1954'第一个'降为存在争议的首次）",
+   "overall": "基本完整但有标注缺口",
+   "note": "无'删除'判定；核查修正4处全部采用修正值（N01外科正宗来源路径与章节名、N03期号5959、N07期刊印度归属、Cosman社论65(2)）；批评者1项严重问题以新增节点X01-N16补入（FDA召回部分按存疑保留）；5项一般问题逐条处理；新增节点N17-N19来自核查补充文献（均带PMID）。"
+  },
+  "final_nodes": 19,
+  "final_evidence_rows": 39
+ }
+}
